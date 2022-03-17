@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Widgets-for-homes | Academic</title><link>https://nhnacademy.github.io/widgets-for-home/</link><atom:link href="https://nhnacademy.github.io/widgets-for-home/index.xml" rel="self" type="application/rss+xml"/><description>Widgets-for-homes</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 NHN Acadmy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.github.io/media/logo.svg</url><title>Widgets-for-homes</title><link>https://nhnacademy.github.io/widgets-for-home/</link></image><item><title>Hugo Academic Theme</title><link>https://nhnacademy.github.io/widgets-for-home/hero/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/hero/</guid><description>&lt;p>&lt;strong>The FREE, Hugo-based open source website builder and template trusted by 500,000+ sites.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Build anything with widgets&lt;/strong> - from landing pages, knowledge bases, and courses to academic resumés, conferences, and tech blogs.&lt;/p></description></item><item><title>Hugo Academic Theme Demo</title><link>https://nhnacademy.github.io/widgets-for-home/demo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/demo/</guid><description>&lt;p>Welcome to the demo of the &lt;strong>academic resumé template&lt;/strong> for Wowchemy, the Website Builder for Hugo.&lt;/p>
+&lt;p>&lt;a href="https://wowchemy.com/templates/" target="_blank" rel="noopener">Explore similar templates&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Over 500,000 &lt;a href="https://wowchemy.com/" target="_blank" rel="noopener">Amazing Websites&lt;/a> have Already Been Built with Wowchemy&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://wowchemy.com/templates/" target="_blank" rel="noopener">Join&lt;/a> the Most Empowered Hugo Community&lt;/strong>&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+&lt;p>This homepage section is an example of adding &lt;a href="https://wowchemy.com/docs/content/writing-markdown-latex/">elements&lt;/a> to the &lt;a href="https://wowchemy.com/docs/getting-started/page-builder/">&lt;em>Blank&lt;/em> widget&lt;/a>.&lt;/p>
+&lt;p>Backgrounds can be applied to any section. Here, the &lt;em>background&lt;/em> option is set give an &lt;em>image parallax&lt;/em> effect.&lt;/p>
+&lt;/div>
+&lt;/div></description></item><item><title>Biography</title><link>https://nhnacademy.github.io/widgets-for-home/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/about/</guid><description/></item><item><title>Skills</title><link>https://nhnacademy.github.io/widgets-for-home/skills/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/skills/</guid><description/></item><item><title>Experience</title><link>https://nhnacademy.github.io/widgets-for-home/experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/experience/</guid><description/></item><item><title>Accomplish&amp;shy;ments</title><link>https://nhnacademy.github.io/widgets-for-home/accomplishments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/accomplishments/</guid><description/></item><item><title>Projects</title><link>https://nhnacademy.github.io/widgets-for-home/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/projects/</guid><description/></item><item><title>Gallery</title><link>https://nhnacademy.github.io/widgets-for-home/gallery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/gallery/</guid><description>
+&lt;div class="gallery">
+&lt;a data-fancybox="gallery-themes" href="https://nhnacademy.github.io/media/albums/themes/theme-1950s.png" >
+&lt;img src="https://nhnacademy.github.io/media/albums/themes/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_3.png" loading="lazy" alt="theme-1950s.png" width="124" height="190">
+&lt;/a>
+&lt;a data-fancybox="gallery-themes" href="https://nhnacademy.github.io/media/albums/themes/theme-apogee.png" >
+&lt;img src="https://nhnacademy.github.io/media/albums/themes/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_3.png" loading="lazy" alt="theme-apogee.png" width="124" height="190">
+&lt;/a>
+&lt;a data-fancybox="gallery-themes" href="https://nhnacademy.github.io/media/albums/themes/theme-coffee-playfair.png" >
+&lt;img src="https://nhnacademy.github.io/media/albums/themes/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_3.png" loading="lazy" alt="theme-coffee-playfair.png" width="124" height="190">
+&lt;/a>
+&lt;a data-fancybox="gallery-themes" href="https://nhnacademy.github.io/media/albums/themes/theme-dark.png" >
+&lt;img src="https://nhnacademy.github.io/media/albums/themes/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_3.png" loading="lazy" alt="theme-dark.png" width="124" height="190">
+&lt;/a>
+&lt;a data-fancybox="gallery-themes" href="https://nhnacademy.github.io/media/albums/themes/theme-default.png" >
+&lt;img src="https://nhnacademy.github.io/media/albums/themes/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_3.png" loading="lazy" alt="theme-default.png" width="124" height="190">
+&lt;/a>
+&lt;a data-fancybox="gallery-themes" href="https://nhnacademy.github.io/media/albums/themes/theme-forest.png" >
+&lt;img src="https://nhnacademy.github.io/media/albums/themes/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_3.png" loading="lazy" alt="theme-forest.png" width="124" height="190">
+&lt;/a>
+&lt;a data-fancybox="gallery-themes" href="https://nhnacademy.github.io/media/albums/themes/theme-ocean.png" >
+&lt;img src="https://nhnacademy.github.io/media/albums/themes/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_3.png" loading="lazy" alt="theme-ocean.png" width="124" height="190">
+&lt;/a>
+&lt;a data-fancybox="gallery-themes" href="https://nhnacademy.github.io/media/albums/themes/theme-strawberry.png" >
+&lt;img src="https://nhnacademy.github.io/media/albums/themes/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_3.png" loading="lazy" alt="theme-strawberry.png" width="124" height="190">
+&lt;/a>
+&lt;/div></description></item><item><title>Recent &amp; Upcoming Talks</title><link>https://nhnacademy.github.io/widgets-for-home/talks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/talks/</guid><description/></item><item><title>Featured Publications</title><link>https://nhnacademy.github.io/widgets-for-home/featured/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/featured/</guid><description/></item><item><title>Recent Publications</title><link>https://nhnacademy.github.io/widgets-for-home/publications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/publications/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+Quickly discover relevant content by &lt;a href="./publication/">filtering publications&lt;/a>.
+&lt;/div>
+&lt;/div></description></item><item><title>Popular Topics</title><link>https://nhnacademy.github.io/widgets-for-home/tags/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/tags/</guid><description/></item><item><title>Contact</title><link>https://nhnacademy.github.io/widgets-for-home/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/contact/</guid><description/></item></channel></rss>
