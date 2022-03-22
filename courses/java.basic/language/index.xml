@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java 프로그래밍 언어 | Academic</title><link>https://nhnacademy.github.io/courses/java.basic/language/</link><atom:link href="https://nhnacademy.github.io/courses/java.basic/language/index.xml" rel="self" type="application/rss+xml"/><description>Java 프로그래밍 언어</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Acadmy Corp. All Rights Reserved.</copyright><lastBuildDate>Sun, 22 Apr 2007 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/logo.svg</url><title>Java 프로그래밍 언어</title><link>https://nhnacademy.github.io/courses/java.basic/language/</link></image><item><title>Parameter Passing</title><link>https://nhnacademy.github.io/courses/java.basic/language/parameter/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java.basic/language/parameter/</guid><description>&lt;p>Java에서는 call-by-value로 인자 값을 주고 받습니다.&lt;/p>
+&lt;pre>&lt;code class="language-Java">class 물체 {
+private int n = 0;
+public 물체( int m ) { n = m; }
+public void modify( int m ) { n = m; }
+public String toString() { return &amp;quot;&amp;quot; + n; }
+}
+class ParameterPassing {
+public static void callByValue( int 복사본 ) { 복사본 = 0; }
+public static void callByValue( 물체 copy ) { copy.modify( 0 ); }
+public static void test() {
+int 원본 = 1;
+System.out.println( 원본 );
+callByValue( 원본 );
+System.out.println( 원본 );
+물체 source = new 물체( 1 );
+System.out.println( source );
+callByValue( source );
+System.out.println( source );
+}
+}
+ParameterPassing.test(); // Jupyter notebook에서는 곧바로 test()
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>1
+1
+1
+0
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>원본은 바뀌지 않지만, source는 변했습니다. Call-by-value인데도 source가 변한 까닭은 무엇인가요?&lt;/li>
+&lt;li>위의 실험 결과로 볼 때 Java는 call-by-reference를 지원한다고 볼 수 있나요?&lt;/li>
+&lt;/ol>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>Jupyter notebook&lt;/summary>
+&lt;p>Jupyter notebook + &lt;a href="https://github.com/SpencerPark/IJava">Java&lt;/a>&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>Java 언어에서 Value Semantics와 Reference(Pointer) Semantics의 차이를 코드로 시연하면서 설명할 수 있는지 되새겨보는 문제입니다.&lt;/p>
+&lt;/details></description></item></channel></rss>

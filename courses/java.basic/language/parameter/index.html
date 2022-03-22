@@ -7,32 +7,32 @@
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Oswald&family=Rubik:ital@0;1&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Oswald&family=Rubik:ital@0;1&display=swap" media=print onload="this.media='all'">
-<meta name=description content>
-<link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/courses/>
+<meta name=description content="Java에서는 call-by-value로 인자 값을 주고 받습니">
+<link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/courses/java.basic/language/parameter/>
 <meta name=theme-color content="#1565c0">
 <link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css integrity crossorigin=anonymous media=print onload="this.media='all'">
 <link rel=stylesheet href=/css/wowchemy.d231dcd29a7580c1286e831b6ed51236.css>
-<link rel=alternate href=/courses/index.xml type=application/rss+xml title=Academic>
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://nhnacademy.github.io/courses/>
+<link rel=canonical href=https://nhnacademy.github.io/courses/java.basic/language/parameter/>
 <meta property="twitter:card" content="summary">
 <meta property="og:site_name" content="Academic">
-<meta property="og:url" content="https://nhnacademy.github.io/courses/">
-<meta property="og:title" content="과정 | Academic">
-<meta property="og:description" content><meta property="og:image" content="https://nhnacademy.github.io/media/logo.svg">
+<meta property="og:url" content="https://nhnacademy.github.io/courses/java.basic/language/parameter/">
+<meta property="og:title" content="Parameter Passing | Academic">
+<meta property="og:description" content="Java에서는 call-by-value로 인자 값을 주고 받습니"><meta property="og:image" content="https://nhnacademy.github.io/media/logo.svg">
 <meta property="twitter:image" content="https://nhnacademy.github.io/media/logo.svg"><meta property="og:locale" content="en-us">
-<meta property="og:updated_time" content="2007-04-22T00:00:00+00:00">
+<meta property="article:published_time" content="2007-04-22T00:00:00+00:00">
+<meta property="article:modified_time" content="2007-04-22T00:00:00+00:00">
 <script src=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin=anonymous></script>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin=anonymous>
 <script>window.addEventListener("load",function(){window.cookieconsent.initialise({palette:{popup:{background:"#1565c0",text:"rgb(255, 255, 255)"},button:{background:"rgb(255, 255, 255)",text:"#1565c0"}},theme:"classic",content:{message:"This website uses cookies to ensure you get the best experience on our website.",dismiss:"Got it!",link:"Learn more",href:"https://www.cookiesandyou.com"}})})</script>
-<title>과정 | Academic</title>
+<title>Parameter Passing | Academic</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=a98a8836220067f37599a398a7c77b75>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=ef37b42edf875028f59c8a59acbd4261>
 <script src=/js/wowchemy-init.min.2da3b1fa37e894630bf6de39b1b694b3.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -86,35 +86,137 @@
 </nav>
 </div>
 <div class=page-body>
-<div class="universal-wrapper pt-3">
-<h1>과정</h1>
-</div>
-<div class=universal-wrapper>
-<div class="media stream-item">
-<div class=media-body>
-<div class="section-subheading article-title mb-0 mt-0">
-<a href=/courses/java.basic/>Java 기초</a>
-</div>
-<a href=/courses/java.basic/ class=summary-link>
-<div class=article-style>
-Java 프로그래밍 언어 기본 곧 문법과 의미를 익히는 과정
-</div>
-</a>
-<div class="stream-meta article-metadata">
-<div class=article-metadata>
-<span class=article-date>
-2007년 04월 22일
+<div class="container-fluid docs">
+<div class="row flex-xl-nowrap">
+<div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+<form class="docs-search d-flex align-items-center">
+<button class="btn docs-toggle d-md-none p-0 mr-md-3 w-100" type=button data-toggle=collapse data-target=#docs-nav aria-controls=docs-nav aria-expanded=false aria-label="Toggle section navigation">
+<div class=d-flex>
+<span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
+Java 프로그래밍 언어
 </span>
+<span><i class="fas fa-chevron-down"></i></span>
+</div>
+</button>
+<button class="form-control sidebar-search js-search d-none d-md-flex">
+<i class="fas fa-search pr-2"></i>
+<span class=sidebar-search-text>Search...</span>
+<span class=sidebar-search-shortcut>/</span>
+</button>
+</form>
+<nav class="collapse docs-links" id=docs-nav>
+<ul class="nav docs-sidenav">
+<li><a href=/courses/><i class="fas fa-arrow-left pr-1"></i>과정</a></li>
+</ul>
+<div class=docs-toc-item>
+<a class=docs-toc-link href=/courses/java.basic/>Java 기초</a>
+<ul class="nav docs-sidenav">
+<div class=docs-toc-item>
+<a class=docs-toc-link href=/courses/java.basic/language/>Java 프로그래밍 언어</a>
+<ul class="nav docs-sidenav">
+<li class=active><a href=/courses/java.basic/language/parameter/>Parameter Passing</a></li>
+</ul>
+</div>
+</ul>
+</div>
+</nav>
+</div>
+<div class="d-none d-xl-block col-xl-2 docs-toc">
+<ul class="nav toc-top">
+<li><a href=# id=back_to_top class=docs-toc-title>Contents</a></li>
+</ul>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#도움말>도움말</a></li>
+</ul>
+</nav>
+</div>
+<main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role=main>
+<article class=article>
+<div class=docs-article-container>
+<nav class="d-none d-md-flex" aria-label=breadcrumb>
+<ol class=breadcrumb>
+<li class=breadcrumb-item>
+<a href=/>
+Home
+</a>
+</li>
+<li class=breadcrumb-item>
+<a href=/courses/>
+과정
+</a>
+</li>
+<li class=breadcrumb-item>
+<a href=/courses/java.basic/>
+Java 기초
+</a>
+</li>
+<li class=breadcrumb-item>
+<a href=/courses/java.basic/language/>
+Java 프로그래밍 언어
+</a>
+</li>
+<li class="breadcrumb-item active" aria-current=page>
+Parameter Passing
+</li>
+</ol>
+</nav>
+<h1>Parameter Passing</h1>
+<div class=article-style>
+<p>Java에서는 call-by-value로 인자 값을 주고 받습니다.</p>
+<pre><code class=language-Java>class 물체 {
+	private int n = 0;
+	public 물체( int m ) { n = m; }
+	public void modify( int m ) { n = m; }
+	public String toString() { return &quot;&quot; + n; }
+}
+
+class ParameterPassing {
+	public static void callByValue( int 복사본 ) { 복사본 = 0; }
+	public static void callByValue( 물체 copy ) { copy.modify(  0  ); }
+	public static void test() {
+		int 원본 = 1;
+		System.out.println( 원본 );
+		callByValue( 원본 );
+		System.out.println( 원본 );
+
+		물체 source = new 물체( 1 );
+		System.out.println( source );
+		callByValue( source );
+		System.out.println( source );
+	}
+}
+
+ParameterPassing.test(); // Jupyter notebook에서는 곧바로 test()
+</code></pre>
+<pre><code>1
+1
+1
+0
+</code></pre>
+<ol>
+<li>원본은 바뀌지 않지만, source는 변했습니다. Call-by-value인데도 source가 변한 까닭은 무엇인가요?</li>
+<li>위의 실험 결과로 볼 때 Java는 call-by-reference를 지원한다고 볼 수 있나요?</li>
+</ol>
+<h2 id=도움말>도움말</h2>
+<details class=spoiler id=spoiler-0>
+<summary>Jupyter notebook</summary>
+<p>Jupyter notebook + <a href=https://github.com/SpencerPark/IJava>Java</a></p>
+</details>
+<details class=spoiler id=spoiler-1>
+<summary>귀띔</summary>
+<p>Java 언어에서 Value Semantics와 Reference(Pointer) Semantics의 차이를 코드로 시연하면서 설명할 수 있는지 되새겨보는 문제입니다.</p>
+</details>
+</div>
+<div class=article-widget>
+<div class=post-nav>
 </div>
 </div>
 </div>
-<div class=ml-3>
+<div class=body-footer>
+<p>Last updated on 2007년 04월 22일</p>
 </div>
-</div>
-</div>
-</div>
-<div class=page-footer>
-<div class=container>
+</article>
 <footer class=site-footer>
 <p class=powered-by>
 © 2021-2022 NHN Acadmy Corp. All Rights Reserved.
@@ -127,7 +229,11 @@ Java 프로그래밍 언어 기본 곧 문법과 의미를 익히는 과정
 </a>
 </p>
 </footer>
+</main>
 </div>
+</div>
+</div>
+<div class=page-footer>
 </div>
 <div id=modal class="modal fade" role=dialog>
 <div class=modal-dialog>
@@ -181,6 +287,8 @@ Java 프로그래밍 언어 기본 곧 문법과 의미를 익히는 과정
 <script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/toml.min.js crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/dockerfile.min.js crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js integrity crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/bryanbraun/anchorjs@4.2.2/anchor.min.js integrity="sha512-I7w3ZdSFzw5j3jU3ZkNikBNeIrl3i+hEuEdwNmqUJvwNcaBUNcijnP2gd9DtGlgVYDplfjGoD8vTNsID+lCjqg==" crossorigin=anonymous></script>
+<script>anchors.add()</script>
 <script id=search-hit-fuse-template type=text/x-template>
         <div class="search-hit" id="summary-{{key}}">
           <div class="search-hit-content">

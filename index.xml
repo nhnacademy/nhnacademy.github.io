@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Academic</title><link>https://nhnacademy.github.io/</link><atom:link href="https://nhnacademy.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Academic</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Acadmy Corp. All Rights Reserved.</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/logo.svg</url><title>Academic</title><link>https://nhnacademy.github.io/</link></image><item><title>Hugo Academic Theme</title><link>https://nhnacademy.github.io/widgets-for-home/hero/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/hero/</guid><description>&lt;p>&lt;strong>The FREE, Hugo-based open source website builder and template trusted by 500,000+ sites.&lt;/strong>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Academic</title><link>https://nhnacademy.github.io/</link><atom:link href="https://nhnacademy.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Academic</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Acadmy Corp. All Rights Reserved.</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/logo.svg</url><title>Academic</title><link>https://nhnacademy.github.io/</link></image><item><title>Parameter Passing</title><link>https://nhnacademy.github.io/courses/java.basic/language/parameter/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java.basic/language/parameter/</guid><description>&lt;p>Java에서는 call-by-value로 인자 값을 주고 받습니다.&lt;/p>
+&lt;pre>&lt;code class="language-Java">class 물체 {
+private int n = 0;
+public 물체( int m ) { n = m; }
+public void modify( int m ) { n = m; }
+public String toString() { return &amp;quot;&amp;quot; + n; }
+}
+class ParameterPassing {
+public static void callByValue( int 복사본 ) { 복사본 = 0; }
+public static void callByValue( 물체 copy ) { copy.modify( 0 ); }
+public static void test() {
+int 원본 = 1;
+System.out.println( 원본 );
+callByValue( 원본 );
+System.out.println( 원본 );
+물체 source = new 물체( 1 );
+System.out.println( source );
+callByValue( source );
+System.out.println( source );
+}
+}
+ParameterPassing.test(); // Jupyter notebook에서는 곧바로 test()
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>1
+1
+1
+0
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>원본은 바뀌지 않지만, source는 변했습니다. Call-by-value인데도 source가 변한 까닭은 무엇인가요?&lt;/li>
+&lt;li>위의 실험 결과로 볼 때 Java는 call-by-reference를 지원한다고 볼 수 있나요?&lt;/li>
+&lt;/ol>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>Jupyter notebook&lt;/summary>
+&lt;p>Jupyter notebook + &lt;a href="https://github.com/SpencerPark/IJava">Java&lt;/a>&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>Java 언어에서 Value Semantics와 Reference(Pointer) Semantics의 차이를 코드로 시연하면서 설명할 수 있는지 되새겨보는 문제입니다.&lt;/p>
+&lt;/details></description></item><item><title>Hugo Academic Theme</title><link>https://nhnacademy.github.io/widgets-for-home/hero/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/hero/</guid><description>&lt;p>&lt;strong>The FREE, Hugo-based open source website builder and template trusted by 500,000+ sites.&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>Build anything with widgets&lt;/strong> - from landing pages, knowledge bases, and courses to academic resumés, conferences, and tech blogs.&lt;/p></description></item><item><title>Hugo Academic Theme Demo</title><link>https://nhnacademy.github.io/widgets-for-home/demo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/demo/</guid><description>&lt;p>Welcome to the demo of the &lt;strong>academic resumé template&lt;/strong> for Wowchemy, the Website Builder for Hugo.&lt;/p>
 &lt;p>&lt;a href="https://wowchemy.com/templates/" target="_blank" rel="noopener">Explore similar templates&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Over 500,000 &lt;a href="https://wowchemy.com/" target="_blank" rel="noopener">Amazing Websites&lt;/a> have Already Been Built with Wowchemy&lt;/strong>&lt;/p>
@@ -70,7 +110,7 @@ data.head()
 &lt;p>Academic supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> chart format.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-321968745" class="chart">&lt;/div>
+&lt;div id="chart-134658279" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -79,7 +119,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-321968745', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-134658279', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
