@@ -7,32 +7,32 @@
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Oswald&family=Rubik:ital@0;1&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Oswald&family=Rubik:ital@0;1&display=swap" media=print onload="this.media='all'">
-<meta name=description content>
-<link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/courses/java.basic/language/>
+<meta name=description content="HashSet으로 1들의 집합을 만듭니다. import java.util.*; class Sameness { public static void 집합">
+<link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/courses/java.basic/language/quiz002/>
 <meta name=theme-color content="#1565c0">
 <link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css integrity crossorigin=anonymous media=print onload="this.media='all'">
 <link rel=stylesheet href=/css/wowchemy.d231dcd29a7580c1286e831b6ed51236.css>
-<link rel=alternate href=/courses/java.basic/language/index.xml type=application/rss+xml title=Academic>
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://nhnacademy.github.io/courses/java.basic/language/>
+<link rel=canonical href=https://nhnacademy.github.io/courses/java.basic/language/quiz002/>
 <meta property="twitter:card" content="summary">
 <meta property="og:site_name" content="Academic">
-<meta property="og:url" content="https://nhnacademy.github.io/courses/java.basic/language/">
-<meta property="og:title" content="Java 프로그래밍 언어 | Academic">
-<meta property="og:description" content><meta property="og:image" content="https://nhnacademy.github.io/media/logo.svg">
+<meta property="og:url" content="https://nhnacademy.github.io/courses/java.basic/language/quiz002/">
+<meta property="og:title" content="Quiz 2 | Academic">
+<meta property="og:description" content="HashSet으로 1들의 집합을 만듭니다. import java.util.*; class Sameness { public static void 집합"><meta property="og:image" content="https://nhnacademy.github.io/media/logo.svg">
 <meta property="twitter:image" content="https://nhnacademy.github.io/media/logo.svg"><meta property="og:locale" content="en-us">
-<meta property="og:updated_time" content="2007-04-22T00:00:00+00:00">
+<meta property="article:published_time" content="2007-04-22T00:00:00+00:00">
+<meta property="article:modified_time" content="2007-04-22T00:00:00+00:00">
 <script src=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin=anonymous></script>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin=anonymous>
 <script>window.addEventListener("load",function(){window.cookieconsent.initialise({palette:{popup:{background:"#1565c0",text:"rgb(255, 255, 255)"},button:{background:"rgb(255, 255, 255)",text:"#1565c0"}},theme:"classic",content:{message:"This website uses cookies to ensure you get the best experience on our website.",dismiss:"Got it!",link:"Learn more",href:"https://www.cookiesandyou.com"}})})</script>
-<title>Java 프로그래밍 언어 | Academic</title>
+<title>Quiz 2 | Academic</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=fe18c3a8982b5a90a3c1b1f4c15dfa1d>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=4e7a326c328724f2199cd6caff155700>
 <script src=/js/wowchemy-init.min.2da3b1fa37e894630bf6de39b1b694b3.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -111,12 +111,9 @@ Java 기초
 <div class=docs-toc-item>
 <a class=docs-toc-link href=/courses/java.basic/>Java 기초</a>
 <ul class="nav docs-sidenav">
-<div class=docs-toc-item>
-<a class="docs-toc-link active" href=/courses/java.basic/language/>Java 프로그래밍 언어</a>
-<ul class="nav docs-sidenav">
-<li><a href=/courses/java.basic/language/parameter/>Parameter Passing</a></li>
-</ul>
-</div>
+<li><a href=/courses/java.basic/language/quiz001/>Quiz 1</a></li>
+<li class=active><a href=/courses/java.basic/language/quiz002/>Quiz 2</a></li>
+<li><a href=/courses/java.basic/language/quiz003/>Quiz 3</a></li>
 </ul>
 </div>
 </nav>
@@ -125,7 +122,11 @@ Java 기초
 <ul class="nav toc-top">
 <li><a href=# id=back_to_top class=docs-toc-title>Contents</a></li>
 </ul>
-<nav id=TableOfContents></nav>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#도움말>도움말</a></li>
+</ul>
+</nav>
 </div>
 <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role=main>
 <article class=article>
@@ -148,21 +149,90 @@ Java 기초
 </a>
 </li>
 <li class="breadcrumb-item active" aria-current=page>
-Java 프로그래밍 언어
+Quiz 2
 </li>
 </ol>
 </nav>
-<h1>Java 프로그래밍 언어</h1>
+<h1>Quiz 2</h1>
 <div class=article-style>
-<p>Java 프로그래밍 기초가 잘 닦였는 지 점검합니다.</p>
-<ul class=cta-group>
-<li>
-<a href=parameter class="btn btn-primary px-3 py-3">처음</a>
-</li>
-</ul>
+<p>HashSet으로 1들의 집합을 만듭니다.</p>
+<pre><code class=language-Java>import java.util.*;
+
+class Sameness {
+    public static void 집합크기(Set 집합, Object[] elements) {
+        Collections.addAll( 집합, elements ) ;
+        System.out.println( 집합.toString() + &quot;의 원소 수는 &quot; + 집합.size() );
+    }
+
+    static Integer one = new Integer(1);
+    static Object ones[] = { 
+        1, 1.0, one, one.intValue(), one.shortValue() 
+        , one.longValue(), one.floatValue(), one.doubleValue()
+        , new Long(1), new Float(1), new Double(1)
+    };
+}
+
+Sameness.집합크기( new HashSet(), Sameness.ones ); // Jupyter Notebook에서만
+</code></pre>
+<pre><code>[1.0, 1.0, 1, 1, 1]의 원소 수는 5
+</code></pre>
+<ol>
+<li>집합의 크기(원소의 개수)가 왜 5일까요?</li>
+</ol>
+<p>분수(유리수)를 정의합니다.</p>
+<pre><code class=language-Java>class 분수 {
+	public 분수(int numerator, int denominator) throws ArithmeticException {
+		if ( 0 == denominator ) throw new ArithmeticException( &quot;분모 0&quot; );
+		분자 = numerator; 분모 = denominator;
+		if (denominator &lt; 0) { 분자 = - numerator; 분모 = - denominator; }
+		약분();
+	}
+	public int getDenominator() { return 분모; }
+	public int getNumerator() { return 분자; }
+	public String toString() { return String.valueOf( 분자 ) + '/' + String.valueOf( 분모 ); }
+
+	private void 약분() {
+		int g = 최대공약수( Math.abs(분자), Math.abs(분모) );
+		{ 분자 = 분자 / g; 분모 = 분모 / g; }
+	}
+
+	private static int 최대공약수(int x, int y) { return 0 == y ? x : 최대공약수(y, x % y); }
+	private int 분모, 분자;
+}
+</code></pre>
+<p>이제 분수 집합도 만들 수 있습니다.</p>
+<pre><code class=language-Java>class Two {
+   static 분수 twos[] = { new 분수( 2, 1 ), new 분수( 4, 2 ), new 분수( -2, -1 ) };
+}
+
+Sameness.집합크기( new HashSet(), Two.twos ); // in Jupiter Notebook
+</code></pre>
+<pre><code>[2/1, 2/1, 2/1]의 원소 수는 3
+</code></pre>
+<ol start=2>
+<li>집합의 원소 수가 3개입니다. 틀린 답이 나오는 이유를 설명하고 정답이 나오도록 만들어 보세요.</li>
+<li>HashSet 대신에 TreeSet을 써서 같은 실험을 해보세요.</li>
+</ol>
+<h2 id=도움말>도움말</h2>
+<p><details class=spoiler id=spoiler-0>
+<summary>귀띔</summary>
+<p>두 데이터가 같다는 것은 무슨 뜻일까요? 프로그래밍 언어에서 value equality와 reference (Pointer) equality를 차이를 이해하고, 이어서 새로운 데이터를 만들 때 그 데이터 타입에 속하는 원소(또는 인스턴스) 사이의 같거나 다름을 어떻게 이해하고 정의할 것인지 아니면 아예 정의할 수 없거나 하지 말아야 하는지 따위 주요한 주제를 짚고 넘어가는 문제입니다. <a href=https://en.wikibooks.org/wiki/Java_Programming/Comparing_Objects>Comparing Objects</a>를 읽어보세요.</p>
+</details>
+<details class=spoiler id=spoiler-1>
+<summary>분수(유리수)</summary>
+<p><a href=https://commons.apache.org/proper/commons-math/>Apache Commons Math ™ </a>에 <a href=https://commons.apache.org/proper/commons-math/userguide/fraction.html>Fraction</a> 클래스가 유리수(분수)를 구현합니다.</p>
+</details></p>
 </div>
 <div class=article-widget>
 <div class=post-nav>
+<div class=post-nav-item>
+<div class=meta-nav>Previous</div>
+<a href=/courses/java.basic/language/quiz001/ rel=next>Quiz 1</a>
+</div>
+<div class=post-nav-item>
+<div class=meta-nav>Next</div>
+<a href=/courses/java.basic/language/quiz003/ rel=prev>Quiz 3</a>
+</div>
 </div>
 </div>
 </div>

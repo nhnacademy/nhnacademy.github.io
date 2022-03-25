@@ -7,8 +7,8 @@
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Oswald&family=Rubik:ital@0;1&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Oswald&family=Rubik:ital@0;1&display=swap" media=print onload="this.media='all'">
-<meta name=description content="Java에서는 call-by-value로 인자 값을 주고 받습니">
-<link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/courses/java.basic/language/parameter/>
+<meta name=description content="분수를 수천 개 만들어 쓰는 프로그램을 짰더니 분수의 수가 늘어날수록 속">
+<link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/courses/java.basic/language/quiz003/>
 <meta name=theme-color content="#1565c0">
 <link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
@@ -18,21 +18,21 @@
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://nhnacademy.github.io/courses/java.basic/language/parameter/>
+<link rel=canonical href=https://nhnacademy.github.io/courses/java.basic/language/quiz003/>
 <meta property="twitter:card" content="summary">
 <meta property="og:site_name" content="Academic">
-<meta property="og:url" content="https://nhnacademy.github.io/courses/java.basic/language/parameter/">
-<meta property="og:title" content="Parameter Passing | Academic">
-<meta property="og:description" content="Java에서는 call-by-value로 인자 값을 주고 받습니"><meta property="og:image" content="https://nhnacademy.github.io/media/logo.svg">
+<meta property="og:url" content="https://nhnacademy.github.io/courses/java.basic/language/quiz003/">
+<meta property="og:title" content="Quiz 3 | Academic">
+<meta property="og:description" content="분수를 수천 개 만들어 쓰는 프로그램을 짰더니 분수의 수가 늘어날수록 속"><meta property="og:image" content="https://nhnacademy.github.io/media/logo.svg">
 <meta property="twitter:image" content="https://nhnacademy.github.io/media/logo.svg"><meta property="og:locale" content="en-us">
 <meta property="article:published_time" content="2007-04-22T00:00:00+00:00">
 <meta property="article:modified_time" content="2007-04-22T00:00:00+00:00">
 <script src=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin=anonymous></script>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin=anonymous>
 <script>window.addEventListener("load",function(){window.cookieconsent.initialise({palette:{popup:{background:"#1565c0",text:"rgb(255, 255, 255)"},button:{background:"rgb(255, 255, 255)",text:"#1565c0"}},theme:"classic",content:{message:"This website uses cookies to ensure you get the best experience on our website.",dismiss:"Got it!",link:"Learn more",href:"https://www.cookiesandyou.com"}})})</script>
-<title>Parameter Passing | Academic</title>
+<title>Quiz 3 | Academic</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=ef37b42edf875028f59c8a59acbd4261>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=776a4beda2e60ceb40f5ff9182921ebd>
 <script src=/js/wowchemy-init.min.2da3b1fa37e894630bf6de39b1b694b3.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -93,7 +93,7 @@
 <button class="btn docs-toggle d-md-none p-0 mr-md-3 w-100" type=button data-toggle=collapse data-target=#docs-nav aria-controls=docs-nav aria-expanded=false aria-label="Toggle section navigation">
 <div class=d-flex>
 <span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
-Java 프로그래밍 언어
+Java 기초
 </span>
 <span><i class="fas fa-chevron-down"></i></span>
 </div>
@@ -111,12 +111,9 @@ Java 프로그래밍 언어
 <div class=docs-toc-item>
 <a class=docs-toc-link href=/courses/java.basic/>Java 기초</a>
 <ul class="nav docs-sidenav">
-<div class=docs-toc-item>
-<a class=docs-toc-link href=/courses/java.basic/language/>Java 프로그래밍 언어</a>
-<ul class="nav docs-sidenav">
-<li class=active><a href=/courses/java.basic/language/parameter/>Parameter Passing</a></li>
-</ul>
-</div>
+<li><a href=/courses/java.basic/language/quiz001/>Quiz 1</a></li>
+<li><a href=/courses/java.basic/language/quiz002/>Quiz 2</a></li>
+<li class=active><a href=/courses/java.basic/language/quiz003/>Quiz 3</a></li>
 </ul>
 </div>
 </nav>
@@ -151,65 +148,59 @@ Home
 Java 기초
 </a>
 </li>
-<li class=breadcrumb-item>
-<a href=/courses/java.basic/language/>
-Java 프로그래밍 언어
-</a>
-</li>
 <li class="breadcrumb-item active" aria-current=page>
-Parameter Passing
+Quiz 3
 </li>
 </ol>
 </nav>
-<h1>Parameter Passing</h1>
+<h1>Quiz 3</h1>
 <div class=article-style>
-<p>Java에서는 call-by-value로 인자 값을 주고 받습니다.</p>
-<pre><code class=language-Java>class 물체 {
-	private int n = 0;
-	public 물체( int m ) { n = m; }
-	public void modify( int m ) { n = m; }
-	public String toString() { return &quot;&quot; + n; }
-}
-
-class ParameterPassing {
-	public static void callByValue( int 복사본 ) { 복사본 = 0; }
-	public static void callByValue( 물체 copy ) { copy.modify(  0  ); }
-	public static void test() {
-		int 원본 = 1;
-		System.out.println( 원본 );
-		callByValue( 원본 );
-		System.out.println( 원본 );
-
-		물체 source = new 물체( 1 );
-		System.out.println( source );
-		callByValue( source );
-		System.out.println( source );
-	}
-}
-
-ParameterPassing.test(); // Jupyter notebook에서는 곧바로 test()
-</code></pre>
-<pre><code>1
-1
-1
-0
-</code></pre>
 <ol>
-<li>원본은 바뀌지 않지만, source는 변했습니다. Call-by-value인데도 source가 변한 까닭은 무엇인가요?</li>
-<li>위의 실험 결과로 볼 때 Java는 call-by-reference를 지원한다고 볼 수 있나요?</li>
+<li>
+<p><a href=../quiz002>분수</a>를 수천 개 만들어 쓰는 프로그램을 짰더니 분수의 수가 늘어날수록 속도가 떨어졌습니다. 원인을 살펴보니 약분 때문이었습니다. 분자 분모가 필요할 때만 약분이 되도록 getter(또는 Selector)를 고칩니다.</p>
+<pre><code class=language-java>class 분수 {
+	public 분수(int numerator, int denominator) throws ArithmeticException {
+		// ...
+		// 약분();
+	}
+	public int getDenominator() { 약분(); return 분모; }
+	public int getNumerator() { 약분(); return 분자; }
+	// ...
+}
+</code></pre>
+<p>``</p>
+</li>
+<li>
+<p>분수를 쓰는 방식에 따라 미리 약분을 해두지 않는 편이 더 나을 수도 있겠지만 이 코드에는 버그가 있습니다. 왜 없던 버그가 갑자기 생겼을까요? 잘못된 부분을 고쳐 써 봅시다.</p>
+</li>
+<li>
+<p>분수의 <a href=https://course.ccs.neu.edu/cs5500f14/Notes/Testing1/abstractionBarrierAlt.html target=_blank rel=noopener>abstraction barrier</a>는 어떤 연산으로 이루어지나요? 고쳐 쓴 코드는 abstraction barrier를 무너뜨리지 않나요?</p>
+</li>
+<li>
+<p>분수의 분자 분모를 바꾸는 setter가 필요한가요? <code>setNumerator(int)</code>, <code>setDenominator(int)</code>는 분수 데이터의 abstraction barrier를 정의하는데 포함되나요?</p>
+</li>
 </ol>
 <h2 id=도움말>도움말</h2>
 <details class=spoiler id=spoiler-0>
-<summary>Jupyter notebook</summary>
-<p>Jupyter notebook + <a href=https://github.com/SpencerPark/IJava>Java</a></p>
+<summary>귀띔</summary>
+<p>데이터의 What과 How (또는 쓰는 쪽과 만드는 쪽 )을 경계 짓는 <a href=https://course.ccs.neu.edu/cs5500f14/Notes/Testing1/abstractionBarrierAlt.html>abstraction barrier</a>를 무시하고, 무심코 코드를 쓰면 어떻게 버그가 생겨날 수 있는지를 잘 이해하고 있는지 되새기는 문제입니다.</p>
 </details>
 <details class=spoiler id=spoiler-1>
-<summary>귀띔</summary>
-<p>Java 언어에서 Value Semantics와 Reference(Pointer) Semantics의 차이를 코드로 시연하면서 설명할 수 있는지 되새겨보는 문제입니다.</p>
+<summary>Abstract Barrier에 대한 공부 거리</summary>
+<p><ol>
+<li>Marvin Zhang, <a href=https://inst.eecs.berkeley.edu/~cs61a/su16/assets/slides/09-Data_Abstraction_1pp.pdf>Lecture 9: Data Abstraction</a> CS 61A: The Structure and Interpretation of Computer Programs, Berkeley</li>
+<li>Harold Abelson and Gerald Jay Sussman with Julie Sussman, <a href=https://mitpress.mit.edu/sites/default/files/sicp/full-text/sicp/book/node29.html>Abstraction Barriers</a>, Introduction to Data Abstraction, Building Abstraction with Data, Structure and Interpretation
+of Computer Programs</li>
+</ol>
+</p>
 </details>
 </div>
 <div class=article-widget>
 <div class=post-nav>
+<div class=post-nav-item>
+<div class=meta-nav>Previous</div>
+<a href=/courses/java.basic/language/quiz002/ rel=next>Quiz 2</a>
+</div>
 </div>
 </div>
 </div>

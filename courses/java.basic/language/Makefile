@@ -2,4 +2,7 @@
 .ipynb.md:
 	jupyter nbconvert $< --to markdown --NbConvertApp.output_files_dir=.
 
-all: parameter.md
+sources = $(wildcard *.ipynb)
+targets = $(sources:%.ipynb=%.md)
+
+all: $(targets) 
