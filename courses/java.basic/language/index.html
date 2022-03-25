@@ -7,8 +7,8 @@
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Oswald&family=Rubik:ital@0;1&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Oswald&family=Rubik:ital@0;1&display=swap" media=print onload="this.media='all'">
-<meta name=description content="Java 언어로 소프트웨어 설계의 기초를 다지는 과정입니다.">
-<link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/courses/java.basic/>
+<meta name=description content="Java 프로그래밍 언어의 문법과 의미를 익히는 과정">
+<link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/courses/java.basic/language/>
 <meta name=theme-color content="#1565c0">
 <script src=/js/mathjax-config.js></script>
 <link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
@@ -17,24 +17,24 @@
 <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css integrity crossorigin=anonymous media=print onload="this.media='all'">
 <script src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js integrity crossorigin=anonymous async></script>
 <link rel=stylesheet href=/css/wowchemy.d231dcd29a7580c1286e831b6ed51236.css>
-<link rel=alternate href=/courses/java.basic/index.xml type=application/rss+xml title=Academic>
+<link rel=alternate href=/courses/java.basic/language/index.xml type=application/rss+xml title=Academic>
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://nhnacademy.github.io/courses/java.basic/>
+<link rel=canonical href=https://nhnacademy.github.io/courses/java.basic/language/>
 <meta property="twitter:card" content="summary">
 <meta property="og:site_name" content="Academic">
-<meta property="og:url" content="https://nhnacademy.github.io/courses/java.basic/">
-<meta property="og:title" content="Java 기초 | Academic">
-<meta property="og:description" content="Java 언어로 소프트웨어 설계의 기초를 다지는 과정입니다."><meta property="og:image" content="https://nhnacademy.github.io/media/logo.svg">
+<meta property="og:url" content="https://nhnacademy.github.io/courses/java.basic/language/">
+<meta property="og:title" content="Java 프로그래밍 언어 | Academic">
+<meta property="og:description" content="Java 프로그래밍 언어의 문법과 의미를 익히는 과정"><meta property="og:image" content="https://nhnacademy.github.io/media/logo.svg">
 <meta property="twitter:image" content="https://nhnacademy.github.io/media/logo.svg"><meta property="og:locale" content="en-us">
 <meta property="og:updated_time" content="2022-03-25T00:00:00+00:00">
 <script src=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin=anonymous></script>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin=anonymous>
 <script>window.addEventListener("load",function(){window.cookieconsent.initialise({palette:{popup:{background:"#1565c0",text:"rgb(255, 255, 255)"},button:{background:"rgb(255, 255, 255)",text:"#1565c0"}},theme:"classic",content:{message:"This website uses cookies to ensure you get the best experience on our website.",dismiss:"Got it!",link:"Learn more",href:"https://www.cookiesandyou.com"}})})</script>
-<title>Java 기초 | Academic</title>
+<title>Java 프로그래밍 언어 | Academic</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=1763ef2a5ed34a7c14b1efd51b8c04f3>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=fe18c3a8982b5a90a3c1b1f4c15dfa1d>
 <script src=/js/wowchemy-init.min.2da3b1fa37e894630bf6de39b1b694b3.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -95,7 +95,7 @@
 <button class="btn docs-toggle d-md-none p-0 mr-md-3 w-100" type=button data-toggle=collapse data-target=#docs-nav aria-controls=docs-nav aria-expanded=false aria-label="Toggle section navigation">
 <div class=d-flex>
 <span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
-과정
+Java 기초
 </span>
 <span><i class="fas fa-chevron-down"></i></span>
 </div>
@@ -111,10 +111,10 @@
 <li><a href=/courses/><i class="fas fa-arrow-left pr-1"></i>과정</a></li>
 </ul>
 <div class=docs-toc-item>
-<a class="docs-toc-link active" href=/courses/java.basic/>Java 기초</a>
+<a class=docs-toc-link href=/courses/java.basic/>Java 기초</a>
 <ul class="nav docs-sidenav">
 <div class=docs-toc-item>
-<a class=docs-toc-link href=/courses/java.basic/language/>Java 프로그래밍 언어</a>
+<a class="docs-toc-link active" href=/courses/java.basic/language/>Java 프로그래밍 언어</a>
 <ul class="nav docs-sidenav">
 <li><a href=/courses/java.basic/language/quiz001/>Quiz 1</a></li>
 <li><a href=/courses/java.basic/language/quiz002/>Quiz 2</a></li>
@@ -129,13 +129,7 @@
 <ul class="nav toc-top">
 <li><a href=# id=back_to_top class=docs-toc-title>Contents</a></li>
 </ul>
-<nav id=TableOfContents>
-<ul>
-<li><a href=#java-프로그래밍-환경>Java 프로그래밍 환경</a></li>
-<li><a href=#java-프로그래밍-언어language><a href=language>Java 프로그래밍 언어</a></a></li>
-<li><a href=#java-in-the-large>Java in the Large</a></li>
-</ul>
-</nav>
+<nav id=TableOfContents></nav>
 </div>
 <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role=main>
 <article class=article>
@@ -152,52 +146,23 @@ Home
 과정
 </a>
 </li>
-<li class="breadcrumb-item active" aria-current=page>
+<li class=breadcrumb-item>
+<a href=/courses/java.basic/>
 Java 기초
+</a>
+</li>
+<li class="breadcrumb-item active" aria-current=page>
+Java 프로그래밍 언어
 </li>
 </ol>
 </nav>
-<h1>Java 기초</h1>
+<h1>Java 프로그래밍 언어</h1>
 <div class=article-style>
-<details class="toc-inpage d-print-none d-xl-none" open>
-<summary class=font-weight-bold>Table of Contents</summary>
-<nav id=TableOfContents>
-<ul>
-<li><a href=#java-프로그래밍-환경>Java 프로그래밍 환경</a></li>
-<li><a href=#java-프로그래밍-언어language><a href=language>Java 프로그래밍 언어</a></a></li>
-<li><a href=#java-in-the-large>Java in the Large</a></li>
-</ul>
-</nav>
-</details>
-<ul>
-<li>Java 기초는 Java 프로그래밍 언어와 Java in the Large로 이루어집니다.</li>
-<li>학습은 문제를 이해하고 해답을 스스로 찾는 과정에서 이루어집니다.</li>
-<li>모든 문제는 NHN 아카데미에 입학하지 않고도 스스로 공부할 수 있도록 충분한 자료, 코드, 도움말로 이루어져 있습니다.</li>
-<li>NHN 아카데미에 입학하면 멘토로부터 도움을 받을 수 있습니다.</li>
-<li>NHN TIPIE에서 질문과 토론을 주고 받을 수 있습니다.</li>
-</ul>
-<h2 id=java-프로그래밍-환경>Java 프로그래밍 환경</h2>
-<ul>
-<li><a href=https://www.jetbrains.com/ko-kr/ target=_blank rel=noopener>IntelliJ</a>
-<ul>
-<li>NHN 개발자들이 쓰는 환경입니다.</li>
-</ul>
+<p>Java 프로그래밍 언어의 문법과 의미를 제대로 익혔는지 스스로 점검해 보세요.</p>
+<ul class=cta-group>
+<li>
+<a href=quiz001 class="btn btn-primary px-3 py-3">시작</a>
 </li>
-<li><a href=https://code.visualstudio.com/docs/languages/java target=_blank rel=noopener>Visual Studio Code + Java</a></li>
-<li><a href=https://github.com/SpencerPark/IJava target=_blank rel=noopener>Jupyter Notebook + Java</a></li>
-<li><a href=https://code.visualstudio.com/docs/datascience/jupyter-notebooks target=_blank rel=noopener>(Visual Studio Code + Jupyter Notebook)</a> + <a href=https://github.com/SpencerPark/IJava target=_blank rel=noopener>Java</a>
-<ul>
-<li>Quiz를 만드는 데 쓰고 있습니다.</li>
-</ul>
-</li>
-</ul>
-<h2 id=java-프로그래밍-언어language><a href=language>Java 프로그래밍 언어</a></h2>
-<ul>
-<li>조금 씩 열겠습니다.</li>
-</ul>
-<h2 id=java-in-the-large>Java in the Large</h2>
-<ul>
-<li>곧 나누겠습니다.</li>
 </ul>
 </div>
 <div class=article-widget>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java 프로그래밍 언어 | Academic</title><link>https://nhnacademy.github.io/courses/java.basic/language/</link><atom:link href="https://nhnacademy.github.io/courses/java.basic/language/index.xml" rel="self" type="application/rss+xml"/><description>Java 프로그래밍 언어</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Acadmy Corp. All Rights Reserved.</copyright><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/logo.svg</url><title>Java 프로그래밍 언어</title><link>https://nhnacademy.github.io/courses/java.basic/language/</link></image><item><title>Quiz 1</title><link>https://nhnacademy.github.io/courses/java.basic/language/quiz001/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java.basic/language/quiz001/</guid><description>&lt;p>Java에서는 call-by-value로 인자 값을 주고 받습니다.&lt;/p>
+&lt;pre>&lt;code class="language-Java">class 물체 {
+private int n = 0;
+public 물체( int m ) { n = m; }
+public void modify( int m ) { n = m; }
+public String toString() { return &amp;quot;&amp;quot; + n; }
+}
+class ParameterPassing {
+public static void callByValue( int 복사본 ) { 복사본 = 0; }
+public static void callByValue( 물체 copy ) { copy.modify( 0 ); }
+public static void test() {
+int 원본 = 1;
+System.out.println( 원본 );
+callByValue( 원본 );
+System.out.println( 원본 );
+물체 source = new 물체( 1 );
+System.out.println( source );
+callByValue( source );
+System.out.println( source );
+}
+}
+ParameterPassing.test(); // Jupyter notebook에서만
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>1
+1
+1
+0
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>원본은 바뀌지 않지만, source는 변했습니다. Call-by-value인데도 source가 변한 까닭은 무엇인가요?&lt;/li>
+&lt;li>위의 실험 결과로 볼 때 Java는 call-by-reference를 지원한다고 볼 수 있나요?&lt;/li>
+&lt;/ol>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>Jupyter notebook&lt;/summary>
+&lt;p>&lt;a href="https://github.com/SpencerPark/IJava">Java&lt;/a> 커널이 깔린 Jupyter notebook이 아니라면 test()를 곧바로 돌릴 수 없습니다.&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>Java 언어에서 Value Semantics와 Reference(Pointer) Semantics의 차이를 코드로 시연하면서 설명할 수 있는지 되새겨보는 문제입니다.&lt;/p>
+&lt;/details></description></item><item><title>Quiz 2</title><link>https://nhnacademy.github.io/courses/java.basic/language/quiz002/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java.basic/language/quiz002/</guid><description>&lt;p>HashSet으로 1들의 집합을 만듭니다.&lt;/p>
+&lt;pre>&lt;code class="language-Java">import java.util.*;
+class Sameness {
+public static void 집합크기(Set 집합, Object[] elements) {
+Collections.addAll( 집합, elements ) ;
+System.out.println( 집합.toString() + &amp;quot;의 원소 수는 &amp;quot; + 집합.size() );
+}
+static Integer one = new Integer(1);
+static Object ones[] = {
+1, 1.0, one, one.intValue(), one.shortValue()
+, one.longValue(), one.floatValue(), one.doubleValue()
+, new Long(1), new Float(1), new Double(1)
+};
+}
+Sameness.집합크기( new HashSet(), Sameness.ones ); // Jupyter Notebook에서만
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>[1.0, 1.0, 1, 1, 1]의 원소 수는 5
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>집합의 크기(원소의 개수)가 왜 5일까요?&lt;/li>
+&lt;/ol>
+&lt;p>분수(유리수)를 정의합니다.&lt;/p>
+&lt;pre>&lt;code class="language-Java">class 분수 {
+public 분수(int numerator, int denominator) throws ArithmeticException {
+if ( 0 == denominator ) throw new ArithmeticException( &amp;quot;분모 0&amp;quot; );
+분자 = numerator; 분모 = denominator;
+if (denominator &amp;lt; 0) { 분자 = - numerator; 분모 = - denominator; }
+약분();
+}
+public int getDenominator() { return 분모; }
+public int getNumerator() { return 분자; }
+public String toString() { return String.valueOf( 분자 ) + '/' + String.valueOf( 분모 ); }
+private void 약분() {
+int g = 최대공약수( Math.abs(분자), Math.abs(분모) );
+{ 분자 = 분자 / g; 분모 = 분모 / g; }
+}
+private static int 최대공약수(int x, int y) { return 0 == y ? x : 최대공약수(y, x % y); }
+private int 분모, 분자;
+}
+&lt;/code>&lt;/pre>
+&lt;p>이제 분수 집합도 만들 수 있습니다.&lt;/p>
+&lt;pre>&lt;code class="language-Java">class Two {
+static 분수 twos[] = { new 분수( 2, 1 ), new 분수( 4, 2 ), new 분수( -2, -1 ) };
+}
+Sameness.집합크기( new HashSet(), Two.twos ); // in Jupiter Notebook
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>[2/1, 2/1, 2/1]의 원소 수는 3
+&lt;/code>&lt;/pre>
+&lt;ol start="2">
+&lt;li>집합의 원소 수가 3개입니다. 틀린 답이 나오는 이유를 설명하고 정답이 나오도록 만들어 보세요.&lt;/li>
+&lt;li>HashSet 대신에 TreeSet을 써서 같은 실험을 해보세요.&lt;/li>
+&lt;/ol>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;p>&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>두 데이터가 같다는 것은 무슨 뜻일까요? 프로그래밍 언어에서 value equality와 reference (Pointer) equality를 차이를 이해하고, 이어서 새로운 데이터를 만들 때 그 데이터 타입에 속하는 원소(또는 인스턴스) 사이의 같거나 다름을 어떻게 이해하고 정의할 것인지 아니면 아예 정의할 수 없거나 하지 말아야 하는지 따위 주요한 주제를 짚고 넘어가는 문제입니다. &lt;a href="https://en.wikibooks.org/wiki/Java_Programming/Comparing_Objects">Comparing Objects&lt;/a>를 읽어보세요.&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>분수(유리수)&lt;/summary>
+&lt;p>&lt;a href="https://commons.apache.org/proper/commons-math/">Apache Commons Math ™ &lt;/a>에 &lt;a href="https://commons.apache.org/proper/commons-math/userguide/fraction.html">Fraction&lt;/a> 클래스가 유리수(분수)를 구현합니다.&lt;/p>
+&lt;/details>&lt;/p></description></item><item><title>Quiz 3</title><link>https://nhnacademy.github.io/courses/java.basic/language/quiz003/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java.basic/language/quiz003/</guid><description>&lt;p>&lt;a href="../quiz002">분수&lt;/a>를 수천 개 만들어 쓰는 프로그램을 짰더니 분수의 수가 늘어날수록 속도가 떨어졌습니다. 원인을 살펴보니 약분 때문이었습니다. 분자 분모가 필요할 때만 약분이 되도록 getter(또는 Selector)를 고칩니다.&lt;/p>
+&lt;pre>&lt;code class="language-Java">class 분수 {
+public 분수(int numerator, int denominator) throws ArithmeticException {
+if ( 0 == denominator ) throw new ArithmeticException( &amp;quot;분모 0&amp;quot; );
+분자 = numerator; 분모 = denominator;
+if (denominator &amp;lt; 0) { 분자 = - numerator; 분모 = - denominator; }
+// 약분();
+}
+public int getDenominator() { 약분(); return 분모; }
+public int getNumerator() { 약분(); return 분자; }
+public String toString() { return String.valueOf( 분자 ) + '/' + String.valueOf( 분모 ); }
+private void 약분() {
+int g = 최대공약수( Math.abs(분자), Math.abs(분모) );
+{ 분자 = 분자 / g; 분모 = 분모 / g; }
+}
+private static int 최대공약수(int x, int y) { return 0 == y ? x : 최대공약수(y, x % y); }
+private int 분모, 분자;
+}
+System.out.println( new 분수(2,4) ) // Jupiter Notebook에서만
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>2/4
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>기약분수가 찍히지 않습니다. 코드에는 버그가 생겼습니다. 약분을 옮겼을 뿐인데 왜 없던 버그가 갑자기 생겼을까요? 잘못된 부분을 고쳐 써 봅시다.&lt;/li>
+&lt;li>분수의 &lt;a href="https://course.ccs.neu.edu/cs5500f14/Notes/Testing1/abstractionBarrierAlt.html" target="_blank" rel="noopener">abstraction barrier&lt;/a>는 어떤 연산으로 이루어지나요? 고쳐 쓴 코드는 abstraction barrier를 무너뜨리지 않나요?&lt;/li>
+&lt;li>분수의 분자 분모를 바꾸는 setter가 필요한가요? &lt;code>setNumerator(int)&lt;/code>, &lt;code>setDenominator(int)&lt;/code>는 분수 데이터의 abstraction barrier를 정의하는데 포함되나요?&lt;/li>
+&lt;/ol>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>데이터의 What과 How (또는 쓰는 쪽과 만드는 쪽 )을 경계 짓는 &lt;a href="https://course.ccs.neu.edu/cs5500f14/Notes/Testing1/abstractionBarrierAlt.html">abstraction barrier&lt;/a>를 무시하고, 무심코 코드를 쓰면 어떻게 버그가 생겨날 수 있는지를 잘 이해하고 있는지 되새기는 문제입니다.&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>Abstract Barrier에 대한 공부 거리&lt;/summary>
+&lt;p>&lt;ol>
+&lt;li>Marvin Zhang, &lt;a href="https://inst.eecs.berkeley.edu/~cs61a/su16/assets/slides/09-Data_Abstraction_1pp.pdf">Lecture 9: Data Abstraction&lt;/a> CS 61A: The Structure and Interpretation of Computer Programs, Berkeley&lt;/li>
+&lt;li>Harold Abelson and Gerald Jay Sussman with Julie Sussman, &lt;a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/sicp/book/node29.html">Abstraction Barriers&lt;/a>, Introduction to Data Abstraction, Building Abstraction with Data, Structure and Interpretation
+of Computer Programs&lt;/li>
+&lt;/ol>
+&lt;/p>
+&lt;/details></description></item></channel></rss>
