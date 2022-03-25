@@ -155,30 +155,35 @@ Quiz 3
 </nav>
 <h1>Quiz 3</h1>
 <div class=article-style>
-<ol>
-<li>
 <p><a href=../quiz002>분수</a>를 수천 개 만들어 쓰는 프로그램을 짰더니 분수의 수가 늘어날수록 속도가 떨어졌습니다. 원인을 살펴보니 약분 때문이었습니다. 분자 분모가 필요할 때만 약분이 되도록 getter(또는 Selector)를 고칩니다.</p>
-<pre><code class=language-java>class 분수 {
+<pre><code class=language-Java>class 분수 {
 	public 분수(int numerator, int denominator) throws ArithmeticException {
-		// ...
+		if ( 0 == denominator ) throw new ArithmeticException( &quot;분모 0&quot; );
+		분자 = numerator; 분모 = denominator;
+		if (denominator &lt; 0) { 분자 = - numerator; 분모 = - denominator; }
 		// 약분();
 	}
 	public int getDenominator() { 약분(); return 분모; }
 	public int getNumerator() { 약분(); return 분자; }
-	// ...
+	public String toString() { return String.valueOf( 분자 ) + '/' + String.valueOf( 분모 ); }
+
+	private void 약분() {
+		int g = 최대공약수( Math.abs(분자), Math.abs(분모) );
+		{ 분자 = 분자 / g; 분모 = 분모 / g; }
+	}
+
+	private static int 최대공약수(int x, int y) { return 0 == y ? x : 최대공약수(y, x % y); }
+	private int 분모, 분자;
 }
+
+System.out.println( new 분수(2,4) ) // Jupiter Notebook에서만 
 </code></pre>
-<p>``</p>
-</li>
-<li>
-<p>분수를 쓰는 방식에 따라 미리 약분을 해두지 않는 편이 더 나을 수도 있겠지만 이 코드에는 버그가 있습니다. 왜 없던 버그가 갑자기 생겼을까요? 잘못된 부분을 고쳐 써 봅시다.</p>
-</li>
-<li>
-<p>분수의 <a href=https://course.ccs.neu.edu/cs5500f14/Notes/Testing1/abstractionBarrierAlt.html target=_blank rel=noopener>abstraction barrier</a>는 어떤 연산으로 이루어지나요? 고쳐 쓴 코드는 abstraction barrier를 무너뜨리지 않나요?</p>
-</li>
-<li>
-<p>분수의 분자 분모를 바꾸는 setter가 필요한가요? <code>setNumerator(int)</code>, <code>setDenominator(int)</code>는 분수 데이터의 abstraction barrier를 정의하는데 포함되나요?</p>
-</li>
+<pre><code>2/4
+</code></pre>
+<ol>
+<li>기약분수가 찍히지 않습니다. 코드에는 버그가 생겼습니다. 약분을 옮겼을 뿐인데 왜 없던 버그가 갑자기 생겼을까요? 잘못된 부분을 고쳐 써 봅시다.</li>
+<li>분수의 <a href=https://course.ccs.neu.edu/cs5500f14/Notes/Testing1/abstractionBarrierAlt.html target=_blank rel=noopener>abstraction barrier</a>는 어떤 연산으로 이루어지나요? 고쳐 쓴 코드는 abstraction barrier를 무너뜨리지 않나요?</li>
+<li>분수의 분자 분모를 바꾸는 setter가 필요한가요? <code>setNumerator(int)</code>, <code>setDenominator(int)</code>는 분수 데이터의 abstraction barrier를 정의하는데 포함되나요?</li>
 </ol>
 <h2 id=도움말>도움말</h2>
 <details class=spoiler id=spoiler-0>
