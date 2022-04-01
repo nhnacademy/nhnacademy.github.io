@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recent &amp; Upcoming Talks | NHN Academy</title><link>https://nhnacademy.github.io/event/</link><atom:link href="https://nhnacademy.github.io/event/index.xml" rel="self" type="application/rss+xml"/><description>Recent &amp; Upcoming Talks</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Acadmy Corp. All Rights Reserved.</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/icon_hue25167c2545ffc4140d5be92d30ef05d_49467_512x512_fill_lanczos_center_3.png</url><title>Recent &amp; Upcoming Talks</title><link>https://nhnacademy.github.io/event/</link></image><item><title>Example Talk</title><link>https://nhnacademy.github.io/talk/example-talk/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/talk/example-talk/</guid><description>&lt;div class="alert alert-note">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>새 소식 | NHN Academy</title><link>https://nhnacademy.github.io/event/</link><atom:link href="https://nhnacademy.github.io/event/index.xml" rel="self" type="application/rss+xml"/><description>새 소식</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>새 소식</title><link>https://nhnacademy.github.io/event/</link></image><item><title>경남 캠퍼스 2기 연수생 모집</title><link>https://nhnacademy.github.io/talk/%EA%B2%BD%EB%82%A8-%EC%BA%A0%ED%8D%BC%EC%8A%A4-2%EA%B8%B0-%EC%97%B0%EC%88%98%EC%83%9D-%EB%AA%A8%EC%A7%91/</link><pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/talk/%EA%B2%BD%EB%82%A8-%EC%BA%A0%ED%8D%BC%EC%8A%A4-2%EA%B8%B0-%EC%97%B0%EC%88%98%EC%83%9D-%EB%AA%A8%EC%A7%91/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
-Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
+모집 일정과 절차가 변경될 수 있습니다.
 &lt;/div>
 &lt;/div>
-&lt;p>Slides can be added in a few ways:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Create&lt;/strong> slides using Wowchemy&amp;rsquo;s &lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">&lt;em>Slides&lt;/em>&lt;/a> feature and link using &lt;code>slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
-&lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
-&lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item></channel></rss>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 경남 소재 NHN 계열사 취업을 목표로 합니다.&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Java 백엔드 개발자를 길러내는 연수 프로그램입니다.&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 모집은 4월부터 연수는 6월부터 시작됩니다.&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 기술 면접과 코딩 시험으로 연수생을 뽑습니다.&lt;/li>
+&lt;/ul></description></item></channel></rss>
