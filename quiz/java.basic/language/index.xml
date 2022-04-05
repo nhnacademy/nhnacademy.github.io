@@ -98,7 +98,7 @@ Sameness.집합크기( new HashSet(), Two.twos ); // in Jupiter Notebook
 &lt;details class="spoiler " id="spoiler-1">
 &lt;summary>분수(유리수)&lt;/summary>
 &lt;p>&lt;a href="https://commons.apache.org/proper/commons-math/">Apache Commons Math ™ &lt;/a>에 &lt;a href="https://commons.apache.org/proper/commons-math/userguide/fraction.html">Fraction&lt;/a> 클래스가 유리수(분수)를 구현합니다.&lt;/p>
-&lt;/details>&lt;/p></description></item><item><title>Quiz 3</title><link>https://nhnacademy.github.io/quiz/java.basic/language/quiz003/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/java.basic/language/quiz003/</guid><description>&lt;p>&lt;a href="../quiz002">분수&lt;/a>를 수천 개 만들어 쓰는 프로그램을 짰더니 분수의 수가 늘어날수록 속도가 떨어졌습니다. 원인을 살펴보니 약분 때문이었습니다. 분자 분모가 필요할 때만 약분이 되도록 getter(또는 Selector)를 고칩니다.&lt;/p>
+&lt;/details>&lt;/p></description></item><item><title>Quiz 3</title><link>https://nhnacademy.github.io/quiz/java.basic/language/quiz003/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/java.basic/language/quiz003/</guid><description>&lt;p>&lt;a href="../quiz002">분수&lt;/a>를 수천 개 만들어 쓰는 프로그램을 짜서 돌려 봤더니 분수의 수가 늘어날수록 속도가 떨어집니다. 분수를 만들 때마다 약분을 하기 때문입니다. 분자 분모가 필요할 때만 약분 하도록 getter(또는 Selector)를 고칩니다.&lt;/p>
 &lt;pre>&lt;code class="language-java">class 분수 {
 public 분수(int numerator, int denominator) throws ArithmeticException {
 if ( 0 == denominator ) throw new ArithmeticException( &amp;quot;분모 0&amp;quot; );
@@ -116,7 +116,7 @@ int g = 최대공약수( Math.abs(분자), Math.abs(분모) );
 private static int 최대공약수(int x, int y) { return 0 == y ? x : 최대공약수(y, x % y); }
 private int 분모, 분자;
 }
-System.out.println( new 분수(2,4) ) // Jupiter Notebook에서만
+System.out.println( new 분수(2,4) ) // Jupyter Notebook에서만
 &lt;/code>&lt;/pre>
 &lt;pre>&lt;code>2/4
 &lt;/code>&lt;/pre>
@@ -137,5 +137,52 @@ System.out.println( new 분수(2,4) ) // Jupiter Notebook에서만
 &lt;li>Harold Abelson and Gerald Jay Sussman with Julie Sussman, &lt;a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/sicp/book/node29.html">Abstraction Barriers&lt;/a>, Introduction to Data Abstraction, Building Abstraction with Data, Structure and Interpretation
 of Computer Programs&lt;/li>
 &lt;/ol>
+&lt;/p>
+&lt;/details></description></item><item><title>Quiz 4</title><link>https://nhnacademy.github.io/quiz/java.basic/language/quiz004/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/java.basic/language/quiz004/</guid><description>&lt;pre>&lt;code class="language-mermaid">classDiagram
+동물 &amp;lt;|-- 포유류
+동물 &amp;lt;|-- 새
+포유류 &amp;lt;|-- 박쥐
+새 &amp;lt;|-- 펭귄
+새 &amp;lt;|-- 참새
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-Java">class Typing {
+public static void canFly( 동물 x ) {
+System.out.println( x + (x.canFly()? &amp;quot;는(은) 날 수 있어.&amp;quot;: &amp;quot;는(은) 못 날아.&amp;quot;) );
+}
+}
+// Jupyter Notebook에서만
+Typing.canFly( new 박쥐() );
+Typing.canFly( new 펭귄() );
+Typing.canFly( new 참새() );
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>박쥐, 참새는 날 수 있으나 펭귄은 못 난다고 찍히도록 코드를 쓰세요.&lt;/li>
+&lt;li>동물이나 새를 new로 만들 수 있어야 맞나요?&lt;/li>
+&lt;li>모든 동물은 나는지 못 나는지 답할 수 있도록 기본 답변을 정의하는 게 맞나요? 아무 답도 않고 미루었다 제각기 다른 답을 하도록 정의하는 게 맞나요? 모든 새는 일단 날 수 있다고 보는 게 맞나요? 새 종류마다 따로 답하도록 미루는 게 맞나요?&lt;/li>
+&lt;li>모든 동물에게 헤엄칠 수 있는지 없는지 &lt;code>boolean canSwim()&lt;/code>으로 물을 수 있도록 코드를 고쳐 씁니다. 이런 방식의 장점 단점을 따져 봅시다. 만든 코드에는 손대지 않고 새 코드만 따로 보탤 수 있나요?&lt;/li>
+&lt;li>Java 언어에서 (abstract) class 간 extends 관계 곧 implementation inheritance는 코드를 물려 받아 고치고 늘리는 데 어떤 보탬이 되나요?&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code class="language-Java">class Typing {
+public static void canFly( CanFly x ) {
+System.out.println( x + &amp;quot;는(은) 날 수 있어.&amp;quot; );
+}
+}
+// Jupyter Notebook에서만
+Typing.canFly( new 박쥐() );
+Typing.canFly( new 참새() );
+Typing.canFly( new 펭귄() );
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>박쥐, 참새는 날 수 있지만, 펭귄은 난다 못 난다 답하기도 전에 타입 에러가 나도록 코드를 씁니다.&lt;/li>
+&lt;li>헤엄칠 수 있는 동물을 &lt;code>CanSwim&lt;/code> 타입으로 솎아낼 수 있도록 코드를 고치고 늘립니다. 물체를 갖가지 속성에 따라 분류하는 코드를 짤 때 이런 방식의 장점 단점을 따져 봅니다.&lt;/li>
+&lt;li>Java 언어에서 interface 사이의 extends, class와 interface 사이의 implements 관계 곧 interface inheritance는 코드를 물려 받아 고치고 늘리는 데 어떤 보탬이 되나요?&lt;/li>
+&lt;/ol>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>Java 언어의 abstract class, interface가 서로 같고도 다른 점이 무엇인지 또렷이 알고 제대로 쓸 수 있는지를 되새기는 문제입니다.&lt;/li>
+&lt;li>Java와 같은 언어에서 implementation inheritance( sub-classing )와 interface inheritance( sub-typing ) 관계란 것을 알고 그에 대응하는 표현 수단을 알며 장점과 단점을 이해하는 지, 그 기본을 되짚어 보는 문제입니다.&lt;/li>
+&lt;/ul>
 &lt;/p>
 &lt;/details></description></item></channel></rss>

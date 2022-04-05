@@ -7,7 +7,7 @@
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" media=print onload="this.media='all'">
-<meta name=description content="분수를 수천 개 만들어 쓰는 프로그램을 짰더니 분수의 수가 늘어날수록 속">
+<meta name=description content="분수를 수천 개 만들어 쓰는 프로그램을 짜서 돌려 봤더니 분수의 수가 늘어">
 <link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/quiz/java.basic/language/quiz003/>
 <meta name=theme-color content="#1565c0">
 <link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="NHN Academy">
 <meta property="og:url" content="https://nhnacademy.github.io/quiz/java.basic/language/quiz003/">
 <meta property="og:title" content="Quiz 3 | NHN Academy">
-<meta property="og:description" content="분수를 수천 개 만들어 쓰는 프로그램을 짰더니 분수의 수가 늘어날수록 속"><meta property="og:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png">
+<meta property="og:description" content="분수를 수천 개 만들어 쓰는 프로그램을 짜서 돌려 봤더니 분수의 수가 늘어"><meta property="og:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
 <meta property="article:published_time" content="2007-04-22T00:00:00+00:00">
 <meta property="article:modified_time" content="2007-04-22T00:00:00+00:00">
@@ -69,9 +69,6 @@
 </div>
 <div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content>
 <ul class="navbar-nav d-md-inline-flex">
-<li class=nav-item>
-<a class=nav-link href=https://nhnacademy.com/apply target=_blank rel=noopener><span>지원</span></a>
-</li>
 <li class=nav-item>
 <a class=nav-link href=/#projects><span>과정</span></a>
 </li>
@@ -120,6 +117,7 @@
 <li><a href=/quiz/java.basic/language/quiz001/>Quiz 1</a></li>
 <li><a href=/quiz/java.basic/language/quiz002/>Quiz 2</a></li>
 <li class=active><a href=/quiz/java.basic/language/quiz003/>Quiz 3</a></li>
+<li><a href=/quiz/java.basic/language/quiz004/>Quiz 4</a></li>
 </ul>
 </div>
 <div class=docs-toc-item>
@@ -171,7 +169,7 @@ Quiz 3
 </nav>
 <h1>Quiz 3</h1>
 <div class=article-style>
-<p><a href=../quiz002>분수</a>를 수천 개 만들어 쓰는 프로그램을 짰더니 분수의 수가 늘어날수록 속도가 떨어졌습니다. 원인을 살펴보니 약분 때문이었습니다. 분자 분모가 필요할 때만 약분이 되도록 getter(또는 Selector)를 고칩니다.</p>
+<p><a href=../quiz002>분수</a>를 수천 개 만들어 쓰는 프로그램을 짜서 돌려 봤더니 분수의 수가 늘어날수록 속도가 떨어집니다. 분수를 만들 때마다 약분을 하기 때문입니다. 분자 분모가 필요할 때만 약분 하도록 getter(또는 Selector)를 고칩니다.</p>
 <pre><code class=language-java>class 분수 {
 	public 분수(int numerator, int denominator) throws ArithmeticException {
 		if ( 0 == denominator ) throw new ArithmeticException( &quot;분모 0&quot; );
@@ -192,7 +190,7 @@ Quiz 3
 	private int 분모, 분자;
 }
 
-System.out.println( new 분수(2,4) ) // Jupiter Notebook에서만 
+System.out.println( new 분수(2,4) ) // Jupyter Notebook에서만 
 </code></pre>
 <pre><code>2/4
 </code></pre>
@@ -221,6 +219,10 @@ of Computer Programs</li>
 <div class=post-nav-item>
 <div class=meta-nav>Previous</div>
 <a href=/quiz/java.basic/language/quiz002/ rel=next>Quiz 2</a>
+</div>
+<div class=post-nav-item>
+<div class=meta-nav>Next</div>
+<a href=/quiz/java.basic/language/quiz004/ rel=prev>Quiz 4</a>
 </div>
 </div>
 </div>
