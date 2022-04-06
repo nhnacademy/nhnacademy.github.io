@@ -495,8 +495,11 @@ Typing.날수있니( new 펭귄() );
 &lt;/details>
 &lt;details class="spoiler " id="spoiler-1">
 &lt;summary>참고 문헌&lt;/summary>
-&lt;p>1.&lt;a href="https://www.cmi.ac.in/~madhavan/courses/pl2009/lecturenotes/lecture-notes/node28.html">Subtyping vs. inheritance&lt;/a>
-1.&lt;a href="https://counterexamples.org/subtyping-vs-inheritance.html">Subtyping vs. inheritance - Counterexamples in Type Systems&lt;/a>&lt;/p>
+&lt;p>&lt;ol>
+&lt;li>&lt;a href="https://www.cmi.ac.in/~madhavan/courses/pl2009/lecturenotes/lecture-notes/node28.html">Subtyping vs. inheritance&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://counterexamples.org/subtyping-vs-inheritance.html">Subtyping vs. inheritance - Counterexamples in Type Systems&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/p>
 &lt;/details></description></item><item><title>TIP Tracks</title><link>https://nhnacademy.github.io/project/tip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/project/tip/</guid><description>&lt;ul>
 &lt;li>&lt;a href="https://nhnacademy.github.io/courses/20_back-end-pie">NHN Practice Into Education(줄여서 PIE) 과정&lt;/a>을 이수하는데 필요한 &amp;ldquo;이론과 응용력&amp;quot;을 교육 과정으로 정의합니다.&lt;/li>
 &lt;li>2023년부터 경남 공유대학에서는 NHN Theory Into Practice(줄여서 TIP, 이전 NHN Track) 과정을 이수하고 정해진 학점 기준을 얻고 인증 시험을 거쳐서 NHN Java PIE(/courses/20_back-end-pie)의 연수 자격을 얻습니다.&lt;/li>

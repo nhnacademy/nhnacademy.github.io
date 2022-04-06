@@ -194,6 +194,9 @@ Typing.날수있니( new 펭귄() );
 &lt;/details>
 &lt;details class="spoiler " id="spoiler-1">
 &lt;summary>참고 문헌&lt;/summary>
-&lt;p>1.&lt;a href="https://www.cmi.ac.in/~madhavan/courses/pl2009/lecturenotes/lecture-notes/node28.html">Subtyping vs. inheritance&lt;/a>
-1.&lt;a href="https://counterexamples.org/subtyping-vs-inheritance.html">Subtyping vs. inheritance - Counterexamples in Type Systems&lt;/a>&lt;/p>
+&lt;p>&lt;ol>
+&lt;li>&lt;a href="https://www.cmi.ac.in/~madhavan/courses/pl2009/lecturenotes/lecture-notes/node28.html">Subtyping vs. inheritance&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://counterexamples.org/subtyping-vs-inheritance.html">Subtyping vs. inheritance - Counterexamples in Type Systems&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/p>
 &lt;/details></description></item></channel></rss>
