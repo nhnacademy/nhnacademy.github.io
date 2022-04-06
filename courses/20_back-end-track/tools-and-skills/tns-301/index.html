@@ -1,0 +1,502 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=generator content="Wowchemy 5.3.0 for Hugo">
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link rel=preload as=style href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap">
+<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" media=print onload="this.media='all'">
+<meta name=description content="학습 목적 vi editor의 사용법을 학습하고, shell script에 관">
+<link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/courses/20_back-end-track/tools-and-skills/tns-301/>
+<meta name=theme-color content="#1565c0">
+<link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
+<link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
+<link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css integrity crossorigin=anonymous media=print onload="this.media='all'">
+<link rel=stylesheet href=/css/wowchemy.806fb473a6c8572f1f43f387953b19f7.css>
+<link rel=manifest href=/manifest.webmanifest>
+<link rel=icon type=image/png href=/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_32x32_fill_lanczos_center_3.png>
+<link rel=apple-touch-icon type=image/png href=/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_180x180_fill_lanczos_center_3.png>
+<link rel=canonical href=https://nhnacademy.github.io/courses/20_back-end-track/tools-and-skills/tns-301/>
+<meta property="twitter:card" content="summary">
+<meta property="og:site_name" content="NHN Academy">
+<meta property="og:url" content="https://nhnacademy.github.io/courses/20_back-end-track/tools-and-skills/tns-301/">
+<meta property="og:title" content="3. 개발에 도움을 주는 것들 | NHN Academy">
+<meta property="og:description" content="학습 목적 vi editor의 사용법을 학습하고, shell script에 관"><meta property="og:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png">
+<meta property="twitter:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+<meta property="article:published_time" content="2022-03-27T00:00:00+00:00">
+<meta property="article:modified_time" content="2022-03-27T00:00:00+00:00">
+<script src=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin=anonymous></script>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin=anonymous>
+<script>window.addEventListener("load",function(){window.cookieconsent.initialise({palette:{popup:{background:"#1565c0",text:"rgb(255, 255, 255)"},button:{background:"rgb(255, 255, 255)",text:"#1565c0"}},theme:"classic",content:{message:"This website uses cookies to ensure you get the best experience on our website.",dismiss:"Got it!",link:"Learn more",href:"https://www.cookiesandyou.com"}})})</script>
+<title>3. 개발에 도움을 주는 것들 | NHN Academy</title>
+</head>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=61439e4bc0a748fe28aced054a54e00d>
+<script src=/js/wowchemy-init.min.da42964e270e05a6063fbca894d7ccff.js></script>
+<aside class=search-modal id=search>
+<div class=container>
+<section class=search-header>
+<div class="row no-gutters justify-content-between mb-3">
+<div class=col-6>
+<h1>Search</h1>
+</div>
+<div class="col-6 col-search-close">
+<a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a>
+</div>
+</div>
+<div id=search-box>
+<input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Search...>
+</div>
+</section>
+<section class=section-search-results>
+<div id=search-hits>
+</div>
+</section>
+</div>
+</aside>
+<div class=page-header>
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main>
+<div class=container-xl>
+<div class="d-none d-lg-inline-flex">
+<a class=navbar-brand href=/>NHN Academy</a>
+</div>
+<button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Toggle navigation">
+<span><i class="fas fa-bars"></i></span>
+</button>
+<div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+<a class=navbar-brand href=/>NHN Academy</a>
+</div>
+<div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content>
+<ul class="navbar-nav d-md-inline-flex">
+<li class=nav-item>
+<a class=nav-link href=/#projects><span>과정</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/quiz><span>퀴즈</span></a>
+</li>
+</ul>
+</div>
+<ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+<li class=nav-item>
+<a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+<div class=page-body>
+<div class="container-fluid docs">
+<div class="row flex-xl-nowrap">
+<div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+<form class="docs-search d-flex align-items-center">
+<button class="btn docs-toggle d-md-none p-0 mr-md-3 w-100" type=button data-toggle=collapse data-target=#docs-nav aria-controls=docs-nav aria-expanded=false aria-label="Toggle section navigation">
+<div class=d-flex>
+<span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
+Tools & Skills
+        
+      </span>
+<span><i class="fas fa-chevron-down"></i></span>
+</div>
+</button>
+<button class="form-control sidebar-search js-search d-none d-md-flex">
+<i class="fas fa-search pr-2"></i>
+<span class=sidebar-search-text>Search...</span>
+<span class=sidebar-search-shortcut>/</span>
+</button>
+</form>
+<nav class="collapse docs-links" id=docs-nav>
+<ul class="nav docs-sidenav">
+<li><a href=/courses/><i class="fas fa-arrow-left pr-1"></i>NHN TIPIE Tracks</a></li>
+</ul>
+<div class=docs-toc-item>
+<a class=docs-toc-link href=/courses/20_back-end-track/>Java Back-end Developer Track</a>
+<ul class="nav docs-sidenav">
+<div class=docs-toc-item>
+<a class=docs-toc-link href=/courses/20_back-end-track/tools-and-skills/>Tools & Skills</a>
+<ul class="nav docs-sidenav">
+<li><a href=/courses/20_back-end-track/tools-and-skills/tip-001/>P1. Java 프로그래밍</a></li>
+<li><a href=/courses/20_back-end-track/tools-and-skills/tip-002/>P2.JavaScript</a></li>
+<li><a href=/courses/20_back-end-track/tools-and-skills/tns-101/>1. 개발툴 익히기</a></li>
+<li><a href=/courses/20_back-end-track/tools-and-skills/tns-201/>2. 깨끗한 코드 만들기</a></li>
+<li class=active><a href=/courses/20_back-end-track/tools-and-skills/tns-301/>3. 개발에 도움을 주는 것들</a></li>
+<li><a href=/courses/20_back-end-track/tools-and-skills/tns-401/>4. Java를 이용해 간단한 통신 앱 만들기</a></li>
+<li><a href=/courses/20_back-end-track/tools-and-skills/tns-501/>5. JSP & Servlet</a></li>
+<li><a href=/courses/20_back-end-track/tools-and-skills/tns-601/>6. 데이터베이스 설계</a></li>
+<li><a href=/courses/20_back-end-track/tools-and-skills/tns-701/>7. JDBC를 이용한 데이터베이스 연동</a></li>
+<li><a href=/courses/20_back-end-track/tools-and-skills/tns-801/>8-1. Spring Framework</a></li>
+<li><a href=/courses/20_back-end-track/tools-and-skills/tns-802/>8-2. Spring MVC</a></li>
+<li><a href=/courses/20_back-end-track/tools-and-skills/tns-803/>8-3. Spring Data</a></li>
+<li><a href=/courses/20_back-end-track/tools-and-skills/tns-804/>8-4. Spring Security</a></li>
+<li><a href=/courses/20_back-end-track/tools-and-skills/tns-805/>8-5. Spring Boot</a></li>
+</ul>
+</div>
+<div class=docs-toc-item>
+<a class=docs-toc-link href=/courses/20_back-end-track/project/>Project</a>
+<ul class="nav docs-sidenav">
+<li><a href=/courses/20_back-end-track/project/project-101/>1.이메일 전송 서비스 개발</a></li>
+<li><a href=/courses/20_back-end-track/project/project-102/>2. 배달 주문 서비스 개발</a></li>
+<li><a href=/courses/20_back-end-track/project/project-103/>3. 쇼핑몰 서비스 개발</a></li>
+<li><a href=/courses/20_back-end-track/project/project-104/>4. 병원 예약 서비스 개발</a></li>
+</ul>
+</div>
+</ul>
+</div>
+</nav>
+</div>
+<div class="d-none d-xl-block col-xl-2 docs-toc">
+<ul class="nav toc-top">
+<li><a href=# id=back_to_top class=docs-toc-title>Contents</a></li>
+</ul>
+<nav id=TableOfContents>
+<ul>
+<li>
+<ul>
+<li><a href=#학습-목적>학습 목적</a></li>
+<li><a href=#구성>구성</a></li>
+<li><a href=#교재>교재</a></li>
+<li><a href=#강의-계획>강의 계획</a></li>
+<li><a href=#수행>수행</a></li>
+<li><a href=#평가>평가</a></li>
+<li><a href=#교과>교과</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role=main>
+<article class=article>
+<div class=docs-article-container>
+<nav class="d-none d-md-flex" aria-label=breadcrumb>
+<ol class=breadcrumb>
+<li class=breadcrumb-item>
+<a href=/>
+Home
+</a>
+</li>
+<li class=breadcrumb-item>
+<a href=/courses/>
+NHN TIPIE Tracks
+</a>
+</li>
+<li class=breadcrumb-item>
+<a href=/courses/20_back-end-track/>
+Java Back-end Developer Track
+</a>
+</li>
+<li class=breadcrumb-item>
+<a href=/courses/20_back-end-track/tools-and-skills/>
+Tools & Skills
+      
+    </a>
+</li>
+<li class="breadcrumb-item active" aria-current=page>
+3. 개발에 도움을 주는 것들
+</li>
+</ol>
+</nav>
+<h1>3. 개발에 도움을 주는 것들</h1>
+<div class=article-style>
+<h3 id=학습-목적>학습 목적</h3>
+<ul>
+<li>vi editor의 사용법을 학습하고, shell script에 관한 기초지식 습득을 통해 리눅스 환경에서 시스템 자원을 이용한 도구 제작 기술을 익혀 보자.</li>
+<li>웹서비스 개발자가 알면 좋은 네트워크에 대한 기본 지식을 습득하자.</li>
+<li>서비스 서버 네트워크 상태 확인을 위한 여러가지 커맨드 학습하자.</li>
+</ul>
+<h3 id=구성>구성</h3>
+<table>
+<thead>
+<tr>
+<th style=text-align:center></th>
+<th style=text-align:right></th>
+<th style=text-align:right></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=text-align:center></td>
+<td style=text-align:right>강의</td>
+<td style=text-align:right>실습</td>
+<td style=text-align:right>과제</td>
+<td style=text-align:right>시수</td>
+</tr>
+<tr>
+<td style=text-align:center>vi</td>
+<td style=text-align:right>30%</td>
+<td style=text-align:right>70%</td>
+<td style=text-align:right>0%</td>
+<td style=text-align:right>4H</td>
+</tr>
+<tr>
+<td style=text-align:center>Shell Script</td>
+<td style=text-align:right>50%</td>
+<td style=text-align:right>50%</td>
+<td style=text-align:right>0%</td>
+<td style=text-align:right>12H</td>
+</tr>
+<tr>
+<td style=text-align:center>Network 구성 및 활용</td>
+<td style=text-align:right>70%</td>
+<td style=text-align:right>30%</td>
+<td style=text-align:right>0%</td>
+<td style=text-align:right>8H</td>
+</tr>
+<tr>
+<td style=text-align:center>Linux Utilities</td>
+<td style=text-align:right>70%</td>
+<td style=text-align:right>30%</td>
+<td style=text-align:right>0%</td>
+<td style=text-align:right>8H</td>
+</tr>
+<tr>
+<td style=text-align:center>TShark</td>
+<td style=text-align:right>50%</td>
+<td style=text-align:right>50%</td>
+<td style=text-align:right>0%</td>
+<td style=text-align:right>8H</td>
+</tr>
+</tbody>
+</table>
+<h3 id=교재>교재</h3>
+<ul>
+<li>담당 교수님과 NHN Academy 가 제작한 교제</li>
+</ul>
+<h3 id=강의-계획>강의 계획</h3>
+<h4 id=1일차-vi-활용>1일차: vi 활용</h4>
+<h5 id=강의-내용>강의 내용</h5>
+<ul>
+<li>vi 역사</li>
+<li>편집 명령</li>
+<li>중급 기법 - 검색과 치환</li>
+<li>고급 기법 - 외부와의 통신, 버퍼, 맞춤설정</li>
+<li>vim 특수기능</li>
+</ul>
+<h5 id=실습-내용>실습 내용</h5>
+<ul>
+<li>Shell script 작성</li>
+</ul>
+<h4 id=2일차-shell-script-작성>2일차: Shell script 작성</h4>
+<h5 id=강의-내용-1>강의 내용</h5>
+<ul>
+<li>Bash 소개</li>
+<li>커서 이동과 기본 명령</li>
+<li>변수</li>
+<li>파일 permission</li>
+<li>제어문</li>
+<li>입출력 리다이렉트</li>
+<li>필터</li>
+<li>Alias</li>
+<li>함수</li>
+<li>Script File</li>
+<li>Job Control</li>
+<li>설정파일</li>
+<li>자주 사용하는 명령</li>
+</ul>
+<h5 id=실습-내용-1>실습 내용</h5>
+<ul>
+<li>시스템 모니터링 스크립트 작성</li>
+</ul>
+<h4 id=3일차-네트워크-구성-및-활용>3일차: 네트워크 구성 및 활용</h4>
+<h5 id=강의-내용-2>강의 내용</h5>
+<ul>
+<li>
+<p>패킷 네트워크</p>
+</li>
+<li>
+<p>Protocol Stack</p>
+<ul>
+<li>OSI 7 layers</li>
+<li>Protocols( Ethernet, IPv4, UDP, TCP, ICMP, DNS, HTTP)</li>
+</ul>
+</li>
+<li>
+<p>물리 구성</p>
+<ul>
+<li>라우터</li>
+<li>스위치</li>
+<li>허브</li>
+</ul>
+</li>
+<li>
+<p>NAT</p>
+</li>
+<li>
+<p>로드밸런서</p>
+<ul>
+<li>L4, L7</li>
+<li>proxy (inline)</li>
+<li>DSR</li>
+</ul>
+</li>
+</ul>
+<h4 id=4일차-유용한-linux-utilities-활용>4일차: 유용한 Linux Utilities 활용</h4>
+<h5 id=강의-내용-3>강의 내용</h5>
+<ul>
+<li>
+<p>System 관리 툴</p>
+<ul>
+<li>top</li>
+<li>free</li>
+<li>du</li>
+</ul>
+</li>
+<li>
+<p>Network 관리 툴</p>
+<ul>
+<li>ifconfig</li>
+<li>netstat (ss)</li>
+<li>ping</li>
+<li>traceroute</li>
+<li>nslookup (dig)</li>
+<li>whois</li>
+<li>tcpdump (tshark)</li>
+<li>iptables</li>
+<li>nc</li>
+</ul>
+</li>
+<li>
+<p>텍스트 처리 툴</p>
+<ul>
+<li>cat</li>
+<li>grep</li>
+<li>awk</li>
+</ul>
+</li>
+</ul>
+<h5 id=실습-내용-2>실습 내용</h5>
+<ul>
+<li>Network 관리 툴을 이용한 상태 확인</li>
+</ul>
+<h4 id=5일차-tshark>5일차: TShark</h4>
+<ul>
+<li>강의 내용</li>
+<li>실습 내용</li>
+</ul>
+<h3 id=수행>수행</h3>
+<ul>
+<li>Linux Shell 환경에서 정보 수집</li>
+<li>시스템 모니터링 보고서 작성</li>
+<li>패킷 캡쳐 후 분석 보고서 작성</li>
+</ul>
+<h3 id=평가>평가</h3>
+<ul>
+<li>보고서</li>
+</ul>
+<h3 id=교과>교과</h3>
+<ul>
+<li>PIE.Tools.Common.Linux.SHELL-SCRIPT</li>
+<li>PIE.Tools.Common.Linux.VI</li>
+<li>PIE.Tools.Common.Linux.UTILITIES</li>
+<li>TIP.Common.Network.PROTOCOL</li>
+<li>TIP.Common.Network.ARCHITECTURE</li>
+<li>PIE.Tools.Common.Analysis.TSHARK</li>
+</ul>
+</div>
+<div class=article-widget>
+<div class=post-nav>
+<div class=post-nav-item>
+<div class=meta-nav>Previous</div>
+<a href=/courses/20_back-end-track/tools-and-skills/tns-201/ rel=next>2. 깨끗한 코드 만들기</a>
+</div>
+<div class=post-nav-item>
+<div class=meta-nav>Next</div>
+<a href=/courses/20_back-end-track/tools-and-skills/tns-401/ rel=prev>4. Java를 이용해 간단한 통신 앱 만들기</a>
+</div>
+</div>
+</div>
+</div>
+<div class=body-footer>
+<p>Last updated on 2022년 03월 27일</p>
+</div>
+</article>
+<footer class=site-footer>
+<p class=powered-by>
+© 2021-2022 NHN Academy Corp. All Rights Reserved.
+</p>
+<p class=powered-by>
+<span class=float-right aria-hidden=true>
+<a href=# class=back-to-top>
+<span class=button_icon>
+<i class="fas fa-chevron-up fa-2x"></i>
+</a>
+</p>
+</footer>
+</main>
+</div>
+</div>
+</div>
+<div class=page-footer>
+</div>
+<div id=modal class="modal fade" role=dialog>
+<div class=modal-dialog>
+<div class=modal-content>
+<div class=modal-header>
+<h5 class=modal-title>Cite</h5>
+<button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span>
+</button>
+</div>
+<div class=modal-body>
+<pre><code class="tex hljs"></code></pre>
+</div>
+<div class=modal-footer>
+<a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank>
+<i class="fas fa-copy"></i> Copy
+</a>
+<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank>
+<i class="fas fa-download"></i> Download
+</a>
+<div id=modal-error></div>
+</div>
+</div>
+</div>
+</div>
+<script src=/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js></script>
+<script src=https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/python.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/sh.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/bash.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/makefile.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/c-like.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/cpp.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/java.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/ruby.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/julia.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/javascript.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/haskell.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/scheme.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/lisp.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/coffeescript.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/go.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/markdown.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/css.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/xml.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/yaml.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/toml.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/dockerfile.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js integrity crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/bryanbraun/anchorjs@4.2.2/anchor.min.js integrity="sha512-I7w3ZdSFzw5j3jU3ZkNikBNeIrl3i+hEuEdwNmqUJvwNcaBUNcijnP2gd9DtGlgVYDplfjGoD8vTNsID+lCjqg==" crossorigin=anonymous></script>
+<script>anchors.add()</script>
+<script id=search-hit-fuse-template type=text/x-template>
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+<script src=https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin=anonymous></script>
+<script src=/en/js/wowchemy.min.7cd6ec29d281a73c92a2958a1584aadc.js></script>
+<script async defer src=https://buttons.github.io/buttons.js></script>
+</body>
+</html>
