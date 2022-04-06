@@ -139,50 +139,61 @@ of Computer Programs&lt;/li>
 &lt;/ol>
 &lt;/p>
 &lt;/details></description></item><item><title>Quiz 4</title><link>https://nhnacademy.github.io/quiz/java.basic/language/quiz004/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/java.basic/language/quiz004/</guid><description>&lt;pre>&lt;code class="language-mermaid">classDiagram
-동물 &amp;lt;|-- 포유류
+동물 &amp;lt;|-- 젖먹이동물
 동물 &amp;lt;|-- 새
-포유류 &amp;lt;|-- 박쥐
+젖먹이동물 &amp;lt;|-- 박쥐
 새 &amp;lt;|-- 펭귄
 새 &amp;lt;|-- 참새
 &lt;/code>&lt;/pre>
-&lt;pre>&lt;code class="language-Java">class Typing {
-public static void canFly( 동물 x ) {
-System.out.println( x + (x.canFly()? &amp;quot;는(은) 날 수 있어.&amp;quot;: &amp;quot;는(은) 못 날아.&amp;quot;) );
+&lt;pre>&lt;code class="language-java">abstract class 동물 {
+public String type() {
+return this.getClass().getSimpleName();
+}
+}
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-java">class Typing {
+public static void 날수있니( 동물 x ) {
+System.out.println( x.type() + (x.날수있니()? &amp;quot;는(은) 날 수 있어.&amp;quot;: &amp;quot;는(은) 못날아.&amp;quot;) );
 }
 }
 // Jupyter Notebook에서만
-Typing.canFly( new 박쥐() );
-Typing.canFly( new 펭귄() );
-Typing.canFly( new 참새() );
+Typing.날수있니( new 박쥐() );
+Typing.날수있니( new 펭귄() );
+Typing.날수있니( new 참새() );
 &lt;/code>&lt;/pre>
 &lt;ol>
-&lt;li>박쥐, 참새는 날 수 있으나 펭귄은 못 난다고 찍히도록 코드를 쓰세요.&lt;/li>
-&lt;li>동물이나 새를 new로 만들 수 있어야 맞나요?&lt;/li>
-&lt;li>모든 동물은 나는지 못 나는지 답할 수 있도록 기본 답변을 정의하는 게 맞나요? 아무 답도 않고 미루었다 제각기 다른 답을 하도록 정의하는 게 맞나요? 모든 새는 일단 날 수 있다고 보는 게 맞나요? 새 종류마다 따로 답하도록 미루는 게 맞나요?&lt;/li>
-&lt;li>모든 동물에게 헤엄칠 수 있는지 없는지 &lt;code>boolean canSwim()&lt;/code>으로 물을 수 있도록 코드를 고쳐 씁니다. 이런 방식의 장점 단점을 따져 봅시다. 만든 코드에는 손대지 않고 새 코드만 따로 보탤 수 있나요?&lt;/li>
-&lt;li>Java 언어에서 (abstract) class 간 extends 관계 곧 implementation inheritance는 코드를 물려 받아 고치고 늘리는 데 어떤 보탬이 되나요?&lt;/li>
+&lt;li>박쥐, 참새는 날 수 있으나 펭귄은 못난다고 찍히도록 코드를 적습니다.&lt;/li>
+&lt;li>동물을 interface로 정의하세요. 무엇이 더 알맞은 표현인가요?&lt;/li>
+&lt;li>모든 동물에게 &lt;code>boolean 헤엄칠수있니()&lt;/code>를 물어볼 수 있도록 코드를 늘립니다.
+이렇게 연산을 새로 보태는 일에 inheritance와 method overriding은 어떤 도움을 주나요?&lt;/li>
 &lt;/ol>
-&lt;pre>&lt;code class="language-Java">class Typing {
-public static void canFly( CanFly x ) {
+&lt;pre>&lt;code class="language-java">class Typing {
+public static void 날수있니( 날수있는 x ) {
 System.out.println( x + &amp;quot;는(은) 날 수 있어.&amp;quot; );
 }
 }
 // Jupyter Notebook에서만
-Typing.canFly( new 박쥐() );
-Typing.canFly( new 참새() );
-Typing.canFly( new 펭귄() );
+Typing.날수있니( new 박쥐() );
+Typing.날수있니( new 참새() );
+Typing.날수있니( new 펭귄() );
 &lt;/code>&lt;/pre>
 &lt;ol>
-&lt;li>박쥐, 참새는 날 수 있지만, 펭귄은 난다 못 난다 답하기도 전에 타입 에러가 나도록 코드를 씁니다.&lt;/li>
-&lt;li>헤엄칠 수 있는 동물을 &lt;code>CanSwim&lt;/code> 타입으로 솎아낼 수 있도록 코드를 고치고 늘립니다. 물체를 갖가지 속성에 따라 분류하는 코드를 짤 때 이런 방식의 장점 단점을 따져 봅니다.&lt;/li>
-&lt;li>Java 언어에서 interface 사이의 extends, class와 interface 사이의 implements 관계 곧 interface inheritance는 코드를 물려 받아 고치고 늘리는 데 어떤 보탬이 되나요?&lt;/li>
+&lt;li>박쥐, 참새는 날 수 있지만, 펭귄은 &lt;code>날수있는&lt;/code> 타입이 아니라는 에러가 나게 코드를 고칩니다.&lt;/li>
+&lt;li>동물을 interface로 정의해도 되나요?&lt;/li>
+&lt;li>동물을 &lt;code>헤엄치는&lt;/code> 타입으로 분류할 수 있게끔 코드를 쓰세요. 이렇게 타입을 새로 보태는 일에 interface는 어떤 도움이 되나요?&lt;/li>
 &lt;/ol>
 &lt;h2 id="도움말">도움말&lt;/h2>
 &lt;details class="spoiler " id="spoiler-0">
 &lt;summary>귀띔&lt;/summary>
 &lt;p>&lt;ul>
-&lt;li>Java 언어의 abstract class, interface가 서로 같고도 다른 점이 무엇인지 또렷이 알고 제대로 쓸 수 있는지를 되새기는 문제입니다.&lt;/li>
-&lt;li>Java와 같은 언어에서 implementation inheritance( sub-classing )와 interface inheritance( sub-typing ) 관계란 것을 알고 그에 대응하는 표현 수단을 알며 장점과 단점을 이해하는 지, 그 기본을 되짚어 보는 문제입니다.&lt;/li>
+&lt;li>Java 언어의 abstract class, abstract method, interface, default method가 서로 같고도 다른 점이 무엇인지 또렷이 알고 제대로 쓸 수 있는지를 정리해보는 문제입니다.&lt;/li>
+&lt;li>상속 곧 구현을 빌어오는 class 관계를 두고 subclassing이라고 하고 A class의 구현을 B class 내려받으면 B는 A의 subclass라고 합니다. 이와 달리 A class가 따르는 모든 조건 곧 타입을 B class 역시 모두 따르기 때문에 A가 필요한 모든 문맥에서 B가 A를 맞바꿀 수 있는 class 관계를 두고 subtyping이리고 하는데, 이때 B는 A의 subtype이라고 합니다. 글에 따라서는 subclassing을 implementation inheritance, subtyping을 interface inheritance라고 일컫기도 합니다. 하지만 subtyping은 type compatibility 관계를 규정하는 표현으로 코드를 복제하는 inheritance와는 아무런 관계가 없으니 두 낱말을 뒤섞어 쓰지 않는 것이 바람직합니다. 흔히 Object-Oriented Programming(OOP)이라고 일컫는 프로그래밍 스타일에서 코드의 되 쓰임새가 높아지는 이유는 바로, subtyping 관계로부터 함수의 인자 type에 polymorphism이 따라오고 이로부터 함수 코드가 일반성(genericity) 갖추게 되는 데 있습니다. 이런 목적을 이루는데 상속은 그다지 도움이 되지 않습니다.&lt;/li>
+&lt;li>분별없이 쓰는 혼잡한 용어를 정리하고 간결하고 또렷이 개념을 잡는 것이 되 쓰임새가 뛰어난 프로그램을 설계하는데 중요할 때가 있습니다. 이 문제는 그런 공부에 도움이 됩니다.&lt;/li>
 &lt;/ul>
 &lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>참고 문헌&lt;/summary>
+&lt;p>1.&lt;a href="https://www.cmi.ac.in/~madhavan/courses/pl2009/lecturenotes/lecture-notes/node28.html">Subtyping vs. inheritance&lt;/a>
+1.&lt;a href="https://counterexamples.org/subtyping-vs-inheritance.html">Subtyping vs. inheritance - Counterexamples in Type Systems&lt;/a>&lt;/p>
 &lt;/details></description></item></channel></rss>
