@@ -194,7 +194,7 @@ A의 subclass라고 합니다. 이와 달리 A class가 따르는 모든 조건 
 일부에서는 subclassing을 implementation inheritance, subtyping을 interface
 inheritance라고 일컫기도 합니다. 하지만 subtyping은 type compatibility 관계를 규정하는 표현으로, 코드를
 복제하는 inheritance와는 아무런 관계가 없으니 두 낱말을 뒤섞어 쓰지 않는 것이 바람직합니다. 흔히 Object-Oriented
-Programming(OOP)이라고 일컫는 프로그래밍 스타일에서 주목하는 ***되 쓰임새(reusability)***란 subtyping 관계를 고려하여 설계된 코드의 일반성(genericity)을 말합니다.&lt;/li>
+Programming(OOP)이라고 일컫는 프로그래밍 스타일에서 주목하는 &lt;strong>되 쓰임새(reusability)란&lt;/strong> subtyping 관계를 고려하여 설계된 코드의 일반성(genericity)을 말합니다.&lt;/li>
 &lt;li>분별없이 쓰는 혼잡한 용어를 정리하고 간결하고 또렷이 개념을 잡는 것이 되 쓰임새가 뛰어난 프로그램을 설계하는데 중요할 때가 있습니다.
 이 문제는 그런 공부에 도움이 됩니다.&lt;/li>
 &lt;/ul>
