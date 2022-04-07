@@ -186,9 +186,17 @@ Typing.날수있니( new 펭귄() );
 &lt;details class="spoiler " id="spoiler-0">
 &lt;summary>귀띔&lt;/summary>
 &lt;p>&lt;ul>
-&lt;li>Java 언어의 abstract class, abstract method, interface, default method가 서로 같고도 다른 점이 무엇인지 또렷이 알고 제대로 쓸 수 있는지를 정리해보는 문제입니다.&lt;/li>
-&lt;li>상속 곧 구현을 빌어오는 class 관계를 두고 subclassing이라고 하고 A class의 구현을 B class 내려받으면 B는 A의 subclass라고 합니다. 이와 달리 A class가 따르는 모든 조건 곧 타입을 B class 역시 모두 따르기 때문에 A가 필요한 모든 문맥에서 B가 A를 맞바꿀 수 있는 class 관계를 두고 subtyping이리고 하는데, 이때 B는 A의 subtype이라고 합니다. 글에 따라서는 subclassing을 implementation inheritance, subtyping을 interface inheritance라고 일컫기도 합니다. 하지만 subtyping은 type compatibility 관계를 규정하는 표현으로 코드를 복제하는 inheritance와는 아무런 관계가 없으니 두 낱말을 뒤섞어 쓰지 않는 것이 바람직합니다. 흔히 Object-Oriented Programming(OOP)이라고 일컫는 프로그래밍 스타일에서 코드의 되 쓰임새가 높아지는 이유는 바로, subtyping 관계로부터 함수의 인자 type에 polymorphism이 따라오고 이로부터 함수 코드가 일반성(genericity) 갖추게 되는 데 있습니다. 이런 목적을 이루는데 상속은 그다지 도움이 되지 않습니다.&lt;/li>
-&lt;li>분별없이 쓰는 혼잡한 용어를 정리하고 간결하고 또렷이 개념을 잡는 것이 되 쓰임새가 뛰어난 프로그램을 설계하는데 중요할 때가 있습니다. 이 문제는 그런 공부에 도움이 됩니다.&lt;/li>
+&lt;li>Java 언어의 abstract class, abstract method, interface, default method가 서로 같고도 다른
+점이 무엇인지 또렷이 알고 제대로 쓸 수 있는지를 정리해보는 문제입니다.&lt;/li>
+&lt;li>상속 곧 구현을 빌어오는 class 관계를 두고 subclassing이라고 하고 A class의 구현을 B class가 내려받으면 B는
+A의 subclass라고 합니다. 이와 달리 A class가 따르는 모든 조건 곧 타입을 B class 역시 모두 따르기 때문에 A가 필요한
+모든 코드 문맥에서 B가 A를 맞바꿀 수 있는 class 관계를 두고 subtyping이라고 하는데, 이때 B는 A의 subtype이라고 합니다.
+일부에서는 subclassing을 implementation inheritance, subtyping을 interface
+inheritance라고 일컫기도 합니다. 하지만 subtyping은 type compatibility 관계를 규정하는 표현으로, 코드를
+복제하는 inheritance와는 아무런 관계가 없으니 두 낱말을 뒤섞어 쓰지 않는 것이 바람직합니다. 흔히 Object-Oriented
+Programming(OOP)이라고 일컫는 프로그래밍 스타일에서 주목하는 ***되 쓰임새(reusability)***란 subtyping 관계를 고려하여 설계된 코드의 일반성(genericity)을 말합니다.&lt;/li>
+&lt;li>분별없이 쓰는 혼잡한 용어를 정리하고 간결하고 또렷이 개념을 잡는 것이 되 쓰임새가 뛰어난 프로그램을 설계하는데 중요할 때가 있습니다.
+이 문제는 그런 공부에 도움이 됩니다.&lt;/li>
 &lt;/ul>
 &lt;/p>
 &lt;/details>
