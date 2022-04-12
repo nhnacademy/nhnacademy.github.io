@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>__xtras | NHN Academy</title><link>https://nhnacademy.github.io/__xtra/</link><atom:link href="https://nhnacademy.github.io/__xtra/index.xml" rel="self" type="application/rss+xml"/><description>__xtras</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Sun, 27 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>__xtras</title><link>https://nhnacademy.github.io/__xtra/</link></image><item><title>Java 프로그래밍 언어</title><link>https://nhnacademy.github.io/__xtra/basic/tip-001/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/basic/tip-001/</guid><description>&lt;h2 id="학습-목적">학습 목적&lt;/h2>
+&lt;h2 id="구성">구성&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">&lt;/th>
+&lt;th style="text-align:right">&lt;/th>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:right">강의&lt;/td>
+&lt;td style="text-align:right">실습&lt;/td>
+&lt;td style="text-align:right">과제&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:right">40%&lt;/td>
+&lt;td style="text-align:right">40%&lt;/td>
+&lt;td style="text-align:right">20%&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="교재">교재&lt;/h2>
+&lt;ul>
+&lt;li>주 교재: 담당 교수와 NHN Academy가 제작한 강의 교재&lt;/li>
+&lt;li>부 교재: Java의 정석 3판&lt;/li>
+&lt;/ul>
+&lt;h2 id="강의-계획">강의 계획&lt;/h2>
+&lt;h3 id="1일차-hello-world">1일차: Hello, World!&lt;/h3>
+&lt;p>즐거운 마음으로 자바의 세계로 오세요.&lt;/p>
+&lt;h4 id="강의-내용">강의 내용&lt;/h4>
+&lt;ul>
+&lt;li>자바 프로그래밍 환경 준비&lt;/li>
+&lt;li>Hello, World! 출력&lt;/li>
+&lt;li>Java Progamming Language&lt;/li>
+&lt;li>변수&lt;/li>
+&lt;li>연산자&lt;/li>
+&lt;/ul>
+&lt;h4 id="실습-내용">실습 내용&lt;/h4>
+&lt;ul>
+&lt;li>자바의 변수와 연산자를 활용할 수 있는 다양햔 실습을 진행해요&lt;/li>
+&lt;li>자바와 관련된 리포트를 제출해요.&lt;/li>
+&lt;/ul>
+&lt;h3 id="2일차-조건과-반복">2일차: 조건과 반복&lt;/h3>
+&lt;p>프로그래밍의 기본에 되는 각종 제어문을 배워요.&lt;/p>
+&lt;h4 id="강의-내용-1">강의 내용&lt;/h4>
+&lt;ul>
+&lt;li>조건문&lt;/li>
+&lt;li>반복문&lt;/li>
+&lt;li>배열&lt;/li>
+&lt;/ul>
+&lt;h4 id="실습-내용-1">실습 내용&lt;/h4>
+&lt;ul>
+&lt;li>강의 내용을 바탕으로 다양한 게임과 함수를 작성해요.&lt;/li>
+&lt;/ul>
+&lt;h3 id="3일차-객체지향-프로그래밍-1">3일차: 객체지향 프로그래밍 1&lt;/h3>
+&lt;p>객체지향의 기본을 자바를 통해서 배워요.&lt;/p>
+&lt;h4 id="강의-내용-2">강의 내용&lt;/h4>
+&lt;ul>
+&lt;li>클래스와 객체&lt;/li>
+&lt;li>속성과 행위 (변수와 메서드)&lt;/li>
+&lt;li>오버로딩&lt;/li>
+&lt;li>생성자&lt;/li>
+&lt;li>초기화&lt;/li>
+&lt;/ul>
+&lt;h4 id="실습-내용-2">실습 내용&lt;/h4>
+&lt;ul>
+&lt;li>스토리라인이 있으며 객체지향의 기본을 활용할 수 있는 실습을 진행해요. ex) *** 프로그램 작성&lt;/li>
+&lt;/ul>
+&lt;h3 id="4일차-객체-지향-프로그래밍-2">4일차: 객체 지향 프로그래밍 2&lt;/h3>
+&lt;p>객체지향의 핵심을 자바를 통해서 배워요.&lt;/p>
+&lt;h4 id="강의-내용-3">강의 내용&lt;/h4>
+&lt;ul>
+&lt;li>상속&lt;/li>
+&lt;li>오버라이딩(재정의)&lt;/li>
+&lt;li>패키지와 import&lt;/li>
+&lt;li>제어자&lt;/li>
+&lt;li>다형성&lt;/li>
+&lt;li>추상클래스&lt;/li>
+&lt;li>인터페이스&lt;/li>
+&lt;li>중첩클래스&lt;/li>
+&lt;/ul>
+&lt;h4 id="실습-내용-3">실습 내용&lt;/h4>
+&lt;ul>
+&lt;li>객체지향프로그램을 응용하는 실습을 전날에 이어서 진행해요.&lt;/li>
+&lt;/ul>
+&lt;h3 id="5일차-java의-기본-api와-예외-처리">5일차: java의 기본 API와 예외 처리&lt;/h3>
+&lt;p>자바의 기본이 되는 api와 예외 처리를 배워요.&lt;/p>
+&lt;h4 id="강의-내용-4">강의 내용&lt;/h4>
+&lt;ul>
+&lt;li>Object, String,StringBuilder, Math, 레퍼클래스&lt;/li>
+&lt;li>Error과 Exception, 예외 계층구조, checked exception, try-catch, finally, try-with-resources&lt;/li>
+&lt;/ul>
+&lt;h4 id="--실습-내용">- 실습 내용&lt;/h4>
+&lt;ul>
+&lt;li>자바의 기본이 되는 유틸들과 예외처리를 다양한 실습을 통해서 익혀요.&lt;/li>
+&lt;/ul>
+&lt;h3 id="6일차-더-많은-api를-배우자">6일차: 더 많은 API를 배우자&lt;/h3>
+&lt;p>자바에서 많이 사용하는 api를 배워요.&lt;/p>
+&lt;h4 id="강의-내용-5">강의 내용&lt;/h4>
+&lt;ul>
+&lt;li>Objects, Random, java.util.regex, Scanner, StringTokenizer, BigInteger, BigDecimal&lt;/li>
+&lt;li>Calendar, Date, *Format, java.time&lt;/li>
+&lt;/ul>
+&lt;h4 id="실습-내용-4">실습 내용&lt;/h4>
+&lt;ul>
+&lt;li>주로 수치와 수량 그리고 표현과 관련된 다양한 실습이 준비되어 있어요&lt;/li>
+&lt;/ul>
+&lt;h3 id="7일차-collection-framework">7일차: Collection Framework&lt;/h3>
+&lt;p>자바에서 다양한 자료구조를 표현하는 Collection Framework를 배워요.&lt;/p>
+&lt;h4 id="강의-내용-6">강의 내용&lt;/h4>
+&lt;ul>
+&lt;li>Collection&lt;/li>
+&lt;li>List&lt;/li>
+&lt;li>Set&lt;/li>
+&lt;li>Map&lt;/li>
+&lt;li>대소 비교와 정렬&lt;/li>
+&lt;/ul>
+&lt;h4 id="실습-내용-5">실습 내용&lt;/h4>
+&lt;ul>
+&lt;li>기존의 실습에 Collection Framework를 적용해요.&lt;/li>
+&lt;li>그 외에도 자바에서 자료구조를 배울 수 있는 다양한 실습이 준비되어 있어요.&lt;/li>
+&lt;/ul>
+&lt;h3 id="8일차-제네릭-열거형-애노테이션-쓰레드threadlocal">8일차: 제네릭, 열거형, 애노테이션, 쓰레드(Threadlocal)&lt;/h3>
+&lt;p>java 1.5에서 추가된 새로운 기술들을 배워요. 그리고 쓰레드까지 알아보아요.&lt;/p>
+&lt;h4 id="강의-내용-7">강의 내용&lt;/h4>
+&lt;ul>
+&lt;li>제네릭, 열거형, 애노테이션&lt;/li>
+&lt;li>프로세스와 쓰레드, 쓰레드 구현과 제어&lt;/li>
+&lt;li>멀티쓰레드&lt;/li>
+&lt;li>쓰레드 동기화&lt;/li>
+&lt;/ul>
+&lt;h4 id="실습-내용-6">실습 내용&lt;/h4>
+&lt;ul>
+&lt;li>이번 장에서 배운 내용을 기존 실습에 확장해서 적용해요.&lt;/li>
+&lt;li>쓰레드와 동기화를 쉽게 익힐 수 있는 다양한 실습도 준비되어 있어요.&lt;/li>
+&lt;/ul>
+&lt;h3 id="9일차람다와-스트림-io-1표준-입출력과-파일">9일차:람다와 스트림, I/O 1(표준 입출력과 파일)&lt;/h3>
+&lt;p>java 1.8에서 추가된 람다와 스트림을 알아보아요.
+그리고 기본적인 I/O도 배워요.&lt;/p>
+&lt;h4 id="강의-내용-8">강의 내용&lt;/h4>
+&lt;ul>
+&lt;li>함수형 인터페이스, &amp;lsquo;java.util.function&amp;rsquo;&lt;/li>
+&lt;li>함수의 합성과 결합, 메소드 참조&lt;/li>
+&lt;li>stream(), map(), filter(). match(). collect(),&lt;/li>
+&lt;li>&amp;lsquo;Optional&amp;rsquo;&lt;/li>
+&lt;/ul>
+&lt;h4 id="실습-내용-7">실습 내용&lt;/h4>
+&lt;ul>
+&lt;li>람다와 스트림을 통해서 함수형으로 구현하는 실습을 배워요.&lt;/li>
+&lt;li>I/O를 이용해서 프로그램에 불러오기/저장하기 기능을 구현해요.&lt;/li>
+&lt;/ul>
+&lt;h3 id="5일차-io-2-networking">5일차: I/O 2, Networking&lt;/h3>
+&lt;p>자바로 네트워크를 다루는 법을 배워요.&lt;/p>
+&lt;h4 id="강의-내용-9">강의 내용&lt;/h4>
+&lt;ul>
+&lt;li>I/O: 바이트 기반 스트림, 문자열 기반 스트림, 직렬화&lt;/li>
+&lt;li>네트워킹: InetAddress, URLConnection, 소켓 프로그래밍(TCP)&lt;/li>
+&lt;/ul>
+&lt;h4 id="실습-내용-8">실습 내용&lt;/h4>
+&lt;ul>
+&lt;li>드디어 네트워크를 기반으로하는 채팅과 같은 실습을 할 수 있어요.&lt;/li>
+&lt;/ul>
+&lt;h2 id="교과">교과&lt;/h2>
+&lt;ul>
+&lt;li>TIP.Programming.JAVA&lt;/li>
+&lt;/ul></description></item><item><title>P2.JavaScript</title><link>https://nhnacademy.github.io/__xtra/basic/tip-002/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/basic/tip-002/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;ul>
+&lt;li>웹 페이지를 브라우저에 표시하는데 사용되는 인터넷 프로토콜인 HTTP에 대해서 이해하고, 웹 응용 프로그램에서 사용자 브라우저에서 동작하는 기술인 HTML, CSS 및 JavaScript를 학습하여 웹 페이지를 제작하는 방법과 이를 구조화 하는 방법 및 사용자와 상호작용하는 웹 페이지를 제작하는 능력을 익힌다.
+&lt;ul>
+&lt;li>웹 서비스와 HTTP 프로토콜의 이해&lt;/li>
+&lt;li>HTML 언어의 구조와 HTML5 태그를 사용하여 웹 페이지를 제작하는 방법 숙지&lt;/li>
+&lt;li>CSS3를 사용하여 반응형 웹페이지 등 계층화되고 구조화된 웹 페이지 제작&lt;/li>
+&lt;li>JavaScript를 사용하여 사용자와 상호작용하는 웹 페이지를 제작&lt;/li>
+&lt;li>공개된 API를 구독하여 웹 페이지에 표시하는 방법 숙지&lt;/li>
+&lt;li>HTML Canvas를 이용하여 웹 페이지에 그림과 그래프 그리기&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="구성">구성&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">&lt;/th>
+&lt;th style="text-align:right">&lt;/th>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:right">강의&lt;/td>
+&lt;td style="text-align:right">실습&lt;/td>
+&lt;td style="text-align:right">과제&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:right">40%&lt;/td>
+&lt;td style="text-align:right">30%&lt;/td>
+&lt;td style="text-align:right">20%&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="교재">교재&lt;/h3>
+&lt;ul>
+&lt;li>주교재: 담당 교수와 NHN Academy가 제작한 강의 교재&lt;/li>
+&lt;li>부교재: HTML + CSS + 자바스크립트를 모두 설명할 수 있는 적당한 시중 서적&lt;/li>
+&lt;/ul>
+&lt;h3 id="강의-계획">강의 계획&lt;/h3>
+&lt;h4 id="1일차-http-개요-및-html-기본">1일차: HTTP 개요 및 HTML 기본&lt;/h4>
+&lt;h5 id="강의-내용">강의 내용&lt;/h5>
+&lt;ul>
+&lt;li>HTTP의 역사와 동작 방식&lt;/li>
+&lt;li>간단한 HTTP 테스트&lt;/li>
+&lt;li>HTTP Request와 Response&lt;/li>
+&lt;li>Header, Method, Status code&lt;/li>
+&lt;li>HTML의 역사와 HTML5&lt;/li>
+&lt;li>Element와 Attributes&lt;/li>
+&lt;li>HTML 문서 구조&lt;/li>
+&lt;li>HTML 메타 데이터&lt;/li>
+&lt;li>HTML 텍스트, 하이퍼 링크&lt;/li>
+&lt;/ul>
+&lt;h5 id="실습-내용">실습 내용&lt;/h5>
+&lt;ul>
+&lt;li>간단한 웹 서버를 만들어 실행하고 HTTP 테스트&lt;/li>
+&lt;li>HTML의 기초 태그들을 사용하여 정해진 포맷의 문서 생성&lt;/li>
+&lt;/ul>
+&lt;h4 id="2일차-html과-css">2일차: HTML과 CSS&lt;/h4>
+&lt;h5 id="강의-내용-1">강의 내용&lt;/h5>
+&lt;ul>
+&lt;li>HTML 레이아웃&lt;/li>
+&lt;li>HTML 구조화와 디버깅&lt;/li>
+&lt;li>CSS를 이용한 HTML 스타일 지정&lt;/li>
+&lt;li>CSS 박스 모델&lt;/li>
+&lt;/ul>
+&lt;h5 id="실습-내용-1">실습 내용&lt;/h5>
+&lt;ul>
+&lt;li>CSS 스타일이 적용된 HTML 문서 작성&lt;/li>
+&lt;li>동적 웹 페이지 작성&lt;/li>
+&lt;/ul>
+&lt;h4 id="3일차-css-javascript">3일차: CSS, JavaScript&lt;/h4>
+&lt;h5 id="강의-내용-2">강의 내용&lt;/h5>
+&lt;ul>
+&lt;li>CSS 선택자&lt;/li>
+&lt;li>CSS를 이용한 트랜지션과 애니메이션&lt;/li>
+&lt;li>반응형 웹과 미디어 쿼리&lt;/li>
+&lt;li>JavaScript의 역사&lt;/li>
+&lt;li>JavaScript 변수, 자료형, 연산자, 조건문, 반복문&lt;/li>
+&lt;li>JavaScript 함수&lt;/li>
+&lt;li>함수 표현식&lt;/li>
+&lt;/ul>
+&lt;h5 id="실습-내용-2">실습 내용&lt;/h5>
+&lt;ul>
+&lt;li>반응형 웹 페이지 작성&lt;/li>
+&lt;li>JavaScript에서 Stack, Queue, Linked list, Tree, Map 사용&lt;/li>
+&lt;/ul>
+&lt;h4 id="4일차-javascript">4일차: JavaScript&lt;/h4>
+&lt;h5 id="강의-내용-3">강의 내용&lt;/h5>
+&lt;ul>
+&lt;li>JavaScript 이벤트와 이벤트 핸들러&lt;/li>
+&lt;li>JavaScript 객체&lt;/li>
+&lt;li>JavaScript 내장 객체와 브라우저 지원 객체&lt;/li>
+&lt;li>Document Object Model&lt;/li>
+&lt;li>DOM을 이용한 이벤트 처리&lt;/li>
+&lt;li>비동기 호출과 Proimse&lt;/li>
+&lt;/ul>
+&lt;h4 id="실습-내용-3">실습 내용&lt;/h4>
+&lt;ul>
+&lt;li>DOM 모델을 이용한 사용자 상호작용적 페이지 생성&lt;/li>
+&lt;li>REST API 호출을 이용한 코로나 현황 조회&lt;/li>
+&lt;/ul>
+&lt;h4 id="5일차-canvas-promise">5일차: Canvas, Promise&lt;/h4>
+&lt;h5 id="강의-내용-4">강의 내용&lt;/h5>
+&lt;ul>
+&lt;li>ECMA 6에서 살펴볼 만한 것들&lt;/li>
+&lt;li>HTML5의 Canvas API 사용&lt;/li>
+&lt;li>비동기 호출과 Promise&lt;/li>
+&lt;/ul>
+&lt;h5 id="실습-내용-4">실습 내용&lt;/h5>
+&lt;ul>
+&lt;li>Canvas API를 사용한 그림 그리기&lt;/li>
+&lt;/ul>
+&lt;h4 id="수행">수행&lt;/h4>
+&lt;ul>
+&lt;li>Canvas에서 Bouncing Ball 구현&lt;/li>
+&lt;li>비동기 호출과 Promise를 이용하여 코로나 현황 조회&lt;/li>
+&lt;/ul>
+&lt;h3 id="교과">교과&lt;/h3>
+&lt;ul>
+&lt;li>TIP.Common.Programming.HTML&lt;/li>
+&lt;li>TIP.Common.Programming.JAVASCRIPT&lt;/li>
+&lt;/ul></description></item></channel></rss>
