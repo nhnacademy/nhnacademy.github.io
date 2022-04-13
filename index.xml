@@ -394,7 +394,7 @@ Sameness.집합크기( new HashSet(), Two.twos ); // in Jupiter Notebook
 &lt;details class="spoiler " id="spoiler-1">
 &lt;summary>분수(유리수)&lt;/summary>
 &lt;p>&lt;a href="https://commons.apache.org/proper/commons-math/">Apache Commons Math ™ &lt;/a>에 &lt;a href="https://commons.apache.org/proper/commons-math/userguide/fraction.html">Fraction&lt;/a> 클래스가 유리수(분수)를 구현합니다.&lt;/p>
-&lt;/details>&lt;/p></description></item><item><title>Quiz 3</title><link>https://nhnacademy.github.io/quiz/java.basic/language/quiz003/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/java.basic/language/quiz003/</guid><description>&lt;p>&lt;a href="../quiz002">분수&lt;/a>를 수천 개 만들어 쓰는 프로그램을 짜서 돌려 봤더니 분수의 수가 늘어날수록 속도가 떨어집니다. 분수를 만들 때마다 약분을 하기 때문입니다. 분자 분모가 필요할 때만 약분 하도록 getter(또는 Selector)를 고칩니다.&lt;/p>
+&lt;/details>&lt;/p></description></item><item><title>Quiz 3</title><link>https://nhnacademy.github.io/quiz/java.basic/language/quiz003/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/java.basic/language/quiz003/</guid><description>&lt;p>&lt;a href="../quiz002">분수&lt;/a>를 수천 개 만들어 쓰는 프로그램을 짜서 돌려 봤더니 분수의 수가 늘어날수록 속도가 떨어집니다. 분수를 만들 때마다 약분하기 때문입니다. 분자 분모가 필요할 때만 약분하도록 getter(또는 Selector)를 고칩니다.&lt;/p>
 &lt;pre>&lt;code class="language-java">class 분수 {
 public 분수(int numerator, int denominator) throws ArithmeticException {
 if ( 0 == denominator ) throw new ArithmeticException( &amp;quot;분모 0&amp;quot; );
@@ -417,17 +417,17 @@ System.out.println( new 분수(2,4) ) // Jupyter Notebook에서만
 &lt;pre>&lt;code>2/4
 &lt;/code>&lt;/pre>
 &lt;ol>
-&lt;li>기약분수가 찍히지 않습니다. 코드에는 버그가 생겼습니다. 약분을 옮겼을 뿐인데 왜 없던 버그가 갑자기 생겼을까요? 잘못된 부분을 고쳐 써 봅시다.&lt;/li>
+&lt;li>기약 분수가 찍히지 않습니다. 코드에는 버그가 생겼습니다. 약분을 옮겼을 뿐인데 왜 없던 버그가 갑자기 생겼을까요? 잘못된 부분을 고쳐 써 봅시다.&lt;/li>
 &lt;li>분수의 &lt;a href="https://course.ccs.neu.edu/cs5500f14/Notes/Testing1/abstractionBarrierAlt.html" target="_blank" rel="noopener">abstraction barrier&lt;/a>는 어떤 연산으로 이루어지나요? 고쳐 쓴 코드는 abstraction barrier를 무너뜨리지 않나요?&lt;/li>
-&lt;li>분수의 분자 분모를 바꾸는 setter가 필요한가요? &lt;code>setNumerator(int)&lt;/code>, &lt;code>setDenominator(int)&lt;/code>는 분수 데이터의 abstraction barrier를 정의하는데 포함되나요?&lt;/li>
+&lt;li>분수의 분자 분모를 바꾸는 setter가 필요한가요? &lt;code>setNumerator(int)&lt;/code>, &lt;code>setDenominator(int)&lt;/code>는 분수 데이터의 abstraction barrier를 정의하는 데 포함되나요?&lt;/li>
 &lt;/ol>
 &lt;h2 id="도움말">도움말&lt;/h2>
 &lt;details class="spoiler " id="spoiler-0">
 &lt;summary>귀띔&lt;/summary>
-&lt;p>데이터의 What과 How (또는 쓰는 쪽과 만드는 쪽 )을 경계 짓는 &lt;a href="https://course.ccs.neu.edu/cs5500f14/Notes/Testing1/abstractionBarrierAlt.html">abstraction barrier&lt;/a>를 무시하고, 무심코 코드를 쓰면 어떻게 버그가 생겨날 수 있는지를 잘 이해하고 있는지 되새기는 문제입니다.&lt;/p>
+&lt;p>데이터의 What과 How (또는 쓰는 쪽과 만드는 쪽 )을 경계 짓는 &lt;a href="https://course.ccs.neu.edu/cs5500f14/Notes/Testing1/abstractionBarrierAlt.html">abstraction barrier&lt;/a>를 무시하고 코드를 고쳐 쓸 때 생길 수 있는 버그를 잡는 과정에서 Abstract Data Type이 제대로 이해하고 있는지 스스로 점검해 볼 수 있도록 꾸민 문제입니다.&lt;/p>
 &lt;/details>
 &lt;details class="spoiler " id="spoiler-1">
-&lt;summary>Abstraction Barrier에 대한 공부 거리&lt;/summary>
+&lt;summary>Abstraction Barrier 공부 거리&lt;/summary>
 &lt;p>&lt;ol>
 &lt;li>Marvin Zhang, &lt;a href="https://inst.eecs.berkeley.edu/~cs61a/su16/assets/slides/09-Data_Abstraction_1pp.pdf">Lecture 9: Data Abstraction&lt;/a> CS 61A: The Structure and Interpretation of Computer Programs, Berkeley&lt;/li>
 &lt;li>Harold Abelson and Gerald Jay Sussman with Julie Sussman, &lt;a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/sicp/book/node29.html">Abstraction Barriers&lt;/a>, Introduction to Data Abstraction, Building Abstraction with Data, Structure and Interpretation

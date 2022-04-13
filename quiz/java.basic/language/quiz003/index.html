@@ -169,7 +169,7 @@ Quiz 3
 </nav>
 <h1>Quiz 3</h1>
 <div class=article-style>
-<p><a href=../quiz002>분수</a>를 수천 개 만들어 쓰는 프로그램을 짜서 돌려 봤더니 분수의 수가 늘어날수록 속도가 떨어집니다. 분수를 만들 때마다 약분을 하기 때문입니다. 분자 분모가 필요할 때만 약분 하도록 getter(또는 Selector)를 고칩니다.</p>
+<p><a href=../quiz002>분수</a>를 수천 개 만들어 쓰는 프로그램을 짜서 돌려 봤더니 분수의 수가 늘어날수록 속도가 떨어집니다. 분수를 만들 때마다 약분하기 때문입니다. 분자 분모가 필요할 때만 약분하도록 getter(또는 Selector)를 고칩니다.</p>
 <pre><code class=language-java>class 분수 {
 	public 분수(int numerator, int denominator) throws ArithmeticException {
 		if ( 0 == denominator ) throw new ArithmeticException( &quot;분모 0&quot; );
@@ -195,17 +195,17 @@ System.out.println( new 분수(2,4) ) // Jupyter Notebook에서만
 <pre><code>2/4
 </code></pre>
 <ol>
-<li>기약분수가 찍히지 않습니다. 코드에는 버그가 생겼습니다. 약분을 옮겼을 뿐인데 왜 없던 버그가 갑자기 생겼을까요? 잘못된 부분을 고쳐 써 봅시다.</li>
+<li>기약 분수가 찍히지 않습니다. 코드에는 버그가 생겼습니다. 약분을 옮겼을 뿐인데 왜 없던 버그가 갑자기 생겼을까요? 잘못된 부분을 고쳐 써 봅시다.</li>
 <li>분수의 <a href=https://course.ccs.neu.edu/cs5500f14/Notes/Testing1/abstractionBarrierAlt.html target=_blank rel=noopener>abstraction barrier</a>는 어떤 연산으로 이루어지나요? 고쳐 쓴 코드는 abstraction barrier를 무너뜨리지 않나요?</li>
-<li>분수의 분자 분모를 바꾸는 setter가 필요한가요? <code>setNumerator(int)</code>, <code>setDenominator(int)</code>는 분수 데이터의 abstraction barrier를 정의하는데 포함되나요?</li>
+<li>분수의 분자 분모를 바꾸는 setter가 필요한가요? <code>setNumerator(int)</code>, <code>setDenominator(int)</code>는 분수 데이터의 abstraction barrier를 정의하는 데 포함되나요?</li>
 </ol>
 <h2 id=도움말>도움말</h2>
 <details class=spoiler id=spoiler-0>
 <summary>귀띔</summary>
-<p>데이터의 What과 How (또는 쓰는 쪽과 만드는 쪽 )을 경계 짓는 <a href=https://course.ccs.neu.edu/cs5500f14/Notes/Testing1/abstractionBarrierAlt.html>abstraction barrier</a>를 무시하고, 무심코 코드를 쓰면 어떻게 버그가 생겨날 수 있는지를 잘 이해하고 있는지 되새기는 문제입니다.</p>
+<p>데이터의 What과 How (또는 쓰는 쪽과 만드는 쪽 )을 경계 짓는 <a href=https://course.ccs.neu.edu/cs5500f14/Notes/Testing1/abstractionBarrierAlt.html>abstraction barrier</a>를 무시하고 코드를 고쳐 쓸 때 생길 수 있는 버그를 잡는 과정에서 Abstract Data Type이 제대로 이해하고 있는지 스스로 점검해 볼 수 있도록 꾸민 문제입니다.</p>
 </details>
 <details class=spoiler id=spoiler-1>
-<summary>Abstraction Barrier에 대한 공부 거리</summary>
+<summary>Abstraction Barrier 공부 거리</summary>
 <p><ol>
 <li>Marvin Zhang, <a href=https://inst.eecs.berkeley.edu/~cs61a/su16/assets/slides/09-Data_Abstraction_1pp.pdf>Lecture 9: Data Abstraction</a> CS 61A: The Structure and Interpretation of Computer Programs, Berkeley</li>
 <li>Harold Abelson and Gerald Jay Sussman with Julie Sussman, <a href=https://mitpress.mit.edu/sites/default/files/sicp/full-text/sicp/book/node29.html>Abstraction Barriers</a>, Introduction to Data Abstraction, Building Abstraction with Data, Structure and Interpretation
