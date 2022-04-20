@@ -7,8 +7,8 @@
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" media=print onload="this.media='all'">
-<meta name=description content="Programming-in-the-Large에 중점을 두고 Java 프로그램의 얼개를 짜는 방법을 이해하고 연습합니다.">
-<link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/quiz/java.basic/design/>
+<meta name=description content="Java 프로그래밍 언어의 기초를 점검합니다.">
+<link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/quiz/pie/java/>
 <meta name=theme-color content="#1565c0">
 <script src=/js/mathjax-config.js></script>
 <link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
@@ -17,24 +17,24 @@
 <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css integrity crossorigin=anonymous media=print onload="this.media='all'">
 <script src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js integrity crossorigin=anonymous async></script>
 <link rel=stylesheet href=/css/wowchemy.806fb473a6c8572f1f43f387953b19f7.css>
-<link rel=alternate href=/quiz/java.basic/design/index.xml type=application/rss+xml title="NHN Academy">
+<link rel=alternate href=/quiz/pie/java/index.xml type=application/rss+xml title="NHN Academy">
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://nhnacademy.github.io/quiz/java.basic/design/>
+<link rel=canonical href=https://nhnacademy.github.io/quiz/pie/java/>
 <meta property="twitter:card" content="summary">
 <meta property="og:site_name" content="NHN Academy">
-<meta property="og:url" content="https://nhnacademy.github.io/quiz/java.basic/design/">
-<meta property="og:title" content="설계 | NHN Academy">
-<meta property="og:description" content="Programming-in-the-Large에 중점을 두고 Java 프로그램의 얼개를 짜는 방법을 이해하고 연습합니다."><meta property="og:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png">
+<meta property="og:url" content="https://nhnacademy.github.io/quiz/pie/java/">
+<meta property="og:title" content="Java | NHN Academy">
+<meta property="og:description" content="Java 프로그래밍 언어의 기초를 점검합니다."><meta property="og:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
 <meta property="og:updated_time" content="2022-03-25T00:00:00+00:00">
 <script src=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin=anonymous></script>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin=anonymous>
 <script>window.addEventListener("load",function(){window.cookieconsent.initialise({palette:{popup:{background:"#1565c0",text:"rgb(255, 255, 255)"},button:{background:"rgb(255, 255, 255)",text:"#1565c0"}},theme:"classic",content:{message:"This website uses cookies to ensure you get the best experience on our website.",dismiss:"Got it!",link:"Learn more",href:"https://www.cookiesandyou.com"}})})</script>
-<title>설계 | NHN Academy</title>
+<title>Java | NHN Academy</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=bae04f3d754e4efe01dc7e9223841239>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=d36028f8a35f88c0b457670ca90f2d61>
 <script src=/js/wowchemy-init.min.da42964e270e05a6063fbca894d7ccff.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -95,7 +95,7 @@
 <button class="btn docs-toggle d-md-none p-0 mr-md-3 w-100" type=button data-toggle=collapse data-target=#docs-nav aria-controls=docs-nav aria-expanded=false aria-label="Toggle section navigation">
 <div class=d-flex>
 <span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
-Java PIE
+PIE 퀴즈
 </span>
 <span><i class="fas fa-chevron-down"></i></span>
 </div>
@@ -111,19 +111,16 @@ Java PIE
 <li><a href=/quiz/><i class="fas fa-arrow-left pr-1"></i>퀴즈 창고</a></li>
 </ul>
 <div class=docs-toc-item>
-<a class=docs-toc-link href=/quiz/java.basic/>Java PIE</a>
+<a class=docs-toc-link href=/quiz/pie/>PIE 퀴즈</a>
 <ul class="nav docs-sidenav">
 <div class=docs-toc-item>
-<a class=docs-toc-link href=/quiz/java.basic/language/>언어</a>
+<a class="docs-toc-link active" href=/quiz/pie/java/>Java</a>
 <ul class="nav docs-sidenav">
-<li><a href=/quiz/java.basic/language/quiz001/>Quiz 1</a></li>
-<li><a href=/quiz/java.basic/language/quiz002/>Quiz 2</a></li>
-<li><a href=/quiz/java.basic/language/quiz003/>Quiz 3</a></li>
-<li><a href=/quiz/java.basic/language/quiz004/>Quiz 4</a></li>
+<li><a href=/quiz/pie/java/quiz001/>Quiz 1</a></li>
+<li><a href=/quiz/pie/java/quiz002/>Quiz 2</a></li>
+<li><a href=/quiz/pie/java/quiz003/>Quiz 3</a></li>
+<li><a href=/quiz/pie/java/quiz004/>Quiz 4</a></li>
 </ul>
-</div>
-<div class=docs-toc-item>
-<a class="docs-toc-link active" href=/quiz/java.basic/design/>설계</a>
 </div>
 </ul>
 </div>
@@ -133,7 +130,11 @@ Java PIE
 <ul class="nav toc-top">
 <li><a href=# id=back_to_top class=docs-toc-title>Contents</a></li>
 </ul>
-<nav id=TableOfContents></nav>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#프로그래밍-환경>프로그래밍 환경</a></li>
+</ul>
+</nav>
 </div>
 <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role=main>
 <article class=article>
@@ -151,27 +152,35 @@ Home
 </a>
 </li>
 <li class=breadcrumb-item>
-<a href=/quiz/java.basic/>
-Java PIE
+<a href=/quiz/pie/>
+PIE 퀴즈
 </a>
 </li>
 <li class="breadcrumb-item active" aria-current=page>
-설계
+Java
 </li>
 </ol>
 </nav>
-<h1>설계</h1>
+<h1>Java</h1>
 <div class=article-style>
+<h2 id=프로그래밍-환경>프로그래밍 환경</h2>
 <ul>
-<li>커다란 프로그램은 여럿이 만듭니다.</li>
-<li>여럿이 나누어 만든 것을 합쳐 돌려보는 일은 수시로 생길 수 있습니다.</li>
-<li>커다란 프로그램을 고치고 다듬고 늘리고 검사하기 좋게끔 얼개 짜는 법을 배웁니다.</li>
-<li>이런 공부를 두고 Programming-in-the-Large라고도 합니다.</li>
-<li>한 마디로 Java Programming-in-the-Large, 곧 프로그램 설계 방법을 이해하고 연습합니다.</li>
+<li><a href=https://www.jetbrains.com/ko-kr/ target=_blank rel=noopener>IntelliJ</a>
+<ul>
+<li>NHN 개발자들이 쓰는 환경입니다.</li>
+</ul>
+</li>
+<li><a href=https://code.visualstudio.com/docs/languages/java target=_blank rel=noopener>Visual Studio Code + Java</a></li>
+<li><a href=https://github.com/SpencerPark/IJava target=_blank rel=noopener>Jupyter Notebook + Java</a></li>
+<li><a href=https://code.visualstudio.com/docs/datascience/jupyter-notebooks target=_blank rel=noopener>(Visual Studio Code + Jupyter Notebook)</a> + <a href=https://github.com/SpencerPark/IJava target=_blank rel=noopener>Java</a>
+<ul>
+<li>Quiz를 만드는 데 쓰고 있습니다.</li>
+</ul>
+</li>
 </ul>
 <ul class=cta-group>
 <li>
-<a href=. class="btn btn-primary px-3 py-3">곧 나누겠습니다.</a>
+<a href=quiz001 class="btn btn-primary px-3 py-3">시작</a>
 </li>
 </ul>
 </div>
