@@ -475,7 +475,7 @@ Typing.날수있니( new 펭귄() );
 &lt;/code>&lt;/pre>
 &lt;ol>
 &lt;li>박쥐, 참새는 날 수 있지만, 펭귄은 &lt;code>날수있는&lt;/code> 타입이 아니라는 에러가 나게 코드를 고칩니다.&lt;/li>
-&lt;li>동물을 interface로 정의해도 되나요?&lt;/li>
+&lt;li>동물을 interface로 정의할 수 있나요?&lt;/li>
 &lt;li>동물을 &lt;code>헤엄치는&lt;/code> 타입으로 분류할 수 있게끔 코드를 쓰세요. 이렇게 타입을 새로 보태는 일에 interface는 어떤 도움이 되나요?&lt;/li>
 &lt;/ol>
 &lt;h2 id="도움말">도움말&lt;/h2>
@@ -490,7 +490,7 @@ A의 subclass라고 합니다. 이와 달리 A class가 따르는 모든 조건 
 일부에서는 subclassing을 implementation inheritance, subtyping을 interface
 inheritance라고 일컫기도 합니다. 하지만 subtyping은 type compatibility 관계를 규정하는 표현으로, 코드를
 복제하는 inheritance와는 아무런 관계가 없으니 두 낱말을 뒤섞어 쓰지 않는 것이 바람직합니다. 흔히 Object-Oriented
-Programming(OOP)이라고 일컫는 프로그래밍 스타일에서 주목하는 &lt;strong>되 쓰임새(reusability)란&lt;/strong> subtyping 관계에서 파생된 코드의 다형성(polymorphism), 줄여서 &lt;a href="https://www.cs.rpi.edu/academics/courses/spring21/csci2600/handout-files/files_29_03/SubtypePolymorphism.pdf">subtype polymorphism&lt;/a>을 말합니다.&lt;/li>
+Programming(OOP)이라고 일컫는 프로그래밍 스타일에서 주목하는 코드의 &lt;strong>되 쓰임새(reusability)란&lt;/strong> subtyping 관계가 이끌어내는 코드의 다형성(polymorphism), 줄여서 subtype polymorphism에서 파생되는 이점입니다.&lt;/li>
 &lt;li>분별없이 쓰는 혼잡한 용어를 정리하고 간결하고 또렷이 개념을 잡는 것이 되 쓰임새가 뛰어난 프로그램을 설계하는데 중요할 때가 있습니다.
 이 문제는 그런 공부에 도움이 됩니다.&lt;/li>
 &lt;/ul>
@@ -501,6 +501,7 @@ Programming(OOP)이라고 일컫는 프로그래밍 스타일에서 주목하는
 &lt;p>&lt;ol>
 &lt;li>&lt;a href="https://www.cmi.ac.in/~madhavan/courses/pl2009/lecturenotes/lecture-notes/node28.html">Subtyping vs. inheritance&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://counterexamples.org/subtyping-vs-inheritance.html">Subtyping vs. inheritance - Counterexamples in Type Systems&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cs.rpi.edu/academics/courses/spring21/csci2600/handout-files/files_29_03/SubtypePolymorphism.pdf">Subtype polymorphism&lt;/a>&lt;/li>
 &lt;/ol>
 &lt;/p>
 &lt;/details></description></item><item><title>FAQ</title><link>https://nhnacademy.github.io/post/faq/</link><pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/post/faq/</guid><description>&lt;details class="spoiler " id="spoiler-0">
