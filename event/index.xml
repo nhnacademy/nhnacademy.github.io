@@ -1,43 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>소식 | NHN Academy</title><link>https://nhnacademy.github.io/event/</link><atom:link href="https://nhnacademy.github.io/event/index.xml" rel="self" type="application/rss+xml"/><description>소식</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>소식</title><link>https://nhnacademy.github.io/event/</link></image><item><title>경남 캠퍼스 2기 연수생 모집</title><link>https://nhnacademy.github.io/talk/%EA%B2%BD%EB%82%A8-%EC%BA%A0%ED%8D%BC%EC%8A%A4-2%EA%B8%B0-%EC%97%B0%EC%88%98%EC%83%9D-%EB%AA%A8%EC%A7%91/</link><pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/talk/%EA%B2%BD%EB%82%A8-%EC%BA%A0%ED%8D%BC%EC%8A%A4-2%EA%B8%B0-%EC%97%B0%EC%88%98%EC%83%9D-%EB%AA%A8%EC%A7%91/</guid><description>&lt;hr>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>소식 | NHN Academy</title><link>https://nhnacademy.github.io/event/</link><atom:link href="https://nhnacademy.github.io/event/index.xml" rel="self" type="application/rss+xml"/><description>소식</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>소식</title><link>https://nhnacademy.github.io/event/</link></image><item><title>9월의 어느 날, 광주 캠퍼스가 열립니다.</title><link>https://nhnacademy.github.io/talk/9%EC%9B%94%EC%9D%98-%EC%96%B4%EB%8A%90-%EB%82%A0-%EA%B4%91%EC%A3%BC-%EC%BA%A0%ED%8D%BC%EC%8A%A4%EA%B0%80-%EC%97%B4%EB%A6%BD%EB%8B%88%EB%8B%A4./</link><pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/talk/9%EC%9B%94%EC%9D%98-%EC%96%B4%EB%8A%90-%EB%82%A0-%EA%B4%91%EC%A3%BC-%EC%BA%A0%ED%8D%BC%EC%8A%A4%EA%B0%80-%EC%97%B4%EB%A6%BD%EB%8B%88%EB%8B%A4./</guid><description>&lt;hr>
+&lt;h2 id="일정은-달라질-수-있습니다">일정은 달라질 수 있습니다.&lt;/h2>
 &lt;h3 id="지원-자격">지원 자격&lt;/h3>
 &lt;ul>
 &lt;li>만 19~34세 청년&lt;/li>
 &lt;li>풀타임 수업 참여가 가능한 분&lt;/li>
-&lt;li>경남 거주민 혹은 경남 지역 대학교 졸업(예정) 자 우대&lt;/li>
+&lt;li>광주 거주민 혹은 광주 지역 대학교 졸업(예정) 자 우대&lt;/li>
 &lt;/ul>
 &lt;h3 id="모집-절차">모집 절차&lt;/h3>
 &lt;ul>
-&lt;li>접수 기간: 4.18-5.15&lt;/li>
-&lt;li>과정 설명회: 4.23&lt;/li>
-&lt;li>선발: 5.16-5.26
+&lt;li>접수 기간:&lt;/li>
+&lt;li>과정 설명회:&lt;/li>
+&lt;li>선발:
 &lt;ol>
-&lt;li>기술 면접: 5.18-5.19&lt;/li>
-&lt;li>코딩 테스트: 5.20-5.22&lt;/li>
-&lt;li>발표: 5.26&lt;/li>
+&lt;li>기술 면접:&lt;/li>
+&lt;li>코딩 테스트:&lt;/li>
+&lt;li>발표:&lt;/li>
 &lt;/ol>
 &lt;!-- - 수강료 결제: 5.27-6.1 -->
 &lt;/li>
 &lt;/ul>
 &lt;h3 id="연수-과정">연수 과정&lt;/h3>
 &lt;ul>
-&lt;li>오리엔테이션: 6.10&lt;/li>
-&lt;li>기간: 6.13-12.2&lt;/li>
+&lt;li>오리엔테이션: 9월&lt;/li>
+&lt;li>기간: 1 단계 4개월, 2 단계 2개월&lt;/li>
 &lt;li>내용: &lt;a href="https://nhnacademy.github.io/courses/pie/java-backend">Java 백엔드 개발자 과정&lt;/a>&lt;/li>
-&lt;li>비용: 720만 원&lt;/li>
+&lt;/ul>
+&lt;!-- - 비용: 720만 원 -->
+&lt;ul>
 &lt;li>특전:
 &lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> NHN 경남 계열사 입사 기회&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> NHN 경남 계열사에 입사하면 사이닝 보너스 형태로 연수 비용을 환급&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> NHN 광주 계열사 입사 기회&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> NHN 광주 계열사에 입사하면 사이닝 보너스 형태로 연수 비용을 환급&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h3 id="지원하기-httpsformsglevfrp38bcwnyspy3d7">&lt;a href="https://forms.gle/VfRp38BcwNySPY3D7" target="_blank" rel="noopener">지원하기 &amp;raquo;&lt;/a>&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://nhnacademy.github.io/post/faq">FAQ&lt;/a>&lt;/li>
-&lt;/ul>
+&lt;!-- ### [지원하기 >>](https://forms.gle/VfRp38BcwNySPY3D7)
+- [FAQ](/post/faq)
 &lt;div class="alert alert-note">
 &lt;div>
-&lt;p>2기 선발 과정부터는 면접 전형료를 받습니다. 기술 면접과 코딩 테스트는 준비에서 실행까지 많은 시간과 노력이 들기 때문에 짧은 기간 한정된 응시자만 받을 수 있습니다. 지역에서 일할 인재를 길러내는 것이 이 프로그램의 목표이므로 연수 과정에 참여하고자 하는 의지가 확고한 분들에게 선발될 기회를 먼저 드리는 게 바람직합니다. 스스로가 갖춘 실력을 검증받을 기회가 필요하신 분들은 선발 과정에 참여하는 대신에 &lt;a href="https://nhnacademy.github.io/quiz/">퀴즈&lt;/a>에 도전해 보셨으면 합니다.&lt;/p>
+&lt;p>기술 면접과 코딩 테스트는 준비에서 실행까지 많은 시간과 노력이 들기 때문에 짧은 기간 한정된 응시자만 받을 수 있습니다. 지역에서 일할 인재를 길러내는 것이 이 프로그램의 목표이므로 연수 과정에 참여하고자 하는 의지가 확고한 분들에게 선발될 기회를 먼저 드리는 게 바람직합니다. 스스로가 갖춘 실력을 검증받을 기회가 필요하신 분들은 선발 과정에 참여하는 대신에 &lt;a href="https://nhnacademy.github.io/quiz/">퀴즈&lt;/a>에 도전해 보셨으면 합니다.&lt;/p>
 &lt;ul>
 &lt;li>면접 전형료: 45,000원&lt;/li>
 &lt;li>면접 전형료 납부
@@ -48,4 +49,5 @@
 &lt;/li>
 &lt;/ul>
 &lt;/div>
-&lt;/div></description></item></channel></rss>
+&lt;/div>
+--></description></item></channel></rss>
