@@ -538,6 +538,59 @@ G.test();
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)">Covariance and contravariance&lt;/a>&lt;/li>
 &lt;/ol>
 &lt;/p>
+&lt;/details></description></item><item><title>Quiz 6</title><link>https://nhnacademy.github.io/quiz/pie/java/quiz006/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/quiz006/</guid><description>&lt;pre>&lt;code class="language-Java">import java.util.function.*;
+class Combinator {
+public static &amp;lt;T, U, R&amp;gt; Function&amp;lt;U, R&amp;gt; leftSection(BiFunction&amp;lt;T, U, R&amp;gt; f, T left) {
+return right -&amp;gt; f.apply(left, right);
+}
+public static &amp;lt;T, U, R&amp;gt; Function&amp;lt;T, R&amp;gt; rightSection(BiFunction&amp;lt;T, U, R&amp;gt; f, U right) {
+return left -&amp;gt; f.apply( left, right );
+}
+// public static ... flip(...) { ... }
+// public static ... toUnary(...) { ... }
+public static void main(String[] args) {
+BinaryOperator&amp;lt;Number&amp;gt; minus = ( x, y ) -&amp;gt; x.doubleValue() - y.doubleValue();
+System.out.println( leftSection( minus, 4 ).apply( 3 ) );
+System.out.println( rightSection( minus, 4 ).apply( 3 ) );
+// ... concat = ...
+System.out.println(
+leftSection( flip( concat ), &amp;quot;5&amp;quot; ).apply(&amp;quot;10&amp;quot;).equals( rightSection( concat, &amp;quot;5&amp;quot; ).apply( &amp;quot;10&amp;quot; ) ) );
+System.out.println(
+rightSection( minus, 4 ).apply( 3 ).equals( toUnary( flip( minus ) ).apply( 4 ).apply( 3 ) ) );
+}
+}
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>1.0
+-1.0
+true
+true
+&lt;/code>&lt;/pre>
+&lt;p>flip, toUnary, concat을 정의하세요.&lt;/p>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>&lt;code>toUnary( minus )&lt;/code>하지 않고 lambda expression으로 currying function(partial function application)을 표현할 수 있습니다.&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-java">Function&amp;lt;Double, UnaryOperator&amp;lt;Double&amp;gt;&amp;gt; minus = x -&amp;gt; y -&amp;gt; x - y;
+System.out.println( minus.apply( 3.0 ).apply( 5.0 ) ); // 3+5를 찍으세요.
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>하지만 새로운 함수를 매번 만들어 쓰시 않고 작지만 되쓰임새가 또렷한 함수를 조립해서 쓰는 버릇을 기르는 게 함수로 프로그램 짜는 방식(functional programming style)을 익히는 데 도움이 됩니다.&lt;/li>
+&lt;li>leftSection, rightSection은 &lt;a href="https://www.haskell.org/">Haskell&lt;/a> 언어의 &lt;a href="https://wiki.haskell.org/Section_of_an_infix_operator">간편 표기법&lt;/a>을 흉내 낸 함수입니다.&lt;/li>
+&lt;li>&lt;a href="https://docs.oracle.com/javase/8/docs/api/java/lang/FunctionalInterface.html">functional inteface&lt;/a>, &lt;a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html#package.description">java.lang.function&lt;/a>를 알고 generics (parametric polymorphism)의 &lt;a href="https://docs.oracle.com/javase/tutorial/java/generics/genTypeInference.html">type inference&lt;/a>의 기본을 아울러 익히는 데 도움이 되는 문제입니다.&lt;/li>
+&lt;li>&lt;a href="https://docs.oracle.com/javase/tutorial/java/generics/restrictions.html">한계점&lt;/a>도 정확히 알고 있는 것이 시간과 노력을 아끼는 방법입니다. &lt;a href="https://docs.oracle.com/javase/tutorial/java/generics/QandE/generics-questions.html">문제&lt;/a>도 꼭 풀어보세요.&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>참고 문헌&lt;/summary>
+&lt;p>&lt;ol>
+&lt;li>&lt;a href="https://www.dcs.bbk.ac.uk/~keith/software19/resources/slides/generics.pdf">Parametric Polymorphism in Java&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://stackoverflow.com/questions/36314/what-is-currying">What is &lt;em>curry&lt;/em>ing? (stackoverflow)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Combinatory_logic">Lambda Calculus and Combinatory Logic&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/p>
 &lt;/details></description></item><item><title>FAQ</title><link>https://nhnacademy.github.io/post/faq/</link><pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/post/faq/</guid><description>&lt;details class="spoiler " id="spoiler-0">
 &lt;summary>Java 백엔드 개발 과정에 응시하기 위해 갖추어야 할 지식은 무엇인가요?&lt;/summary>
 &lt;p>&lt;ul>
