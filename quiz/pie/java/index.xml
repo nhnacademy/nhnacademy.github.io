@@ -258,9 +258,11 @@ System.out.println( leftSection( minus, 4 ).apply( 3 ) );
 System.out.println( rightSection( minus, 4 ).apply( 3 ) );
 // ... concat = ...
 System.out.println(
-leftSection( flip( concat ), &amp;quot;5&amp;quot; ).apply(&amp;quot;10&amp;quot;).equals( rightSection( concat, &amp;quot;5&amp;quot; ).apply( &amp;quot;10&amp;quot; ) ) );
+leftSection( flip( concat ), &amp;quot;5&amp;quot; ).apply(&amp;quot;10&amp;quot;).equals(
+rightSection( concat, &amp;quot;5&amp;quot; ).apply( &amp;quot;10&amp;quot; ) ) );
 System.out.println(
-rightSection( minus, 4 ).apply( 3 ).equals( toUnary( flip( minus ) ).apply( 4 ).apply( 3 ) ) );
+rightSection( minus, 4 ).apply( 3 ).equals(
+toUnary( flip( minus ) ).apply( 4 ).apply( 3 ) ) );
 }
 }
 &lt;/code>&lt;/pre>

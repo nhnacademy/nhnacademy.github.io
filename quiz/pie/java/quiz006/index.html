@@ -193,10 +193,12 @@ class Combinator {
 
     // ... concat = ... 
     System.out.println( 
-      leftSection( flip( concat ), &quot;5&quot; ).apply(&quot;10&quot;).equals( rightSection( concat, &quot;5&quot; ).apply( &quot;10&quot; ) ) );
+      leftSection( flip( concat ), &quot;5&quot; ).apply(&quot;10&quot;).equals( 
+        rightSection( concat, &quot;5&quot; ).apply( &quot;10&quot; ) ) );
 
     System.out.println( 
-      rightSection( minus, 4 ).apply( 3 ).equals( toUnary( flip( minus ) ).apply( 4 ).apply( 3 ) ) );
+      rightSection( minus, 4 ).apply( 3 ).equals( 
+        toUnary( flip( minus ) ).apply( 4 ).apply( 3 ) ) );
   }
 }
 </code></pre>
