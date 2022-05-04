@@ -504,6 +504,40 @@ Programming(OOP)이라고 일컫는 프로그래밍 스타일에서 주목하는
 &lt;li>&lt;a href="https://www.cs.rpi.edu/academics/courses/spring21/csci2600/handout-files/files_29_03/SubtypePolymorphism.pdf">Subtype polymorphism, Liskov Substitution Principle(LSP), Rensselaer Polytechnic Institute&lt;/a>&lt;/li>
 &lt;/ol>
 &lt;/p>
+&lt;/details></description></item><item><title>Quiz 5</title><link>https://nhnacademy.github.io/quiz/pie/java/quiz005/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/quiz005/</guid><description>&lt;pre>&lt;code class="language-java">class F {
+X m() { System.out.println(&amp;quot;F&amp;quot;); return new X(); }
+}
+class G extends F {
+Y m() { System.out.println(&amp;quot;G&amp;quot;); return new Y(); }
+public static void test() {
+F f = new G();
+f.m();
+}
+}
+G.test();
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>G
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>G가 찍히도록 X와 Y를 정의하세요.&lt;/li>
+&lt;li>이와 같은 method overriding 규칙으로 얻게 되는 이점은 무엇인가요?&lt;/li>
+&lt;/ol>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>&lt;a href="https://docs.oracle.com/javase/tutorial/java/IandI/override.html">Covariant (method) return type 규칙&lt;/a>을 되짚어 봅니다.&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>참고 문헌&lt;/summary>
+&lt;p>&lt;ol>
+&lt;li>&lt;a href="https://www.geeksforgeeks.org/covariant-return-types-java/">Covariant return type&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Liskov_substitution_principle">Liskov Substitution Principle(LSP)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)">Covariance and contravariance&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/p>
 &lt;/details></description></item><item><title>FAQ</title><link>https://nhnacademy.github.io/post/faq/</link><pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/post/faq/</guid><description>&lt;details class="spoiler " id="spoiler-0">
 &lt;summary>Java 백엔드 개발 과정에 응시하기 위해 갖추어야 할 지식은 무엇인가요?&lt;/summary>
 &lt;p>&lt;ul>
