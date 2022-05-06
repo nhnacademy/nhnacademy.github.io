@@ -596,7 +596,7 @@ System.out.println( minus.apply( 3.0 ).apply( 5.0 ) ); // 3+5를 찍으세요.
 &lt;/details></description></item><item><title>FAQ</title><link>https://nhnacademy.github.io/post/faq/</link><pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/post/faq/</guid><description>&lt;details class="spoiler " id="spoiler-0">
 &lt;summary>Java 백엔드 개발 과정에 응시하기 위해 갖추어야 할 지식은 무엇인가요?&lt;/summary>
 &lt;p>&lt;ul>
-&lt;li>운영체제, 자료구조 같은 &lt;a href="https://nhnacademy.github.io/project/nhn_track">전산학 기초&lt;/a>&lt;/li>
+&lt;li>운영체제, 자료구조 같은 &lt;a href="https://nhnacademy.github.io/courses/nhn_track">전산학 기초&lt;/a>&lt;/li>
 &lt;li>Python, Java로 기초 알고리즘을 프로그램하기&lt;/li>
 &lt;/ul>
 &lt;/p>
@@ -605,7 +605,7 @@ System.out.println( minus.apply( 3.0 ).apply( 5.0 ) ); // 3+5를 찍으세요.
 &lt;summary>선발 시험은 어떻게 진행되나요?&lt;/summary>
 &lt;p>&lt;ul>
 &lt;li>1차는 기술면접, 2차는 코딩 테스트로 진행됩니다.&lt;/li>
-&lt;li>출제 범위는 &lt;a href="https://nhnacademy.github.io/project/nhn_track">NHN Track&lt;/a>을 참고하세요.&lt;/li>
+&lt;li>출제 범위는 &lt;a href="https://nhnacademy.github.io/courses/nhn_track">NHN Track&lt;/a>을 참고하세요.&lt;/li>
 &lt;li>선발 시험 문제는 &lt;a href="https://nhnacademy.github.io/quiz">퀴즈&lt;/a>에 공개합니다.&lt;/li>
 &lt;li>면접 전형료를 내신 분께 일정 및 안내 사항을 개별 메일로 전달해 드립니다.&lt;/li>
 &lt;/ul>
@@ -646,7 +646,7 @@ System.out.println( minus.apply( 3.0 ).apply( 5.0 ) ); // 3+5를 찍으세요.
 &lt;details class="spoiler " id="spoiler-5">
 &lt;summary>기숙사를 지원하나요?&lt;/summary>
 &lt;p>&lt;ul>
-&lt;li>경남에서 일할 청년 인재를 양성하기 위하여 특별히 마련된 프로그램이기 때문에 주거 시설을 별도로 지원하지는 않습니다.&lt;/li>
+&lt;li>지역에서 일할 인재를 양성하기 위하여 특별히 마련된 프로그램이기 때문에 주거 시설을 별도로 지원하지는 않습니다.&lt;/li>
 &lt;/ul>
 &lt;/p>
 &lt;/details>
@@ -660,42 +660,7 @@ System.out.println( minus.apply( 3.0 ).apply( 5.0 ) ); // 3+5를 찍으세요.
 &lt;p>※ 모집 설명회에서 교육 과정, 평가, 채용 연계에 대하여 상세하게 안내해 드립니다.&lt;/p>
 &lt;!-- - 2기 모집 설명회
 - 일정: 4/23(토) 13:00
-- 장소: 경남 캠퍼스 대강의실 --></description></item><item><title>Hugo Academic Theme Demo</title><link>https://nhnacademy.github.io/widgets-for-home/demo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/demo/</guid><description>&lt;p>Welcome to the demo of the &lt;strong>academic resumé template&lt;/strong> for Wowchemy, the Website Builder for Hugo.&lt;/p>
-&lt;p>&lt;a href="https://wowchemy.com/templates/" target="_blank" rel="noopener">Explore similar templates&lt;/a>&lt;/p>
-&lt;p>&lt;strong>Over 500,000 &lt;a href="https://wowchemy.com/" target="_blank" rel="noopener">Amazing Websites&lt;/a> have Already Been Built with Wowchemy&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>&lt;a href="https://wowchemy.com/templates/" target="_blank" rel="noopener">Join&lt;/a> the Most Empowered Hugo Community&lt;/strong>&lt;/p>
-&lt;div class="alert alert-note">
-&lt;div>
-&lt;p>This homepage section is an example of adding &lt;a href="https://wowchemy.com/docs/content/writing-markdown-latex/">elements&lt;/a> to the &lt;a href="https://wowchemy.com/docs/getting-started/page-builder/">&lt;em>Blank&lt;/em> widget&lt;/a>.&lt;/p>
-&lt;p>Backgrounds can be applied to any section. Here, the &lt;em>background&lt;/em> option is set give an &lt;em>image parallax&lt;/em> effect.&lt;/p>
-&lt;/div>
-&lt;/div></description></item><item><title>Skills</title><link>https://nhnacademy.github.io/widgets-for-home/skills/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/skills/</guid><description/></item><item><title>Accomplish&amp;shy;ments</title><link>https://nhnacademy.github.io/widgets-for-home/accomplishments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/accomplishments/</guid><description/></item><item><title>과정</title><link>https://nhnacademy.github.io/widgets-for-home/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/projects/</guid><description/></item><item><title>새 글</title><link>https://nhnacademy.github.io/widgets-for-home/posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/posts/</guid><description/></item><item><title>Gallery</title><link>https://nhnacademy.github.io/widgets-for-home/gallery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/gallery/</guid><description>
-&lt;div class="gallery">
-&lt;a data-fancybox="gallery-themes" href="https://nhnacademy.github.io/media/albums/themes/theme-1950s.png" >
-&lt;img src="https://nhnacademy.github.io/media/albums/themes/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_3.png" loading="lazy" alt="theme-1950s.png" width="124" height="190">
-&lt;/a>
-&lt;a data-fancybox="gallery-themes" href="https://nhnacademy.github.io/media/albums/themes/theme-apogee.png" >
-&lt;img src="https://nhnacademy.github.io/media/albums/themes/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_3.png" loading="lazy" alt="theme-apogee.png" width="124" height="190">
-&lt;/a>
-&lt;a data-fancybox="gallery-themes" href="https://nhnacademy.github.io/media/albums/themes/theme-coffee-playfair.png" >
-&lt;img src="https://nhnacademy.github.io/media/albums/themes/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_3.png" loading="lazy" alt="theme-coffee-playfair.png" width="124" height="190">
-&lt;/a>
-&lt;a data-fancybox="gallery-themes" href="https://nhnacademy.github.io/media/albums/themes/theme-dark.png" >
-&lt;img src="https://nhnacademy.github.io/media/albums/themes/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_3.png" loading="lazy" alt="theme-dark.png" width="124" height="190">
-&lt;/a>
-&lt;a data-fancybox="gallery-themes" href="https://nhnacademy.github.io/media/albums/themes/theme-default.png" >
-&lt;img src="https://nhnacademy.github.io/media/albums/themes/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_3.png" loading="lazy" alt="theme-default.png" width="124" height="190">
-&lt;/a>
-&lt;a data-fancybox="gallery-themes" href="https://nhnacademy.github.io/media/albums/themes/theme-forest.png" >
-&lt;img src="https://nhnacademy.github.io/media/albums/themes/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_3.png" loading="lazy" alt="theme-forest.png" width="124" height="190">
-&lt;/a>
-&lt;a data-fancybox="gallery-themes" href="https://nhnacademy.github.io/media/albums/themes/theme-ocean.png" >
-&lt;img src="https://nhnacademy.github.io/media/albums/themes/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_3.png" loading="lazy" alt="theme-ocean.png" width="124" height="190">
-&lt;/a>
-&lt;a data-fancybox="gallery-themes" href="https://nhnacademy.github.io/media/albums/themes/theme-strawberry.png" >
-&lt;img src="https://nhnacademy.github.io/media/albums/themes/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_3.png" loading="lazy" alt="theme-strawberry.png" width="124" height="190">
-&lt;/a>
-&lt;/div></description></item><item><title>Featured Publications</title><link>https://nhnacademy.github.io/widgets-for-home/featured/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/featured/</guid><description/></item><item><title>1. 개발툴 익히기</title><link>https://nhnacademy.github.io/__xtra/tools/tns-101/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-101/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+- 장소: 경남 캠퍼스 대강의실 --></description></item><item><title>1. 개발툴 익히기</title><link>https://nhnacademy.github.io/__xtra/tools/tns-101/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-101/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;p>개발 환경 구성&lt;br>
@@ -857,7 +822,7 @@ System.out.println( minus.apply( 3.0 ).apply( 5.0 ) ); // 3+5를 찍으세요.
 &lt;h3 id="요구-사항">요구 사항&lt;/h3>
 &lt;h3 id="필요-기술">필요 기술&lt;/h3></description></item><item><title>쇼핑몰 서비스 개발</title><link>https://nhnacademy.github.io/__xtra/dooray/project-103/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/dooray/project-103/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
 &lt;h3 id="요구-사항">요구 사항&lt;/h3>
-&lt;h3 id="필요-기술">필요 기술&lt;/h3></description></item><item><title>Popular Topics</title><link>https://nhnacademy.github.io/widgets-for-home/tags/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/tags/</guid><description/></item><item><title>경남 캠퍼스</title><link>https://nhnacademy.github.io/widgets-for-home/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/widgets-for-home/contact/</guid><description/></item><item><title>2. 깨끗한 코드 만들기</title><link>https://nhnacademy.github.io/__xtra/tools/tns-201/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-201/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;h3 id="필요-기술">필요 기술&lt;/h3></description></item><item><title>2. 깨끗한 코드 만들기</title><link>https://nhnacademy.github.io/__xtra/tools/tns-201/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-201/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>누구나 읽기 좋은 코드를 작성할 수 있는 능력을 살펴보기&lt;/li>
 &lt;li>테스트를 통한 안전한 코드 만들기&lt;/li>
@@ -2251,7 +2216,7 @@ Spring boot 확장 기능들을 활용할 수 있다.&lt;/li>
 &lt;/div>
 &lt;/div>
 --></description></item><item><title>TIP Quiz - Monte Carlo Method in Stream Paradigm</title><link>https://nhnacademy.github.io/publication/monte_carlo/</link><pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/publication/monte_carlo/</guid><description>&lt;hr>
-&lt;p>NHN &lt;strong>Theory Into Practice&lt;/strong> series&lt;/p></description></item><item><title>NHN Track</title><link>https://nhnacademy.github.io/project/nhn_track/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/project/nhn_track/</guid><description>&lt;p>&lt;a href="https://nhn.com" target="_blank" rel="noopener">NHN&lt;/a> 내의 소프트웨어 기술 전문가와 경상남도 &lt;a href="http://usg.ac.kr/" target="_blank" rel="noopener">USG 공유대학&lt;/a>의 교수진이 소프트웨어 개발 직무 기술을 익히는데 필요한 전산학 기초를 가르치기 위하여 마련한 교육 과정입니다. 2023년부터 NHN 아카데미 경남 캠퍼스에서 개설되는 연수 과정에 지원하려면 USG 공유대학을 통해 아래 강의를 이수해야합니다.&lt;/p>
+&lt;p>NHN &lt;strong>Theory Into Practice&lt;/strong> series&lt;/p></description></item><item><title>NHN Track</title><link>https://nhnacademy.github.io/courses/nhn_track/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/nhn_track/</guid><description>&lt;p>&lt;a href="https://nhn.com" target="_blank" rel="noopener">NHN&lt;/a> 내의 소프트웨어 기술 전문가와 경상남도 &lt;a href="http://usg.ac.kr/" target="_blank" rel="noopener">USG 공유대학&lt;/a>의 교수진이 소프트웨어 개발 직무 기술을 익히는데 필요한 전산학 기초를 가르치기 위하여 마련한 교육 과정입니다. 2023년부터 NHN 아카데미 경남 캠퍼스에서 개설되는 연수 과정에 지원하려면 USG 공유대학을 통해 아래 강의를 이수해야합니다.&lt;/p>
 &lt;ul>
 &lt;li>프로그래밍 개론(Introduction to Programming)&lt;/li>
 &lt;li>자료 구조와 알고리즘(Data Structure &amp;amp; Algorithm)&lt;/li>
