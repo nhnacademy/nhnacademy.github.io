@@ -13,7 +13,6 @@
 <link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
-<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css integrity crossorigin=anonymous media=print onload="this.media='all'">
 <link rel=stylesheet href=/css/wowchemy.806fb473a6c8572f1f43f387953b19f7.css>
 <script>(function(b,d,e,a,g){b[a]=b[a]||[],b[a].push({'gtm.start':(new Date).getTime(),event:'gtm.js'});var f=d.getElementsByTagName(e)[0],c=d.createElement(e),h=a!='dataLayer'?'&l='+a:'';c.async=!0,c.src='https://www.googletagmanager.com/gtm.js?id='+g+h,f.parentNode.insertBefore(c,f)})(window,document,'script','dataLayer','G-B290QKY33L')</script>
 <link rel=alternate href=/publication_types/index.xml type=application/rss+xml title="NHN Academy">
@@ -76,8 +75,14 @@
 <li class=nav-item>
 <a class=nav-link href=/quiz><span>퀴즈</span></a>
 </li>
-<li class=nav-item>
-<a class=nav-link href=/about><span>소개</span></a>
+<li class="nav-item dropdown">
+<a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>소개</span><span class=caret></span>
+</a>
+<div class=dropdown-menu>
+<a class=dropdown-item href=/about#about><span>지금까지</span></a>
+<a class=dropdown-item href=/about#people><span>멘토</span></a>
+<a class=dropdown-item href=/about#about><span>캠퍼스</span></a>
+</div>
 </li>
 </ul>
 </div>
@@ -115,6 +120,36 @@
 <div class=page-footer>
 <div class=container>
 <footer class=site-footer>
+<div class=row>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+<p class=powered-by style=text-align:left>
+<ul class=fa-ul>
+<li>
+<i class="fa-li fas fa-registered fa-1x" aria-hidden=false></i>
+<span>532-87-02068
+</li>
+<li>
+<i class="fa-li fas fa-user-tie fa-1x" aria-hidden=false></i>
+<span>김재우
+</li>
+<li>
+<i class="fa-li fas fa-phone fa-1x" aria-hidden=true></i>
+<span id=person-telephone><a href=tel:031%208038%203159>031 8038 3159</a></li>
+<li>
+<i class="fa-li fas fa-map-marker fa-1x" aria-hidden=true></i>
+<span id=person-address>13487 경기도 성남시 대왕판교로 645번길 16
+</li>
+<li>
+<i class="fa-li fas fa-compass fa-1x" aria-hidden=true></i>
+<span>NHN 플레이뮤지엄
+</li>
+</p>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+<img src=/media/logo.svg class=img-responsive alt=Publication_types>
+</br>
+</div>
+</div>
 <p class=powered-by>
 © 2021-2022 NHN Academy Corp. All Rights Reserved.
 </p>
@@ -179,7 +214,8 @@
 <script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/yaml.min.js crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/toml.min.js crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/dockerfile.min.js crossorigin=anonymous></script>
-<script src=https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js integrity crossorigin=anonymous></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAL-oXAGtaKgeS2mvoNSeYxh6Tksby0vHU"></script>
+<script src=https://cdn.jsdelivr.net/gh/hpneo/gmaps@0.4.25/gmaps.min.js integrity="sha512-gauu0VKZq9ry8hOZHgNpcB2ogbSDojs+XLDItpOLY0IyA+KigeuT/suwSdPgfU/TGYLAn4Nan4OeaCa/UPr70Q==" crossorigin=anonymous></script>
 <script id=search-hit-fuse-template type=text/x-template>
         <div class="search-hit" id="summary-{{key}}">
           <div class="search-hit-content">

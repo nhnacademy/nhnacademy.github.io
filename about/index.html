@@ -13,7 +13,6 @@
 <link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
-<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css integrity crossorigin=anonymous media=print onload="this.media='all'">
 <link rel=stylesheet href=/css/wowchemy.806fb473a6c8572f1f43f387953b19f7.css>
 <script>(function(b,d,e,a,g){b[a]=b[a]||[],b[a].push({'gtm.start':(new Date).getTime(),event:'gtm.js'});var f=d.getElementsByTagName(e)[0],c=d.createElement(e),h=a!='dataLayer'?'&l='+a:'';c.async=!0,c.src='https://www.googletagmanager.com/gtm.js?id='+g+h,f.parentNode.insertBefore(c,f)})(window,document,'script','dataLayer','G-B290QKY33L')</script>
 <link rel=manifest href=/manifest.webmanifest>
@@ -74,8 +73,14 @@
 <li class=nav-item>
 <a class=nav-link href=/quiz><span>퀴즈</span></a>
 </li>
-<li class=nav-item>
-<a class="nav-link active" href=/about data-target=[]><span>소개</span></a>
+<li class="nav-item dropdown">
+<a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>소개</span><span class=caret></span>
+</a>
+<div class=dropdown-menu>
+<a class=dropdown-item href=/about#about><span>지금까지</span></a>
+<a class=dropdown-item href=/about#people><span>멘토</span></a>
+<a class=dropdown-item href=/about#about><span>캠퍼스</span></a>
+</div>
 </li>
 </ul>
 </div>
@@ -89,51 +94,6 @@
 </div>
 <div class=page-body>
 <span class="js-widget-page d-none"></span>
-<section id=about class="home-section wg-about">
-<div class=home-section-bg>
-</div>
-<div class=container>
-<div class=row>
-<div class="col-12 col-lg-4">
-<div id=profile>
-<img class="avatar avatar-circle" width=270 height=270 src=/author/avatar_hud0b480a5d6ae31d3005c419956640b1c_33872_270x270_fill_lanczos_center_3.png alt>
-<div class=portrait-title>
-<h2></h2>
-</div>
-<ul class=network-icon aria-hidden=true>
-<li>
-<a href=mailto:hello@nhnacademy.com aria-label=envelope>
-<i class="fas fa-envelope big-icon"></i>
-</a>
-</li>
-<li>
-<a href=https://github.com/nhnacademy target=_blank rel=noopener aria-label=github>
-<i class="fab fa-github big-icon"></i>
-</a>
-</li>
-<li>
-<a href=https://www.facebook.com/nhnacademy target=_blank rel=noopener aria-label=facebook>
-<i class="fab fa-facebook big-icon"></i>
-</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-12 col-lg-8">
-<div class=article-style>
-<p>경남 캠퍼스</p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d814.7133604961795!2d128.86596573194316!3d35.23501819304025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568c70b98f94269%3A0xa313d588e3e5fefc!2z6rK97IOB64Ko64-EIOq5gO2VtOyLnCDrgrTsmbjspJHslZnroZwgNTU!5e0!3m2!1sko!2skr!4v1651487985092!5m2!1sko!2skr" width=600 height=450 style=border:0 allowfullscreen loading=lazy referrerpolicy=no-referrer-when-downgrade></iframe>
-<ul>
-<li><a href=mailto:hello@nhnacademy.com>hello@nhnacademy.com</a>, 055-724-2031~2</li>
-<li>50948 경상남도 김해시 내외 중앙로 55, 정우빌딩 5층</li>
-</ul>
-</div>
-<div class=row>
-</div>
-</div>
-</div>
-</div>
-</section>
 <section id=experience class="home-section wg-experience">
 <div class=home-section-bg>
 </div>
@@ -164,7 +124,7 @@
 Present
 </div>
 <div class=card-text><ul>
-<li>이수해야할 전산학 기초를 <a href=/project/nhn_track>정의</a>합니다.</li>
+<li>소프트웨어 직무 기술을 익히는 데 필수 <a href=/courses/nhn_track>전산학 기초를 정리</a>합니다.</li>
 <li>울산과 경남 지역 <a href=http://usg.ac.kr/>USG 공유대학</a>에서 7개 과정을 가르칩니다.</li>
 </ul>
 </div>
@@ -268,7 +228,6 @@ Present
 <h2 class=mb-4>멘토</h2>
 </div>
 <div class="col-12 col-sm-auto people-person">
-<a href=/author/%EB%8F%99%EB%AC%98/><img class="avatar avatar-circle" src=/author/%EB%8F%99%EB%AC%98/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg alt=Avatar></a>
 <div class=portrait-title>
 <h2><a href=/author/%EB%8F%99%EB%AC%98/>동묘</a></h2>
 <h3>NHN Dooray!</h3>
@@ -276,7 +235,6 @@ Present
 </div>
 </div>
 <div class="col-12 col-sm-auto people-person">
-<a href=/author/%EB%9E%9C%EB%94%94/><img class="avatar avatar-circle" src=/author/%EB%9E%9C%EB%94%94/avatar_hud0b480a5d6ae31d3005c419956640b1c_33872_270x270_fill_lanczos_center_3.png alt=Avatar></a>
 <div class=portrait-title>
 <h2><a href=/author/%EB%9E%9C%EB%94%94/>랜디</a></h2>
 <h3>NHN 아카데미</h3>
@@ -284,7 +242,6 @@ Present
 </div>
 </div>
 <div class="col-12 col-sm-auto people-person">
-<a href=/author/%EB%A7%88%EB%A5%B4%EC%BD%94/><img class="avatar avatar-circle" src=/author/%EB%A7%88%EB%A5%B4%EC%BD%94/avatar_hud0b480a5d6ae31d3005c419956640b1c_33872_270x270_fill_lanczos_center_3.png alt=Avatar></a>
 <div class=portrait-title>
 <h2><a href=/author/%EB%A7%88%EB%A5%B4%EC%BD%94/>마르코</a></h2>
 <h3>NHN 아카데미</h3>
@@ -292,7 +249,6 @@ Present
 </div>
 </div>
 <div class="col-12 col-sm-auto people-person">
-<a href=/author/%EB%A7%8C%ED%8B%B0/><img class="avatar avatar-circle" src=/author/%EB%A7%8C%ED%8B%B0/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg alt=Avatar></a>
 <div class=portrait-title>
 <h2><a href=/author/%EB%A7%8C%ED%8B%B0/>만티</a></h2>
 <h3>NHN Dooray!</h3>
@@ -300,7 +256,6 @@ Present
 </div>
 </div>
 <div class="col-12 col-sm-auto people-person">
-<a href=/author/%EC%97%91%EC%8A%A4%ED%8A%B8%EB%9D%BC/><img class="avatar avatar-circle" src=/author/%EC%97%91%EC%8A%A4%ED%8A%B8%EB%9D%BC/avatar_hud0b480a5d6ae31d3005c419956640b1c_33872_270x270_fill_lanczos_center_3.png alt=Avatar></a>
 <div class=portrait-title>
 <h2><a href=/author/%EC%97%91%EC%8A%A4%ED%8A%B8%EB%9D%BC/>엑스트라</a></h2>
 <h3>NHN 아카데미</h3>
@@ -308,7 +263,6 @@ Present
 </div>
 </div>
 <div class="col-12 col-sm-auto people-person">
-<a href=/author/%EC%98%A4%EC%85%98/><img class="avatar avatar-circle" src=/author/%EC%98%A4%EC%85%98/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg alt=Avatar></a>
 <div class=portrait-title>
 <h2><a href=/author/%EC%98%A4%EC%85%98/>오션</a></h2>
 <h3>NHN</h3>
@@ -316,7 +270,6 @@ Present
 </div>
 </div>
 <div class="col-12 col-sm-auto people-person">
-<a href=/author/%EC%A1%B0%EB%8D%98/><img class="avatar avatar-circle" src=/author/%EC%A1%B0%EB%8D%98/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg alt=Avatar></a>
 <div class=portrait-title>
 <h2><a href=/author/%EC%A1%B0%EB%8D%98/>조던</a></h2>
 <h3>NHN Dooray!</h3>
@@ -324,7 +277,6 @@ Present
 </div>
 </div>
 <div class="col-12 col-sm-auto people-person">
-<a href=/author/%EC%BD%94%EC%BD%94/><img class="avatar avatar-circle" src=/author/%EC%BD%94%EC%BD%94/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg alt=Avatar></a>
 <div class=portrait-title>
 <h2><a href=/author/%EC%BD%94%EC%BD%94/>코코</a></h2>
 <h3>NHN Edu</h3>
@@ -332,7 +284,6 @@ Present
 </div>
 </div>
 <div class="col-12 col-sm-auto people-person">
-<a href=/author/%EC%BD%A4%ED%8B%B4/><img class="avatar avatar-circle" src=/author/%EC%BD%A4%ED%8B%B4/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg alt=Avatar></a>
 <div class=portrait-title>
 <h2><a href=/author/%EC%BD%A4%ED%8B%B4/>콤틴</a></h2>
 <h3>NHN Dooray!</h3>
@@ -340,7 +291,6 @@ Present
 </div>
 </div>
 <div class="col-12 col-sm-auto people-person">
-<a href=/author/%ED%82%A4%EC%A3%BC/><img class="avatar avatar-circle" src=/author/%ED%82%A4%EC%A3%BC/avatar_hud0b480a5d6ae31d3005c419956640b1c_33872_270x270_fill_lanczos_center_3.png alt=Avatar></a>
 <div class=portrait-title>
 <h2><a href=/author/%ED%82%A4%EC%A3%BC/>키주</a></h2>
 <h3>NHN 아카데미</h3>
@@ -350,10 +300,69 @@ Present
 </div>
 </div>
 </section>
+<section id=about class="home-section wg-about">
+<div class=home-section-bg>
+</div>
+<div class=container>
+<div class=row>
+<div class="col-12 col-lg-4">
+<div id=profile>
+<div class=portrait-title>
+<h2></h2>
+</div>
+<ul class=network-icon aria-hidden=true>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-8">
+<div class=article-style>
+<p>경남 캠퍼스</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d814.7133604961795!2d128.86596573194316!3d35.23501819304025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568c70b98f94269%3A0xa313d588e3e5fefc!2z6rK97IOB64Ko64-EIOq5gO2VtOyLnCDrgrTsmbjspJHslZnroZwgNTU!5e0!3m2!1sko!2skr!4v1651487985092!5m2!1sko!2skr" width=100% height=100% style=border:0 allowfullscreen loading=lazy referrerpolicy=no-referrer-when-downgrade></iframe>
+<ul>
+<li><a href=mailto:hello@nhnacademy.com>hello@nhnacademy.com</a>, 055-724-2031~2</li>
+<li>50948 경상남도 김해시 내외 중앙로 55, 정우빌딩 5층</li>
+</ul>
+</div>
+<div class=row>
+</div>
+</div>
+</div>
+</div>
+</section>
 </div>
 <div class=page-footer>
 <div class=container>
 <footer class=site-footer>
+<div class=row>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+<p class=powered-by style=text-align:left>
+<ul class=fa-ul>
+<li>
+<i class="fa-li fas fa-registered fa-1x" aria-hidden=false></i>
+<span>532-87-02068
+</li>
+<li>
+<i class="fa-li fas fa-user-tie fa-1x" aria-hidden=false></i>
+<span>김재우
+</li>
+<li>
+<i class="fa-li fas fa-phone fa-1x" aria-hidden=true></i>
+<span id=person-telephone><a href=tel:031%208038%203159>031 8038 3159</a></li>
+<li>
+<i class="fa-li fas fa-map-marker fa-1x" aria-hidden=true></i>
+<span id=person-address>13487 경기도 성남시 대왕판교로 645번길 16
+</li>
+<li>
+<i class="fa-li fas fa-compass fa-1x" aria-hidden=true></i>
+<span>NHN 플레이뮤지엄
+</li>
+</p>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+<img src=/media/logo.svg class=img-responsive alt>
+</br>
+</div>
+</div>
 <p class=powered-by>
 © 2021-2022 NHN Academy Corp. All Rights Reserved.
 </p>
@@ -418,7 +427,8 @@ Present
 <script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/yaml.min.js crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/toml.min.js crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/dockerfile.min.js crossorigin=anonymous></script>
-<script src=https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js integrity crossorigin=anonymous></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAL-oXAGtaKgeS2mvoNSeYxh6Tksby0vHU"></script>
+<script src=https://cdn.jsdelivr.net/gh/hpneo/gmaps@0.4.25/gmaps.min.js integrity="sha512-gauu0VKZq9ry8hOZHgNpcB2ogbSDojs+XLDItpOLY0IyA+KigeuT/suwSdPgfU/TGYLAn4Nan4OeaCa/UPr70Q==" crossorigin=anonymous></script>
 <script id=search-hit-fuse-template type=text/x-template>
         <div class="search-hit" id="summary-{{key}}">
           <div class="search-hit-content">
