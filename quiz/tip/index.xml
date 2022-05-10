@@ -7,7 +7,7 @@
 &lt;/ul>
 &lt;ul class="cta-group">
 &lt;li>
-&lt;a href="https://nhnacademy.github.io/publication/monte_carlo/quiz.pdf" class="btn btn-primary px-3 py-3">시작&lt;/a>
+&lt;a href="https://nhnacademy.github.io/publication/monte_carlo/quiz.pdf" class="btn btn-primary px-3 py-3">PDF&lt;/a>
 &lt;/li>
 &lt;/ul></description></item><item><title>Quiz 2</title><link>https://nhnacademy.github.io/quiz/tip/quiz002/</link><pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/tip/quiz002/</guid><description>&lt;p>$$ g(f(1, f(2, f(3, t)))) = 1, t \in T \tag{1} $$
 $$ g(f(1, f(2, f(3, t)))) = 3, t \in T \tag{2} $$
@@ -25,7 +25,7 @@ $$ g(f(f(f(t, i, 1), j, 2), k, 3), i) = 1, t \in T \tag{3} $$&lt;/p>
 &lt;li>컴퓨터 계산의 복잡도(computational complexity)를 헤아려 자료 구조(data structure)와 알고리즘을 선별하는 공부와 함께, ADT 방식으로 자료 구조(data structure)의 의미를 기술하고 이해하는 연습을 하다 보면, 문제 풀이 방식에 알맞은 연산을 간추릴 수 있고, 이렇게 간추려낸 연산이 필요한 자료 구조를 정의한다는 점도 알게 됩니다.&lt;/li>
 &lt;li>소프트웨어 부품의 인터페이스를 설계하는 능력을 기르는데 도움이 되는 공부이기 때문에 (자료 구조를 어떻게 만드는지는 일부러 무시하고) 주요 연산(함수)만 엮어서 테이터 타입을 어떻게 특정할 수 있는지를 맛 보이려고 만든 단편적인 문제입니다.&lt;/li>
 &lt;li>데이터 타입의 &lt;a href="https://en.wikipedia.org/wiki/Semantics_(computer_science)">의미(semantics)를 기술하는 데에도 여러 가지 방법&lt;/a> 있습니다.&lt;/li>
-&lt;li>ADT 방식에 따라 데이터 타입을 정의를 기술하는 데는 더 많은 공부와 연습이 필요합니다.&lt;/li>
+&lt;li>ADT 방식에 따라 데이터 타입의 정의를 기술하는 데는 더 많은 공부와 연습이 필요합니다.&lt;/li>
 &lt;/ul>
 &lt;/p>
 &lt;/details>
