@@ -168,6 +168,17 @@
 &lt;h2 id="교과">교과&lt;/h2>
 &lt;ul>
 &lt;li>TIP.Programming.JAVA&lt;/li>
+&lt;/ul></description></item><item><title>Quiz 1</title><link>https://nhnacademy.github.io/quiz/tip/quiz001/</link><pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/tip/quiz001/</guid><description>&lt;h3 id="몬테카를로-방법">몬테카를로 방법&lt;/h3>
+&lt;h4 id="스트림-패러다임-python-판">스트림 패러다임, Python 판&lt;/h4>
+&lt;ul>
+&lt;li>경남 캠퍼스 1기 웹 서비스 연수 과정 시작 전 방학 숙제로 냈던 문제입니다.&lt;/li>
+&lt;li>기술 면접과 코딩 테스트에 나왔던 문제의 답도 엿볼 수 있도록 꾸몄습니다.&lt;/li>
+&lt;li>글을 읽고 프로그램이 잘 돌아가도록 코드 속의 &amp;hellip;을 채우세요.&lt;/li>
+&lt;/ul>
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="https://nhnacademy.github.io/publication/monte_carlo/quiz.pdf" class="btn btn-primary px-3 py-3">시작&lt;/a>
+&lt;/li>
 &lt;/ul></description></item><item><title>Quiz 1</title><link>https://nhnacademy.github.io/quiz/pie/java/quiz001/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/quiz001/</guid><description>&lt;p>Java에서는 call-by-value로 인자 값을 주고 받습니다.&lt;/p>
 &lt;pre>&lt;code class="language-Java">class 물체 {
 private int n = 0;
@@ -334,7 +345,34 @@ ParameterPassing.test(); // Jupyter notebook에서만
 &lt;ul>
 &lt;li>TIP.Common.Programming.HTML&lt;/li>
 &lt;li>TIP.Common.Programming.JAVASCRIPT&lt;/li>
-&lt;/ul></description></item><item><title>Quiz 2</title><link>https://nhnacademy.github.io/quiz/pie/java/quiz002/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/quiz002/</guid><description>&lt;p>HashSet으로 1들의 집합을 만듭니다.&lt;/p>
+&lt;/ul></description></item><item><title>Quiz 2</title><link>https://nhnacademy.github.io/quiz/tip/quiz002/</link><pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/tip/quiz002/</guid><description>&lt;p>$$ g(f(1, f(2, f(3, t)))) = 1, t \in T \tag{1} $$
+$$ g(f(1, f(2, f(3, t)))) = 3, t \in T \tag{2} $$
+$$ f(f(f(t, i, 1), i, 2), i, 3) = f(t,i,3), $$
+$$ g(f(f(f(t, i, 1), j, 2), k, 3), i) = 1, t \in T \tag{3} $$&lt;/p>
+&lt;ol>
+&lt;li>(1), (2), (3)에서 T는 제 각기 어떤 데이터 타입인가요?&lt;/li>
+&lt;li>(1), (2), (3)에서 함수 g와 f는 T의 어떤 연산에 대응하나요?&lt;/li>
+&lt;/ol>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>데이터에 속하는 값과 연산의 의미를 기술하여 데이터 타입을 정의하는 방식을 두고 &lt;a href="https://en.wikipedia.org/wiki/Abstract_data_type">Abstract Data Type(ADT)&lt;/a>이라고도 합니다.&lt;/li>
+&lt;li>컴퓨터 계산의 복잡도(computational complexity)를 헤아려 자료 구조(data structure)와 알고리즘을 선별하는 공부와 함께, ADT 방식으로 자료 구조(data structure)의 의미를 기술하고 이해하는 연습을 하다 보면, 문제 풀이 방식에 알맞은 연산을 간추릴 수 있고, 이렇게 간추려낸 연산이 필요한 자료 구조를 정의한다는 점도 알게 됩니다.&lt;/li>
+&lt;li>소프트웨어 부품의 인터페이스를 설계하는 능력을 기르는데 도움이 되는 공부이기 때문에 (자료 구조를 어떻게 만드는지는 일부러 무시하고) 주요 연산(함수)만 엮어서 테이터 타입을 어떻게 특정할 수 있는지를 맛 보이려고 만든 단편적인 문제입니다.&lt;/li>
+&lt;li>데이터 타입의 &lt;a href="https://en.wikipedia.org/wiki/Semantics_(computer_science)">의미(semantics)를 기술하는 데에도 여러 가지 방법&lt;/a> 있습니다.&lt;/li>
+&lt;li>ADT 방식에 따라 데이터 타입을 정의를 기술하는 데는 더 많은 공부와 연습이 필요합니다.&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>참고 자료&lt;/summary>
+&lt;p>&lt;ol>
+&lt;li>Barbara Liskov, Stephen Zilles, &lt;em>Programming with abstract data types&lt;/em>, ACM SIGPLAN Notices, Volume 9, Issue 4, April 1974, pp 50~59, &lt;a href="https://doi.org/10.1145/942572.807045">https://doi.org/10.1145/942572.807045&lt;/a>&lt;/li>
+&lt;li>William R. Cook, &lt;em>Object-Oriented Programming Versus Abstract Data Types&lt;/em>, Proc. of the REX Workshop/School on the Foundations of Object-Oriented Languages (FOOL), LNCS 489, pringer-Verlag, 1990, pp. 151-178, &lt;a href="https://www.cs.utexas.edu/~wcook/papers/OOPvsADT/CookOOPvsADT90.pdf">https://www.cs.utexas.edu/~wcook/papers/OOPvsADT/CookOOPvsADT90.pdf&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/p>
+&lt;/details></description></item><item><title>Quiz 2</title><link>https://nhnacademy.github.io/quiz/pie/java/quiz002/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/quiz002/</guid><description>&lt;p>HashSet으로 1들의 집합을 만듭니다.&lt;/p>
 &lt;pre>&lt;code class="language-java">import java.util.*;
 class Sameness {
 public static void 집합크기(Set 집합, Object[] elements) {
