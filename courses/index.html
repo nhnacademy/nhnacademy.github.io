@@ -104,12 +104,24 @@
 <li>NHN TIPIE(티피)는 NHN 아카데미 교육 체계입니다.</li>
 <li>TIPIE는 교육 목표에 따라 <strong>TIP</strong>(Theory Into Practice)과 <strong>PIE</strong>(Practice Into Education)로 나뉩니다.</li>
 </ul>
-<p>
-<figure>
-<div class="d-flex justify-content-center">
-<div class=w-100><img src=./tipie.svg alt=TIPIE loading=lazy data-zoomable></div>
-</div></figure>
-</p>
+<pre><code class=language-mermaid>%%{init: {'theme': 'base', 
+  'themeVariables': { 'primaryColor': '#fff', 'fontFamily': '$sta-font-heading, sans-serif' }}}%%
+flowchart LR
+  subgraph PIE
+  tool([도구 + 기술]) --&gt; |\n인증| project([프로젝트])
+  end
+  nhntrack([NHN Track]) -.-&gt; tip
+  tip([TIP]) --&gt; |\n인증| tool
+  click nhntrack &quot;/courses/nhn_track&quot; &quot;전산학 기초&quot;
+  click tip &quot;/courses/tip&quot; &quot;이론을 실무로&quot;
+  click tool &quot;/courses/pie&quot;
+  click project &quot;/courses/pie&quot;
+  click PIE &quot;/courses/pie&quot;
+  classDef nodestyle fill:#FFF, stroke:darkgrey, stroke-width:0.5px;
+  class tip nodestyle;
+  class project nodestyle;
+  class tool nodestyle;
+</code></pre>
 </div>
 <div class="media stream-item">
 <div class=media-body>
@@ -118,7 +130,7 @@
 </div>
 <a href=/courses/tip/ class=summary-link>
 <div class=article-style>
-전산 이론을 실무에 쓸 수 있도록 돕는데 목표를 둡니다.
+전산 이론을 실무에 쓸 수 있도록 돕습니다.
 </div>
 </a>
 <div class="stream-meta article-metadata">

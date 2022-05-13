@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+
+# set -e
+# set -x
+is_there() {
+    [ ! -e "$1" ] && echo "No such file: $1" && exit 1
+}
+
+markdown_source_file="$1"
+is_there "${markdown_source_file}"
+shift
+
+filename_without_extension=${markdown_source_file%.*}
+
+tex_header_file=header_file.tex
+is_there "${tex_header_file}"
+
+# 혹 앞으로 쓰게 될지 몰라서 미리 챙겨둔 선택
+    # -F mermaid-filter \
+
+# Google Favored Markdown 양식의 markdown 문서를 tex으로 조판하고 싶으면 쓴다. 
+# 단 이 기능을 선택하면 다른 Markdown 양식 특히 frontmatter가 전혀 먹히지 않는다. 
+    # -f gfm-raw_tex \
+
+# LaTeX 변수 값을 선택할 수 있다.
+    # --variable mainfont=NanumMyeongjo \
+    # --variable sansfont=NanumGothic \
+    # --variable date="\today{}" 
+
+pandoc "${markdown_source_file}" \
+    -o "${filename_without_extension}.pdf" \
+    --pdf-engine=xelatex \
+    --include-in-header="${tex_header_file}" \
+    --toc \
+    --toc-depth=4 \
+    --top-level-division=chapter \
+    --number-sections \
+    --variable monofont=Iosevka \
+    --variable papersize:a4 \
+    --variable fontsize=12pt \
+    --variable geometry=margin=2cm \
+    --variable documentclass=scrartcl \
+    --variable toc-title="목차" \
+    --variable colorlinks=true \
+    --variable urlcolor=NavyBlue \
+    "$@"

@@ -179,7 +179,37 @@
 &lt;li>
 &lt;a href="https://nhnacademy.github.io/publication/monte_carlo/quiz.pdf" class="btn btn-primary px-3 py-3">PDF&lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>Quiz 1</title><link>https://nhnacademy.github.io/quiz/pie/java/quiz001/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/quiz001/</guid><description>&lt;p>Java에서는 call-by-value로 인자 값을 주고 받습니다.&lt;/p>
+&lt;/ul></description></item><item><title>Quiz 1</title><link>https://nhnacademy.github.io/quiz/pie/linux/quiz001/</link><pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/linux/quiz001/</guid><description>&lt;pre>&lt;code class="language-bash">#!/usr/bin/env sh
+echo hello
+silence echo hello
+silence
+silence silence
+echo end
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>hello
+Usage: silence [command | command ..]
+end
+&lt;/code>&lt;/pre>
+&lt;p>silence 쉘 스크립트를 짜세요.&lt;/p>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>shell 스크립트를 짜다 보면 어떤 명령이 잘 돌아갔는지 아니면 문제가 생겼는지 exit status만 알면 되고 stdout, stderr 스트림으로 나오는 메시지를 숨기고 싶을 때가 있습니다.&lt;/li>
+&lt;li>linux (Unix)의 &lt;a href="https://en.wikipedia.org/wiki/File_descriptor">file descriptor&lt;/a>와 stdin, stdout, stderr 같은 &lt;a href="https://en.wikipedia.org/wiki/Standard_streams">기본 스트림&lt;/a>의 역할, /dev/null의 쓰임새, shell 언어의 &lt;a href="https://www.gnu.org/software/bash/manual/html_node/Redirections.html">redirection 연산&lt;/a>을 알아야 풀 수 있는 문제입니다.&lt;/li>
+&lt;li>shell 스크립트에 필요한 인자 수가 맞지 않으면 쓰는 법(Usage)을 보여주며 non-zero exit하는 흔히 shell 스크립트를 짤 때 되풀이되는 코드 구조를 연습할 수 있습니다.&lt;/li>
+&lt;li>jupyter notebook을 쓰는 경우에는, bash 코드 셀이 돌아가는 subshell 환경에 silence 스크립트가 들어있는 폴더가 PATH에 걸려 있도록 &lt;a href="https://nhnacademy.github.io/quiz/pie/linux">설정&lt;/a>합니다.&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>공부 거리&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>&lt;a href="https://en.wikibooks.org/wiki/Bourne_Shell_Scripting/Files_and_streams">Files and streams,&lt;/a> Bourne Shell Scripting, Wikibooks&lt;/li>
+&lt;li>David Both, &lt;a href="https://opensource.com/article/18/10/linux-data-streams">Working with data streams on the Linux command line&lt;/a>, opensource.com&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details></description></item><item><title>Quiz 1</title><link>https://nhnacademy.github.io/quiz/pie/java/quiz001/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/quiz001/</guid><description>&lt;p>Java에서는 call-by-value로 인자 값을 주고 받습니다.&lt;/p>
 &lt;pre>&lt;code class="language-Java">class 물체 {
 private int n = 0;
 public 물체( int m ) { n = m; }
