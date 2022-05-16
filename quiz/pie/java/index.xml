@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java | NHN Academy</title><link>https://nhnacademy.github.io/quiz/pie/java/</link><atom:link href="https://nhnacademy.github.io/quiz/pie/java/index.xml" rel="self" type="application/rss+xml"/><description>Java</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>Java</title><link>https://nhnacademy.github.io/quiz/pie/java/</link></image><item><title>Quiz 1</title><link>https://nhnacademy.github.io/quiz/pie/java/quiz001/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/quiz001/</guid><description>&lt;p>Java에서는 call-by-value로 인자 값을 주고 받습니다.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java | NHN Academy</title><link>https://nhnacademy.github.io/quiz/pie/java/</link><atom:link href="https://nhnacademy.github.io/quiz/pie/java/index.xml" rel="self" type="application/rss+xml"/><description>Java</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>Java</title><link>https://nhnacademy.github.io/quiz/pie/java/</link></image><item><title>1</title><link>https://nhnacademy.github.io/quiz/pie/java/001/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/001/</guid><description>&lt;p>Java에서는 call-by-value로 인자 값을 주고 받습니다.&lt;/p>
 &lt;pre>&lt;code class="language-Java">class 물체 {
 private int n = 0;
 public 물체( int m ) { n = m; }
@@ -38,7 +38,7 @@ ParameterPassing.test(); // Jupyter notebook에서만
 &lt;details class="spoiler " id="spoiler-1">
 &lt;summary>귀띔&lt;/summary>
 &lt;p>Java 언어에서 &lt;a href="https://www.google.com/search?q=value+semantics+vs+reference+semantics+java">value semantics와 reference (pointer) semantics의 차이를&lt;/a> 코드로 시연하면서 설명할 수 있는지 되새겨보는 문제입니다.&lt;/p>
-&lt;/details></description></item><item><title>Quiz 2</title><link>https://nhnacademy.github.io/quiz/pie/java/quiz002/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/quiz002/</guid><description>&lt;p>HashSet으로 1들의 집합을 만듭니다.&lt;/p>
+&lt;/details></description></item><item><title>2</title><link>https://nhnacademy.github.io/quiz/pie/java/002/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/002/</guid><description>&lt;p>HashSet으로 1들의 집합을 만듭니다.&lt;/p>
 &lt;pre>&lt;code class="language-java">import java.util.*;
 class Sameness {
 public static void 집합크기(Set 집합, Object[] elements) {
@@ -98,7 +98,7 @@ Sameness.집합크기( new HashSet(), Two.twos ); // in Jupiter Notebook
 &lt;details class="spoiler " id="spoiler-1">
 &lt;summary>분수(유리수)&lt;/summary>
 &lt;p>&lt;a href="https://commons.apache.org/proper/commons-math/">Apache Commons Math ™ &lt;/a>에 &lt;a href="https://commons.apache.org/proper/commons-math/userguide/fraction.html">Fraction&lt;/a> 클래스가 유리수(분수)를 구현합니다.&lt;/p>
-&lt;/details>&lt;/p></description></item><item><title>Quiz 3</title><link>https://nhnacademy.github.io/quiz/pie/java/quiz003/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/quiz003/</guid><description>&lt;p>&lt;a href="../quiz002">분수&lt;/a>를 수천 개 만들어 쓰는 프로그램을 짜서 돌려 봤더니 분수의 수가 늘어날수록 속도가 떨어집니다. 분수를 만들 때마다 약분하기 때문입니다. 분자 분모가 필요할 때만 약분하도록 getter(또는 Selector)를 고칩니다.&lt;/p>
+&lt;/details>&lt;/p></description></item><item><title>3</title><link>https://nhnacademy.github.io/quiz/pie/java/003/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/003/</guid><description>&lt;p>&lt;a href="../quiz002">분수&lt;/a>를 수천 개 만들어 쓰는 프로그램을 짜서 돌려 봤더니 분수의 수가 늘어날수록 속도가 떨어집니다. 분수를 만들 때마다 약분하기 때문입니다. 분자 분모가 필요할 때만 약분하도록 getter(또는 Selector)를 고칩니다.&lt;/p>
 &lt;pre>&lt;code class="language-java">class 분수 {
 public 분수(int numerator, int denominator) throws ArithmeticException {
 if ( 0 == denominator ) throw new ArithmeticException( &amp;quot;분모 0&amp;quot; );
@@ -138,7 +138,7 @@ System.out.println( new 분수(2,4) ) // Jupyter Notebook에서만
 of Computer Programs&lt;/li>
 &lt;/ol>
 &lt;/p>
-&lt;/details></description></item><item><title>Quiz 4</title><link>https://nhnacademy.github.io/quiz/pie/java/quiz004/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/quiz004/</guid><description>&lt;pre>&lt;code class="language-mermaid">classDiagram
+&lt;/details></description></item><item><title>4</title><link>https://nhnacademy.github.io/quiz/pie/java/004/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/004/</guid><description>&lt;pre>&lt;code class="language-mermaid">classDiagram
 동물 &amp;lt;|-- 젖먹이동물
 동물 &amp;lt;|-- 새
 젖먹이동물 &amp;lt;|-- 박쥐
@@ -208,7 +208,7 @@ Programming(OOP)이라고 일컫는 프로그래밍 스타일에서 주목하는
 &lt;li>&lt;a href="https://www.cs.rpi.edu/academics/courses/spring21/csci2600/handout-files/files_29_03/SubtypePolymorphism.pdf">Subtype polymorphism, Liskov Substitution Principle(LSP), Rensselaer Polytechnic Institute&lt;/a>&lt;/li>
 &lt;/ol>
 &lt;/p>
-&lt;/details></description></item><item><title>Quiz 5</title><link>https://nhnacademy.github.io/quiz/pie/java/quiz005/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/quiz005/</guid><description>&lt;pre>&lt;code class="language-java">class F {
+&lt;/details></description></item><item><title>5</title><link>https://nhnacademy.github.io/quiz/pie/java/005/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/005/</guid><description>&lt;pre>&lt;code class="language-java">class F {
 X m() { System.out.println(&amp;quot;F&amp;quot;); return new X(); }
 }
 class G extends F {
@@ -242,7 +242,7 @@ G.test();
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)">Covariance and contravariance&lt;/a>&lt;/li>
 &lt;/ol>
 &lt;/p>
-&lt;/details></description></item><item><title>Quiz 6</title><link>https://nhnacademy.github.io/quiz/pie/java/quiz006/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/quiz006/</guid><description>&lt;pre>&lt;code class="language-Java">import java.util.function.*;
+&lt;/details></description></item><item><title>6</title><link>https://nhnacademy.github.io/quiz/pie/java/006/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/006/</guid><description>&lt;pre>&lt;code class="language-Java">import java.util.function.*;
 class Combinator {
 public static &amp;lt;T, U, R&amp;gt; Function&amp;lt;U, R&amp;gt; leftSection(BiFunction&amp;lt;T, U, R&amp;gt; f, T left) {
 return right -&amp;gt; f.apply(left, right);

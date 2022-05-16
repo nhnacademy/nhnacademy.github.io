@@ -7,8 +7,8 @@
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" media=print onload="this.media='all'">
-<meta name=description content="class F { X m() { System.out.println(&#34;F&#34;); return new X(); } } class G extends F { Y m() { System.out.println(&#34;G&#34;); return new Y(); } public static void test() {">
-<link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/quiz/pie/java/quiz005/>
+<meta name=description content="Java에서는 call-by-value로 인자 값을 주고 받습니">
+<link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/quiz/pie/java/001/>
 <meta name=theme-color content="#1565c0">
 <link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
@@ -18,21 +18,21 @@
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://nhnacademy.github.io/quiz/pie/java/quiz005/>
+<link rel=canonical href=https://nhnacademy.github.io/quiz/pie/java/001/>
 <meta property="twitter:card" content="summary">
 <meta property="og:site_name" content="NHN Academy">
-<meta property="og:url" content="https://nhnacademy.github.io/quiz/pie/java/quiz005/">
-<meta property="og:title" content="Quiz 5 | NHN Academy">
-<meta property="og:description" content="class F { X m() { System.out.println(&#34;F&#34;); return new X(); } } class G extends F { Y m() { System.out.println(&#34;G&#34;); return new Y(); } public static void test() {"><meta property="og:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png">
+<meta property="og:url" content="https://nhnacademy.github.io/quiz/pie/java/001/">
+<meta property="og:title" content="1 | NHN Academy">
+<meta property="og:description" content="Java에서는 call-by-value로 인자 값을 주고 받습니"><meta property="og:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2007-06-18T00:00:00+00:00">
-<meta property="article:modified_time" content="2007-06-18T00:00:00+00:00">
+<meta property="article:published_time" content="2007-04-22T00:00:00+00:00">
+<meta property="article:modified_time" content="2007-04-22T00:00:00+00:00">
 <script src=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin=anonymous></script>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin=anonymous>
 <script>window.addEventListener("load",function(){window.cookieconsent.initialise({palette:{popup:{background:"#1565c0",text:"rgb(255, 255, 255)"},button:{background:"rgb(255, 255, 255)",text:"#1565c0"}},theme:"classic",content:{message:"This website uses cookies to ensure you get the best experience on our website.",dismiss:"Got it!",link:"Learn more",href:"/privacy/"}})})</script>
-<title>Quiz 5 | NHN Academy</title>
+<title>1 | NHN Academy</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=eaa4c0f2406ccc295def0cd0235f16d8>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=542488d33a7b2b3deb7531e0ce59bb01>
 <script src=/js/wowchemy-init.min.da42964e270e05a6063fbca894d7ccff.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -123,18 +123,19 @@ Java
 <div class=docs-toc-item>
 <a class=docs-toc-link href=/quiz/pie/java/>Java</a>
 <ul class="nav docs-sidenav">
-<li><a href=/quiz/pie/java/quiz001/>Quiz 1</a></li>
-<li><a href=/quiz/pie/java/quiz002/>Quiz 2</a></li>
-<li><a href=/quiz/pie/java/quiz003/>Quiz 3</a></li>
-<li><a href=/quiz/pie/java/quiz004/>Quiz 4</a></li>
-<li class=active><a href=/quiz/pie/java/quiz005/>Quiz 5</a></li>
-<li><a href=/quiz/pie/java/quiz006/>Quiz 6</a></li>
+<li class=active><a href=/quiz/pie/java/001/>1</a></li>
+<li><a href=/quiz/pie/java/002/>2</a></li>
+<li><a href=/quiz/pie/java/003/>3</a></li>
+<li><a href=/quiz/pie/java/004/>4</a></li>
+<li><a href=/quiz/pie/java/005/>5</a></li>
+<li><a href=/quiz/pie/java/006/>6</a></li>
 </ul>
 </div>
 <div class=docs-toc-item>
 <a class=docs-toc-link href=/quiz/pie/linux/>Linux</a>
 <ul class="nav docs-sidenav">
-<li><a href=/quiz/pie/linux/quiz001/>Quiz 1</a></li>
+<li><a href=/quiz/pie/linux/001/>1</a></li>
+<li><a href=/quiz/pie/linux/002/>2</a></li>
 </ul>
 </div>
 </ul>
@@ -177,66 +178,68 @@ Java
 </a>
 </li>
 <li class="breadcrumb-item active" aria-current=page>
-Quiz 5
+1
 </li>
 </ol>
 </nav>
-<h1>Quiz 5</h1>
+<h1>1</h1>
 <div class=article-style>
-<pre><code class=language-java>class F {
-    X m() { System.out.println(&quot;F&quot;); return new X(); }
+<p>Java에서는 call-by-value로 인자 값을 주고 받습니다.</p>
+<pre><code class=language-Java>class 물체 {
+	private int n = 0;
+	public 물체( int m ) { n = m; }
+	public void modify( int m ) { n = m; }
+	public String toString() { return &quot;&quot; + n; }
 }
 
-class G extends F {
-    Y m() { System.out.println(&quot;G&quot;); return new Y(); }
+class ParameterPassing {
+	public static void callByValue( int 복사본 ) { 복사본 = 0; }
+	public static void callByValue( 물체 copy ) { copy.modify(  0  ); }
+	public static void test() {
+		int 원본 = 1;
+		System.out.println( 원본 );
+		callByValue( 원본 );
+		System.out.println( 원본 );
 
-    public static void test() {
-        F f = new G();
-        f.m();
-    }
+		물체 source = new 물체( 1 );
+		System.out.println( source );
+		callByValue( source );
+		System.out.println( source );
+	}
 }
 
-G.test();
+ParameterPassing.test(); // Jupyter notebook에서만
 </code></pre>
-<pre><code>G
+<pre><code>1
+1
+1
+0
 </code></pre>
 <ol>
-<li>G가 찍히도록 X와 Y를 정의하세요.</li>
-<li>이와 같은 method overriding 규칙으로 얻게 되는 이점은 무엇인가요?</li>
+<li>원본은 바뀌지 않지만, source는 변했습니다. Call-by-value인데도 source가 변한 까닭은 무엇인가요?</li>
+<li>위의 실험 결과로 볼 때 Java는 call-by-reference를 지원한다고 볼 수 있나요?</li>
 </ol>
 <h2 id=도움말>도움말</h2>
 <details class=spoiler id=spoiler-0>
-<summary>귀띔</summary>
-<p><ul>
-<li><a href=https://docs.oracle.com/javase/tutorial/java/IandI/override.html>Covariant (method) return type 규칙</a>을 되짚어 봅니다.</li>
-</ul>
-</p>
+<summary>Jupyter notebook</summary>
+<p><a href=https://github.com/SpencerPark/IJava>Java</a> 커널이 깔린 Jupyter notebook이 아니라면 test()를 곧바로 돌릴 수 없습니다.</p>
 </details>
 <details class=spoiler id=spoiler-1>
-<summary>참고 문헌</summary>
-<p><ol>
-<li><a href=https://www.geeksforgeeks.org/covariant-return-types-java/>Covariant return type</a></li>
-<li><a href=https://en.wikipedia.org/wiki/Liskov_substitution_principle>Liskov Substitution Principle(LSP)</a></li>
-<li><a href=https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)>Covariance and contravariance</a></li>
-</ol>
-</p>
+<summary>귀띔</summary>
+<p>Java 언어에서 <a href="https://www.google.com/search?q=value+semantics+vs+reference+semantics+java">value semantics와 reference (pointer) semantics의 차이를</a> 코드로 시연하면서 설명할 수 있는지 되새겨보는 문제입니다.</p>
 </details>
 </div>
 <div class=article-widget>
 <div class=post-nav>
 <div class=post-nav-item>
-<div class=meta-nav>Previous</div>
-<a href=/quiz/pie/java/quiz004/ rel=next>Quiz 4</a>
-</div>
-<div class=post-nav-item>
 <div class=meta-nav>Next</div>
-<a href=/quiz/pie/java/quiz006/ rel=prev>Quiz 6</a>
+<a href=/quiz/pie/java/002/ rel=prev>2</a>
 </div>
 </div>
 </div>
 </div>
 <div class=body-footer>
-<p>Last updated on 2007년 06월 18일</p>
+<p>Last updated on 2007년 04월 22일</p>
 </div>
 </article>
 <footer class=site-footer>
@@ -322,7 +325,6 @@ G.test();
 <script src=/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js></script>
 <script src=https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin=anonymous></script>
-<script src=https://cdn.jsdelivr.net/gh/mermaid-js/mermaid@v8.8.4/dist/mermaid.min.js integrity="sha512-+TNmhaRJf3jyYHTpzEq/5I6b+aGyhzWb21mGdHAjxSGSYwxN9Grug3Y3B9qVxWfKKY8MscE/6mr9walWvFLFvQ==" crossorigin=anonymous title=mermaid></script>
 <script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/python.min.js crossorigin=anonymous></script>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux | NHN Academy</title><link>https://nhnacademy.github.io/quiz/pie/linux/</link><atom:link href="https://nhnacademy.github.io/quiz/pie/linux/index.xml" rel="self" type="application/rss+xml"/><description>Linux</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>Linux</title><link>https://nhnacademy.github.io/quiz/pie/linux/</link></image><item><title>Quiz 1</title><link>https://nhnacademy.github.io/quiz/pie/linux/quiz001/</link><pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/linux/quiz001/</guid><description>&lt;pre>&lt;code class="language-bash">#!/usr/bin/env sh
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux | NHN Academy</title><link>https://nhnacademy.github.io/quiz/pie/linux/</link><atom:link href="https://nhnacademy.github.io/quiz/pie/linux/index.xml" rel="self" type="application/rss+xml"/><description>Linux</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>Linux</title><link>https://nhnacademy.github.io/quiz/pie/linux/</link></image><item><title>1</title><link>https://nhnacademy.github.io/quiz/pie/linux/001/</link><pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/linux/001/</guid><description>&lt;pre>&lt;code class="language-bash">#!/usr/bin/env sh
 echo hello
 silence echo hello
 silence
@@ -26,6 +26,38 @@ end
 &lt;p>&lt;ul>
 &lt;li>&lt;a href="https://en.wikibooks.org/wiki/Bourne_Shell_Scripting/Files_and_streams">Files and streams,&lt;/a> Bourne Shell Scripting, Wikibooks&lt;/li>
 &lt;li>David Both, &lt;a href="https://opensource.com/article/18/10/linux-data-streams">Working with data streams on the Linux command line&lt;/a>, opensource.com&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details></description></item><item><title>2</title><link>https://nhnacademy.github.io/quiz/pie/linux/002/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/linux/002/</guid><description>&lt;p>cd 할 때 마다 &lt;code>ls&lt;/code> 하기 번거로워 쉘 스크립트 lcd 짭니다.&lt;/p>
+&lt;pre>&lt;code class="language-bash">#!/usr/bin/env sh
+cd &amp;quot;$@&amp;quot; &amp;amp;&amp;amp; ls
+&lt;/code>&lt;/pre>
+&lt;p>lcd를 실험하는 코드를 씁니다.&lt;/p>
+&lt;pre>&lt;code class="language-bash">#!/usr/bin/env sh
+touch 1 2 3
+ls [1-9]; mkdir folder &amp;amp;&amp;amp; cd folder &amp;amp;&amp;amp; touch 4 5 6 &amp;amp;&amp;amp; ls
+cd .. &amp;amp;&amp;amp; ./lcd folder
+ls [1-9]
+rm -rf folder 1 2 3 # 시험한 뒤 청소
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>1 2 3
+4 5 6
+4 5 6
+1 2 3
+&lt;/code>&lt;/pre>
+&lt;p>기대와 다른 실험 결과입니다. &lt;code>pwd&lt;/code>를 써서 이유를 설명하세요.&lt;/p>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Cd_(command)">cd&lt;/a>는 프로세스의 current &lt;a href="https://en.wikipedia.org/wiki/Working_directory">working directory&lt;/a>를 바꿉니다.&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>공부 거리&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>프로세스의 Current Working Directory를 알아내는 방법 - &lt;a href="https://unix.stackexchange.com/questions/94357/find-out-current-working-directory-of-a-running-process">lsof, pwdx, etc.&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/p>
 &lt;/details></description></item></channel></rss>

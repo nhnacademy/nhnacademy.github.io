@@ -7,8 +7,8 @@
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" media=print onload="this.media='all'">
-<meta name=description content="HashSet으로 1들의 집합을 만듭니다. import java.util.*; class Sameness { public static void 집합">
-<link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/quiz/pie/java/quiz002/>
+<meta name=description content="import java.util.function.*; class Combinator { public static <T, U, R> Function<U, R> leftSection(BiFunction<T, U, R> f, T left) { return right -> f.apply(left, right); } public static <T, U, R>">
+<link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/quiz/pie/java/006/>
 <meta name=theme-color content="#1565c0">
 <link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
@@ -18,21 +18,21 @@
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://nhnacademy.github.io/quiz/pie/java/quiz002/>
+<link rel=canonical href=https://nhnacademy.github.io/quiz/pie/java/006/>
 <meta property="twitter:card" content="summary">
 <meta property="og:site_name" content="NHN Academy">
-<meta property="og:url" content="https://nhnacademy.github.io/quiz/pie/java/quiz002/">
-<meta property="og:title" content="Quiz 2 | NHN Academy">
-<meta property="og:description" content="HashSet으로 1들의 집합을 만듭니다. import java.util.*; class Sameness { public static void 집합"><meta property="og:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png">
+<meta property="og:url" content="https://nhnacademy.github.io/quiz/pie/java/006/">
+<meta property="og:title" content="6 | NHN Academy">
+<meta property="og:description" content="import java.util.function.*; class Combinator { public static <T, U, R> Function<U, R> leftSection(BiFunction<T, U, R> f, T left) { return right -> f.apply(left, right); } public static <T, U, R>"><meta property="og:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2007-04-22T00:00:00+00:00">
-<meta property="article:modified_time" content="2007-04-22T00:00:00+00:00">
+<meta property="article:published_time" content="2007-06-18T00:00:00+00:00">
+<meta property="article:modified_time" content="2007-06-18T00:00:00+00:00">
 <script src=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin=anonymous></script>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin=anonymous>
 <script>window.addEventListener("load",function(){window.cookieconsent.initialise({palette:{popup:{background:"#1565c0",text:"rgb(255, 255, 255)"},button:{background:"rgb(255, 255, 255)",text:"#1565c0"}},theme:"classic",content:{message:"This website uses cookies to ensure you get the best experience on our website.",dismiss:"Got it!",link:"Learn more",href:"/privacy/"}})})</script>
-<title>Quiz 2 | NHN Academy</title>
+<title>6 | NHN Academy</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=be619cc6a7f9ae25854ba3e0c72f22be>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=074847d51f60e9167eba38f867fefc69>
 <script src=/js/wowchemy-init.min.da42964e270e05a6063fbca894d7ccff.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -123,18 +123,19 @@ Java
 <div class=docs-toc-item>
 <a class=docs-toc-link href=/quiz/pie/java/>Java</a>
 <ul class="nav docs-sidenav">
-<li><a href=/quiz/pie/java/quiz001/>Quiz 1</a></li>
-<li class=active><a href=/quiz/pie/java/quiz002/>Quiz 2</a></li>
-<li><a href=/quiz/pie/java/quiz003/>Quiz 3</a></li>
-<li><a href=/quiz/pie/java/quiz004/>Quiz 4</a></li>
-<li><a href=/quiz/pie/java/quiz005/>Quiz 5</a></li>
-<li><a href=/quiz/pie/java/quiz006/>Quiz 6</a></li>
+<li><a href=/quiz/pie/java/001/>1</a></li>
+<li><a href=/quiz/pie/java/002/>2</a></li>
+<li><a href=/quiz/pie/java/003/>3</a></li>
+<li><a href=/quiz/pie/java/004/>4</a></li>
+<li><a href=/quiz/pie/java/005/>5</a></li>
+<li class=active><a href=/quiz/pie/java/006/>6</a></li>
 </ul>
 </div>
 <div class=docs-toc-item>
 <a class=docs-toc-link href=/quiz/pie/linux/>Linux</a>
 <ul class="nav docs-sidenav">
-<li><a href=/quiz/pie/linux/quiz001/>Quiz 1</a></li>
+<li><a href=/quiz/pie/linux/001/>1</a></li>
+<li><a href=/quiz/pie/linux/002/>2</a></li>
 </ul>
 </div>
 </ul>
@@ -177,95 +178,87 @@ Java
 </a>
 </li>
 <li class="breadcrumb-item active" aria-current=page>
-Quiz 2
+6
 </li>
 </ol>
 </nav>
-<h1>Quiz 2</h1>
+<h1>6</h1>
 <div class=article-style>
-<p>HashSet으로 1들의 집합을 만듭니다.</p>
-<pre><code class=language-java>import java.util.*;
+<pre><code class=language-Java>import java.util.function.*;
 
-class Sameness {
-    public static void 집합크기(Set 집합, Object[] elements) {
-        Collections.addAll( 집합, elements ) ;
-        System.out.println( 집합.toString() + &quot;의 원소 수는 &quot; + 집합.size() );
-    }
+class Combinator {
+  public static &lt;T, U, R&gt; Function&lt;U, R&gt; leftSection(BiFunction&lt;T, U, R&gt; f, T left) {
+    return right -&gt; f.apply(left, right);
+  }
 
-    static Integer one = new Integer(1);
-    static Object ones[] = { 
-        1, 1.0, one, one.intValue(), one.shortValue() 
-        , one.longValue(), one.floatValue(), one.doubleValue()
-        , new Long(1), new Float(1), new Double(1)
-    };
-}
+  public static &lt;T, U, R&gt; Function&lt;T, R&gt; rightSection(BiFunction&lt;T, U, R&gt; f, U right) {
+    return left -&gt; f.apply( left, right );
+  }
 
-Sameness.집합크기( new HashSet(), Sameness.ones ); // Jupyter Notebook에서만
-</code></pre>
-<pre><code>[1.0, 1.0, 1, 1, 1]의 원소 수는 5
-</code></pre>
-<ol>
-<li>집합의 크기(원소의 개수)가 왜 5일까요?</li>
-</ol>
-<p>분수(유리수)를 정의합니다.</p>
-<pre><code class=language-java>class 분수 {
-	public 분수(int numerator, int denominator) throws ArithmeticException {
-		if ( 0 == denominator ) throw new ArithmeticException( &quot;분모 0&quot; );
-		분자 = numerator; 분모 = denominator;
-		if (denominator &lt; 0) { 분자 = - numerator; 분모 = - denominator; }
-		약분();
-	}
-	public int getDenominator() { return 분모; }
-	public int getNumerator() { return 분자; }
-	public String toString() { return String.valueOf( 분자 ) + '/' + String.valueOf( 분모 ); }
+	// public static ... flip(...) { ... }
 
-	private void 약분() {
-		int g = 최대공약수( Math.abs(분자), Math.abs(분모) );
-		{ 분자 = 분자 / g; 분모 = 분모 / g; }
-	}
+	// public static ... toUnary(...) { ... }
 
-	private static int 최대공약수(int x, int y) { return 0 == y ? x : 최대공약수(y, x % y); }
-	private int 분모, 분자;
+  public static void main(String[] args) {
+    BinaryOperator&lt;Number&gt; minus = ( x, y ) -&gt; x.doubleValue() - y.doubleValue();
+    System.out.println( leftSection( minus, 4 ).apply( 3 ) ); 
+    System.out.println( rightSection( minus, 4 ).apply( 3 ) );
+
+    // ... concat = ... 
+    System.out.println( 
+      leftSection( flip( concat ), &quot;5&quot; ).apply(&quot;10&quot;).equals( 
+        rightSection( concat, &quot;5&quot; ).apply( &quot;10&quot; ) ) );
+
+    System.out.println( 
+      rightSection( minus, 4 ).apply( 3 ).equals( 
+        toUnary( flip( minus ) ).apply( 4 ).apply( 3 ) ) );
+  }
 }
 </code></pre>
-<p>이제 분수 집합도 만들 수 있습니다.</p>
-<pre><code class=language-java>class Two {
-   static 분수 twos[] = { new 분수( 2, 1 ), new 분수( 4, 2 ), new 분수( -2, -1 ) };
-}
-
-Sameness.집합크기( new HashSet(), Two.twos ); // in Jupiter Notebook
+<pre><code>1.0
+-1.0
+true
+true
 </code></pre>
-<pre><code>[2/1, 2/1, 2/1]의 원소 수는 3
-</code></pre>
-<ol start=2>
-<li>집합의 원소 수가 3개입니다. 틀린 답이 나오는 이유를 설명하고 정답이 나오도록 만들어 보세요.</li>
-<li>HashSet 대신에 TreeSet을 써서 같은 실험을 해보세요.</li>
-</ol>
+<p>flip, toUnary, concat을 정의하세요.</p>
 <h2 id=도움말>도움말</h2>
-<p><details class=spoiler id=spoiler-0>
+<details class=spoiler id=spoiler-0>
 <summary>귀띔</summary>
-<p>두 데이터가 같다는 것은 무슨 뜻일까요? 프로그래밍 언어에서 value equality와 reference (pointer) equality를 차이를 이해하고, 이어서 새로운 데이터를 만들 때 그 데이터 타입에 속하는 원소(또는 인스턴스) 사이의 같거나 다름을 어떻게 이해하고 정의할 것인지 아니면 아예 정의할 수 없거나 하지 말아야 하는지 따위 주요한 주제를 짚고 넘어가는 문제입니다. <a href=https://en.wikibooks.org/wiki/Java_Programming/Comparing_Objects>Comparing Objects</a>를 읽어보세요.</p>
+<p><ul>
+<li><code>toUnary( minus )</code>하지 않고 lambda expression으로 currying function(partial function application)을 표현할 수 있습니다.</li>
+</ul>
+<pre><code class=language-java>Function&lt;Double, UnaryOperator&lt;Double&gt;&gt; minus = x -&gt; y -&gt; x - y;
+System.out.println( minus.apply( 3.0 ).apply( 5.0 ) ); // 3+5를 찍으세요.
+</code></pre>
+<ul>
+<li>하지만 새로운 함수를 매번 만들어 쓰시 않고 작지만 되쓰임새가 또렷한 함수를 조립해서 쓰는 버릇을 기르는 게 함수로 프로그램 짜는 방식(functional programming style)을 익히는 데 도움이 됩니다.</li>
+<li>leftSection, rightSection은 <a href=https://www.haskell.org/>Haskell</a> 언어의 <a href=https://wiki.haskell.org/Section_of_an_infix_operator>간편 표기법</a>을 흉내 낸 함수입니다.</li>
+<li><a href=https://docs.oracle.com/javase/8/docs/api/java/lang/FunctionalInterface.html>functional inteface</a>, <a href=https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html#package.description>java.lang.function</a>의 쓰임새를 알고 generics (parametric polymorphism)와 <a href=https://docs.oracle.com/javase/tutorial/java/generics/genTypeInference.html>type inference</a>의 기본을 아울러 익히는 데 도움이 되는 문제입니다.</li>
+<li><a href=https://docs.oracle.com/javase/tutorial/java/generics/restrictions.html>한계점</a>도 정확히 알고 있는 것이 시간과 노력을 아끼는 방법입니다. <a href=https://docs.oracle.com/javase/tutorial/java/generics/QandE/generics-questions.html>문제</a>도 풀어보세요.</li>
+</ul>
+</p>
 </details>
 <details class=spoiler id=spoiler-1>
-<summary>분수(유리수)</summary>
-<p><a href=https://commons.apache.org/proper/commons-math/>Apache Commons Math ™ </a>에 <a href=https://commons.apache.org/proper/commons-math/userguide/fraction.html>Fraction</a> 클래스가 유리수(분수)를 구현합니다.</p>
-</details></p>
+<summary>참고 문헌</summary>
+<p><ol>
+<li><a href=https://www.dcs.bbk.ac.uk/~keith/software19/resources/slides/generics.pdf>Parametric Polymorphism in Java</a></li>
+<li><a href=https://stackoverflow.com/questions/36314/what-is-currying>What is <em>curry</em>ing? (stackoverflow)</a></li>
+<li><a href=https://en.wikipedia.org/wiki/Combinatory_logic>Lambda Calculus and Combinatory Logic</a></li>
+</ol>
+</p>
+</details>
 </div>
 <div class=article-widget>
 <div class=post-nav>
 <div class=post-nav-item>
 <div class=meta-nav>Previous</div>
-<a href=/quiz/pie/java/quiz001/ rel=next>Quiz 1</a>
-</div>
-<div class=post-nav-item>
-<div class=meta-nav>Next</div>
-<a href=/quiz/pie/java/quiz003/ rel=prev>Quiz 3</a>
+<a href=/quiz/pie/java/005/ rel=next>5</a>
 </div>
 </div>
 </div>
 </div>
 <div class=body-footer>
-<p>Last updated on 2007년 04월 22일</p>
+<p>Last updated on 2007년 06월 18일</p>
 </div>
 </article>
 <footer class=site-footer>
@@ -351,6 +344,7 @@ Sameness.집합크기( new HashSet(), Two.twos ); // in Jupiter Notebook
 <script src=/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js></script>
 <script src=https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/mermaid-js/mermaid@v8.8.4/dist/mermaid.min.js integrity="sha512-+TNmhaRJf3jyYHTpzEq/5I6b+aGyhzWb21mGdHAjxSGSYwxN9Grug3Y3B9qVxWfKKY8MscE/6mr9walWvFLFvQ==" crossorigin=anonymous title=mermaid></script>
 <script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/python.min.js crossorigin=anonymous></script>
