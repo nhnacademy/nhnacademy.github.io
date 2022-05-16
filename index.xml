@@ -484,6 +484,7 @@ rm -rf folder 1 2 3 # 시험한 뒤 청소
 &lt;details class="spoiler " id="spoiler-0">
 &lt;summary>귀띔&lt;/summary>
 &lt;p>&lt;ul>
+&lt;li>&lt;a href="https://se.ifmo.ru/~ad/Documentation/Shells_by_Example/ch01lev1sec5.html">프로세스의 생명 주기를 제어하는 fork, exec, wait, exit 같은 system call을 알고, 그에 따라 쉘에서 스크립트가 돌아가면 어떤 과정이 연달아 일어나는지&lt;/a>를 알아야 풀 수 있는 문제입니다.&lt;/li>
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Cd_(command)">cd&lt;/a>는 프로세스의 current &lt;a href="https://en.wikipedia.org/wiki/Working_directory">working directory&lt;/a>를 바꿉니다.&lt;/li>
 &lt;/ul>
 &lt;/p>
