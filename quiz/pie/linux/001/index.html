@@ -7,7 +7,7 @@
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" media=print onload="this.media='all'">
-<meta name=description content="#!/usr/bin/env sh echo hello silence echo hello silence silence silence echo end hello Usage: silence [command | command ..] end silence 쉘 스크립트를 짜세요">
+<meta name=description content="#!/usr/bin/env sh echo hello silence command -v silence && echo ok silence silence ! command -v silence && echo ok echo end hello ok end silence 쉘 스크립">
 <link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/quiz/pie/linux/001/>
 <meta name=theme-color content="#1565c0">
 <link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="NHN Academy">
 <meta property="og:url" content="https://nhnacademy.github.io/quiz/pie/linux/001/">
 <meta property="og:title" content="1 | NHN Academy">
-<meta property="og:description" content="#!/usr/bin/env sh echo hello silence echo hello silence silence silence echo end hello Usage: silence [command | command ..] end silence 쉘 스크립트를 짜세요"><meta property="og:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png">
+<meta property="og:description" content="#!/usr/bin/env sh echo hello silence command -v silence && echo ok silence silence ! command -v silence && echo ok echo end hello ok end silence 쉘 스크립"><meta property="og:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
 <meta property="article:published_time" content="2020-04-22T00:00:00+00:00">
 <meta property="article:modified_time" content="2020-04-22T00:00:00+00:00">
@@ -129,6 +129,7 @@ Linux
 <li><a href=/quiz/pie/java/004/>4</a></li>
 <li><a href=/quiz/pie/java/005/>5</a></li>
 <li><a href=/quiz/pie/java/006/>6</a></li>
+<li><a href=/quiz/pie/java/007/>7</a></li>
 </ul>
 </div>
 <div class=docs-toc-item>
@@ -186,13 +187,13 @@ Linux
 <div class=article-style>
 <pre><code class=language-bash>#!/usr/bin/env sh
 echo hello
-silence echo hello
+silence command -v silence &amp;&amp; echo ok 
 silence
-silence silence
+silence ! command -v silence &amp;&amp; echo ok 
 echo end
 </code></pre>
 <pre><code>hello
-Usage: silence [command | command ..]
+ok
 end
 </code></pre>
 <p>silence 쉘 스크립트를 짜세요.</p>
@@ -202,7 +203,6 @@ end
 <p><ul>
 <li>shell 스크립트를 짜다 보면 어떤 명령이 잘 돌아갔는지 아니면 문제가 생겼는지 exit status만 알면 되고 stdout, stderr 스트림으로 나오는 메시지를 숨기고 싶을 때가 있습니다.</li>
 <li>linux (Unix)의 <a href=https://en.wikipedia.org/wiki/File_descriptor>file descriptor</a>와 stdin, stdout, stderr 같은 <a href=https://en.wikipedia.org/wiki/Standard_streams>기본 스트림</a>의 역할, /dev/null의 쓰임새, shell 언어의 <a href=https://www.gnu.org/software/bash/manual/html_node/Redirections.html>redirection 연산</a>을 알아야 풀 수 있는 문제입니다.</li>
-<li>shell 스크립트에 필요한 인자 수가 맞지 않으면 쓰는 법(Usage)을 보여주며 non-zero exit하는 흔히 shell 스크립트를 짤 때 되풀이되는 코드 구조를 연습할 수 있습니다.</li>
 <li>jupyter notebook을 쓰는 경우에는, bash 코드 셀이 돌아가는 subshell 환경에 silence 스크립트가 들어있는 폴더가 PATH에 걸려 있도록 <a href=/quiz/pie/linux>설정</a>합니다.</li>
 </ul>
 </p>

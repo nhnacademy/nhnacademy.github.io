@@ -297,4 +297,79 @@ System.out.println( minus.apply( 3.0 ).apply( 5.0 ) ); // 3+5를 찍으세요.
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Combinatory_logic">Lambda Calculus and Combinatory Logic&lt;/a>&lt;/li>
 &lt;/ol>
 &lt;/p>
+&lt;/details></description></item><item><title>7</title><link>https://nhnacademy.github.io/quiz/pie/java/007/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/007/</guid><description>&lt;pre>&lt;code class="language-java">interface Top {
+default void accept(Visitor v) {
+v.visit( this );
+}
+}
+class Left implements Top {
+}
+class Right implements Top {
+}
+interface Visitor {
+default void visit(Top top) { throw new NoSuchMethodError(); }
+void visit(Left left);
+void visit(Right right);
+}
+class 걸어 implements Visitor {
+public void visit(Left left) { System.out.println(&amp;quot;왼쪽으로 걸어&amp;quot;);};
+public void visit(Right right) { System.out.println(&amp;quot;오른쪽으로 걸어&amp;quot;);}
+}
+class 뛰어 implements Visitor {
+public void visit(Left left) { System.out.println(&amp;quot;왼쪽으로 뛰어&amp;quot;);};
+public void visit(Right right) { System.out.println(&amp;quot;오른쪽으로 뛰어&amp;quot;);}
+}
+class 실험 {
+public static void main(String[] args) {
+Top leftTop = new Left();
+Top rightTop = new Right();
+leftTop.accept( new 걸어() );
+rightTop.accept( new 뛰어() );
+}
+}
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>아래와 같은 글이 찍히도록 코드를 고칩니다.&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code class="language-text">왼쪽으로 걸어
+오른쪽으로 뛰어
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>왜 이렇게 되나요?&lt;/li>
+&lt;/ol>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>Java의 method overriding란 &lt;a href="https://en.wikipedia.org/wiki/Dynamic_dispatch">dynamic dispatch&lt;/a> (on type), 다시 말해, 아래 보기에서처럼 evaluate 인자 e의 runtime type에 따라 그에 대응하는 eval 연산을 불러주는 코드를 간추린 표현입니다.&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-java">interface E {}
+class N implements E {}
+class V implements E {}
+abstract class B implements E {}
+class A extends B {}
+class M extends B {}
+class Evaluator {
+public static E evaluate(E e, Env rho) {
+if (e instanceof N) evaluateN(e, r)
+else if (e instanceof V) evaluateV(e, r)
+else if (e instanceof A) evaluateA(e, r)
+else if (e instanceof M) evaluateM(e, r)
+else
+// error : unknown subtype instance of E
+}
+}
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>데이터 타입을 표현한 코드에는 거의 손대지 않고, 새로운 연산이 늘어나는 경우에는 Evaluator 처럼 &lt;a href="https://en.wikipedia.org/wiki/Visitor_pattern">연산을 다른 모듈로 솎아내어 데이터 타입과 연산을 분리하는 설계
+방식&lt;/a> 곧 Visitor 패턴을 쓰는 것이 더 나을 때가 많습니다. 이와 함께 single dispatch를 이해해야 풀 수 있는 문제입니다.&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>참고 자료&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>&lt;a href="https://www.geeksforgeeks.org/dynamic-method-dispatch-runtime-polymorphism-java/">Dynamic Method Dispatch or Runtime Polymorphism in Java&lt;/a>, GeeksforGeeks&lt;/li>
+&lt;/ul>
+&lt;/p>
 &lt;/details></description></item></channel></rss>

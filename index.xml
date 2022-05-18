@@ -181,13 +181,13 @@
 &lt;/li>
 &lt;/ul></description></item><item><title>1</title><link>https://nhnacademy.github.io/quiz/pie/linux/001/</link><pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/linux/001/</guid><description>&lt;pre>&lt;code class="language-bash">#!/usr/bin/env sh
 echo hello
-silence echo hello
+silence command -v silence &amp;amp;&amp;amp; echo ok
 silence
-silence silence
+silence ! command -v silence &amp;amp;&amp;amp; echo ok
 echo end
 &lt;/code>&lt;/pre>
 &lt;pre>&lt;code>hello
-Usage: silence [command | command ..]
+ok
 end
 &lt;/code>&lt;/pre>
 &lt;p>silence 쉘 스크립트를 짜세요.&lt;/p>
@@ -197,7 +197,6 @@ end
 &lt;p>&lt;ul>
 &lt;li>shell 스크립트를 짜다 보면 어떤 명령이 잘 돌아갔는지 아니면 문제가 생겼는지 exit status만 알면 되고 stdout, stderr 스트림으로 나오는 메시지를 숨기고 싶을 때가 있습니다.&lt;/li>
 &lt;li>linux (Unix)의 &lt;a href="https://en.wikipedia.org/wiki/File_descriptor">file descriptor&lt;/a>와 stdin, stdout, stderr 같은 &lt;a href="https://en.wikipedia.org/wiki/Standard_streams">기본 스트림&lt;/a>의 역할, /dev/null의 쓰임새, shell 언어의 &lt;a href="https://www.gnu.org/software/bash/manual/html_node/Redirections.html">redirection 연산&lt;/a>을 알아야 풀 수 있는 문제입니다.&lt;/li>
-&lt;li>shell 스크립트에 필요한 인자 수가 맞지 않으면 쓰는 법(Usage)을 보여주며 non-zero exit하는 흔히 shell 스크립트를 짤 때 되풀이되는 코드 구조를 연습할 수 있습니다.&lt;/li>
 &lt;li>jupyter notebook을 쓰는 경우에는, bash 코드 셀이 돌아가는 subshell 환경에 silence 스크립트가 들어있는 폴더가 PATH에 걸려 있도록 &lt;a href="https://nhnacademy.github.io/quiz/pie/linux">설정&lt;/a>합니다.&lt;/li>
 &lt;/ul>
 &lt;/p>
@@ -693,6 +692,81 @@ System.out.println( minus.apply( 3.0 ).apply( 5.0 ) ); // 3+5를 찍으세요.
 &lt;li>&lt;a href="https://stackoverflow.com/questions/36314/what-is-currying">What is &lt;em>curry&lt;/em>ing? (stackoverflow)&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Combinatory_logic">Lambda Calculus and Combinatory Logic&lt;/a>&lt;/li>
 &lt;/ol>
+&lt;/p>
+&lt;/details></description></item><item><title>7</title><link>https://nhnacademy.github.io/quiz/pie/java/007/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/007/</guid><description>&lt;pre>&lt;code class="language-java">interface Top {
+default void accept(Visitor v) {
+v.visit( this );
+}
+}
+class Left implements Top {
+}
+class Right implements Top {
+}
+interface Visitor {
+default void visit(Top top) { throw new NoSuchMethodError(); }
+void visit(Left left);
+void visit(Right right);
+}
+class 걸어 implements Visitor {
+public void visit(Left left) { System.out.println(&amp;quot;왼쪽으로 걸어&amp;quot;);};
+public void visit(Right right) { System.out.println(&amp;quot;오른쪽으로 걸어&amp;quot;);}
+}
+class 뛰어 implements Visitor {
+public void visit(Left left) { System.out.println(&amp;quot;왼쪽으로 뛰어&amp;quot;);};
+public void visit(Right right) { System.out.println(&amp;quot;오른쪽으로 뛰어&amp;quot;);}
+}
+class 실험 {
+public static void main(String[] args) {
+Top leftTop = new Left();
+Top rightTop = new Right();
+leftTop.accept( new 걸어() );
+rightTop.accept( new 뛰어() );
+}
+}
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>아래와 같은 글이 찍히도록 코드를 고칩니다.&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code class="language-text">왼쪽으로 걸어
+오른쪽으로 뛰어
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>왜 이렇게 되나요?&lt;/li>
+&lt;/ol>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>Java의 method overriding란 &lt;a href="https://en.wikipedia.org/wiki/Dynamic_dispatch">dynamic dispatch&lt;/a> (on type), 다시 말해, 아래 보기에서처럼 evaluate 인자 e의 runtime type에 따라 그에 대응하는 eval 연산을 불러주는 코드를 간추린 표현입니다.&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-java">interface E {}
+class N implements E {}
+class V implements E {}
+abstract class B implements E {}
+class A extends B {}
+class M extends B {}
+class Evaluator {
+public static E evaluate(E e, Env rho) {
+if (e instanceof N) evaluateN(e, r)
+else if (e instanceof V) evaluateV(e, r)
+else if (e instanceof A) evaluateA(e, r)
+else if (e instanceof M) evaluateM(e, r)
+else
+// error : unknown subtype instance of E
+}
+}
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>데이터 타입을 표현한 코드에는 거의 손대지 않고, 새로운 연산이 늘어나는 경우에는 Evaluator 처럼 &lt;a href="https://en.wikipedia.org/wiki/Visitor_pattern">연산을 다른 모듈로 솎아내어 데이터 타입과 연산을 분리하는 설계
+방식&lt;/a> 곧 Visitor 패턴을 쓰는 것이 더 나을 때가 많습니다. 이와 함께 single dispatch를 이해해야 풀 수 있는 문제입니다.&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>참고 자료&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>&lt;a href="https://www.geeksforgeeks.org/dynamic-method-dispatch-runtime-polymorphism-java/">Dynamic Method Dispatch or Runtime Polymorphism in Java&lt;/a>, GeeksforGeeks&lt;/li>
+&lt;/ul>
 &lt;/p>
 &lt;/details></description></item><item><title>FAQ</title><link>https://nhnacademy.github.io/post/faq/</link><pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/post/faq/</guid><description>&lt;details class="spoiler " id="spoiler-0">
 &lt;summary>Java 백엔드 개발 과정에 응시하기 위해 갖추어야 할 지식은 무엇인가요?&lt;/summary>
