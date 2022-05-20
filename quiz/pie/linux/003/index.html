@@ -7,8 +7,8 @@
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" media=print onload="this.media='all'">
-<meta name=description content="cd 할 때 마다 ls 하기 번거로워 쉘 스크립트 lcd 짭니다. #!/usr/bin/env sh cd &#34;$@&#34; && ls lc">
-<link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/quiz/pie/linux/002/>
+<meta name=description content="#!/usr/bin/env bash do-something() { [ $# -lt 1 ] && exit 1 for var in &#34;$@&#34;; do if [ -z &#34;${!var:-}&#34; ]; then exit 1 fi done exit 0 }">
+<link rel=alternate hreflang=en-us href=https://nhnacademy.github.io/quiz/pie/linux/003/>
 <meta name=theme-color content="#1565c0">
 <link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
@@ -18,21 +18,21 @@
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://nhnacademy.github.io/quiz/pie/linux/002/>
+<link rel=canonical href=https://nhnacademy.github.io/quiz/pie/linux/003/>
 <meta property="twitter:card" content="summary">
 <meta property="og:site_name" content="NHN Academy">
-<meta property="og:url" content="https://nhnacademy.github.io/quiz/pie/linux/002/">
-<meta property="og:title" content="2 | NHN Academy">
-<meta property="og:description" content="cd 할 때 마다 ls 하기 번거로워 쉘 스크립트 lcd 짭니다. #!/usr/bin/env sh cd &#34;$@&#34; && ls lc"><meta property="og:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png">
+<meta property="og:url" content="https://nhnacademy.github.io/quiz/pie/linux/003/">
+<meta property="og:title" content="3 | NHN Academy">
+<meta property="og:description" content="#!/usr/bin/env bash do-something() { [ $# -lt 1 ] && exit 1 for var in &#34;$@&#34;; do if [ -z &#34;${!var:-}&#34; ]; then exit 1 fi done exit 0 }"><meta property="og:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
 <meta property="article:published_time" content="2007-04-22T00:00:00+00:00">
 <meta property="article:modified_time" content="2007-04-22T00:00:00+00:00">
 <script src=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin=anonymous></script>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin=anonymous>
 <script>window.addEventListener("load",function(){window.cookieconsent.initialise({palette:{popup:{background:"#1565c0",text:"rgb(255, 255, 255)"},button:{background:"rgb(255, 255, 255)",text:"#1565c0"}},theme:"classic",content:{message:"This website uses cookies to ensure you get the best experience on our website.",dismiss:"Got it!",link:"Learn more",href:"/privacy/"}})})</script>
-<title>2 | NHN Academy</title>
+<title>3 | NHN Academy</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=1ad50fe7ba7dd09ae94ae05932b0ced5>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=b6973bcdec35b8759b288567861bc0ee>
 <script src=/js/wowchemy-init.min.da42964e270e05a6063fbca894d7ccff.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -136,8 +136,8 @@ Linux
 <a class=docs-toc-link href=/quiz/pie/linux/>Linux</a>
 <ul class="nav docs-sidenav">
 <li><a href=/quiz/pie/linux/001/>1</a></li>
-<li class=active><a href=/quiz/pie/linux/002/>2</a></li>
-<li><a href=/quiz/pie/linux/003/>3</a></li>
+<li><a href=/quiz/pie/linux/002/>2</a></li>
+<li class=active><a href=/quiz/pie/linux/003/>3</a></li>
 </ul>
 </div>
 </ul>
@@ -180,56 +180,68 @@ Linux
 </a>
 </li>
 <li class="breadcrumb-item active" aria-current=page>
-2
+3
 </li>
 </ol>
 </nav>
-<h1>2</h1>
+<h1>3</h1>
 <div class=article-style>
-<p>cd 할 때 마다 <code>ls</code> 하기 번거로워 쉘 스크립트 lcd 짭니다.</p>
-<pre><code class=language-bash>#!/usr/bin/env sh
-cd &quot;$@&quot; &amp;&amp; ls
+<pre><code class=language-bash>#!/usr/bin/env bash
+
+do-something() {
+    [ $# -lt 1 ] &amp;&amp; exit 1 
+    for var in &quot;$@&quot;; do
+        if [ -z &quot;${!var:-}&quot; ]; then
+            exit 1
+        fi
+    done
+    exit 0
+}
 </code></pre>
-<p>lcd를 실험하는 코드를 씁니다.</p>
-<pre><code class=language-bash>#!/usr/bin/env sh
-touch 1 2 3
-ls [1-9]; mkdir folder &amp;&amp; cd folder &amp;&amp; touch 4 5 6 &amp;&amp; ls
-cd .. &amp;&amp; ./lcd folder
-ls [1-9]
-rm -rf folder 1 2 3 # 시험한 뒤 청소
+<p>아래와 같이 실험합니다.</p>
+<pre><code class=language-shell>$ chmod +x do-something
+$ echo $SHLVL
+$ bash
+$ echo $SHLVL
+$ ./do-something
+$ do-something
+$ . do-something
+$ bash
+$ do-something
+$ exit
+$ do-something
+$ echo $SHLVL
 </code></pre>
-<pre><code>1  2  3
-4  5  6
-4  5  6
-1  2  3
-</code></pre>
-<p>기대와 다른 실험 결과입니다. <code>pwd</code>를 써서 이유를 설명하세요.</p>
+<ol>
+<li>실험 결과를 설명하세요.</li>
+<li>마지막 do-something처럼 동작하면 쓸모가 없습니다. 쉘에서 쓸 수 있는 명령이 되도록 고칩니다.</li>
+<li><code>do-something</code>은 뭘 하는 함수인가요? 알맞은 이름을 붙여보세요.</li>
+</ol>
 <h2 id=도움말>도움말</h2>
-<details class=spoiler id=spoiler-0>
+<p><details class=spoiler id=spoiler-0>
 <summary>귀띔</summary>
 <p><ul>
-<li><a href=https://se.ifmo.ru/~ad/Documentation/Shells_by_Example/ch01lev1sec5.html>프로세스의 생명 주기를 제어하는 fork, exec, wait, exit 같은 system call을 알고, 그에 따라 쉘에서 스크립트가 돌아가면 어떤 과정이 연달아 일어나는지</a>를 알아야 풀 수 있는 문제입니다.</li>
-<li><a href=https://en.wikipedia.org/wiki/Cd_(command)>cd</a>는 프로세스의 current <a href=https://en.wikipedia.org/wiki/Working_directory>working directory</a>를 바꿉니다.</li>
+<li><code>man bash | grep SHLVL</code></li>
+<li><code>man chmod | grep mode</code></li>
+<li><a href=https://stackoverflow.com/questions/4419952/difference-between-return-and-exit-in-bash-functions>Difference between return and exit in Bash functions</a></li>
+<li><a href=https://unix.stackexchange.com/questions/305358/do-functions-run-as-subprocesses-in-bash>Do functions run as subprocesses in Bash?</a></li>
 </ul>
 </p>
 </details>
 <details class=spoiler id=spoiler-1>
-<summary>공부 거리</summary>
+<summary>참고 자료</summary>
 <p><ul>
-<li>프로세스의 Current Working Directory를 알아내는 방법 - <a href=https://unix.stackexchange.com/questions/94357/find-out-current-working-directory-of-a-running-process>lsof, pwdx, etc.</a></li>
+<li><a href=https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html>3.5.3 Shell Parameter Expansion</a>, <a href=https://www.gnu.org/software/bash/manual/>GNU Bash manual</a></li>
+<li><a href=https://www.gnu.org/software/bash/manual/html_node/Shell-Functions.html>3.3 Shell Functions</a>, GNU Bash manual</li>
 </ul>
 </p>
-</details>
+</details></p>
 </div>
 <div class=article-widget>
 <div class=post-nav>
 <div class=post-nav-item>
 <div class=meta-nav>Previous</div>
-<a href=/quiz/pie/linux/001/ rel=next>1</a>
-</div>
-<div class=post-nav-item>
-<div class=meta-nav>Next</div>
-<a href=/quiz/pie/linux/003/ rel=prev>3</a>
+<a href=/quiz/pie/linux/002/ rel=next>2</a>
 </div>
 </div>
 </div>
