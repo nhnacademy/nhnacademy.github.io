@@ -693,7 +693,7 @@ System.out.println( minus.apply( 3.0 ).apply( 5.0 ) ); // 3+5를 찍으세요.
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Combinatory_logic">Lambda Calculus and Combinatory Logic&lt;/a>&lt;/li>
 &lt;/ol>
 &lt;/p>
-&lt;/details></description></item><item><title>7</title><link>https://nhnacademy.github.io/quiz/pie/java/007/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/007/</guid><description>&lt;pre>&lt;code class="language-java">interface Top {
+&lt;/details></description></item><item><title>7</title><link>https://nhnacademy.github.io/quiz/pie/java/007/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/007/</guid><description>&lt;pre>&lt;code class="language-Java">interface Top {
 default void accept(Visitor v) {
 v.visit( this );
 }
@@ -728,35 +728,47 @@ rightTop.accept( new 뛰어() );
 오른쪽으로 뛰어
 &lt;/code>&lt;/pre>
 &lt;ol>
-&lt;li>위와 같은 글이 찍히도록 코드를 고칩니다.&lt;/li>
-&lt;li>왜 이렇게 되나요?&lt;/li>
+&lt;li>위와 같은 글이 찍히도록 코드를 고쳐보세요.&lt;/li>
 &lt;/ol>
 &lt;h2 id="도움말">도움말&lt;/h2>
 &lt;details class="spoiler " id="spoiler-0">
 &lt;summary>귀띔&lt;/summary>
 &lt;p>&lt;ul>
-&lt;li>Java의 method overriding란 &lt;a href="https://en.wikipedia.org/wiki/Dynamic_dispatch">dynamic dispatch&lt;/a> (on type), 다시 말해, 아래 보기에서처럼 evaluate 인자 e의 runtime type에 따라 그에 대응하는 eval 연산을 불러주는 코드를 간추린 표현입니다.&lt;/li>
+&lt;li>Expression을 꼭지로 하는 abstract syntax tree(AST)를 evaluate하는 코드를 짠다고 할 때, e의 runtime type에 따라 알맞은 연산을 찾아가도록 아래처럼 코드를 쓸 수 있습니다.&lt;/li>
 &lt;/ul>
-&lt;pre>&lt;code class="language-java">interface E {}
-class N implements E {}
-class V implements E {}
-abstract class B implements E {}
-class A extends B {}
-class M extends B {}
+&lt;pre>&lt;code class="language-java">interface Expression { ... } // Abstract Syntax Tree
+class Variable implements Expression { ... }
+class Constant implements Expression { ... }
+abstract class Application implements Expression { ... }
+class BinaryApplication extends Application { ... }
+class Environment { ... } // Symbol tables
 class Evaluator {
-public static E evaluate(E e, Env rho) {
-if (e instanceof N) evaluateN(e, r)
-else if (e instanceof V) evaluateV(e, r)
-else if (e instanceof A) evaluateA(e, r)
-else if (e instanceof M) evaluateM(e, r)
-else
-// error : unknown subtype instance of E
+...
+public Expression evaluate(Expression e, Environment r) { // dispatch on type
+if (e instanceof Constant ) return evaluateContant(e, r);
+else if (e instanceof Variable ) return evaluateVariable(e, r);
+else if (e instanceof BinaryApplication) return evaluateBinaryApplication(e, r);
+else throw ...;
 }
 }
 &lt;/code>&lt;/pre>
 &lt;ul>
-&lt;li>데이터 타입을 표현한 코드에는 거의 손대지 않고, 새로운 연산이 늘어나는 경우에는 Evaluator 처럼 &lt;a href="https://en.wikipedia.org/wiki/Visitor_pattern">연산을 다른 모듈로 솎아내어 데이터 타입과 연산을 분리하는 설계
-방식&lt;/a> 곧 Visitor 패턴을 쓰는 것이 더 나을 때가 많습니다. 이와 함께 single dispatch를 이해해야 풀 수 있는 문제입니다.&lt;/li>
+&lt;li>method overrding으로 evaluate를 간추릴 수 있습니다.&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-java">interface Expression { public Expression evaluate(Environment r); ... } // Abstract Syntax Tree
+class Variable implements Expression { public Expression evaluate(Environment r) {...} ... }
+class Value implements Expression { public Expression evaluate(Environment r) {...} ... }
+abstract class Application implements Expression { ... }
+class BinaryApplication extends Application { public Expression evaluate(Environment r) {...} ... }
+class Environment { ... } // Symbol tables
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>&lt;code>f( a0 ... an )&lt;/code>에서 인자의 runtime type에 대응하여 알맞은 함수를 찾아가는 기능을 &lt;a href="https://en.wikipedia.org/wiki/Dynamic_dispatch">dynamic dispatch&lt;/a> (on type)라 합니다.&lt;/li>
+&lt;li>특히 a0의 runtime type만 반영하는 경우를 두고 single dispatch라 하는데 이를 또렷히 하기 위해서 &lt;code>a0.f(a1 ... an)&lt;/code> 같이 표현할 수 있습니다.&lt;/li>
+&lt;li>method overriding이란 single dispatch를 일컫는 방언으로 &lt;code>a0&lt;/code>를 object, &lt;code>f&lt;/code>를 message, &lt;code>a0&lt;/code>의 runtime type에 따라 &lt;code>f&lt;/code>에 대응하는 함수를 method라고 합니다.&lt;/li>
+&lt;li>method overriding은 subtyping으로 새로운 기능을 늘리고자 할 때 도움이 됩니다.&lt;/li>
+&lt;li>그와 달리, 새로운 연산을 더할 때는 (Evaluator와 비슷하게) &lt;a href="https://en.wikipedia.org/wiki/Visitor_pattern">데이터 타입과 연산을 분리하여 새로운 연산을 보태기에 좋은 설계 방식&lt;/a> 곧 Visitor 패턴을 쓰는 것이 더 유리할 수 있습니다.&lt;/li>
+&lt;li>이 문제는 method overriding 곧 single dispatch의 목적과 한계를 이해하는 과정에서 visitor 패턴의 쓰임새를 살펴보는 데 보탬이 됩니다.&lt;/li>
 &lt;/ul>
 &lt;/p>
 &lt;/details>

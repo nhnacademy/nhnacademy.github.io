@@ -185,7 +185,7 @@ Java
 </nav>
 <h1>7</h1>
 <div class=article-style>
-<pre><code class=language-java>interface Top {
+<pre><code class=language-Java>interface Top {
   default void accept(Visitor v) {
     v.visit( this );
   }
@@ -226,35 +226,50 @@ class 실험 {
 오른쪽으로 뛰어
 </code></pre>
 <ol>
-<li>위와 같은 글이 찍히도록 코드를 고칩니다.</li>
-<li>왜 이렇게 되나요?</li>
+<li>위와 같은 글이 찍히도록 코드를 고쳐보세요.</li>
 </ol>
 <h2 id=도움말>도움말</h2>
 <details class=spoiler id=spoiler-0>
 <summary>귀띔</summary>
 <p><ul>
-<li>Java의 method overriding란 <a href=https://en.wikipedia.org/wiki/Dynamic_dispatch>dynamic dispatch</a> (on type), 다시 말해, 아래 보기에서처럼 evaluate 인자 e의 runtime type에 따라 그에 대응하는 eval 연산을 불러주는 코드를 간추린 표현입니다.</li>
+<li>Expression을 꼭지로 하는 abstract syntax tree(AST)를 evaluate하는 코드를 짠다고 할 때, e의 runtime type에 따라 알맞은 연산을 찾아가도록 아래처럼 코드를 쓸 수 있습니다.</li>
 </ul>
-<pre><code class=language-java>interface E {}
-class N implements E {}
-class V implements E {}
-abstract class B implements E {}
-class A extends B {}
-class M extends B {}
+<pre><code class=language-java>interface Expression { ... } // Abstract Syntax Tree
+class Variable implements Expression { ... }
+class Constant implements Expression { ... }
+abstract class Application implements Expression { ... }
+class BinaryApplication extends Application { ... }
+
+class Environment { ... } // Symbol tables
+
 class Evaluator {
-	public static E evaluate(E e, Env rho) {
-		if (e instanceof N) evaluateN(e, r)
-		else if (e instanceof V) evaluateV(e, r)
-		else if (e instanceof A) evaluateA(e, r)
-		else if (e instanceof M) evaluateM(e, r)
-		else
-				// error : unknown subtype instance of E
+	...
+	public Expression evaluate(Expression e, Environment r) { // dispatch on type
+		if (e instanceof Constant ) return evaluateContant(e, r);
+		else if (e instanceof Variable ) return evaluateVariable(e, r);
+		else if (e instanceof BinaryApplication) return evaluateBinaryApplication(e, r);
+		else throw ...;
     }
 }
 </code></pre>
 <ul>
-<li>데이터 타입을 표현한 코드에는 거의 손대지 않고, 새로운 연산이 늘어나는 경우에는 Evaluator 처럼 <a href=https://en.wikipedia.org/wiki/Visitor_pattern>연산을 다른 모듈로 솎아내어 데이터 타입과 연산을 분리하는 설계
-방식</a> 곧 Visitor 패턴을 쓰는 것이 더 나을 때가 많습니다. 이와 함께 single dispatch를 이해해야 풀 수 있는 문제입니다.</li>
+<li>method overrding으로 evaluate를 간추릴 수 있습니다.</li>
+</ul>
+<pre><code class=language-java>interface Expression { public Expression evaluate(Environment r); ... } // Abstract Syntax Tree
+class Variable implements Expression { public Expression evaluate(Environment r) {...} ... }
+class Value implements Expression { public Expression evaluate(Environment r) {...}  ... }
+abstract class Application implements Expression { ... }
+class BinaryApplication extends Application { public Expression evaluate(Environment r) {...} ... }
+
+class Environment { ... } // Symbol tables
+</code></pre>
+<ul>
+<li><code>f( a0 ... an )</code>에서 인자의 runtime type에 대응하여 알맞은 함수를 찾아가는 기능을 <a href=https://en.wikipedia.org/wiki/Dynamic_dispatch>dynamic dispatch</a> (on type)라 합니다.</li>
+<li>특히 a0의 runtime type만 반영하는 경우를 두고 single dispatch라 하는데 이를 또렷히 하기 위해서 <code>a0.f(a1 ... an)</code> 같이 표현할 수 있습니다.</li>
+<li>method overriding이란 single dispatch를 일컫는 방언으로 <code>a0</code>를 object, <code>f</code>를 message, <code>a0</code>의 runtime type에 따라 <code>f</code>에 대응하는 함수를 method라고 합니다.</li>
+<li>method overriding은 subtyping으로 새로운 기능을 늘리고자 할 때 도움이 됩니다.</li>
+<li>그와 달리, 새로운 연산을 더할 때는 (Evaluator와 비슷하게) <a href=https://en.wikipedia.org/wiki/Visitor_pattern>데이터 타입과 연산을 분리하여 새로운 연산을 보태기에 좋은 설계 방식</a> 곧 Visitor 패턴을 쓰는 것이 더 유리할 수 있습니다.</li>
+<li>이 문제는 method overriding 곧 single dispatch의 목적과 한계를 이해하는 과정에서 visitor 패턴의 쓰임새를 살펴보는 데 보탬이 됩니다.</li>
 </ul>
 </p>
 </details>
