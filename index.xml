@@ -826,7 +826,7 @@ class Environment { ... } // Symbol tables
 &lt;li>&lt;a href="https://www.geeksforgeeks.org/dynamic-method-dispatch-runtime-polymorphism-java/" target="_blank" rel="noopener">Dynamic Method Dispatch or Runtime Polymorphism in Java&lt;/a>, GeeksforGeeks&lt;/li>
 &lt;/ul>
 &lt;/p>
-&lt;/details></description></item><item><title>FAQ</title><link>https://nhnacademy.github.io/post/faq/</link><pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/post/faq/</guid><description>&lt;details class="spoiler " id="spoiler-0">
+&lt;/details></description></item><item><title>FAQ</title><link>https://nhnacademy.github.io/faq/</link><pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/faq/</guid><description>&lt;details class="spoiler " id="spoiler-0">
 &lt;summary>Java 백엔드 개발 과정에 응시하기 위해 갖추어야 할 지식은 무엇인가요?&lt;/summary>
 &lt;p>&lt;ul>
 &lt;li>운영체제, 자료구조 같은 &lt;a href="https://nhnacademy.github.io/courses/nhn_track">전산학 기초&lt;/a>&lt;/li>
