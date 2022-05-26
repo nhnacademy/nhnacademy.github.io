@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NHN Academy</title><link>https://nhnacademy.github.io/</link><atom:link href="https://nhnacademy.github.io/index.xml" rel="self" type="application/rss+xml"/><description>NHN Academy</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>NHN Academy</title><link>https://nhnacademy.github.io/</link></image><item><title>Java 프로그래밍 언어</title><link>https://nhnacademy.github.io/__xtra/basic/tip-001/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/basic/tip-001/</guid><description>&lt;h2 id="학습-목적">학습 목적&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NHN Academy</title><link>https://nhnacademy.github.io/</link><atom:link href="https://nhnacademy.github.io/index.xml" rel="self" type="application/rss+xml"/><description>NHN Academy</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>NHN Academy</title><link>https://nhnacademy.github.io/</link></image><item><title>Java 프로그래밍 언어</title><link>https://nhnacademy.github.io/__xtra/basic/tip-001/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/basic/tip-001/</guid><description>&lt;h2 id="학습-목적">학습 목적&lt;/h2>
 &lt;h2 id="구성">구성&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -562,7 +562,7 @@ $ echo $SHLVL
 &lt;ol>
 &lt;li>실험 결과를 설명하세요.&lt;/li>
 &lt;li>마지막 do-something처럼 동작하면 쓸모가 없습니다. 쉘에서 쓸 수 있는 명령이 되도록 고칩니다.&lt;/li>
-&lt;li>&lt;code>do-something&lt;/code>은 뭘 하는 함수인가요? 알맞은 이름을 붙여보세요.&lt;/li>
+&lt;li>&lt;code>do-something&lt;/code>은 하는 일에 알맞은 이름을 지어주세요.&lt;/li>
 &lt;/ol>
 &lt;h2 id="도움말">도움말&lt;/h2>
 &lt;p>&lt;details class="spoiler " id="spoiler-0">
