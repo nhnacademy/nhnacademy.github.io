@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux | NHN Academy</title><link>https://nhnacademy.github.io/quiz/pie/linux/</link><atom:link href="https://nhnacademy.github.io/quiz/pie/linux/index.xml" rel="self" type="application/rss+xml"/><description>Linux</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>Linux</title><link>https://nhnacademy.github.io/quiz/pie/linux/</link></image><item><title>1</title><link>https://nhnacademy.github.io/quiz/pie/linux/001/</link><pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/linux/001/</guid><description>&lt;pre>&lt;code class="language-bash">#!/usr/bin/env sh
-echo hello
+echo hi
 silence command -v silence &amp;amp;&amp;amp; echo ok
 silence
 silence ! command -v silence &amp;amp;&amp;amp; echo ok
-echo end
+echo bye
 &lt;/code>&lt;/pre>
-&lt;pre>&lt;code>hello
+&lt;pre>&lt;code>hi
 ok
-end
+bye
 &lt;/code>&lt;/pre>
-&lt;p>silence 쉘 스크립트를 짜세요.&lt;/p>
+&lt;p>&lt;code>silence&lt;/code> shell script를 짭니다.&lt;/p>
 &lt;h2 id="도움말">도움말&lt;/h2>
 &lt;details class="spoiler " id="spoiler-0">
 &lt;summary>귀띔&lt;/summary>
