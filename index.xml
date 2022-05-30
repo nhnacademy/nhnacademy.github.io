@@ -687,7 +687,7 @@ G.test();
 &lt;/ol>
 &lt;/p>
 &lt;/details></description></item><item><title>6</title><link>https://nhnacademy.github.io/quiz/pie/java/006/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/006/</guid><description>&lt;pre>&lt;code class="language-Java">import java.util.function.*;
-class Combinator {
+interface Combinator {
 public static &amp;lt;T, U, R&amp;gt; Function&amp;lt;U, R&amp;gt; leftSection(BiFunction&amp;lt;T, U, R&amp;gt; f, T left) {
 return right -&amp;gt; f.apply(left, right);
 }
@@ -709,11 +709,6 @@ rightSection( minus, 4 ).apply( 3 ).equals(
 toUnary( flip( minus ) ).apply( 4 ).apply( 3 ) ) );
 }
 }
-&lt;/code>&lt;/pre>
-&lt;pre>&lt;code>1.0
--1.0
-true
-true
 &lt;/code>&lt;/pre>
 &lt;p>flip, toUnary, concat을 정의하세요.&lt;/p>
 &lt;h2 id="도움말">도움말&lt;/h2>
