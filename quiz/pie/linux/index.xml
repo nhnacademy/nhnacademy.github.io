@@ -14,6 +14,7 @@ bye
 &lt;details class="spoiler " id="spoiler-0">
 &lt;summary>귀띔&lt;/summary>
 &lt;p>&lt;ul>
+&lt;li>&lt;a href="https://www.baeldung.com/linux/silencing-bash-output" target="_blank" rel="noopener">Silencing the Output of a Bash Command&lt;/a>&lt;/li>
 &lt;li>shell 스크립트를 짜다 보면 어떤 명령이 잘 돌아갔는지 아니면 문제가 생겼는지 exit status만 알면 되고 stdout, stderr 스트림으로 나오는 메시지를 숨기고 싶을 때가 있습니다.&lt;/li>
 &lt;li>linux (Unix)의 &lt;a href="https://en.wikipedia.org/wiki/File_descriptor" target="_blank" rel="noopener">file descriptor&lt;/a>와 stdin, stdout, stderr 같은 &lt;a href="https://en.wikipedia.org/wiki/Standard_streams" target="_blank" rel="noopener">기본 스트림&lt;/a>의 역할, /dev/null의 쓰임새, shell 언어의 &lt;a href="https://www.gnu.org/software/bash/manual/html_node/Redirections.html" target="_blank" rel="noopener">redirection 연산&lt;/a>을 알아야 풀 수 있는 문제입니다.&lt;/li>
 &lt;li>jupyter notebook을 쓰는 경우에는, bash 코드 셀이 돌아가는 subshell 환경에 silence 스크립트가 들어있는 폴더가 PATH에 걸려 있도록 &lt;a href="https://nhnacademy.github.io/quiz/pie/linux">설정&lt;/a>합니다.&lt;/li>
@@ -88,7 +89,7 @@ $ echo $SHLVL
 &lt;ol>
 &lt;li>실험 결과를 설명하세요.&lt;/li>
 &lt;li>마지막 do-something처럼 동작하면 쓸모가 없습니다. 쉘에서 쓸 수 있는 명령이 되도록 고칩니다.&lt;/li>
-&lt;li>&lt;code>do-something&lt;/code>은 하는 일에 알맞은 이름을 지어주세요.&lt;/li>
+&lt;li>&lt;code>do-something&lt;/code>이 하는 일에 알맞은 이름을 지어주세요.&lt;/li>
 &lt;/ol>
 &lt;h2 id="도움말">도움말&lt;/h2>
 &lt;p>&lt;details class="spoiler " id="spoiler-0">
