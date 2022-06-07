@@ -542,7 +542,7 @@ isinteger = lambda x: iseven( x ) or isodd( x )
 &lt;pre>&lt;code>{3}
 &lt;/code>&lt;/pre>
 &lt;ul>
-&lt;li>문제에서는 논리 연산을 쓰지만, 본디 산술 연산을 쓰는 것이 characteristic function으로 표현하는 집합 연산의 정의에 더 가깝습니다. 예를 들어 교집합과 여집합은 아래와 같이 정의합니다. 나머지 연산도 연습 삼아 아래와 같이 만들고 실험해 보세요.&lt;/li>
+&lt;li>문제에서는 논리 연산을 쓰지만, 본디 산술 연산을 쓰는 것이 characteristic function으로 표현하는 집합 연산의 정의에 더 가깝습니다. 예를 들어 교집합과 여집합은 아래와 같이 정의합니다. 나머지 연산도 만들어 보세요.&lt;/li>
 &lt;/ul>
 &lt;pre>&lt;code class="language-python">intersection = lambda xs, ys : lambda x : xs( x ) * ys( x )
 complement = lambda xs : lambda x : 1 - xs( x )
