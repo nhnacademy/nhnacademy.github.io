@@ -168,8 +168,8 @@
 &lt;h2 id="교과">교과&lt;/h2>
 &lt;ul>
 &lt;li>TIP.Programming.JAVA&lt;/li>
-&lt;/ul></description></item><item><title>Quiz 1</title><link>https://nhnacademy.github.io/quiz/tip/quiz001/</link><pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/tip/quiz001/</guid><description>&lt;h3 id="몬테카를로-방법">몬테카를로 방법&lt;/h3>
-&lt;h4 id="스트림-패러다임-python-판">스트림 패러다임, Python 판&lt;/h4>
+&lt;/ul></description></item><item><title>1</title><link>https://nhnacademy.github.io/quiz/tip/001/</link><pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/tip/001/</guid><description>&lt;h3 id="몬테카를로-방법">몬테카를로 방법&lt;/h3>
+&lt;h4 id="스트림-패러다임">스트림 패러다임&lt;/h4>
 &lt;ul>
 &lt;li>경남 캠퍼스 1기 웹 서비스 연수 과정 시작 전 방학 숙제로 냈던 문제입니다.&lt;/li>
 &lt;li>기술 면접과 코딩 테스트에 나왔던 문제의 답도 엿볼 수 있도록 꾸몄습니다.&lt;/li>
@@ -177,7 +177,7 @@
 &lt;/ul>
 &lt;ul class="cta-group">
 &lt;li>
-&lt;a href="https://nhnacademy.github.io/publication/monte_carlo/quiz.pdf" class="btn btn-primary px-3 py-3">PDF&lt;/a>
+&lt;a href="https://nhnacademy.github.io/publication/monte_carlo/quiz.pdf" class="btn btn-primary px-3 py-3">Python 판&lt;/a>
 &lt;/li>
 &lt;/ul></description></item><item><title>1</title><link>https://nhnacademy.github.io/quiz/pie/linux/001/</link><pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/linux/001/</guid><description>&lt;pre>&lt;code class="language-bash">#!/usr/bin/env sh
 echo hi
@@ -375,7 +375,7 @@ ParameterPassing.test(); // Jupyter notebook에서만
 &lt;ul>
 &lt;li>TIP.Common.Programming.HTML&lt;/li>
 &lt;li>TIP.Common.Programming.JAVASCRIPT&lt;/li>
-&lt;/ul></description></item><item><title>Quiz 2</title><link>https://nhnacademy.github.io/quiz/tip/quiz002/</link><pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/tip/quiz002/</guid><description>&lt;p>$$ g(f(1, f(2, f(3, t)))) = 1, t \in T \tag{1} $$
+&lt;/ul></description></item><item><title>2</title><link>https://nhnacademy.github.io/quiz/tip/002/</link><pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/tip/002/</guid><description>&lt;p>$$ g(f(1, f(2, f(3, t)))) = 1, t \in T \tag{1} $$
 $$ g(f(1, f(2, f(3, t)))) = 3, t \in T \tag{2} $$
 $$ f(f(f(t, i, 1), i, 2), i, 3) = f(t,i,3), $$
 $$ g(f(f(f(t, i, 1), j, 2), k, 3), i) = 1, t \in T \tag{3} $$&lt;/p>
@@ -399,7 +399,7 @@ $$ g(f(f(f(t, i, 1), j, 2), k, 3), i) = 1, t \in T \tag{3} $$&lt;/p>
 &lt;summary>참고 자료&lt;/summary>
 &lt;p>&lt;ol>
 &lt;li>Barbara Liskov, Stephen Zilles, &lt;em>Programming with abstract data types&lt;/em>, ACM SIGPLAN Notices, Volume 9, Issue 4, April 1974, pp 50~59, &lt;a href="https://doi.org/10.1145/942572.807045" target="_blank" rel="noopener">https://doi.org/10.1145/942572.807045&lt;/a>&lt;/li>
-&lt;li>William R. Cook, &lt;em>Object-Oriented Programming Versus Abstract Data Types&lt;/em>, Proc. of the REX Workshop/School on the Foundations of Object-Oriented Languages (FOOL), LNCS 489, pringer-Verlag, 1990, pp. 151-178, &lt;a href="https://www.cs.utexas.edu/~wcook/papers/OOPvsADT/CookOOPvsADT90.pdf" target="_blank" rel="noopener">https://www.cs.utexas.edu/~wcook/papers/OOPvsADT/CookOOPvsADT90.pdf&lt;/a>&lt;/li>
+&lt;li>Luca Cardeli, Peter Wegner, &amp;ldquo;&lt;a href="http://lucacardelli.name/papers/onunderstanding.a4.pdf" target="_blank" rel="noopener">On Understanding Types, Data Abstraction, and Polymorphism&lt;/a>&amp;rdquo;, Computing Surveys, Vol 17 n. 4, pp 471-522, December 1985&lt;/li>
 &lt;/ol>
 &lt;/p>
 &lt;/details></description></item><item><title>2</title><link>https://nhnacademy.github.io/quiz/pie/java/002/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/002/</guid><description>&lt;p>HashSet으로 1들의 집합을 만듭니다.&lt;/p>
@@ -494,6 +494,71 @@ rm -rf folder 1 2 3 # 시험한 뒤 청소
 &lt;p>&lt;ul>
 &lt;li>프로세스의 Current Working Directory를 알아내는 방법 - &lt;a href="https://unix.stackexchange.com/questions/94357/find-out-current-working-directory-of-a-running-process" target="_blank" rel="noopener">lsof, pwdx, etc.&lt;/a>&lt;/li>
 &lt;/ul>
+&lt;/p>
+&lt;/details></description></item><item><title>3</title><link>https://nhnacademy.github.io/quiz/tip/003/</link><pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/tip/003/</guid><description>&lt;pre>&lt;code class="language-python">emptyset =
+add =
+isin =
+union = lambda xs, ys : lambda x : xs( x ) or ys( x )
+intersection = lambda xs, ys : lambda x : xs( x ) and ys( x )
+complement = lambda xs : lambda x : not xs( x )
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-python">digits = lambda c : '0' &amp;lt;= c and '9' &amp;gt;= c
+print( [ isin( c, digits ) for c in 'c90@z3!'] );
+alphabets = lambda c : 'A' &amp;lt;= c and 'z' &amp;gt;= c
+print( [ isin( c, alphabets ) for c in 'c90@z3!'] );
+print( [ isin( c, union(alphabets, digits) ) for c in 'c90@z3!'] );
+print( [ isin( c, complement(union(alphabets, digits)) ) for c in 'c90@z3!'] );
+print( [ isin( c, complement(intersection(alphabets, digits)) ) for c in 'c90@z3!'] );
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>[False, True, True, False, False, True, False]
+[True, False, False, False, True, False, False]
+[True, True, True, False, True, True, False]
+[False, False, False, True, False, False, True]
+[True, True, True, True, True, True, True]
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-python">from functools import reduce
+add_all =
+{ c if isin( c, add_all(emptyset, &amp;quot;c90@z3!&amp;quot;) ) else '' for c in '123456789' }
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>{'', '3', '9'}
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>emptyset, add, isin을 정의하세요.&lt;/li>
+&lt;li>reduce를 써서 add_all을 정의하세요.&lt;/li>
+&lt;/ol>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>집합에 원소가 속하는지를 답하는 참-거짓 함수(boolean-valued function, predicate)를 집합의 &lt;a href="https://en.citizendium.org/wiki/Characteristic_function" target="_blank" rel="noopener">characteristic function&lt;/a>이라고 합니다. 이 문제에서는 함수만으로 집합 타입을 나타냅니다.&lt;/li>
+&lt;li>함수로 집합을 나타낸다고 하면 언뜻 낯설지만, 사실은 프로그램을 짤 때 (집합 데이터 타입을 표현하는 한 가지 다른 방법이라는 또렷한 인식 없이) 자연스럽게 써오던 방법입니다. 보기를 들어, 짝수 홀수를 판단하는 predicate은 짝수 홀수 집합을 나타냅니다. 조건제시법(set builder form)으로 집합을 표기하는 것과 별다르지 않습니다.&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-python">isodd = lambda x: x % 2 == 1
+iseven = lambda x : x % 2 == 0
+# 두 predicate의 or는 홀수와 짝수의 합집합 곧 정수 집합을 표현합니다.
+isinteger = lambda x: iseven( x ) or isodd( x )
+{ i for i in filter( isodd, [ 0.9, 1.4, 2.0, 2, 3, 4.0001 ]) }
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>{3}
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>문제에서는 논리 연산을 쓰지만, 본디 산술 연산을 쓰는 것이 characteristic function으로 표현하는 집합 연산의 정의에 더 가깝습니다. 예를 들어 교집합과 여집합은 아래와 같이 정의합니다. 나머지 연산도 연습 삼아 아래와 같이 만들고 실험해 보세요.&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-python">intersection = lambda xs, ys : lambda x : xs( x ) * ys( x )
+complement = lambda xs : lambda x : 1 - xs( x )
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>데이터 타입을 정의하는 연산을 구현하는 데는 여러 가지 (더러 색다른) 표현 방법이 있습니다. 데이터의 타입(type)과 표현(representation)을 구분 지어 프로그램을 짜는 버릇을 들이면 &lt;a href="https://en.wikipedia.org/wiki/Abstract_data_type#Advantages_of_abstract_data_typing" target="_blank" rel="noopener">프로그램의 틀을 크게 손보지 않고 문제를 푸는데 알맞은 표현법을 바꿔 끼울 수 있도록&lt;/a> 프로그램의 틀을 잡을 수 있습니다. 이 문제는 그렇게 생각하고 연습하는 버릇을 들이는 데 도움이 됩니다.&lt;/li>
+&lt;li>한편, &lt;a href="https://ko.wikipedia.org/wiki/%ED%8D%BC%EC%A7%80_%EC%A7%91%ED%95%A9" target="_blank" rel="noopener">Fuzzy Set&lt;/a>은 characteristic function의 치역(range)을 0과 1 사의의 실수(real unit interval [0,1])로 늘려서 원소가 집합에 속하는 정도를 &lt;a href="https://en.wikipedia.org/wiki/Membership_function_%28mathematics%29" target="_blank" rel="noopener">membership 함수&lt;/a>로 나타낸 것이라 할 수 있습니다.&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>공부 거리&lt;/summary>
+&lt;p>&lt;ol>
+&lt;li>집합의 &lt;a href="https://en.wikipedia.org/wiki/Indicator_function" target="_blank" rel="noopener">characteristic function&lt;/a>&lt;/li>
+&lt;li>python의 붙박이 &lt;a href="https://docs.python.org/3/library/stdtypes.html#set" target="_blank" rel="noopener">집합&lt;/a>&lt;/li>
+&lt;/ol>
 &lt;/p>
 &lt;/details></description></item><item><title>3</title><link>https://nhnacademy.github.io/quiz/pie/java/003/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/java/003/</guid><description>&lt;p>&lt;a href="../quiz002">분수&lt;/a>를 수천 개 만들어 쓰는 프로그램을 짜서 돌려 봤더니 분수의 수가 늘어날수록 속도가 떨어집니다. 분수를 만들 때마다 약분하기 때문입니다. 분자 분모가 필요할 때만 약분하도록 getter(또는 Selector)를 고칩니다.&lt;/p>
 &lt;pre>&lt;code class="language-java">class 분수 {
