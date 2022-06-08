@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NHN 아카데미 연수 과정 | NHN Academy</title><link>https://nhnacademy.github.io/courses/</link><atom:link href="https://nhnacademy.github.io/courses/index.xml" rel="self" type="application/rss+xml"/><description>NHN 아카데미 연수 과정</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>NHN 아카데미 연수 과정</title><link>https://nhnacademy.github.io/courses/</link></image><item><title>NHN Track</title><link>https://nhnacademy.github.io/courses/nhn_track/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/nhn_track/</guid><description>&lt;p>&lt;a href="https://nhn.com" target="_blank" rel="noopener">NHN&lt;/a>의 소프트웨어 기술 전문가들이 소프트웨어 개발 직무 기술을 익히는데 필요한 전산학의 기초를 정리한 교육 과정입니다.&lt;/p>
-&lt;ol>
-&lt;li>프로그래밍 개론(Introduction to Programming)&lt;/li>
-&lt;li>자료 구조와 알고리즘(Data Structure &amp;amp; Algorithm)&lt;/li>
-&lt;li>운영체제(Understanding of Operating System)&lt;/li>
-&lt;li>데이터베이스(Data Processing System)&lt;/li>
-&lt;li>컴퓨터 통신과 통신망(Computer Communications &amp;amp; Networking)&lt;/li>
-&lt;li>고급 프로그래밍(Advanced Programming)&lt;/li>
-&lt;li>시스템 프로그래밍(System Programming)&lt;/li>
-&lt;/ol>
-&lt;ul>
-&lt;li>2022년부터 경상남도 &lt;a href="http://usg.ac.kr/" target="_blank" rel="noopener">USG 공유대학&lt;/a>에서는 NHN Track 가운데 적어도 5개 과정을 이수한 학생에게 NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt;/li>
-&lt;/ul></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java 백엔드 개발자 과정 | NHN Academy</title><link>https://nhnacademy.github.io/courses/</link><atom:link href="https://nhnacademy.github.io/courses/index.xml" rel="self" type="application/rss+xml"/><description>Java 백엔드 개발자 과정</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>Java 백엔드 개발자 과정</title><link>https://nhnacademy.github.io/courses/</link></image></channel></rss>

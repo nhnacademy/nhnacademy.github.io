@@ -2509,19 +2509,7 @@ Spring boot 확장 기능들을 활용할 수 있다.&lt;/li>
 &lt;/ul>
 &lt;/div>
 &lt;/div>
---></description></item><item><title>NHN Track</title><link>https://nhnacademy.github.io/courses/nhn_track/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/nhn_track/</guid><description>&lt;p>&lt;a href="https://nhn.com" target="_blank" rel="noopener">NHN&lt;/a>의 소프트웨어 기술 전문가들이 소프트웨어 개발 직무 기술을 익히는데 필요한 전산학의 기초를 정리한 교육 과정입니다.&lt;/p>
-&lt;ol>
-&lt;li>프로그래밍 개론(Introduction to Programming)&lt;/li>
-&lt;li>자료 구조와 알고리즘(Data Structure &amp;amp; Algorithm)&lt;/li>
-&lt;li>운영체제(Understanding of Operating System)&lt;/li>
-&lt;li>데이터베이스(Data Processing System)&lt;/li>
-&lt;li>컴퓨터 통신과 통신망(Computer Communications &amp;amp; Networking)&lt;/li>
-&lt;li>고급 프로그래밍(Advanced Programming)&lt;/li>
-&lt;li>시스템 프로그래밍(System Programming)&lt;/li>
-&lt;/ol>
-&lt;ul>
-&lt;li>2022년부터 경상남도 &lt;a href="http://usg.ac.kr/" target="_blank" rel="noopener">USG 공유대학&lt;/a>에서는 NHN Track 가운데 적어도 5개 과정을 이수한 학생에게 NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt;/li>
-&lt;/ul></description></item><item><title>Slides</title><link>https://nhnacademy.github.io/slides/example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/slides/example/</guid><description>&lt;h1 id="create-slides-in-markdown-with-wowchemy">Create slides in Markdown with Wowchemy&lt;/h1>
+--></description></item><item><title>Slides</title><link>https://nhnacademy.github.io/slides/example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/slides/example/</guid><description>&lt;h1 id="create-slides-in-markdown-with-wowchemy">Create slides in Markdown with Wowchemy&lt;/h1>
 &lt;p>&lt;a href="https://wowchemy.com/" target="_blank" rel="noopener">Wowchemy&lt;/a> | &lt;a href="https://owchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p>
 &lt;hr>
 &lt;h2 id="features">Features&lt;/h2>
