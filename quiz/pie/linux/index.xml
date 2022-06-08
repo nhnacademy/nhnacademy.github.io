@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux | NHN Academy</title><link>https://nhnacademy.github.io/quiz/pie/linux/</link><atom:link href="https://nhnacademy.github.io/quiz/pie/linux/index.xml" rel="self" type="application/rss+xml"/><description>Linux</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>Linux</title><link>https://nhnacademy.github.io/quiz/pie/linux/</link></image><item><title>1</title><link>https://nhnacademy.github.io/quiz/pie/linux/001/</link><pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/linux/001/</guid><description>&lt;pre>&lt;code class="language-bash">#!/usr/bin/env sh
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux | NHN Academy</title><link>https://nhnacademy.com/quiz/pie/linux/</link><atom:link href="https://nhnacademy.com/quiz/pie/linux/index.xml" rel="self" type="application/rss+xml"/><description>Linux</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.com/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>Linux</title><link>https://nhnacademy.com/quiz/pie/linux/</link></image><item><title>1</title><link>https://nhnacademy.com/quiz/pie/linux/001/</link><pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/quiz/pie/linux/001/</guid><description>&lt;pre>&lt;code class="language-bash">#!/usr/bin/env sh
 echo hi
 silence command -v silence &amp;amp;&amp;amp; echo ok
 silence
@@ -17,7 +17,7 @@ bye
 &lt;li>&lt;a href="https://www.baeldung.com/linux/silencing-bash-output" target="_blank" rel="noopener">Silencing the Output of a Bash Command&lt;/a>&lt;/li>
 &lt;li>shell 스크립트를 짜다 보면 어떤 명령이 잘 돌아갔는지 아니면 문제가 생겼는지 exit status만 알면 되고 stdout, stderr 스트림으로 나오는 메시지를 숨기고 싶을 때가 있습니다.&lt;/li>
 &lt;li>linux (Unix)의 &lt;a href="https://en.wikipedia.org/wiki/File_descriptor" target="_blank" rel="noopener">file descriptor&lt;/a>와 stdin, stdout, stderr 같은 &lt;a href="https://en.wikipedia.org/wiki/Standard_streams" target="_blank" rel="noopener">기본 스트림&lt;/a>의 역할, /dev/null의 쓰임새, shell 언어의 &lt;a href="https://www.gnu.org/software/bash/manual/html_node/Redirections.html" target="_blank" rel="noopener">redirection 연산&lt;/a>을 알아야 풀 수 있는 문제입니다.&lt;/li>
-&lt;li>jupyter notebook을 쓰는 경우에는, bash 코드 셀이 돌아가는 subshell 환경에 silence 스크립트가 들어있는 폴더가 PATH에 걸려 있도록 &lt;a href="https://nhnacademy.github.io/quiz/pie/linux">설정&lt;/a>합니다.&lt;/li>
+&lt;li>jupyter notebook을 쓰는 경우에는, bash 코드 셀이 돌아가는 subshell 환경에 silence 스크립트가 들어있는 폴더가 PATH에 걸려 있도록 &lt;a href="https://nhnacademy.com/quiz/pie/linux">설정&lt;/a>합니다.&lt;/li>
 &lt;/ul>
 &lt;/p>
 &lt;/details>
@@ -28,7 +28,7 @@ bye
 &lt;li>David Both, &lt;a href="https://opensource.com/article/18/10/linux-data-streams" target="_blank" rel="noopener">Working with data streams on the Linux command line&lt;/a>, opensource.com&lt;/li>
 &lt;/ul>
 &lt;/p>
-&lt;/details></description></item><item><title>2</title><link>https://nhnacademy.github.io/quiz/pie/linux/002/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/linux/002/</guid><description>&lt;p>cd 할 때 마다 &lt;code>ls&lt;/code> 하기 번거로워 쉘 스크립트 lcd 짭니다.&lt;/p>
+&lt;/details></description></item><item><title>2</title><link>https://nhnacademy.com/quiz/pie/linux/002/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/quiz/pie/linux/002/</guid><description>&lt;p>cd 할 때 마다 &lt;code>ls&lt;/code> 하기 번거로워 쉘 스크립트 lcd 짭니다.&lt;/p>
 &lt;pre>&lt;code class="language-bash">#!/usr/bin/env sh
 cd &amp;quot;$@&amp;quot; &amp;amp;&amp;amp; ls
 &lt;/code>&lt;/pre>
@@ -61,7 +61,7 @@ rm -rf folder 1 2 3 # 시험한 뒤 청소
 &lt;li>프로세스의 Current Working Directory를 알아내는 방법 - &lt;a href="https://unix.stackexchange.com/questions/94357/find-out-current-working-directory-of-a-running-process" target="_blank" rel="noopener">lsof, pwdx, etc.&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/p>
-&lt;/details></description></item><item><title>3</title><link>https://nhnacademy.github.io/quiz/pie/linux/003/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/quiz/pie/linux/003/</guid><description>&lt;pre>&lt;code class="language-bash">#!/usr/bin/env bash
+&lt;/details></description></item><item><title>3</title><link>https://nhnacademy.com/quiz/pie/linux/003/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/quiz/pie/linux/003/</guid><description>&lt;pre>&lt;code class="language-bash">#!/usr/bin/env bash
 do-something() {
 [ $# -lt 1 ] &amp;amp;&amp;amp; exit 1
 for var in &amp;quot;$@&amp;quot;; do

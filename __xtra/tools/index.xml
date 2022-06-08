@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java 백엔드 개발 도구 | NHN Academy</title><link>https://nhnacademy.github.io/__xtra/tools/</link><atom:link href="https://nhnacademy.github.io/__xtra/tools/index.xml" rel="self" type="application/rss+xml"/><description>Java 백엔드 개발 도구</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Sun, 27 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>Java 백엔드 개발 도구</title><link>https://nhnacademy.github.io/__xtra/tools/</link></image><item><title>1. 개발툴 익히기</title><link>https://nhnacademy.github.io/__xtra/tools/tns-101/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-101/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java 백엔드 개발 도구 | NHN Academy</title><link>https://nhnacademy.com/__xtra/tools/</link><atom:link href="https://nhnacademy.com/__xtra/tools/index.xml" rel="self" type="application/rss+xml"/><description>Java 백엔드 개발 도구</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Sun, 27 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.com/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>Java 백엔드 개발 도구</title><link>https://nhnacademy.com/__xtra/tools/</link></image><item><title>1. 개발툴 익히기</title><link>https://nhnacademy.com/__xtra/tools/tns-101/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-101/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;p>개발 환경 구성&lt;br>
@@ -152,7 +152,7 @@
 &lt;li>PIE.Tools.Common.Build.MAVEN&lt;/li>
 &lt;li>PIE.Tools.Common.Build.GRADLE&lt;/li>
 &lt;li>PIE.Tools.Common.VCS.GIT&lt;/li>
-&lt;/ul></description></item><item><title>2. 깨끗한 코드 만들기</title><link>https://nhnacademy.github.io/__xtra/tools/tns-201/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-201/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>2. 깨끗한 코드 만들기</title><link>https://nhnacademy.com/__xtra/tools/tns-201/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-201/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>누구나 읽기 좋은 코드를 작성할 수 있는 능력을 살펴보기&lt;/li>
 &lt;li>테스트를 통한 안전한 코드 만들기&lt;/li>
@@ -265,7 +265,7 @@
 &lt;li>PIE.Tools.Common.JUNIT&lt;/li>
 &lt;li>PIE.Skills.Common.Analysis.CODE&lt;/li>
 &lt;li>PIE.Tools.Common.Analysis.SONARQUBE&lt;/li>
-&lt;/ul></description></item><item><title>3. 개발에 도움을 주는 것들</title><link>https://nhnacademy.github.io/__xtra/tools/tns-301/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-301/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>3. 개발에 도움을 주는 것들</title><link>https://nhnacademy.com/__xtra/tools/tns-301/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-301/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>vi editor의 사용법을 학습하고, shell script에 관한 기초지식 습득을 통해 리눅스 환경에서 시스템 자원을 이용한 도구 제작 기술을 익혀 보자.&lt;/li>
 &lt;li>웹서비스 개발자가 알면 좋은 네트워크에 대한 기본 지식을 습득하자.&lt;/li>
@@ -460,7 +460,7 @@
 &lt;li>TIP.Common.Network.PROTOCOL&lt;/li>
 &lt;li>TIP.Common.Network.ARCHITECTURE&lt;/li>
 &lt;li>PIE.Tools.Common.Analysis.TSHARK&lt;/li>
-&lt;/ul></description></item><item><title>4. Java를 이용해 간단한 통신 앱 만들기</title><link>https://nhnacademy.github.io/__xtra/tools/tns-401/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-401/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>4. Java를 이용해 간단한 통신 앱 만들기</title><link>https://nhnacademy.com/__xtra/tools/tns-401/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-401/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>Java 가반의 간단한 통신 앱을 개발하여 포르토콜에 대해 이해하기.&lt;/li>
 &lt;/ul>
@@ -583,7 +583,7 @@
 &lt;li>PIE.Skills.Backend.Programming.JAVA&lt;/li>
 &lt;li>PIE.Skills.Backend.Web.AUTHENTICATION&lt;/li>
 &lt;li>PIE.Skills.Backend.API.REST&lt;/li>
-&lt;/ul></description></item><item><title>5. JSP &amp; Servlet</title><link>https://nhnacademy.github.io/__xtra/tools/tns-501/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-501/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>5. JSP &amp; Servlet</title><link>https://nhnacademy.com/__xtra/tools/tns-501/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-501/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>Java 기반의 웹 애플리케이션을 개발하기 위해 필요한 기본 지식과 JSP/Servlet API에 대해 학습하고 이를 활용할 수 있는 능력을 배양한다.&lt;/li>
 &lt;/ul>
@@ -665,7 +665,7 @@
 &lt;li>PIE.Skills.Backend.Programming.JSP&lt;/li>
 &lt;li>PIE.Skills.Backend.Programming.SERVLET&lt;/li>
 &lt;li>PIE.Tools.Backend.Apache.TOMCAT&lt;/li>
-&lt;/ul></description></item><item><title>6. 데이터베이스 설계</title><link>https://nhnacademy.github.io/__xtra/tools/tns-601/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-601/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>6. 데이터베이스 설계</title><link>https://nhnacademy.com/__xtra/tools/tns-601/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-601/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>관계형 데이터베이스 설계에 대한 기본 개념과 방법을 이해합니다.&lt;/li>
 &lt;li>요구사항의 수집 및 분석을 통해서 ERD를 작성할 수 있습니다.&lt;/li>
@@ -889,7 +889,7 @@ DBMS가 제공하는 집계함수를 사용하여, 합계 평균 등의 집계 �
 &lt;li>PIE.Skills.Backend.Database.DESIGN&lt;/li>
 &lt;li>PIE.Skills.Backend.Database.ERD&lt;/li>
 &lt;li>PIE.Skills.Backend.Database.DATA-MODELING&lt;/li>
-&lt;/ul></description></item><item><title>7. JDBC를 이용한 데이터베이스 연동</title><link>https://nhnacademy.github.io/__xtra/tools/tns-701/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-701/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>7. JDBC를 이용한 데이터베이스 연동</title><link>https://nhnacademy.com/__xtra/tools/tns-701/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-701/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;p>JDBC 표준 인터페이스로 Database접근 프로그래밍할 수 있는 지식 습득&lt;/p>
 &lt;ul>
 &lt;li>JDBC 표준 개요&lt;/li>
@@ -969,7 +969,7 @@ DBMS가 제공하는 집계함수를 사용하여, 합계 평균 등의 집계 �
 &lt;h3 id="교과">교과&lt;/h3>
 &lt;ul>
 &lt;li>PIE.Tools.Backend.JDBC&lt;/li>
-&lt;/ul></description></item><item><title>8-1. Spring Framework</title><link>https://nhnacademy.github.io/__xtra/tools/tns-801/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-801/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>8-1. Spring Framework</title><link>https://nhnacademy.com/__xtra/tools/tns-801/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-801/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;p>Spring Framework 의 주요 개념을 이해&lt;/p>
 &lt;ul>
 &lt;li>Spring Framework 의 중요 개념을 이해&lt;/li>
@@ -1057,7 +1057,7 @@ DBMS가 제공하는 집계함수를 사용하여, 합계 평균 등의 집계 �
 &lt;h3 id="교과">교과&lt;/h3>
 &lt;ul>
 &lt;li>PIE.Tools.Backend.Spring.Framework.CORE&lt;/li>
-&lt;/ul></description></item><item><title>8-2. Spring MVC</title><link>https://nhnacademy.github.io/__xtra/tools/tns-802/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-802/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>8-2. Spring MVC</title><link>https://nhnacademy.com/__xtra/tools/tns-802/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-802/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>Spring MVC의 개념을 이해하고 , MVC기반의 웹 애플리케이션을 구현하고 테스트할 수 있다.&lt;/li>
 &lt;/ul>
@@ -1154,7 +1154,7 @@ DBMS가 제공하는 집계함수를 사용하여, 합계 평균 등의 집계 �
 &lt;h3 id="교과">교과&lt;/h3>
 &lt;ul>
 &lt;li>PIE.Tools.Backend.Spring.Framework.MVC&lt;/li>
-&lt;/ul></description></item><item><title>8-3. Spring Data</title><link>https://nhnacademy.github.io/__xtra/tools/tns-803/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-803/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>8-3. Spring Data</title><link>https://nhnacademy.com/__xtra/tools/tns-803/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-803/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>Java 기반의 ORM 표준인 JPA에 대한 기본 개념에 대해 학습하고, JPA를 활용하여 데이터베이스 애플리케이션을 개발할 수 있는 능력을 배양한다.&lt;/li>
 &lt;/ul>
@@ -1241,7 +1241,7 @@ DBMS가 제공하는 집계함수를 사용하여, 합계 평균 등의 집계 �
 &lt;h3 id="교과">교과&lt;/h3>
 &lt;ul>
 &lt;li>PIE.Tools.Backend.Spring.Data.JPA&lt;/li>
-&lt;/ul></description></item><item><title>8-4. Spring Security</title><link>https://nhnacademy.github.io/__xtra/tools/tns-804/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-804/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>8-4. Spring Security</title><link>https://nhnacademy.com/__xtra/tools/tns-804/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-804/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>애플리케이션 개발에 있어 필수적이라 할 수 있는 인증 개발을 위해 활용할 수 있는 Spring Security 프레임워크에 대해 학습하고 Spring Security를 이용하여 인증과 권한 관리 기능을 구현하는 방법을 학습한다.&lt;/li>
 &lt;/ul>
@@ -1335,7 +1335,7 @@ DBMS가 제공하는 집계함수를 사용하여, 합계 평균 등의 집계 �
 &lt;h3 id="교과">교과&lt;/h3>
 &lt;ul>
 &lt;li>PIE.Tools.Backend.Spring.SECURITY&lt;/li>
-&lt;/ul></description></item><item><title>8-5. Spring Boot</title><link>https://nhnacademy.github.io/__xtra/tools/tns-805/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-805/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>8-5. Spring Boot</title><link>https://nhnacademy.com/__xtra/tools/tns-805/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-805/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;p>Spring Boot 프로젝트를 구성하고 마이크로서비스 개발을 할 수 있는 역량을 기름&lt;/p>
 &lt;ul>
 &lt;li>Spring Boot의 기본 구조 이해&lt;/li>
