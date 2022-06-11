@@ -407,7 +407,7 @@ complement = lambda xs : lambda x : 1 - xs( x )
 &lt;details class="spoiler " id="spoiler-1">
 &lt;summary>선발 시험은 어떻게 진행되나요?&lt;/summary>
 &lt;p>&lt;ul>
-&lt;li>&lt;a href="https://nhnacademy.github.io/courses/#%ec%84%a0%eb%b0%9c-%ea%b3%bc%ec%a0%95">선발 과정&lt;/a>을 거쳐 선발합니다.&lt;/li>
+&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java#%ec%84%a0%eb%b0%9c">선발 과정&lt;/a>을 거쳐 선발합니다.&lt;/li>
 &lt;li>선발 과정에 참여하지 않고 지원하신 분께는 일정 및 안내 사항을 개별 메일로 전달해 드립니다.&lt;/li>
 &lt;/ul>
 &lt;/p>
@@ -453,7 +453,243 @@ complement = lambda xs : lambda x : 1 - xs( x )
 &lt;p>※ 모집 설명회에서 교육 과정, 평가, 채용 연계에 대하여 상세하게 안내해 드립니다.&lt;/p>
 &lt;!-- - 2기 모집 설명회
 - 일정: 4/23(토) 13:00
-- 장소: 경남 캠퍼스 대강의실 --></description></item><item><title>1. 개발툴 익히기</title><link>https://nhnacademy.github.io/__xtra/tools/tns-101/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-101/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+- 장소: 경남 캠퍼스 대강의실 --></description></item><item><title>전산학 기초</title><link>https://nhnacademy.github.io/courses/nhn_track/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/nhn_track/</guid><description>&lt;p>&lt;a href="https://nhn.com" target="_blank" rel="noopener">NHN&lt;/a>의 소프트웨어 기술 전문가들이
+소프트웨어 개발 직무 기술을 익히는데 필요한 전산학의 기초를
+NHN Track이란 이름으로 정리한 교육 과정입니다.&lt;/p>
+&lt;ol>
+&lt;li>프로그래밍 개론(Introduction to Programming)&lt;/li>
+&lt;li>자료 구조와 알고리즘(Data Structure &amp;amp; Algorithm)&lt;/li>
+&lt;li>운영체제(Understanding of Operating System)&lt;/li>
+&lt;li>데이터베이스(Data Processing System)&lt;/li>
+&lt;li>컴퓨터 통신과 통신망(Computer Communications &amp;amp; Networking)&lt;/li>
+&lt;li>고급 프로그래밍(Advanced Programming)&lt;/li>
+&lt;li>시스템 프로그래밍(System Programming)&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>경상남도 &lt;a href="http://usg.ac.kr/" target="_blank" rel="noopener">USG 공유대학&lt;/a>에서는
+NHN Track 가운데 5개 과정을 이수한 학생에게
+NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt;/li>
+&lt;li>&lt;strong>프로그래밍 개론&lt;/strong>과 &lt;strong>고급 프로그래밍&lt;/strong>은
+&lt;a href="https://nhnacademy.github.io/courses/java#%ec%84%a0%eb%b0%9c">선발 과정&lt;/a>에 참여하는 것으로 대체할 수 있습니다.&lt;/li>
+&lt;/ul></description></item><item><title>Java 백엔드 개발</title><link>https://nhnacademy.github.io/courses/java/</link><pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java/</guid><description>&lt;!-- - NHN TIPIE(티피)는 NHN 아카데미 교육 체계입니다.
+- TIPIE는 교육 목표에 따라 **TIP**(Theory Into Practice)과 **PIE**(Practice Into Education)로 나뉩니다. -->
+&lt;h2 id="선발">선발&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">주차&lt;/th>
+&lt;th style="text-align:center">강의&lt;/th>
+&lt;th style="text-align:left">교수&lt;/th>
+&lt;th style="text-align:center">시수&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">오리엔테이션&lt;/td>
+&lt;td style="text-align:left">-&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">1, 2&lt;/td>
+&lt;td style="text-align:center">Java 기본 과정&lt;/td>
+&lt;td style="text-align:left">NHN Academy 멘토&lt;br/>NHN Academy 개발실 &lt;strong>조던&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">80 (2주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">3&lt;/td>
+&lt;td style="text-align:center">HTML/CSS/JavaScript&lt;/td>
+&lt;td style="text-align:left">NHN Academy &lt;strong>랜디&lt;/strong>&lt;br/>NHN Academy &lt;strong>마르코&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="도구기술">도구+기술&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">주차&lt;/th>
+&lt;th style="text-align:center">강의&lt;/th>
+&lt;th style="text-align:left">교수&lt;/th>
+&lt;th style="text-align:center">시수&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">4&lt;/td>
+&lt;td style="text-align:center">개발 환경 설정&lt;/td>
+&lt;td style="text-align:left">NHN Dooray 개발실 &lt;strong>동묘&lt;/strong>&lt;br />NHN Edu 아이앰티쳐팀 &lt;strong>코코&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">5&lt;/td>
+&lt;td style="text-align:center">TDD/클린코드&lt;/td>
+&lt;td style="text-align:left">NHN Dooray 개발실 &lt;strong>조던&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">6&lt;/td>
+&lt;td style="text-align:center">네트워크 기초와 Java App 개발&lt;/td>
+&lt;td style="text-align:left">NHN Dooray 개발실 &lt;strong>만티&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">7&lt;/td>
+&lt;td style="text-align:center">웹 개발 기초와 Spring MVC&lt;/td>
+&lt;td style="text-align:left">NHN Dooray 개발실 &lt;strong>동묘&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">8&lt;/td>
+&lt;td style="text-align:center">데이터베이스 설계 및 SQL&lt;/td>
+&lt;td style="text-align:left">NHN 데이터운영팀 &lt;strong>오션&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">9&lt;/td>
+&lt;td style="text-align:center">데이터베이스 응용 프로그램 개발 1&lt;/td>
+&lt;td style="text-align:left">NHN Dooray 개발실 &lt;strong>만티&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">10&lt;/td>
+&lt;td style="text-align:center">데이터베이스 응용 프로그램 개발 2&lt;/td>
+&lt;td style="text-align:left">NHN Dooray 개발실 &lt;strong>동묘&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">11&lt;/td>
+&lt;td style="text-align:center">인증 개발&lt;/td>
+&lt;td style="text-align:left">NHN Dooray 개발실 &lt;strong>동묘&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">32 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">12&lt;/td>
+&lt;td style="text-align:center">Spring Boot를 이용한 마이크로서비스 &lt;strong>개발&lt;/strong>&lt;/td>
+&lt;td style="text-align:left">NHN Dooray 개발실 &lt;strong>동묘&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">13&lt;/td>
+&lt;td style="text-align:center">REST / Test&lt;/td>
+&lt;td style="text-align:left">NHN Dooray 개발실 &lt;strong>콤틴&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="프로젝트">프로젝트&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">주차&lt;/th>
+&lt;th style="text-align:center">마일스톤&lt;/th>
+&lt;th style="text-align:left">시수&lt;/th>
+&lt;th style="text-align:center">비고&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">14&lt;/td>
+&lt;td style="text-align:center">Team Building&lt;/td>
+&lt;td style="text-align:left">32 (1주)&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">15&lt;/td>
+&lt;td style="text-align:center">프로젝트 요구사항 분석&lt;/td>
+&lt;td style="text-align:left">32 (1주)&lt;/td>
+&lt;td style="text-align:center">특강: 데이터베이스 설계&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">16&lt;/td>
+&lt;td style="text-align:center">데이터베이스 배포&lt;/td>
+&lt;td style="text-align:left">40 (1주)&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">17&lt;/td>
+&lt;td style="text-align:center">프로젝트에서의 코드 작성&lt;/td>
+&lt;td style="text-align:left">40 (1주)&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">18&lt;/td>
+&lt;td style="text-align:center">TDD 적용&lt;/td>
+&lt;td style="text-align:left">32 (1주)&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">19&lt;/td>
+&lt;td style="text-align:center">응용 프로그램 아키텍처 설계&lt;/td>
+&lt;td style="text-align:left">32 (1주)&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">20&lt;/td>
+&lt;td style="text-align:center">REST API&lt;/td>
+&lt;td style="text-align:left">40 (1주)&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">21&lt;/td>
+&lt;td style="text-align:center">객체지향 리팩토링&lt;/td>
+&lt;td style="text-align:left">40 (1주)&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">22&lt;/td>
+&lt;td style="text-align:center">웹 서버 스케일 아웃&lt;/td>
+&lt;td style="text-align:left">40 (1주)&lt;/td>
+&lt;td style="text-align:center">특강: 웹 서버 스케일 아웃&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">23&lt;/td>
+&lt;td style="text-align:center">DB 서버 스케일 아웃&lt;/td>
+&lt;td style="text-align:left">40 (1주)&lt;/td>
+&lt;td style="text-align:center">특강: DB 서버 스케일 아웃&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">24&lt;/td>
+&lt;td style="text-align:center">안정적인 서비스 운영&lt;/td>
+&lt;td style="text-align:left">40 (1주)&lt;/td>
+&lt;td style="text-align:center">특강: 안정적인 서비스 운영&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">25&lt;/td>
+&lt;td style="text-align:center">최종 프로젝트 점검&lt;/td>
+&lt;td style="text-align:left">40 (1주)&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>1. 개발툴 익히기</title><link>https://nhnacademy.github.io/__xtra/tools/tns-101/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-101/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;p>개발 환경 구성&lt;br>
@@ -1956,70 +2192,6 @@ Spring boot 확장 기능들을 활용할 수 있다.&lt;/li>
 &lt;ul>
 &lt;li>PIE.Skills.Backend.Architecture.MICROSERVICE&lt;/li>
 &lt;li>PIE.Tools.Backend.Spring.BOOT&lt;/li>
-&lt;/ul></description></item><item><title>9월의 어느 날, 광주 캠퍼스가 열립니다.</title><link>https://nhnacademy.github.io/talk/9%EC%9B%94%EC%9D%98-%EC%96%B4%EB%8A%90-%EB%82%A0-%EA%B4%91%EC%A3%BC-%EC%BA%A0%ED%8D%BC%EC%8A%A4%EA%B0%80-%EC%97%B4%EB%A6%BD%EB%8B%88%EB%8B%A4./</link><pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/talk/9%EC%9B%94%EC%9D%98-%EC%96%B4%EB%8A%90-%EB%82%A0-%EA%B4%91%EC%A3%BC-%EC%BA%A0%ED%8D%BC%EC%8A%A4%EA%B0%80-%EC%97%B4%EB%A6%BD%EB%8B%88%EB%8B%A4./</guid><description>&lt;hr>
-&lt;h2 id="일정은-달라질-수-있습니다">일정은 달라질 수 있습니다.&lt;/h2>
-&lt;h3 id="지원-자격">지원 자격&lt;/h3>
-&lt;ul>
-&lt;li>만 19~34세 청년&lt;/li>
-&lt;li>풀타임 수업 참여가 가능한 분&lt;/li>
-&lt;li>광주 거주민 혹은 광주 지역 대학교 졸업(예정) 자 우대&lt;/li>
-&lt;/ul>
-&lt;h3 id="모집-절차">모집 절차&lt;/h3>
-&lt;ul>
-&lt;li>접수 기간:&lt;/li>
-&lt;li>과정 설명회:&lt;/li>
-&lt;li>선발:
-&lt;ol>
-&lt;li>기술 면접:&lt;/li>
-&lt;li>코딩 테스트:&lt;/li>
-&lt;li>발표:&lt;/li>
-&lt;/ol>
-&lt;!-- - 수강료 결제: 5.27-6.1 -->
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="연수-과정">연수 과정&lt;/h3>
-&lt;ul>
-&lt;li>오리엔테이션: 9월&lt;/li>
-&lt;li>기간: 1 단계 4개월, 2 단계 2개월&lt;/li>
-&lt;li>내용: &lt;a href="https://nhnacademy.github.io/courses/pie/java-backend">Java 백엔드 개발자 과정&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;!-- - 비용: 720만 원 -->
-&lt;ul>
-&lt;li>특전:
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> NHN 광주 계열사 입사 기회&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> NHN 광주 계열사에 입사하면 사이닝 보너스 형태로 연수 비용을 환급&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;!-- ### [지원하기 >>](https://forms.gle/VfRp38BcwNySPY3D7)
-- [FAQ](/post/faq)
-&lt;div class="alert alert-note">
-&lt;div>
-&lt;p>기술 면접과 코딩 테스트는 준비에서 실행까지 많은 시간과 노력이 들기 때문에 짧은 기간 한정된 응시자만 받을 수 있습니다. 지역에서 일할 인재를 길러내는 것이 이 프로그램의 목표이므로 연수 과정에 참여하고자 하는 의지가 확고한 분들에게 선발될 기회를 먼저 드리는 게 바람직합니다. 스스로가 갖춘 실력을 검증받을 기회가 필요하신 분들은 선발 과정에 참여하는 대신에 &lt;a href="https://nhnacademy.github.io/quiz/" target="_blank" rel="noopener">퀴즈&lt;/a>에 도전해 보셨으면 합니다.&lt;/p>
-&lt;ul>
-&lt;li>면접 전형료: 45,000원&lt;/li>
-&lt;li>면접 전형료 납부
-&lt;ul>
-&lt;li>신한은행 / 100-035-667402 / 엔에이치엔 아카데미 주식회사(주)&lt;/li>
-&lt;li>입금자 확인을 위해 성명+전화번호 뒤 4자리 입력 (예: 홍길동1012)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;/div>
---></description></item><item><title>전산학 기초</title><link>https://nhnacademy.github.io/courses/nhn_track/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/nhn_track/</guid><description>&lt;p>&lt;a href="https://nhn.com" target="_blank" rel="noopener">NHN&lt;/a>의 소프트웨어 기술 전문가들이 소프트웨어 개발 직무 기술을 익히는데 필요한 전산학의 기초를 NHN Track이란 이름으로 정리한 교육 과정입니다.&lt;/p>
-&lt;ol>
-&lt;li>프로그래밍 개론(Introduction to Programming)&lt;/li>
-&lt;li>자료 구조와 알고리즘(Data Structure &amp;amp; Algorithm)&lt;/li>
-&lt;li>운영체제(Understanding of Operating System)&lt;/li>
-&lt;li>데이터베이스(Data Processing System)&lt;/li>
-&lt;li>컴퓨터 통신과 통신망(Computer Communications &amp;amp; Networking)&lt;/li>
-&lt;li>고급 프로그래밍(Advanced Programming)&lt;/li>
-&lt;li>시스템 프로그래밍(System Programming)&lt;/li>
-&lt;/ol>
-&lt;ul>
-&lt;li>2022년부터 경상남도 &lt;a href="http://usg.ac.kr/" target="_blank" rel="noopener">USG 공유대학&lt;/a>에서는 NHN Track 가운데 적어도 5개 과정을 이수한 학생에게 NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt;/li>
 &lt;/ul></description></item><item><title>Slides</title><link>https://nhnacademy.github.io/slides/example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/slides/example/</guid><description>&lt;h1 id="create-slides-in-markdown-with-wowchemy">Create slides in Markdown with Wowchemy&lt;/h1>
 &lt;p>&lt;a href="https://wowchemy.com/" target="_blank" rel="noopener">Wowchemy&lt;/a> | &lt;a href="https://owchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p>
 &lt;hr>
@@ -2501,4 +2673,4 @@ color: navy;
 불가능할 때에는 이를 사전에 고지하여야 합니다. 다만, 외부적 사정에
 의하여 환불이 지연되는 경우 &amp;ldquo;회사&amp;quot;는 지연에 대한 책임을 지지
 않습니다&lt;/li>
-&lt;/ol></description></item><item><title/><link>https://nhnacademy.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/about/</guid><description/></item></channel></rss>
+&lt;/ol></description></item></channel></rss>

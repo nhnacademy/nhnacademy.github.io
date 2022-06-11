@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java 백엔드 개발자 과정 | NHN Academy</title><link>https://nhnacademy.github.io/courses/</link><atom:link href="https://nhnacademy.github.io/courses/index.xml" rel="self" type="application/rss+xml"/><description>Java 백엔드 개발자 과정</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>Java 백엔드 개발자 과정</title><link>https://nhnacademy.github.io/courses/</link></image><item><title>전산학 기초</title><link>https://nhnacademy.github.io/courses/nhn_track/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/nhn_track/</guid><description>&lt;p>&lt;a href="https://nhn.com" target="_blank" rel="noopener">NHN&lt;/a>의 소프트웨어 기술 전문가들이 소프트웨어 개발 직무 기술을 익히는데 필요한 전산학의 기초를 NHN Track이란 이름으로 정리한 교육 과정입니다.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>과정 | NHN Academy</title><link>https://nhnacademy.github.io/courses/</link><atom:link href="https://nhnacademy.github.io/courses/index.xml" rel="self" type="application/rss+xml"/><description>과정</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>과정</title><link>https://nhnacademy.github.io/courses/</link></image><item><title>전산학 기초</title><link>https://nhnacademy.github.io/courses/nhn_track/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/nhn_track/</guid><description>&lt;p>&lt;a href="https://nhn.com" target="_blank" rel="noopener">NHN&lt;/a>의 소프트웨어 기술 전문가들이
+소프트웨어 개발 직무 기술을 익히는데 필요한 전산학의 기초를
+NHN Track이란 이름으로 정리한 교육 과정입니다.&lt;/p>
 &lt;ol>
 &lt;li>프로그래밍 개론(Introduction to Programming)&lt;/li>
 &lt;li>자료 구조와 알고리즘(Data Structure &amp;amp; Algorithm)&lt;/li>
@@ -9,5 +11,227 @@
 &lt;li>시스템 프로그래밍(System Programming)&lt;/li>
 &lt;/ol>
 &lt;ul>
-&lt;li>2022년부터 경상남도 &lt;a href="http://usg.ac.kr/" target="_blank" rel="noopener">USG 공유대학&lt;/a>에서는 NHN Track 가운데 적어도 5개 과정을 이수한 학생에게 NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;li>경상남도 &lt;a href="http://usg.ac.kr/" target="_blank" rel="noopener">USG 공유대학&lt;/a>에서는
+NHN Track 가운데 5개 과정을 이수한 학생에게
+NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt;/li>
+&lt;li>&lt;strong>프로그래밍 개론&lt;/strong>과 &lt;strong>고급 프로그래밍&lt;/strong>은
+&lt;a href="https://nhnacademy.github.io/courses/java#%ec%84%a0%eb%b0%9c">선발 과정&lt;/a>에 참여하는 것으로 대체할 수 있습니다.&lt;/li>
+&lt;/ul></description></item><item><title>Java 백엔드 개발</title><link>https://nhnacademy.github.io/courses/java/</link><pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java/</guid><description>&lt;!-- - NHN TIPIE(티피)는 NHN 아카데미 교육 체계입니다.
+- TIPIE는 교육 목표에 따라 **TIP**(Theory Into Practice)과 **PIE**(Practice Into Education)로 나뉩니다. -->
+&lt;h2 id="선발">선발&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">주차&lt;/th>
+&lt;th style="text-align:center">강의&lt;/th>
+&lt;th style="text-align:left">교수&lt;/th>
+&lt;th style="text-align:center">시수&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">0&lt;/td>
+&lt;td style="text-align:center">오리엔테이션&lt;/td>
+&lt;td style="text-align:left">-&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">1, 2&lt;/td>
+&lt;td style="text-align:center">Java 기본 과정&lt;/td>
+&lt;td style="text-align:left">NHN Academy 멘토&lt;br/>NHN Academy 개발실 &lt;strong>조던&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">80 (2주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">3&lt;/td>
+&lt;td style="text-align:center">HTML/CSS/JavaScript&lt;/td>
+&lt;td style="text-align:left">NHN Academy &lt;strong>랜디&lt;/strong>&lt;br/>NHN Academy &lt;strong>마르코&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="도구기술">도구+기술&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">주차&lt;/th>
+&lt;th style="text-align:center">강의&lt;/th>
+&lt;th style="text-align:left">교수&lt;/th>
+&lt;th style="text-align:center">시수&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">4&lt;/td>
+&lt;td style="text-align:center">개발 환경 설정&lt;/td>
+&lt;td style="text-align:left">NHN Dooray 개발실 &lt;strong>동묘&lt;/strong>&lt;br />NHN Edu 아이앰티쳐팀 &lt;strong>코코&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">5&lt;/td>
+&lt;td style="text-align:center">TDD/클린코드&lt;/td>
+&lt;td style="text-align:left">NHN Dooray 개발실 &lt;strong>조던&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">6&lt;/td>
+&lt;td style="text-align:center">네트워크 기초와 Java App 개발&lt;/td>
+&lt;td style="text-align:left">NHN Dooray 개발실 &lt;strong>만티&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">7&lt;/td>
+&lt;td style="text-align:center">웹 개발 기초와 Spring MVC&lt;/td>
+&lt;td style="text-align:left">NHN Dooray 개발실 &lt;strong>동묘&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">8&lt;/td>
+&lt;td style="text-align:center">데이터베이스 설계 및 SQL&lt;/td>
+&lt;td style="text-align:left">NHN 데이터운영팀 &lt;strong>오션&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">9&lt;/td>
+&lt;td style="text-align:center">데이터베이스 응용 프로그램 개발 1&lt;/td>
+&lt;td style="text-align:left">NHN Dooray 개발실 &lt;strong>만티&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">10&lt;/td>
+&lt;td style="text-align:center">데이터베이스 응용 프로그램 개발 2&lt;/td>
+&lt;td style="text-align:left">NHN Dooray 개발실 &lt;strong>동묘&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">11&lt;/td>
+&lt;td style="text-align:center">인증 개발&lt;/td>
+&lt;td style="text-align:left">NHN Dooray 개발실 &lt;strong>동묘&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">32 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">12&lt;/td>
+&lt;td style="text-align:center">Spring Boot를 이용한 마이크로서비스 &lt;strong>개발&lt;/strong>&lt;/td>
+&lt;td style="text-align:left">NHN Dooray 개발실 &lt;strong>동묘&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">13&lt;/td>
+&lt;td style="text-align:center">REST / Test&lt;/td>
+&lt;td style="text-align:left">NHN Dooray 개발실 &lt;strong>콤틴&lt;/strong>&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="프로젝트">프로젝트&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">주차&lt;/th>
+&lt;th style="text-align:center">마일스톤&lt;/th>
+&lt;th style="text-align:left">시수&lt;/th>
+&lt;th style="text-align:center">비고&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">14&lt;/td>
+&lt;td style="text-align:center">Team Building&lt;/td>
+&lt;td style="text-align:left">32 (1주)&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">15&lt;/td>
+&lt;td style="text-align:center">프로젝트 요구사항 분석&lt;/td>
+&lt;td style="text-align:left">32 (1주)&lt;/td>
+&lt;td style="text-align:center">특강: 데이터베이스 설계&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">16&lt;/td>
+&lt;td style="text-align:center">데이터베이스 배포&lt;/td>
+&lt;td style="text-align:left">40 (1주)&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">17&lt;/td>
+&lt;td style="text-align:center">프로젝트에서의 코드 작성&lt;/td>
+&lt;td style="text-align:left">40 (1주)&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">18&lt;/td>
+&lt;td style="text-align:center">TDD 적용&lt;/td>
+&lt;td style="text-align:left">32 (1주)&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">19&lt;/td>
+&lt;td style="text-align:center">응용 프로그램 아키텍처 설계&lt;/td>
+&lt;td style="text-align:left">32 (1주)&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">20&lt;/td>
+&lt;td style="text-align:center">REST API&lt;/td>
+&lt;td style="text-align:left">40 (1주)&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">21&lt;/td>
+&lt;td style="text-align:center">객체지향 리팩토링&lt;/td>
+&lt;td style="text-align:left">40 (1주)&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">22&lt;/td>
+&lt;td style="text-align:center">웹 서버 스케일 아웃&lt;/td>
+&lt;td style="text-align:left">40 (1주)&lt;/td>
+&lt;td style="text-align:center">특강: 웹 서버 스케일 아웃&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">23&lt;/td>
+&lt;td style="text-align:center">DB 서버 스케일 아웃&lt;/td>
+&lt;td style="text-align:left">40 (1주)&lt;/td>
+&lt;td style="text-align:center">특강: DB 서버 스케일 아웃&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">24&lt;/td>
+&lt;td style="text-align:center">안정적인 서비스 운영&lt;/td>
+&lt;td style="text-align:left">40 (1주)&lt;/td>
+&lt;td style="text-align:center">특강: 안정적인 서비스 운영&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">25&lt;/td>
+&lt;td style="text-align:center">최종 프로젝트 점검&lt;/td>
+&lt;td style="text-align:left">40 (1주)&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item></channel></rss>
