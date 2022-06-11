@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NHN Academy</title><link>https://nhnacademy.com/</link><atom:link href="https://nhnacademy.com/index.xml" rel="self" type="application/rss+xml"/><description>NHN Academy</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.com/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>NHN Academy</title><link>https://nhnacademy.com/</link></image><item><title>Java 프로그래밍 언어</title><link>https://nhnacademy.com/__xtra/basic/tip-001/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/basic/tip-001/</guid><description>&lt;h2 id="학습-목적">학습 목적&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NHN Academy</title><link>https://nhnacademy.github.io/</link><atom:link href="https://nhnacademy.github.io/index.xml" rel="self" type="application/rss+xml"/><description>NHN Academy</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>NHN Academy</title><link>https://nhnacademy.github.io/</link></image><item><title>Java 프로그래밍 언어</title><link>https://nhnacademy.github.io/__xtra/basic/tip-001/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/basic/tip-001/</guid><description>&lt;h2 id="학습-목적">학습 목적&lt;/h2>
 &lt;h2 id="구성">구성&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -168,7 +168,7 @@
 &lt;h2 id="교과">교과&lt;/h2>
 &lt;ul>
 &lt;li>TIP.Programming.JAVA&lt;/li>
-&lt;/ul></description></item><item><title>1</title><link>https://nhnacademy.com/post/quiz/tip/001/</link><pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/post/quiz/tip/001/</guid><description>&lt;h3 id="몬테카를로-방법">몬테카를로 방법&lt;/h3>
+&lt;/ul></description></item><item><title>1</title><link>https://nhnacademy.github.io/post/quiz/tip/001/</link><pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/post/quiz/tip/001/</guid><description>&lt;h3 id="몬테카를로-방법">몬테카를로 방법&lt;/h3>
 &lt;h4 id="스트림-패러다임">스트림 패러다임&lt;/h4>
 &lt;ul>
 &lt;li>경남 캠퍼스 1기 웹 서비스 연수 과정 시작 전 방학 숙제로 냈던 문제입니다.&lt;/li>
@@ -177,9 +177,9 @@
 &lt;/ul>
 &lt;ul class="cta-group">
 &lt;li>
-&lt;a href="https://nhnacademy.com/publication/monte_carlo/quiz.pdf" class="btn btn-primary px-3 py-3">Python 판&lt;/a>
+&lt;a href="https://nhnacademy.github.io/publication/monte_carlo/quiz.pdf" class="btn btn-primary px-3 py-3">Python 판&lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>P2.JavaScript</title><link>https://nhnacademy.com/__xtra/basic/tip-002/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/basic/tip-002/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>P2.JavaScript</title><link>https://nhnacademy.github.io/__xtra/basic/tip-002/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/basic/tip-002/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>웹 페이지를 브라우저에 표시하는데 사용되는 인터넷 프로토콜인 HTTP에 대해서 이해하고, 웹 응용 프로그램에서 사용자 브라우저에서 동작하는 기술인 HTML, CSS 및 JavaScript를 학습하여 웹 페이지를 제작하는 방법과 이를 구조화 하는 방법 및 사용자와 상호작용하는 웹 페이지를 제작하는 능력을 익힌다.
 &lt;ul>
@@ -305,7 +305,7 @@
 &lt;ul>
 &lt;li>TIP.Common.Programming.HTML&lt;/li>
 &lt;li>TIP.Common.Programming.JAVASCRIPT&lt;/li>
-&lt;/ul></description></item><item><title>2</title><link>https://nhnacademy.com/post/quiz/tip/002/</link><pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/post/quiz/tip/002/</guid><description>&lt;p>$$ g(f(1, f(2, f(3, t)))) = 1, t \in T \tag{1} $$
+&lt;/ul></description></item><item><title>2</title><link>https://nhnacademy.github.io/post/quiz/tip/002/</link><pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/post/quiz/tip/002/</guid><description>&lt;p>$$ g(f(1, f(2, f(3, t)))) = 1, t \in T \tag{1} $$
 $$ g(f(1, f(2, f(3, t)))) = 3, t \in T \tag{2} $$
 $$ f(f(f(t, i, 1), i, 2), i, 3) = f(t,i,3), $$
 $$ g(f(f(f(t, i, 1), j, 2), k, 3), i) = 1, t \in T \tag{3} $$&lt;/p>
@@ -332,7 +332,7 @@ $$ g(f(f(f(t, i, 1), j, 2), k, 3), i) = 1, t \in T \tag{3} $$&lt;/p>
 &lt;li>Luca Cardeli, Peter Wegner, &amp;ldquo;&lt;a href="http://lucacardelli.name/papers/onunderstanding.a4.pdf" target="_blank" rel="noopener">On Understanding Types, Data Abstraction, and Polymorphism&lt;/a>&amp;rdquo;, Computing Surveys, Vol 17 n. 4, pp 471-522, December 1985&lt;/li>
 &lt;/ol>
 &lt;/p>
-&lt;/details></description></item><item><title>3</title><link>https://nhnacademy.com/post/quiz/tip/003/</link><pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/post/quiz/tip/003/</guid><description>&lt;pre>&lt;code class="language-python">emptyset =
+&lt;/details></description></item><item><title>3</title><link>https://nhnacademy.github.io/post/quiz/tip/003/</link><pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/post/quiz/tip/003/</guid><description>&lt;pre>&lt;code class="language-python">emptyset =
 add =
 isin =
 union = lambda xs, ys : lambda x : xs( x ) or ys( x )
@@ -397,17 +397,17 @@ complement = lambda xs : lambda x : 1 - xs( x )
 &lt;li>python의 붙박이 &lt;a href="https://docs.python.org/3/library/stdtypes.html#set" target="_blank" rel="noopener">집합&lt;/a>&lt;/li>
 &lt;/ol>
 &lt;/p>
-&lt;/details></description></item><item><title>FAQ</title><link>https://nhnacademy.com/faq/</link><pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/faq/</guid><description>&lt;details class="spoiler " id="spoiler-0">
+&lt;/details></description></item><item><title>FAQ</title><link>https://nhnacademy.github.io/faq/</link><pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/faq/</guid><description>&lt;details class="spoiler " id="spoiler-0">
 &lt;summary>Java 백엔드 개발 과정에 응시하기 위해 갖추어야 할 지식은 무엇인가요?&lt;/summary>
 &lt;p>&lt;ul>
-&lt;li>&lt;a href="https://nhnacademy.com/courses/nhn_track">NHN Track(전산학 기초)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://nhnacademy.github.io/courses/nhn_track">NHN Track(전산학 기초)&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/p>
 &lt;/details>
 &lt;details class="spoiler " id="spoiler-1">
 &lt;summary>선발 시험은 어떻게 진행되나요?&lt;/summary>
 &lt;p>&lt;ul>
-&lt;li>&lt;a href="https://nhnacademy.com/courses/#%ec%84%a0%eb%b0%9c-%ea%b3%bc%ec%a0%95">선발 과정&lt;/a>을 거쳐 선발합니다.&lt;/li>
+&lt;li>&lt;a href="https://nhnacademy.github.io/courses/#%ec%84%a0%eb%b0%9c-%ea%b3%bc%ec%a0%95">선발 과정&lt;/a>을 거쳐 선발합니다.&lt;/li>
 &lt;li>선발 과정에 참여하지 않고 지원하신 분께는 일정 및 안내 사항을 개별 메일로 전달해 드립니다.&lt;/li>
 &lt;/ul>
 &lt;/p>
@@ -417,7 +417,7 @@ complement = lambda xs : lambda x : 1 - xs( x )
 &lt;p>&lt;ul>
 &lt;li>모든 교육은 풀타임(오전 9시-오후 6시) 오프라인으로 진행합니다.&lt;/li>
 &lt;li>Covid-19 감염과 같은 불가피한 경우에만 온라인 참석을 인정합니다.&lt;/li>
-&lt;li>모든 &lt;a href="https://nhnacademy.com/courses/">교육 과정&lt;/a>은 이론 강의와 실습을 병행합니다.&lt;/li>
+&lt;li>모든 &lt;a href="https://nhnacademy.github.io/courses/">교육 과정&lt;/a>은 이론 강의와 실습을 병행합니다.&lt;/li>
 &lt;/ul>
 &lt;/p>
 &lt;/details>
@@ -453,7 +453,7 @@ complement = lambda xs : lambda x : 1 - xs( x )
 &lt;p>※ 모집 설명회에서 교육 과정, 평가, 채용 연계에 대하여 상세하게 안내해 드립니다.&lt;/p>
 &lt;!-- - 2기 모집 설명회
 - 일정: 4/23(토) 13:00
-- 장소: 경남 캠퍼스 대강의실 --></description></item><item><title>1. 개발툴 익히기</title><link>https://nhnacademy.com/__xtra/tools/tns-101/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-101/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+- 장소: 경남 캠퍼스 대강의실 --></description></item><item><title>1. 개발툴 익히기</title><link>https://nhnacademy.github.io/__xtra/tools/tns-101/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-101/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;p>개발 환경 구성&lt;br>
@@ -607,15 +607,15 @@ complement = lambda xs : lambda x : 1 - xs( x )
 &lt;li>PIE.Tools.Common.Build.MAVEN&lt;/li>
 &lt;li>PIE.Tools.Common.Build.GRADLE&lt;/li>
 &lt;li>PIE.Tools.Common.VCS.GIT&lt;/li>
-&lt;/ul></description></item><item><title>이메일 전송 서비스 개발</title><link>https://nhnacademy.com/__xtra/dooray/project-101/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/dooray/project-101/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
+&lt;/ul></description></item><item><title>이메일 전송 서비스 개발</title><link>https://nhnacademy.github.io/__xtra/dooray/project-101/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/dooray/project-101/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
 &lt;h3 id="요구-사항">요구 사항&lt;/h3>
-&lt;h3 id="필요-기술">필요 기술&lt;/h3></description></item><item><title>배달 주문 서비스 개발</title><link>https://nhnacademy.com/__xtra/dooray/project-102/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/dooray/project-102/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
+&lt;h3 id="필요-기술">필요 기술&lt;/h3></description></item><item><title>배달 주문 서비스 개발</title><link>https://nhnacademy.github.io/__xtra/dooray/project-102/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/dooray/project-102/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
 &lt;h3 id="요구-사항">요구 사항&lt;/h3>
-&lt;h3 id="필요-기술">필요 기술&lt;/h3></description></item><item><title>병원 예약 서비스 개발</title><link>https://nhnacademy.com/__xtra/dooray/project-104/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/dooray/project-104/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
+&lt;h3 id="필요-기술">필요 기술&lt;/h3></description></item><item><title>병원 예약 서비스 개발</title><link>https://nhnacademy.github.io/__xtra/dooray/project-104/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/dooray/project-104/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
 &lt;h3 id="요구-사항">요구 사항&lt;/h3>
-&lt;h3 id="필요-기술">필요 기술&lt;/h3></description></item><item><title>쇼핑몰 서비스 개발</title><link>https://nhnacademy.com/__xtra/dooray/project-103/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/dooray/project-103/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
+&lt;h3 id="필요-기술">필요 기술&lt;/h3></description></item><item><title>쇼핑몰 서비스 개발</title><link>https://nhnacademy.github.io/__xtra/dooray/project-103/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/dooray/project-103/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
 &lt;h3 id="요구-사항">요구 사항&lt;/h3>
-&lt;h3 id="필요-기술">필요 기술&lt;/h3></description></item><item><title>2. 깨끗한 코드 만들기</title><link>https://nhnacademy.com/__xtra/tools/tns-201/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-201/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;h3 id="필요-기술">필요 기술&lt;/h3></description></item><item><title>2. 깨끗한 코드 만들기</title><link>https://nhnacademy.github.io/__xtra/tools/tns-201/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-201/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>누구나 읽기 좋은 코드를 작성할 수 있는 능력을 살펴보기&lt;/li>
 &lt;li>테스트를 통한 안전한 코드 만들기&lt;/li>
@@ -728,7 +728,7 @@ complement = lambda xs : lambda x : 1 - xs( x )
 &lt;li>PIE.Tools.Common.JUNIT&lt;/li>
 &lt;li>PIE.Skills.Common.Analysis.CODE&lt;/li>
 &lt;li>PIE.Tools.Common.Analysis.SONARQUBE&lt;/li>
-&lt;/ul></description></item><item><title>3. 개발에 도움을 주는 것들</title><link>https://nhnacademy.com/__xtra/tools/tns-301/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-301/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>3. 개발에 도움을 주는 것들</title><link>https://nhnacademy.github.io/__xtra/tools/tns-301/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-301/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>vi editor의 사용법을 학습하고, shell script에 관한 기초지식 습득을 통해 리눅스 환경에서 시스템 자원을 이용한 도구 제작 기술을 익혀 보자.&lt;/li>
 &lt;li>웹서비스 개발자가 알면 좋은 네트워크에 대한 기본 지식을 습득하자.&lt;/li>
@@ -923,7 +923,7 @@ complement = lambda xs : lambda x : 1 - xs( x )
 &lt;li>TIP.Common.Network.PROTOCOL&lt;/li>
 &lt;li>TIP.Common.Network.ARCHITECTURE&lt;/li>
 &lt;li>PIE.Tools.Common.Analysis.TSHARK&lt;/li>
-&lt;/ul></description></item><item><title>4. Java를 이용해 간단한 통신 앱 만들기</title><link>https://nhnacademy.com/__xtra/tools/tns-401/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-401/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>4. Java를 이용해 간단한 통신 앱 만들기</title><link>https://nhnacademy.github.io/__xtra/tools/tns-401/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-401/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>Java 가반의 간단한 통신 앱을 개발하여 포르토콜에 대해 이해하기.&lt;/li>
 &lt;/ul>
@@ -1046,7 +1046,7 @@ complement = lambda xs : lambda x : 1 - xs( x )
 &lt;li>PIE.Skills.Backend.Programming.JAVA&lt;/li>
 &lt;li>PIE.Skills.Backend.Web.AUTHENTICATION&lt;/li>
 &lt;li>PIE.Skills.Backend.API.REST&lt;/li>
-&lt;/ul></description></item><item><title>5. JSP &amp; Servlet</title><link>https://nhnacademy.com/__xtra/tools/tns-501/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-501/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>5. JSP &amp; Servlet</title><link>https://nhnacademy.github.io/__xtra/tools/tns-501/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-501/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>Java 기반의 웹 애플리케이션을 개발하기 위해 필요한 기본 지식과 JSP/Servlet API에 대해 학습하고 이를 활용할 수 있는 능력을 배양한다.&lt;/li>
 &lt;/ul>
@@ -1128,7 +1128,7 @@ complement = lambda xs : lambda x : 1 - xs( x )
 &lt;li>PIE.Skills.Backend.Programming.JSP&lt;/li>
 &lt;li>PIE.Skills.Backend.Programming.SERVLET&lt;/li>
 &lt;li>PIE.Tools.Backend.Apache.TOMCAT&lt;/li>
-&lt;/ul></description></item><item><title>6. 데이터베이스 설계</title><link>https://nhnacademy.com/__xtra/tools/tns-601/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-601/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>6. 데이터베이스 설계</title><link>https://nhnacademy.github.io/__xtra/tools/tns-601/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-601/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>관계형 데이터베이스 설계에 대한 기본 개념과 방법을 이해합니다.&lt;/li>
 &lt;li>요구사항의 수집 및 분석을 통해서 ERD를 작성할 수 있습니다.&lt;/li>
@@ -1352,7 +1352,7 @@ DBMS가 제공하는 집계함수를 사용하여, 합계 평균 등의 집계 �
 &lt;li>PIE.Skills.Backend.Database.DESIGN&lt;/li>
 &lt;li>PIE.Skills.Backend.Database.ERD&lt;/li>
 &lt;li>PIE.Skills.Backend.Database.DATA-MODELING&lt;/li>
-&lt;/ul></description></item><item><title>7. JDBC를 이용한 데이터베이스 연동</title><link>https://nhnacademy.com/__xtra/tools/tns-701/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-701/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>7. JDBC를 이용한 데이터베이스 연동</title><link>https://nhnacademy.github.io/__xtra/tools/tns-701/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-701/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;p>JDBC 표준 인터페이스로 Database접근 프로그래밍할 수 있는 지식 습득&lt;/p>
 &lt;ul>
 &lt;li>JDBC 표준 개요&lt;/li>
@@ -1432,7 +1432,7 @@ DBMS가 제공하는 집계함수를 사용하여, 합계 평균 등의 집계 �
 &lt;h3 id="교과">교과&lt;/h3>
 &lt;ul>
 &lt;li>PIE.Tools.Backend.JDBC&lt;/li>
-&lt;/ul></description></item><item><title>8-1. Spring Framework</title><link>https://nhnacademy.com/__xtra/tools/tns-801/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-801/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>8-1. Spring Framework</title><link>https://nhnacademy.github.io/__xtra/tools/tns-801/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-801/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;p>Spring Framework 의 주요 개념을 이해&lt;/p>
 &lt;ul>
 &lt;li>Spring Framework 의 중요 개념을 이해&lt;/li>
@@ -1520,7 +1520,7 @@ DBMS가 제공하는 집계함수를 사용하여, 합계 평균 등의 집계 �
 &lt;h3 id="교과">교과&lt;/h3>
 &lt;ul>
 &lt;li>PIE.Tools.Backend.Spring.Framework.CORE&lt;/li>
-&lt;/ul></description></item><item><title>8-2. Spring MVC</title><link>https://nhnacademy.com/__xtra/tools/tns-802/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-802/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>8-2. Spring MVC</title><link>https://nhnacademy.github.io/__xtra/tools/tns-802/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-802/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>Spring MVC의 개념을 이해하고 , MVC기반의 웹 애플리케이션을 구현하고 테스트할 수 있다.&lt;/li>
 &lt;/ul>
@@ -1617,7 +1617,7 @@ DBMS가 제공하는 집계함수를 사용하여, 합계 평균 등의 집계 �
 &lt;h3 id="교과">교과&lt;/h3>
 &lt;ul>
 &lt;li>PIE.Tools.Backend.Spring.Framework.MVC&lt;/li>
-&lt;/ul></description></item><item><title>8-3. Spring Data</title><link>https://nhnacademy.com/__xtra/tools/tns-803/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-803/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>8-3. Spring Data</title><link>https://nhnacademy.github.io/__xtra/tools/tns-803/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-803/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>Java 기반의 ORM 표준인 JPA에 대한 기본 개념에 대해 학습하고, JPA를 활용하여 데이터베이스 애플리케이션을 개발할 수 있는 능력을 배양한다.&lt;/li>
 &lt;/ul>
@@ -1704,7 +1704,7 @@ DBMS가 제공하는 집계함수를 사용하여, 합계 평균 등의 집계 �
 &lt;h3 id="교과">교과&lt;/h3>
 &lt;ul>
 &lt;li>PIE.Tools.Backend.Spring.Data.JPA&lt;/li>
-&lt;/ul></description></item><item><title>8-4. Spring Security</title><link>https://nhnacademy.com/__xtra/tools/tns-804/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-804/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>8-4. Spring Security</title><link>https://nhnacademy.github.io/__xtra/tools/tns-804/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-804/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>애플리케이션 개발에 있어 필수적이라 할 수 있는 인증 개발을 위해 활용할 수 있는 Spring Security 프레임워크에 대해 학습하고 Spring Security를 이용하여 인증과 권한 관리 기능을 구현하는 방법을 학습한다.&lt;/li>
 &lt;/ul>
@@ -1798,7 +1798,7 @@ DBMS가 제공하는 집계함수를 사용하여, 합계 평균 등의 집계 �
 &lt;h3 id="교과">교과&lt;/h3>
 &lt;ul>
 &lt;li>PIE.Tools.Backend.Spring.SECURITY&lt;/li>
-&lt;/ul></description></item><item><title>8-5. Spring Boot</title><link>https://nhnacademy.com/__xtra/tools/tns-805/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/tools/tns-805/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>8-5. Spring Boot</title><link>https://nhnacademy.github.io/__xtra/tools/tns-805/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/tools/tns-805/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;p>Spring Boot 프로젝트를 구성하고 마이크로서비스 개발을 할 수 있는 역량을 기름&lt;/p>
 &lt;ul>
 &lt;li>Spring Boot의 기본 구조 이해&lt;/li>
@@ -1956,7 +1956,7 @@ Spring boot 확장 기능들을 활용할 수 있다.&lt;/li>
 &lt;ul>
 &lt;li>PIE.Skills.Backend.Architecture.MICROSERVICE&lt;/li>
 &lt;li>PIE.Tools.Backend.Spring.BOOT&lt;/li>
-&lt;/ul></description></item><item><title>9월의 어느 날, 광주 캠퍼스가 열립니다.</title><link>https://nhnacademy.com/talk/9%EC%9B%94%EC%9D%98-%EC%96%B4%EB%8A%90-%EB%82%A0-%EA%B4%91%EC%A3%BC-%EC%BA%A0%ED%8D%BC%EC%8A%A4%EA%B0%80-%EC%97%B4%EB%A6%BD%EB%8B%88%EB%8B%A4./</link><pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/talk/9%EC%9B%94%EC%9D%98-%EC%96%B4%EB%8A%90-%EB%82%A0-%EA%B4%91%EC%A3%BC-%EC%BA%A0%ED%8D%BC%EC%8A%A4%EA%B0%80-%EC%97%B4%EB%A6%BD%EB%8B%88%EB%8B%A4./</guid><description>&lt;hr>
+&lt;/ul></description></item><item><title>9월의 어느 날, 광주 캠퍼스가 열립니다.</title><link>https://nhnacademy.github.io/talk/9%EC%9B%94%EC%9D%98-%EC%96%B4%EB%8A%90-%EB%82%A0-%EA%B4%91%EC%A3%BC-%EC%BA%A0%ED%8D%BC%EC%8A%A4%EA%B0%80-%EC%97%B4%EB%A6%BD%EB%8B%88%EB%8B%A4./</link><pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/talk/9%EC%9B%94%EC%9D%98-%EC%96%B4%EB%8A%90-%EB%82%A0-%EA%B4%91%EC%A3%BC-%EC%BA%A0%ED%8D%BC%EC%8A%A4%EA%B0%80-%EC%97%B4%EB%A6%BD%EB%8B%88%EB%8B%A4./</guid><description>&lt;hr>
 &lt;h2 id="일정은-달라질-수-있습니다">일정은 달라질 수 있습니다.&lt;/h2>
 &lt;h3 id="지원-자격">지원 자격&lt;/h3>
 &lt;ul>
@@ -1981,7 +1981,7 @@ Spring boot 확장 기능들을 활용할 수 있다.&lt;/li>
 &lt;ul>
 &lt;li>오리엔테이션: 9월&lt;/li>
 &lt;li>기간: 1 단계 4개월, 2 단계 2개월&lt;/li>
-&lt;li>내용: &lt;a href="https://nhnacademy.com/courses/pie/java-backend">Java 백엔드 개발자 과정&lt;/a>&lt;/li>
+&lt;li>내용: &lt;a href="https://nhnacademy.github.io/courses/pie/java-backend">Java 백엔드 개발자 과정&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;!-- - 비용: 720만 원 -->
 &lt;ul>
@@ -2008,7 +2008,7 @@ Spring boot 확장 기능들을 활용할 수 있다.&lt;/li>
 &lt;/ul>
 &lt;/div>
 &lt;/div>
---></description></item><item><title>전산학 기초</title><link>https://nhnacademy.com/courses/nhn_track/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/courses/nhn_track/</guid><description>&lt;p>&lt;a href="https://nhn.com" target="_blank" rel="noopener">NHN&lt;/a>의 소프트웨어 기술 전문가들이 소프트웨어 개발 직무 기술을 익히는데 필요한 전산학의 기초를 NHN Track이란 이름으로 정리한 교육 과정입니다.&lt;/p>
+--></description></item><item><title>전산학 기초</title><link>https://nhnacademy.github.io/courses/nhn_track/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/nhn_track/</guid><description>&lt;p>&lt;a href="https://nhn.com" target="_blank" rel="noopener">NHN&lt;/a>의 소프트웨어 기술 전문가들이 소프트웨어 개발 직무 기술을 익히는데 필요한 전산학의 기초를 NHN Track이란 이름으로 정리한 교육 과정입니다.&lt;/p>
 &lt;ol>
 &lt;li>프로그래밍 개론(Introduction to Programming)&lt;/li>
 &lt;li>자료 구조와 알고리즘(Data Structure &amp;amp; Algorithm)&lt;/li>
@@ -2020,7 +2020,7 @@ Spring boot 확장 기능들을 활용할 수 있다.&lt;/li>
 &lt;/ol>
 &lt;ul>
 &lt;li>2022년부터 경상남도 &lt;a href="http://usg.ac.kr/" target="_blank" rel="noopener">USG 공유대학&lt;/a>에서는 NHN Track 가운데 적어도 5개 과정을 이수한 학생에게 NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt;/li>
-&lt;/ul></description></item><item><title>Slides</title><link>https://nhnacademy.com/slides/example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/slides/example/</guid><description>&lt;h1 id="create-slides-in-markdown-with-wowchemy">Create slides in Markdown with Wowchemy&lt;/h1>
+&lt;/ul></description></item><item><title>Slides</title><link>https://nhnacademy.github.io/slides/example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/slides/example/</guid><description>&lt;h1 id="create-slides-in-markdown-with-wowchemy">Create slides in Markdown with Wowchemy&lt;/h1>
 &lt;p>&lt;a href="https://wowchemy.com/" target="_blank" rel="noopener">Wowchemy&lt;/a> | &lt;a href="https://owchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p>
 &lt;hr>
 &lt;h2 id="features">Features&lt;/h2>
@@ -2135,7 +2135,7 @@ color: navy;
 &lt;hr>
 &lt;h1 id="questions">Questions?&lt;/h1>
 &lt;p>&lt;a href="https://github.com/wowchemy/wowchemy-hugo-modules/discussions" target="_blank" rel="noopener">Ask&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p></description></item><item><title>개인정보처리방침</title><link>https://nhnacademy.com/privacy/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate><guid>https://nhnacademy.com/privacy/</guid><description>&lt;p>엔에이치엔아카데미 주식회사(이사 &amp;ldquo;회사&amp;quot;라 함)은 정보통신서비스제공자가
+&lt;p>&lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p></description></item><item><title>개인정보처리방침</title><link>https://nhnacademy.github.io/privacy/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate><guid>https://nhnacademy.github.io/privacy/</guid><description>&lt;p>엔에이치엔아카데미 주식회사(이사 &amp;ldquo;회사&amp;quot;라 함)은 정보통신서비스제공자가
 준수하여야 하는 대한민국의 관계 법령 및 개인정보보호 규정을 준수하며,
 관련 법령에 의거한 개인정보 처리방침을 정하여 이용자 권익 보호에 최선을
 다하고 있습니다.&lt;/p>
@@ -2403,7 +2403,7 @@ color: navy;
 &lt;h2 id="고지의-의무">고지의 의무&lt;/h2>
 &lt;p>현 개인정보 처리방침의 내용 추가, 삭제 및 수정이 있을 시에는 개정 최소 7일전부터 홈페이지의 &amp;ldquo;공지사항&amp;rdquo; 등을 통해 고지할 것입니다.
 다만, 이용자 권리의 중대한 변경이 있을 경우에는 최소 30일 전에 고지합니다.&lt;/p>
-&lt;p>시행일자: 2021년 11월 01일&lt;/p></description></item><item><title>환불 규정</title><link>https://nhnacademy.com/refund/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate><guid>https://nhnacademy.com/refund/</guid><description>&lt;ol>
+&lt;p>시행일자: 2021년 11월 01일&lt;/p></description></item><item><title>환불 규정</title><link>https://nhnacademy.github.io/refund/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate><guid>https://nhnacademy.github.io/refund/</guid><description>&lt;ol>
 &lt;li>NHN 아카데미의 부트캠프 과정은 환불 규정 내 오프라인
 교육 서비스 규정을 적용합니다.&lt;/li>
 &lt;li>교육생은 언제든지 수강을 철회하거나 이용계약의
@@ -2501,4 +2501,4 @@ color: navy;
 불가능할 때에는 이를 사전에 고지하여야 합니다. 다만, 외부적 사정에
 의하여 환불이 지연되는 경우 &amp;ldquo;회사&amp;quot;는 지연에 대한 책임을 지지
 않습니다&lt;/li>
-&lt;/ol></description></item><item><title/><link>https://nhnacademy.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/about/</guid><description/></item></channel></rss>
+&lt;/ol></description></item><item><title/><link>https://nhnacademy.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/about/</guid><description/></item></channel></rss>

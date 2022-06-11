@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TIP 퀴즈 | NHN Academy</title><link>https://nhnacademy.com/post/quiz/tip/</link><atom:link href="https://nhnacademy.com/post/quiz/tip/index.xml" rel="self" type="application/rss+xml"/><description>TIP 퀴즈</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Thu, 17 Feb 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.com/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>TIP 퀴즈</title><link>https://nhnacademy.com/post/quiz/tip/</link></image><item><title>1</title><link>https://nhnacademy.com/post/quiz/tip/001/</link><pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/post/quiz/tip/001/</guid><description>&lt;h3 id="몬테카를로-방법">몬테카를로 방법&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TIP 퀴즈 | NHN Academy</title><link>https://nhnacademy.github.io/post/quiz/tip/</link><atom:link href="https://nhnacademy.github.io/post/quiz/tip/index.xml" rel="self" type="application/rss+xml"/><description>TIP 퀴즈</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Thu, 17 Feb 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>TIP 퀴즈</title><link>https://nhnacademy.github.io/post/quiz/tip/</link></image><item><title>1</title><link>https://nhnacademy.github.io/post/quiz/tip/001/</link><pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/post/quiz/tip/001/</guid><description>&lt;h3 id="몬테카를로-방법">몬테카를로 방법&lt;/h3>
 &lt;h4 id="스트림-패러다임">스트림 패러다임&lt;/h4>
 &lt;ul>
 &lt;li>경남 캠퍼스 1기 웹 서비스 연수 과정 시작 전 방학 숙제로 냈던 문제입니다.&lt;/li>
@@ -7,9 +7,9 @@
 &lt;/ul>
 &lt;ul class="cta-group">
 &lt;li>
-&lt;a href="https://nhnacademy.com/publication/monte_carlo/quiz.pdf" class="btn btn-primary px-3 py-3">Python 판&lt;/a>
+&lt;a href="https://nhnacademy.github.io/publication/monte_carlo/quiz.pdf" class="btn btn-primary px-3 py-3">Python 판&lt;/a>
 &lt;/li>
-&lt;/ul></description></item><item><title>2</title><link>https://nhnacademy.com/post/quiz/tip/002/</link><pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/post/quiz/tip/002/</guid><description>&lt;p>$$ g(f(1, f(2, f(3, t)))) = 1, t \in T \tag{1} $$
+&lt;/ul></description></item><item><title>2</title><link>https://nhnacademy.github.io/post/quiz/tip/002/</link><pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/post/quiz/tip/002/</guid><description>&lt;p>$$ g(f(1, f(2, f(3, t)))) = 1, t \in T \tag{1} $$
 $$ g(f(1, f(2, f(3, t)))) = 3, t \in T \tag{2} $$
 $$ f(f(f(t, i, 1), i, 2), i, 3) = f(t,i,3), $$
 $$ g(f(f(f(t, i, 1), j, 2), k, 3), i) = 1, t \in T \tag{3} $$&lt;/p>
@@ -36,7 +36,7 @@ $$ g(f(f(f(t, i, 1), j, 2), k, 3), i) = 1, t \in T \tag{3} $$&lt;/p>
 &lt;li>Luca Cardeli, Peter Wegner, &amp;ldquo;&lt;a href="http://lucacardelli.name/papers/onunderstanding.a4.pdf" target="_blank" rel="noopener">On Understanding Types, Data Abstraction, and Polymorphism&lt;/a>&amp;rdquo;, Computing Surveys, Vol 17 n. 4, pp 471-522, December 1985&lt;/li>
 &lt;/ol>
 &lt;/p>
-&lt;/details></description></item><item><title>3</title><link>https://nhnacademy.com/post/quiz/tip/003/</link><pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/post/quiz/tip/003/</guid><description>&lt;pre>&lt;code class="language-python">emptyset =
+&lt;/details></description></item><item><title>3</title><link>https://nhnacademy.github.io/post/quiz/tip/003/</link><pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/post/quiz/tip/003/</guid><description>&lt;pre>&lt;code class="language-python">emptyset =
 add =
 isin =
 union = lambda xs, ys : lambda x : xs( x ) or ys( x )

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>__xtras | NHN Academy</title><link>https://nhnacademy.com/__xtra/</link><atom:link href="https://nhnacademy.com/__xtra/index.xml" rel="self" type="application/rss+xml"/><description>__xtras</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Sun, 27 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.com/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>__xtras</title><link>https://nhnacademy.com/__xtra/</link></image><item><title>Java 프로그래밍 언어</title><link>https://nhnacademy.com/__xtra/basic/tip-001/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/basic/tip-001/</guid><description>&lt;h2 id="학습-목적">학습 목적&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>__xtras | NHN Academy</title><link>https://nhnacademy.github.io/__xtra/</link><atom:link href="https://nhnacademy.github.io/__xtra/index.xml" rel="self" type="application/rss+xml"/><description>__xtras</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Sun, 27 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>__xtras</title><link>https://nhnacademy.github.io/__xtra/</link></image><item><title>Java 프로그래밍 언어</title><link>https://nhnacademy.github.io/__xtra/basic/tip-001/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/basic/tip-001/</guid><description>&lt;h2 id="학습-목적">학습 목적&lt;/h2>
 &lt;h2 id="구성">구성&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -168,7 +168,7 @@
 &lt;h2 id="교과">교과&lt;/h2>
 &lt;ul>
 &lt;li>TIP.Programming.JAVA&lt;/li>
-&lt;/ul></description></item><item><title>P2.JavaScript</title><link>https://nhnacademy.com/__xtra/basic/tip-002/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.com/__xtra/basic/tip-002/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
+&lt;/ul></description></item><item><title>P2.JavaScript</title><link>https://nhnacademy.github.io/__xtra/basic/tip-002/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/__xtra/basic/tip-002/</guid><description>&lt;h3 id="학습-목적">학습 목적&lt;/h3>
 &lt;ul>
 &lt;li>웹 페이지를 브라우저에 표시하는데 사용되는 인터넷 프로토콜인 HTTP에 대해서 이해하고, 웹 응용 프로그램에서 사용자 브라우저에서 동작하는 기술인 HTML, CSS 및 JavaScript를 학습하여 웹 페이지를 제작하는 방법과 이를 구조화 하는 방법 및 사용자와 상호작용하는 웹 페이지를 제작하는 능력을 익힌다.
 &lt;ul>
