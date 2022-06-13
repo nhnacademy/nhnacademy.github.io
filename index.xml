@@ -157,7 +157,7 @@ complement = lambda xs : lambda x : 1 - xs( x )
 &lt;p>※ 모집 설명회에서 교육 과정, 평가, 채용 연계에 대하여 상세하게 안내해 드립니다.&lt;/p>
 &lt;!-- - 2기 모집 설명회
 - 일정: 4/23(토) 13:00
-- 장소: 경남 캠퍼스 대강의실 --></description></item><item><title>Slides</title><link>https://nhnacademy.github.io/slides/example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/slides/example/</guid><description>&lt;h1 id="create-slides-in-markdown-with-wowchemy">Create slides in Markdown with Wowchemy&lt;/h1>
+- 장소: 경남 캠퍼스 대강의실 --></description></item><item><title>광주 1기 모집</title><link>https://nhnacademy.github.io/talk/%EA%B4%91%EC%A3%BC-1%EA%B8%B0-%EB%AA%A8%EC%A7%91/</link><pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/talk/%EA%B4%91%EC%A3%BC-1%EA%B8%B0-%EB%AA%A8%EC%A7%91/</guid><description/></item><item><title>Slides</title><link>https://nhnacademy.github.io/slides/example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/slides/example/</guid><description>&lt;h1 id="create-slides-in-markdown-with-wowchemy">Create slides in Markdown with Wowchemy&lt;/h1>
 &lt;p>&lt;a href="https://wowchemy.com/" target="_blank" rel="noopener">Wowchemy&lt;/a> | &lt;a href="https://owchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p>
 &lt;hr>
 &lt;h2 id="features">Features&lt;/h2>
@@ -638,4 +638,4 @@ color: navy;
 불가능할 때에는 이를 사전에 고지하여야 합니다. 다만, 외부적 사정에
 의하여 환불이 지연되는 경우 &amp;ldquo;회사&amp;quot;는 지연에 대한 책임을 지지
 않습니다&lt;/li>
-&lt;/ol></description></item><item><title>광주 1기 모집</title><link>https://nhnacademy.github.io/talk/%EA%B4%91%EC%A3%BC-1%EA%B8%B0-%EB%AA%A8%EC%A7%91/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/talk/%EA%B4%91%EC%A3%BC-1%EA%B8%B0-%EB%AA%A8%EC%A7%91/</guid><description/></item></channel></rss>
+&lt;/ol></description></item></channel></rss>
