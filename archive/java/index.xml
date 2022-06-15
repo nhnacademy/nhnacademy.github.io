@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java | NHN Academy</title><link>https://nhnacademy.github.io/archive/java/</link><atom:link href="https://nhnacademy.github.io/archive/java/index.xml" rel="self" type="application/rss+xml"/><description>Java</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>Java</title><link>https://nhnacademy.github.io/archive/java/</link></image><item><title>1</title><link>https://nhnacademy.github.io/archive/java/001/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/archive/java/001/</guid><description>&lt;p>Java에서는 call-by-value로 인자 값을 주고 받습니다.&lt;/p>
+&lt;pre>&lt;code class="language-Java">class 물체 {
+private int n = 0;
+public 물체( int m ) { n = m; }
+public void modify( int m ) { n = m; }
+public String toString() { return &amp;quot;&amp;quot; + n; }
+}
+class ParameterPassing {
+public static void callByValue( int 복사본 ) { 복사본 = 0; }
+public static void callByValue( 물체 copy ) { copy.modify( 0 ); }
+public static void test() {
+int 원본 = 1;
+System.out.println( 원본 );
+callByValue( 원본 );
+System.out.println( 원본 );
+물체 source = new 물체( 1 );
+System.out.println( source );
+callByValue( source );
+System.out.println( source );
+}
+}
+ParameterPassing.test(); // Jupyter notebook에서만
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>1
+1
+1
+0
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>원본은 바뀌지 않지만, source는 변했습니다. Call-by-value인데도 source가 변한 까닭은 무엇인가요?&lt;/li>
+&lt;li>위의 실험 결과로 볼 때 Java는 call-by-reference를 지원한다고 볼 수 있나요?&lt;/li>
+&lt;/ol>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>Jupyter notebook&lt;/summary>
+&lt;p>&lt;a href="https://github.com/SpencerPark/IJava" target="_blank" rel="noopener">Java&lt;/a> 커널이 깔린 Jupyter notebook이 아니라면 test()를 곧바로 돌릴 수 없습니다.&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>Java 언어에서 &lt;a href="https://www.google.com/search?q=value&amp;#43;semantics&amp;#43;vs&amp;#43;reference&amp;#43;semantics&amp;#43;java" target="_blank" rel="noopener">value semantics와 reference (pointer) semantics의 차이를&lt;/a> 코드로 시연하면서 설명할 수 있는지 되새겨보는 문제입니다.&lt;/p>
+&lt;/details></description></item><item><title>2</title><link>https://nhnacademy.github.io/archive/java/002/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/archive/java/002/</guid><description>&lt;p>HashSet으로 1들의 집합을 만듭니다.&lt;/p>
+&lt;pre>&lt;code class="language-java">import java.util.*;
+class Sameness {
+public static void 집합크기(Set 집합, Object[] elements) {
+Collections.addAll( 집합, elements ) ;
+System.out.println( 집합.toString() + &amp;quot;의 원소 수는 &amp;quot; + 집합.size() );
+}
+static Integer one = new Integer(1);
+static Object ones[] = {
+1, 1.0, one, one.intValue(), one.shortValue()
+, one.longValue(), one.floatValue(), one.doubleValue()
+, new Long(1), new Float(1), new Double(1)
+};
+}
+Sameness.집합크기( new HashSet(), Sameness.ones ); // Jupyter Notebook에서만
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>[1.0, 1.0, 1, 1, 1]의 원소 수는 5
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>집합의 크기(원소의 개수)가 왜 5일까요?&lt;/li>
+&lt;/ol>
+&lt;p>분수(유리수)를 정의합니다.&lt;/p>
+&lt;pre>&lt;code class="language-java">class 분수 {
+public 분수(int numerator, int denominator) throws ArithmeticException {
+if ( 0 == denominator ) throw new ArithmeticException( &amp;quot;분모 0&amp;quot; );
+분자 = numerator; 분모 = denominator;
+if (denominator &amp;lt; 0) { 분자 = - numerator; 분모 = - denominator; }
+약분();
+}
+public int getDenominator() { return 분모; }
+public int getNumerator() { return 분자; }
+public String toString() { return String.valueOf( 분자 ) + '/' + String.valueOf( 분모 ); }
+private void 약분() {
+int g = 최대공약수( Math.abs(분자), Math.abs(분모) );
+{ 분자 = 분자 / g; 분모 = 분모 / g; }
+}
+private static int 최대공약수(int x, int y) { return 0 == y ? x : 최대공약수(y, x % y); }
+private int 분모, 분자;
+}
+&lt;/code>&lt;/pre>
+&lt;p>이제 분수 집합도 만들 수 있습니다.&lt;/p>
+&lt;pre>&lt;code class="language-java">class Two {
+static 분수 twos[] = { new 분수( 2, 1 ), new 분수( 4, 2 ), new 분수( -2, -1 ) };
+}
+Sameness.집합크기( new HashSet(), Two.twos ); // in Jupiter Notebook
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>[2/1, 2/1, 2/1]의 원소 수는 3
+&lt;/code>&lt;/pre>
+&lt;ol start="2">
+&lt;li>집합의 원소 수가 3개입니다. 틀린 답이 나오는 이유를 설명하고 정답이 나오도록 만들어 보세요.&lt;/li>
+&lt;li>HashSet 대신에 TreeSet을 써서 같은 실험을 해보세요.&lt;/li>
+&lt;/ol>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;p>&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>두 데이터가 같다는 것은 무슨 뜻일까요? 프로그래밍 언어에서 value equality와 reference (pointer) equality를 차이를 이해하고, 이어서 새로운 데이터를 만들 때 그 데이터 타입에 속하는 원소(또는 인스턴스) 사이의 같거나 다름을 어떻게 이해하고 정의할 것인지 아니면 아예 정의할 수 없거나 하지 말아야 하는지 따위 주요한 주제를 짚고 넘어가는 문제입니다. &lt;a href="https://en.wikibooks.org/wiki/Java_Programming/Comparing_Objects" target="_blank" rel="noopener">Comparing Objects&lt;/a>를 읽어보세요.&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>분수(유리수)&lt;/summary>
+&lt;p>&lt;a href="https://commons.apache.org/proper/commons-math/" target="_blank" rel="noopener">Apache Commons Math ™ &lt;/a>에 &lt;a href="https://commons.apache.org/proper/commons-math/userguide/fraction.html" target="_blank" rel="noopener">Fraction&lt;/a> 클래스가 유리수(분수)를 구현합니다.&lt;/p>
+&lt;/details>&lt;/p></description></item><item><title>3</title><link>https://nhnacademy.github.io/archive/java/003/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/archive/java/003/</guid><description>&lt;p>&lt;a href="../quiz002">분수&lt;/a>를 수천 개 만들어 쓰는 프로그램을 짜서 돌려 봤더니 분수의 수가 늘어날수록 속도가 떨어집니다. 분수를 만들 때마다 약분하기 때문입니다. 분자 분모가 필요할 때만 약분하도록 getter(또는 Selector)를 고칩니다.&lt;/p>
+&lt;pre>&lt;code class="language-java">class 분수 {
+public 분수(int numerator, int denominator) throws ArithmeticException {
+if ( 0 == denominator ) throw new ArithmeticException( &amp;quot;분모 0&amp;quot; );
+분자 = numerator; 분모 = denominator;
+if (denominator &amp;lt; 0) { 분자 = - numerator; 분모 = - denominator; }
+// 약분();
+}
+public int getDenominator() { 약분(); return 분모; }
+public int getNumerator() { 약분(); return 분자; }
+public String toString() { return String.valueOf( 분자 ) + '/' + String.valueOf( 분모 ); }
+private void 약분() {
+int g = 최대공약수( Math.abs(분자), Math.abs(분모) );
+{ 분자 = 분자 / g; 분모 = 분모 / g; }
+}
+private static int 최대공약수(int x, int y) { return 0 == y ? x : 최대공약수(y, x % y); }
+private int 분모, 분자;
+}
+System.out.println( new 분수(2,4) ) // Jupyter Notebook에서만
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>2/4
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>기약 분수가 찍히지 않습니다. 코드에는 버그가 생겼습니다. 약분을 옮겼을 뿐인데 왜 없던 버그가 갑자기 생겼을까요? 잘못된 부분을 고쳐 써 봅시다.&lt;/li>
+&lt;li>분수의 &lt;a href="https://course.ccs.neu.edu/cs5500f14/Notes/Testing1/abstractionBarrierAlt.html" target="_blank" rel="noopener">abstraction barrier&lt;/a>는 어떤 연산으로 이루어지나요? 고쳐 쓴 코드는 abstraction barrier를 무너뜨리지 않나요?&lt;/li>
+&lt;li>분수의 분자 분모를 바꾸는 setter가 필요한가요? &lt;code>setNumerator(int)&lt;/code>, &lt;code>setDenominator(int)&lt;/code>는 분수 데이터의 abstraction barrier를 정의하는 데 포함되나요?&lt;/li>
+&lt;/ol>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>데이터의 what과 how (또는 쓰는 쪽과 만드는 쪽 )을 경계 짓는 &lt;a href="https://course.ccs.neu.edu/cs5500f14/Notes/Testing1/abstractionBarrierAlt.html" target="_blank" rel="noopener">abstraction barrier&lt;/a>를 무시하고 코드를 고쳐 쓸 때 생길 수 있는 버그를 잡는 과정에서 abstract data type이 제대로 이해하고 있는지 스스로 점검해 볼 수 있도록 꾸민 문제입니다.&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>Abstraction Barrier 공부 거리&lt;/summary>
+&lt;p>&lt;ol>
+&lt;li>Marvin Zhang, &lt;a href="https://inst.eecs.berkeley.edu/~cs61a/su16/assets/slides/09-Data_Abstraction_1pp.pdf" target="_blank" rel="noopener">Lecture 9: Data Abstraction&lt;/a> CS 61A: The Structure and Interpretation of Computer Programs, Berkeley&lt;/li>
+&lt;li>Harold Abelson and Gerald Jay Sussman with Julie Sussman, &lt;a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/sicp/book/node29.html" target="_blank" rel="noopener">Abstraction Barriers&lt;/a>, Introduction to Data Abstraction, Building Abstraction with Data, Structure and Interpretation
+of Computer Programs&lt;/li>
+&lt;/ol>
+&lt;/p>
+&lt;/details></description></item><item><title>4</title><link>https://nhnacademy.github.io/archive/java/004/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/archive/java/004/</guid><description>&lt;pre>&lt;code class="language-mermaid">classDiagram
+동물 &amp;lt;|-- 젖먹이동물
+동물 &amp;lt;|-- 새
+젖먹이동물 &amp;lt;|-- 박쥐
+새 &amp;lt;|-- 펭귄
+새 &amp;lt;|-- 참새
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-java">abstract class 동물 {
+public String type() {
+return this.getClass().getSimpleName();
+}
+}
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-java">class Typing {
+public static void 날수있니( 동물 x ) {
+System.out.println( x.type() + (x.날수있니()? &amp;quot;는(은) 날 수 있어.&amp;quot;: &amp;quot;는(은) 못날아.&amp;quot;) );
+}
+}
+// Jupyter Notebook에서만
+Typing.날수있니( new 박쥐() );
+Typing.날수있니( new 펭귄() );
+Typing.날수있니( new 참새() );
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>박쥐, 참새는 날 수 있으나 펭귄은 못난다고 찍히도록 코드를 적습니다.&lt;/li>
+&lt;li>동물을 interface로 정의하세요. 무엇이 더 알맞은 표현인가요?&lt;/li>
+&lt;li>모든 동물에게 &lt;code>boolean 헤엄칠수있니()&lt;/code>를 물어볼 수 있도록 코드를 늘립니다.
+이렇게 연산을 새로 보태는 일에 inheritance와 method overriding은 어떤 도움을 주나요?&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code class="language-java">class Typing {
+public static void 날수있니( 날수있는 x ) {
+System.out.println( x + &amp;quot;는(은) 날 수 있어.&amp;quot; );
+}
+}
+// Jupyter Notebook에서만
+Typing.날수있니( new 박쥐() );
+Typing.날수있니( new 참새() );
+Typing.날수있니( new 펭귄() );
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>박쥐, 참새는 날 수 있지만, 펭귄은 &lt;code>날수있는&lt;/code> 타입이 아니라는 에러가 나게 코드를 고칩니다.&lt;/li>
+&lt;li>동물을 interface로 정의할 수 있나요?&lt;/li>
+&lt;li>동물을 &lt;code>헤엄치는&lt;/code> 타입으로 분류할 수 있게끔 코드를 쓰세요. 이렇게 타입을 새로 보태는 일에 interface는 어떤 도움이 되나요?&lt;/li>
+&lt;/ol>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>Java 언어의 abstract class, abstract method, interface, default method가 서로 같고도 다른
+점이 무엇인지 또렷이 알고 제대로 쓸 수 있는지를 정리해보는 문제입니다.&lt;/li>
+&lt;li>상속 곧 구현을 빌어오는 class 관계를 두고 subclassing이라고 하고 A class의 구현을 B class가 내려받으면 B는
+A의 subclass라고 합니다. 이와 달리 A class가 따르는 모든 조건 곧 타입을 B class 역시 모두 따르기 때문에 A가 필요한
+모든 코드 문맥에서 B가 A를 맞바꿀 수 있는 class 관계를 두고 subtyping이라고 하는데, 이때 B는 A의 subtype이라고 합니다.
+일부에서는 subclassing을 implementation inheritance, subtyping을 interface
+inheritance라고 일컫기도 합니다. 하지만 subtyping은 type compatibility 관계를 규정하는 표현으로, 코드를
+복제하는 inheritance와는 아무런 관계가 없으니 두 낱말을 뒤섞어 쓰지 않는 것이 바람직합니다. 흔히 Object-Oriented
+Programming(OOP)이라고 일컫는 프로그래밍 스타일에서 주목하는 코드의 &lt;strong>되 쓰임새(reusability)란&lt;/strong> subtyping 관계가 이끌어내는 코드의 다형성(polymorphism), 줄여서 subtype polymorphism에서 파생되는 이점입니다.&lt;/li>
+&lt;li>분별없이 쓰는 혼잡한 용어를 정리하고 간결하고 또렷이 개념을 잡는 것이 되 쓰임새가 뛰어난 프로그램을 설계하는데 중요할 때가 있습니다.
+이 문제는 그런 공부에 도움이 됩니다.&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>참고 문헌&lt;/summary>
+&lt;p>&lt;ol>
+&lt;li>&lt;a href="https://www.cmi.ac.in/~madhavan/courses/pl2009/lecturenotes/lecture-notes/node28.html" target="_blank" rel="noopener">Subtyping vs. inheritance&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://counterexamples.org/subtyping-vs-inheritance.html" target="_blank" rel="noopener">Subtyping vs. inheritance - Counterexamples in Type Systems&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cs.rpi.edu/academics/courses/spring21/csci2600/handout-files/files_29_03/SubtypePolymorphism.pdf" target="_blank" rel="noopener">Subtype polymorphism, Liskov Substitution Principle(LSP), Rensselaer Polytechnic Institute&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/p>
+&lt;/details></description></item><item><title>5</title><link>https://nhnacademy.github.io/archive/java/005/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/archive/java/005/</guid><description>&lt;pre>&lt;code class="language-java">class F {
+X m() { System.out.println(&amp;quot;F&amp;quot;); return new X(); }
+}
+class G extends F {
+Y m() { System.out.println(&amp;quot;G&amp;quot;); return new Y(); }
+public static void test() {
+F f = new G();
+f.m();
+}
+}
+G.test();
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>G
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>G가 찍히도록 X와 Y를 정의하세요.&lt;/li>
+&lt;li>이와 같은 method overriding 규칙으로 얻게 되는 이점은 무엇인가요?&lt;/li>
+&lt;/ol>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>&lt;a href="https://docs.oracle.com/javase/tutorial/java/IandI/override.html" target="_blank" rel="noopener">Covariant (method) return type 규칙&lt;/a>을 되짚어 봅니다.&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>참고 문헌&lt;/summary>
+&lt;p>&lt;ol>
+&lt;li>&lt;a href="https://www.geeksforgeeks.org/covariant-return-types-java/" target="_blank" rel="noopener">Covariant return type&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Liskov_substitution_principle" target="_blank" rel="noopener">Liskov Substitution Principle(LSP)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Covariance_and_contravariance_%28computer_science%29" target="_blank" rel="noopener">Covariance and contravariance&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/p>
+&lt;/details></description></item><item><title>6</title><link>https://nhnacademy.github.io/archive/java/006/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/archive/java/006/</guid><description>&lt;pre>&lt;code class="language-Java">import java.util.function.*;
+interface Combinator {
+public static &amp;lt;T, U, R&amp;gt; Function&amp;lt;U, R&amp;gt; leftSection(BiFunction&amp;lt;T, U, R&amp;gt; f, T left) {
+return right -&amp;gt; f.apply(left, right);
+}
+public static &amp;lt;T, U, R&amp;gt; Function&amp;lt;T, R&amp;gt; rightSection(BiFunction&amp;lt;T, U, R&amp;gt; f, U right) {
+return left -&amp;gt; f.apply( left, right );
+}
+// public static ... flip(...) { ... }
+// public static ... toUnary(...) { ... }
+public static void main(String[] args) {
+BinaryOperator&amp;lt;Number&amp;gt; minus = ( x, y ) -&amp;gt; x.doubleValue() - y.doubleValue();
+System.out.println( leftSection( minus, 4 ).apply( 3 ) );
+System.out.println( rightSection( minus, 4 ).apply( 3 ) );
+// ... concat = ...
+System.out.println(
+leftSection( flip( concat ), &amp;quot;5&amp;quot; ).apply(&amp;quot;10&amp;quot;).equals(
+rightSection( concat, &amp;quot;5&amp;quot; ).apply( &amp;quot;10&amp;quot; ) ) );
+System.out.println(
+rightSection( minus, 4 ).apply( 3 ).equals(
+toUnary( flip( minus ) ).apply( 4 ).apply( 3 ) ) );
+}
+}
+&lt;/code>&lt;/pre>
+&lt;p>flip, toUnary, concat을 정의하세요.&lt;/p>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>&lt;code>toUnary( minus )&lt;/code>하지 않고 lambda expression으로 currying function(partial function application)을 표현할 수 있습니다.&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-java">Function&amp;lt;Double, UnaryOperator&amp;lt;Double&amp;gt;&amp;gt; minus = x -&amp;gt; y -&amp;gt; x - y;
+System.out.println( minus.apply( 3.0 ).apply( 5.0 ) ); // 3+5를 찍으세요.
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>하지만 새로운 함수를 매번 만들어 쓰시 않고 작지만 되쓰임새가 또렷한 함수를 조립해서 쓰는 버릇을 기르는 게 함수로 프로그램 짜는 방식(functional programming style)을 익히는 데 도움이 됩니다.&lt;/li>
+&lt;li>leftSection, rightSection은 &lt;a href="https://www.haskell.org/" target="_blank" rel="noopener">Haskell&lt;/a> 언어의 &lt;a href="https://wiki.haskell.org/Section_of_an_infix_operator" target="_blank" rel="noopener">간편 표기법&lt;/a>을 흉내 낸 함수입니다.&lt;/li>
+&lt;li>&lt;a href="https://docs.oracle.com/javase/8/docs/api/java/lang/FunctionalInterface.html" target="_blank" rel="noopener">functional inteface&lt;/a>, &lt;a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html#package.description" target="_blank" rel="noopener">java.lang.function&lt;/a>의 쓰임새를 알고 generics (parametric polymorphism)와 &lt;a href="https://docs.oracle.com/javase/tutorial/java/generics/genTypeInference.html" target="_blank" rel="noopener">type inference&lt;/a>의 기본을 아울러 익히는 데 도움이 되는 문제입니다.&lt;/li>
+&lt;li>&lt;a href="https://docs.oracle.com/javase/tutorial/java/generics/restrictions.html" target="_blank" rel="noopener">한계점&lt;/a>도 정확히 알고 있는 것이 시간과 노력을 아끼는 방법입니다. &lt;a href="https://docs.oracle.com/javase/tutorial/java/generics/QandE/generics-questions.html" target="_blank" rel="noopener">문제&lt;/a>도 풀어보세요.&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>참고 문헌&lt;/summary>
+&lt;p>&lt;ol>
+&lt;li>&lt;a href="https://www.dcs.bbk.ac.uk/~keith/software19/resources/slides/generics.pdf" target="_blank" rel="noopener">Parametric Polymorphism in Java&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://stackoverflow.com/questions/36314/what-is-currying" target="_blank" rel="noopener">What is &lt;em>curry&lt;/em>ing? (stackoverflow)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Combinatory_logic" target="_blank" rel="noopener">Lambda Calculus and Combinatory Logic&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/p>
+&lt;/details></description></item><item><title>7</title><link>https://nhnacademy.github.io/archive/java/007/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/archive/java/007/</guid><description>&lt;pre>&lt;code class="language-Java">interface Top {
+default void accept(Visitor v) {
+v.visit( this );
+}
+}
+class Left implements Top {
+}
+class Right implements Top {
+}
+interface Visitor {
+default void visit(Top top) { throw new NoSuchMethodError(); }
+void visit(Left left);
+void visit(Right right);
+}
+class 걸어 implements Visitor {
+public void visit(Left left) { System.out.println(&amp;quot;왼쪽으로 걸어&amp;quot;);};
+public void visit(Right right) { System.out.println(&amp;quot;오른쪽으로 걸어&amp;quot;);}
+}
+class 뛰어 implements Visitor {
+public void visit(Left left) { System.out.println(&amp;quot;왼쪽으로 뛰어&amp;quot;);};
+public void visit(Right right) { System.out.println(&amp;quot;오른쪽으로 뛰어&amp;quot;);}
+}
+class 실험 {
+public static void main(String[] args) {
+Top leftTop = new Left();
+Top rightTop = new Right();
+leftTop.accept( new 걸어() );
+rightTop.accept( new 뛰어() );
+}
+}
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-text">왼쪽으로 걸어
+오른쪽으로 뛰어
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>위와 같은 글이 찍히도록 코드를 고쳐보세요.&lt;/li>
+&lt;/ol>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>Expression을 꼭지로 하는 abstract syntax tree(AST)를 evaluate하는 코드를 짠다고 할 때, e의 runtime type에 따라 알맞은 연산을 찾아가도록 아래처럼 코드를 쓸 수 있습니다.&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-java">interface Expression { ... } // Abstract Syntax Tree
+class Variable implements Expression { ... }
+class Constant implements Expression { ... }
+abstract class Application implements Expression { ... }
+class BinaryApplication extends Application { ... }
+class Environment { ... } // Symbol tables
+class Evaluator {
+...
+public Expression evaluate(Expression e, Environment r) { // dispatch on type
+if (e instanceof Constant ) return evaluateContant(e, r);
+else if (e instanceof Variable ) return evaluateVariable(e, r);
+else if (e instanceof BinaryApplication) return evaluateBinaryApplication(e, r);
+else throw ...;
+}
+}
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>method overrding으로 evaluate를 간추릴 수 있습니다.&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code class="language-java">interface Expression { public Expression evaluate(Environment r); ... } // Abstract Syntax Tree
+class Variable implements Expression { public Expression evaluate(Environment r) {...} ... }
+class Value implements Expression { public Expression evaluate(Environment r) {...} ... }
+abstract class Application implements Expression { ... }
+class BinaryApplication extends Application { public Expression evaluate(Environment r) {...} ... }
+class Environment { ... } // Symbol tables
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>&lt;code>f( a0 ... an )&lt;/code>에서 인자의 runtime type에 대응하여 알맞은 함수를 찾아가는 기능을 &lt;a href="https://en.wikipedia.org/wiki/Dynamic_dispatch" target="_blank" rel="noopener">dynamic dispatch&lt;/a> (on type)라 합니다.&lt;/li>
+&lt;li>특히 a0의 runtime type만 반영하는 경우를 두고 single dispatch라 하는데 이를 또렷히 하기 위해서 &lt;code>a0.f(a1 ... an)&lt;/code> 같이 표현할 수 있습니다.&lt;/li>
+&lt;li>method overriding이란 single dispatch를 일컫는 방언으로 &lt;code>a0&lt;/code>를 object, &lt;code>f&lt;/code>를 message, &lt;code>a0&lt;/code>의 runtime type에 따라 &lt;code>f&lt;/code>에 대응하는 함수를 method라고 합니다.&lt;/li>
+&lt;li>method overriding은 subtyping으로 새로운 기능을 늘리고자 할 때 도움이 됩니다.&lt;/li>
+&lt;li>그와 달리, 새로운 연산을 더할 때는 (Evaluator와 비슷하게) &lt;a href="https://en.wikipedia.org/wiki/Visitor_pattern" target="_blank" rel="noopener">데이터 타입과 연산을 분리하여 새로운 연산을 보태기에 좋은 설계 방식&lt;/a> 곧 Visitor 패턴을 쓰는 것이 더 유리할 수 있습니다.&lt;/li>
+&lt;li>이 문제는 method overriding 곧 single dispatch의 목적과 한계를 이해하는 과정에서 visitor 패턴의 쓰임새를 살펴보는 데 보탬이 됩니다.&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>참고 자료&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>&lt;a href="https://www.geeksforgeeks.org/dynamic-method-dispatch-runtime-polymorphism-java/" target="_blank" rel="noopener">Dynamic Method Dispatch or Runtime Polymorphism in Java&lt;/a>, GeeksforGeeks&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details></description></item></channel></rss>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux | NHN Academy</title><link>https://nhnacademy.github.io/archive/linux/</link><atom:link href="https://nhnacademy.github.io/archive/linux/index.xml" rel="self" type="application/rss+xml"/><description>Linux</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2022 NHN Academy Corp. All Rights Reserved.</copyright><lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>Linux</title><link>https://nhnacademy.github.io/archive/linux/</link></image><item><title>1</title><link>https://nhnacademy.github.io/archive/linux/001/</link><pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/archive/linux/001/</guid><description>&lt;pre>&lt;code class="language-bash">#!/usr/bin/env sh
+echo hi
+silence command -v silence &amp;amp;&amp;amp; echo ok
+silence
+silence ! command -v silence &amp;amp;&amp;amp; echo ok
+echo bye
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>hi
+ok
+bye
+&lt;/code>&lt;/pre>
+&lt;p>&lt;code>silence&lt;/code> shell script를 짭니다.&lt;/p>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>&lt;a href="https://www.baeldung.com/linux/silencing-bash-output" target="_blank" rel="noopener">Silencing the Output of a Bash Command&lt;/a>&lt;/li>
+&lt;li>shell 스크립트를 짜다 보면 어떤 명령이 잘 돌아갔는지 아니면 문제가 생겼는지 exit status만 알면 되고 stdout, stderr 스트림으로 나오는 메시지를 숨기고 싶을 때가 있습니다.&lt;/li>
+&lt;li>linux (Unix)의 &lt;a href="https://en.wikipedia.org/wiki/File_descriptor" target="_blank" rel="noopener">file descriptor&lt;/a>와 stdin, stdout, stderr 같은 &lt;a href="https://en.wikipedia.org/wiki/Standard_streams" target="_blank" rel="noopener">기본 스트림&lt;/a>의 역할, /dev/null의 쓰임새, shell 언어의 &lt;a href="https://www.gnu.org/software/bash/manual/html_node/Redirections.html" target="_blank" rel="noopener">redirection 연산&lt;/a>을 알아야 풀 수 있는 문제입니다.&lt;/li>
+&lt;li>jupyter notebook을 쓰는 경우에는, bash 코드 셀이 돌아가는 subshell 환경에 silence 스크립트가 들어있는 폴더가 PATH에 걸려 있도록 &lt;a href="https://nhnacademy.github.io/quiz/pie/linux">설정&lt;/a>합니다.&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>공부 거리&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>&lt;a href="https://en.wikibooks.org/wiki/Bourne_Shell_Scripting/Files_and_streams" target="_blank" rel="noopener">Files and streams,&lt;/a> Bourne Shell Scripting, Wikibooks&lt;/li>
+&lt;li>David Both, &lt;a href="https://opensource.com/article/18/10/linux-data-streams" target="_blank" rel="noopener">Working with data streams on the Linux command line&lt;/a>, opensource.com&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details></description></item><item><title>2</title><link>https://nhnacademy.github.io/archive/linux/002/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/archive/linux/002/</guid><description>&lt;p>cd 할 때 마다 &lt;code>ls&lt;/code> 하기 번거로워 쉘 스크립트 lcd 짭니다.&lt;/p>
+&lt;pre>&lt;code class="language-bash">#!/usr/bin/env sh
+cd &amp;quot;$@&amp;quot; &amp;amp;&amp;amp; ls
+&lt;/code>&lt;/pre>
+&lt;p>lcd를 실험하는 코드를 씁니다.&lt;/p>
+&lt;pre>&lt;code class="language-bash">#!/usr/bin/env sh
+touch 1 2 3
+ls [1-9]; mkdir folder &amp;amp;&amp;amp; cd folder &amp;amp;&amp;amp; touch 4 5 6 &amp;amp;&amp;amp; ls
+cd .. &amp;amp;&amp;amp; ./lcd folder
+ls [1-9]
+rm -rf folder 1 2 3 # 시험한 뒤 청소
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>1 2 3
+4 5 6
+4 5 6
+1 2 3
+&lt;/code>&lt;/pre>
+&lt;p>기대와 다른 실험 결과입니다. &lt;code>pwd&lt;/code>를 써서 이유를 설명하세요.&lt;/p>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>&lt;a href="https://se.ifmo.ru/~ad/Documentation/Shells_by_Example/ch01lev1sec5.html" target="_blank" rel="noopener">프로세스의 생명 주기를 제어하는 fork, exec, wait, exit 같은 system call을 알고, 그에 따라 쉘에서 스크립트가 돌아가면 어떤 과정이 연달아 일어나는지&lt;/a>를 알아야 풀 수 있는 문제입니다.&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Cd_%28command%29" target="_blank" rel="noopener">cd&lt;/a>는 프로세스의 current &lt;a href="https://en.wikipedia.org/wiki/Working_directory" target="_blank" rel="noopener">working directory&lt;/a>를 바꿉니다.&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>공부 거리&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>프로세스의 Current Working Directory를 알아내는 방법 - &lt;a href="https://unix.stackexchange.com/questions/94357/find-out-current-working-directory-of-a-running-process" target="_blank" rel="noopener">lsof, pwdx, etc.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details></description></item><item><title>3</title><link>https://nhnacademy.github.io/archive/linux/003/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/archive/linux/003/</guid><description>&lt;pre>&lt;code class="language-bash">#!/usr/bin/env bash
+do-something() {
+[ $# -lt 1 ] &amp;amp;&amp;amp; exit 1
+for var in &amp;quot;$@&amp;quot;; do
+if [ -z &amp;quot;${!var:-}&amp;quot; ]; then
+exit 1
+fi
+done
+exit 0
+}
+&lt;/code>&lt;/pre>
+&lt;p>아래와 같이 실험합니다.&lt;/p>
+&lt;pre>&lt;code class="language-shell">$ chmod +x do-something
+$ echo $SHLVL
+$ bash
+$ echo $SHLVL
+$ ./do-something
+$ do-something
+$ . do-something
+$ bash
+$ do-something
+$ exit
+$ do-something
+$ echo $SHLVL
+&lt;/code>&lt;/pre>
+&lt;ol>
+&lt;li>실험 결과를 설명하세요.&lt;/li>
+&lt;li>마지막 do-something처럼 동작하면 쓸모가 없습니다. 쉘에서 쓸 수 있는 명령이 되도록 고칩니다.&lt;/li>
+&lt;li>&lt;code>do-something&lt;/code>이 하는 일에 알맞은 이름을 지어주세요.&lt;/li>
+&lt;/ol>
+&lt;h2 id="도움말">도움말&lt;/h2>
+&lt;p>&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>귀띔&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>&lt;code>man bash | grep SHLVL&lt;/code>&lt;/li>
+&lt;li>&lt;code>man chmod | grep mode&lt;/code>&lt;/li>
+&lt;li>&lt;a href="https://stackoverflow.com/questions/4419952/difference-between-return-and-exit-in-bash-functions" target="_blank" rel="noopener">Difference between return and exit in Bash functions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://unix.stackexchange.com/questions/305358/do-functions-run-as-subprocesses-in-bash" target="_blank" rel="noopener">Do functions run as subprocesses in Bash?&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details>
+&lt;details class="spoiler " id="spoiler-1">
+&lt;summary>참고 자료&lt;/summary>
+&lt;p>&lt;ul>
+&lt;li>&lt;a href="https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html" target="_blank" rel="noopener">3.5.3 Shell Parameter Expansion&lt;/a>, &lt;a href="https://www.gnu.org/software/bash/manual/" target="_blank" rel="noopener">GNU Bash manual&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.gnu.org/software/bash/manual/html_node/Shell-Functions.html" target="_blank" rel="noopener">3.3 Shell Functions&lt;/a>, GNU Bash manual&lt;/li>
+&lt;/ul>
+&lt;/p>
+&lt;/details>&lt;/p></description></item></channel></rss>
