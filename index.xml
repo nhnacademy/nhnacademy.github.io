@@ -1384,6 +1384,7 @@ color: navy;
 &lt;/ol></description></item><item><title>TIP</title><link>https://nhnacademy.github.io/archive/tip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/archive/tip/</guid><description>&lt;ul>
 &lt;li>Theory Into Practice의 줄임말입니다.&lt;/li>
 &lt;li>&lt;a href="https://nhnacademy.github.io/courses/nhn_track">이론&lt;/a>을 실무에 쓸 수 있도록 돕는데 목표를 둡니다.&lt;/li>
+&lt;li>요건만 간추리면 아래와 같습니다.&lt;/li>
 &lt;/ul>
 &lt;h2 id="약한-tip">약한 TIP&lt;/h2>
 &lt;ul>
@@ -1408,7 +1409,8 @@ color: navy;
 &lt;h2 id="역사">역사&lt;/h2>
 &lt;ul>
 &lt;li>1999년에 개발하기 시작해서 2003년에 초판을 완성했습니다.&lt;/li>
-&lt;li>미취업자를 모집하여 소프트웨어 기술 전문 직업인을 훈련하는 과정에서, 전산학 기초가 없어도 되는 단기 소모성 일자리와 인력을 양산하는 문제를 줄이려고, (그때는 드물었던) 1년 종일 훈련 프로그램을 설계하고, 그 속에 전산학 기초를 실무에 쓸 수 있도록 녹여 넣으려는 동기에서 시작되었으나 초판을 완성할 즈음에 IT 인력 양성 사업 열기가 식으면서 관련 사업도 쇠퇴기를 맞이하는 바람에 실제로 적용해보는 계기를 다시 얻지는 못했습니다.&lt;/li>
-&lt;li>2003년 이후, MPS(Multi-paradigm Problem Solving)란 이름으로, 대학에서 모든 학과를 대상으로 공학 문제 해결 능력을 기르기 위해 절차 인식론의 교육 효과를 실현하는 수단으로 컴퓨터 프로그래밍을 교양으로 가르치는 프로그램을 개발하는 데 5년여 정도 응용한 적이 있습니다.&lt;/li>
+&lt;li>미취업자를 모집하여 소프트웨어 기술 전문 직업인을 훈련하는 과정에서, 전산학 기초가 없어도 되는 단기 소모성 일자리와 인력을 양산하는 문제를 줄이려고, (그때는 드물었던) 1년 종일 훈련 프로그램을 설계하고, 그 속에 전산학 기초를 실무에 쓸 수 있도록 녹여 넣으려는 동기에서 시작되었습니다.&lt;/li>
+&lt;li>초판을 완성할 즈음에 IT 인력 양성 사업 열기가 식고 관련 사업도 쇠퇴기를 맞이하는 바람에 직무 연수 과정에 적용해보는 계기를 다시 얻지는 못했습니다.&lt;/li>
+&lt;li>2003년 이후, 공학 문제 해결 능력을 기르는 데 목표를 두고, MPS(Multi-paradigm Problem Solving)란 이름으로, 컴퓨터 프로그래밍을 교양으로 가르치는 프로그램을 TIP 방식으로 개발하고 5년 넘게 운영한 적은 있습니다.&lt;/li>
 &lt;li>MPS는 &lt;a href="https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/" target="_blank" rel="noopener">MIT SICP 6.001&lt;/a>과 &lt;a href="https://en.wikipedia.org/wiki/How_to_Design_Programs" target="_blank" rel="noopener">HTDP&lt;/a>를 TIP 방식으로 재구성하면서 시작하였으나 뒤에는 데이터를 읽고 해석하는 힘을 길러주기 위하여 &lt;a href="https://ieeexplore.ieee.org/document/7760759" target="_blank" rel="noopener">스프레드시트 패러다임&lt;/a>을 도입하기도 하였습니다.&lt;/li>
 &lt;/ul></description></item></channel></rss>
