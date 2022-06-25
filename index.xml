@@ -365,14 +365,18 @@ return 0;
 &lt;/code>&lt;/pre>
 &lt;ol>
 &lt;li>문제점을 모두 짚고 이유를 설명합니다.&lt;/li>
-&lt;li>문제가 없도록 고친 코드 4-1.c를 만듭니다.&lt;/li>
-&lt;li>&lt;code>cc -Wall -Wextra 4.c&lt;/code>의 결과를 설명합니다. 예측한 문제점을 모두 잡아내나요?&lt;/li>
-&lt;li>&lt;code>./a.out&lt;/code>의 결과를 설명하세요.&lt;/li>
-&lt;li>&lt;code>c++ 4.c&lt;/code>의 결과를 설명하세요.&lt;/li>
-&lt;li>&lt;code>cppcheck 4.c&lt;/code>의 결과를 설명하세요. 예측한 문제점과 이유를 모두 잡아내나요?&lt;/li>
-&lt;li>&lt;code>flawfinder 4.c&lt;/code>의 결과를 설명하세요. 예측한 문제점과 이유를 모두 잡아내나요?&lt;/li>
-&lt;li>4-1.c로 같은 실험을 되풀이합니다. 결과를 설명하세요.&lt;/li>
-&lt;li>문제가 없도록 고치세요. cppcheck, flawfinder가 도움이 되나요? 둘은 어떻게 다른가요?&lt;/li>
+&lt;li>문제가 없도록 고친 코드 &lt;code>4-1.c&lt;/code>를 만듭니다.&lt;/li>
+&lt;li>한 줄씩 돌리면서 결과를 차례대로 설명하세요. 앞서 짚었던 문제점을 모두 잡아내나요?
+&lt;ol>
+&lt;li>&lt;code>cc 4.c &amp;amp;&amp;amp; ./a.out&lt;/code>&lt;/li>
+&lt;li>&lt;code>cc -Wall -Wextra 4.c&lt;/code>&lt;/li>
+&lt;li>&lt;code>c++ 4.c&lt;/code>&lt;/li>
+&lt;li>&lt;code>cppcheck 4.c&lt;/code>&lt;/li>
+&lt;li>&lt;code>flawfinder 4.c&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>&lt;code>4-1.c&lt;/code>로 같은 실험을 되풀이합니다.&lt;/li>
+&lt;li>문제가 없도록 고치세요. 문제를 잡아내는 데 도구가 도움이 되나요? 도구는 서로 어떻게 다른가요?&lt;/li>
 &lt;/ol>
 &lt;h2 id="도움말">도움말&lt;/h2>
 &lt;details class="spoiler " id="spoiler-0">
