@@ -385,7 +385,7 @@ return 0;
 &lt;li>여러 분석 도구를 쓰면 언어와 코드의 문제를 정확하게 이해하여 안전하고 틀이 잡힌 코드 쓰는 데 보탬이 됩니다.&lt;/li>
 &lt;li>&lt;a href="https://wiki.sei.cmu.edu/confluence/display/c/STR30-C.&amp;#43;Do&amp;#43;not&amp;#43;attempt&amp;#43;to&amp;#43;modify&amp;#43;string&amp;#43;literals" target="_blank" rel="noopener">TR30-C. Do not attempt to modify string literals&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://cppcheck.sourceforge.io/" target="_blank" rel="noopener">cppcheck&lt;/a>, &lt;a href="https://dwheeler.com/flawfinder/" target="_blank" rel="noopener">flawfinder&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://clang.llvm.org/extra/clang-tidy/index.html" target="_blank" rel="noopener">clang-tidy&lt;/a>나 clang-check도 많이 씁니다.&lt;/li>
+&lt;li>&lt;a href="https://clang.llvm.org/extra/clang-tidy/index.html" target="_blank" rel="noopener">clang-tidy&lt;/a>, clang-check도 많이 씁니다.&lt;/li>
 &lt;li>&lt;a href="https://marketplace.visualstudio.com/items?itemName=jbenden.c-cpp-flylint" target="_blank" rel="noopener">C/C++ Advanced Lint for VS Code&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/p>
