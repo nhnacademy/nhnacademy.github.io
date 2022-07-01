@@ -503,8 +503,8 @@ G.test();
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Covariance_and_contravariance_%28computer_science%29" target="_blank" rel="noopener">Covariance and contravariance&lt;/a>&lt;/li>
 &lt;/ol>
 &lt;/p>
-&lt;/details></description></item><item><title>6</title><link>https://nhnacademy.github.io/archive/java/006/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/archive/java/006/</guid><description>&lt;pre>&lt;code class="language-Java">import java.util.function.*;
-interface Combinator {
+&lt;/details></description></item><item><title>6</title><link>https://nhnacademy.github.io/archive/java/006/</link><pubDate>Mon, 18 Jun 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/archive/java/006/</guid><description>&lt;pre>&lt;code class="language-java">import java.util.function.*;
+interface Currying {
 public static &amp;lt;T, U, R&amp;gt; Function&amp;lt;U, R&amp;gt; leftSection(BiFunction&amp;lt;T, U, R&amp;gt; f, T left) {
 return right -&amp;gt; f.apply(left, right);
 }
