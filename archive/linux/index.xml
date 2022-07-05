@@ -62,39 +62,59 @@ rm -rf folder 1 2 3 # 시험한 뒤 청소
 &lt;/ul>
 &lt;/p>
 &lt;/details></description></item><item><title>3</title><link>https://nhnacademy.github.io/archive/linux/003/</link><pubDate>Sun, 22 Apr 2007 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/archive/linux/003/</guid><description>&lt;pre>&lt;code class="language-bash">#!/usr/bin/env bash
-do-something() {
+defined() {
 [ $# -lt 1 ] &amp;amp;&amp;amp; exit 1
 for var in &amp;quot;$@&amp;quot;; do
 if [ -z &amp;quot;${!var:-}&amp;quot; ]; then
+error &amp;quot;$var is undefined&amp;quot;
 exit 1
 fi
 done
 exit 0
 }
 &lt;/code>&lt;/pre>
-&lt;p>아래와 같이 실험합니다.&lt;/p>
-&lt;pre>&lt;code class="language-shell">$ chmod +x do-something
-$ echo $SHLVL
-$ bash
-$ echo $SHLVL
-$ ./do-something
-$ do-something
-$ . do-something
-$ bash
-$ do-something
-$ exit
-$ do-something
-$ echo $SHLVL
+&lt;p>&lt;code>defined&lt;/code>로 저장하고 실험합니다.&lt;/p>
+&lt;pre>&lt;code class="language-bash">chmod +x defined
+echo $SHLVL
+bash
+echo $SHLVL
+./defined
+echo $?
+defined
+. defined
+bash
+defined
+exit
+echo $SHLVL
+defined PWD
 &lt;/code>&lt;/pre>
 &lt;ol>
-&lt;li>실험 결과를 설명하세요.&lt;/li>
-&lt;li>마지막 do-something처럼 동작하면 쓸모가 없습니다. 쉘에서 쓸 수 있는 명령이 되도록 고칩니다.&lt;/li>
-&lt;li>&lt;code>do-something&lt;/code>이 하는 일에 알맞은 이름을 지어주세요.&lt;/li>
+&lt;li>
+&lt;p>한 줄씩 돌려본 실험 결과를 차례대로 설명하세요.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>defined는 어떤 일을 하나요?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>맨 마지막 줄처럼 동작하면 쓸모가 없습니다. 왜 그런가요?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>shell script로 쓸 수 있도록 한 줄을 보탠 다음에 아래처럼 실험합니다. 결과를 설명하세요.&lt;/p>
+&lt;pre>&lt;code class="language-bash">! defined undefined &amp;amp;&amp;amp; defined HOME undefined PWD \
+|| export undefined=defined \
+&amp;amp;&amp;amp; defined HOME undefined PWD \
+&amp;amp;&amp;amp; export undefined=
+&lt;/code>&lt;/pre>
+&lt;/li>
+&lt;li>
+&lt;p>shell 함수에서 exit을 return으로 고쳐야 하나요? 아니면 놔둬도 되나요?&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;h2 id="도움말">도움말&lt;/h2>
 &lt;p>&lt;details class="spoiler " id="spoiler-0">
 &lt;summary>귀띔&lt;/summary>
 &lt;p>&lt;ul>
+&lt;li>문제에서 !과 defined를 띄어쓰세요. 붙여쓰면 logical not이 아닌 &lt;a href="https://www.redhat.com/sysadmin/bash-bang-commands" target="_blank" rel="noopener">bang(!)&lt;/a> 명령으로 봅니다.&lt;/li>
 &lt;li>&lt;code>man bash | grep SHLVL&lt;/code>&lt;/li>
 &lt;li>&lt;code>man chmod | grep mode&lt;/code>&lt;/li>
 &lt;li>&lt;a href="https://stackoverflow.com/questions/4419952/difference-between-return-and-exit-in-bash-functions" target="_blank" rel="noopener">Difference between return and exit in Bash functions&lt;/a>&lt;/li>
