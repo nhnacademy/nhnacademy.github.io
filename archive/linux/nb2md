@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-set -e
-
-ipynb="$1"
-[ ! -e "${ipynb}" ] && echo "No such file: ${ipynb}" && exit 1
-filename_without_extension=${ipynb%.*}
-
-jupyter nbconvert --to markdown "$ipynb" --output "${filename_without_extension}.md"
