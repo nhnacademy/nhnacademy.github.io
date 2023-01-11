@@ -266,7 +266,7 @@ NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>지원</title><link>https://nhnacademy.github.io/apply/</link><pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/apply/</guid><description>&lt;!-- ---- -->
+&lt;/table></description></item><item><title>모집</title><link>https://nhnacademy.github.io/apply/</link><pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/apply/</guid><description>&lt;!-- ---- -->
 &lt;h3 id="지원-자격">지원 자격&lt;/h3>
 &lt;ul>
 &lt;li>만 19~34세 청년&lt;/li>
@@ -283,13 +283,17 @@ NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt
 - 수강료 결제: 5.27-6.1 -->
 &lt;h3 id="연수-과정">연수 과정&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java">Java 백엔드 개발자 과정&lt;/a>&lt;/li>
-&lt;li>단계별 평가를 거쳐 프로젝트까지 마쳐야 NHN 아카데미 인증을 받을 수 있습니다.&lt;/li>
+&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java">Java 백엔드 개발자 과정&lt;/a>
+&lt;ul>
+&lt;li>지역 구분 없이 조선대학교에 자리한 &lt;a href="https://chosunnhn.kr/" target="_blank" rel="noopener">광주 캠퍼스&lt;/a>에 모여서 연수 받습니다.&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;h3 id="특전">특전&lt;/h3>
 &lt;ul>
-&lt;li>NHN 아카데미 인증을 받은 연수생에게는 NHN 계열사 및 NHN 아카데미의 채용 협력 기업에
-입사할 수 있는 기회를 제공합니다.&lt;/li>
+&lt;li>NHN 아카데미 인증을 받은 연수생에게는 채용 협력 기업에 응시할 기회를 드립니다.&lt;/li>
+&lt;li>채용 협력 기업에는 NHN 지역 계열사도 포함됩니다.&lt;/li>
+&lt;li>기업마다 채용 절차가 서로 다르므로 채용 특전에도 차이가 있고 채용 인원수도 시기에 따라 다릅니다.&lt;/li>
 &lt;/ul>
 &lt;!-- ### [지원하기 >>](https://forms.gle/VfRp38BcwNySPY3D7) -->
 &lt;!-- - [FAQ](/post/faq) -->
@@ -310,7 +314,7 @@ NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt
 &lt;summary>지원하려면 어떤 공부를 미리 해두어야 하나요?&lt;/summary>
 &lt;p>&lt;ul>
 &lt;li>과정을 따라잡으려면 적어도 &lt;a href="https://nhnacademy.github.io/courses/nhn_track">전산학 기초&lt;/a>는 갖추고 있어야 합니다.&lt;/li>
-&lt;li>지원 &lt;a href="https://nhnacademy.github.io/courses/">단계&lt;/a>에 따라 자격도 다릅니다.&lt;/li>
+&lt;li>&lt;a href="https://nhnacademy.github.io/courses/">단계&lt;/a>에 따라 지원 자격 요건도 다릅니다.&lt;/li>
 &lt;/ul>
 &lt;/p>
 &lt;/details>
@@ -333,14 +337,14 @@ NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt
 &lt;details class="spoiler " id="spoiler-3">
 &lt;summary>수강료는 얼마고 결제는 어떻게 하나요?&lt;/summary>
 &lt;p>&lt;ul>
-&lt;li>과정 별로 단계 별로 다를 수 있습니다. 모집 공고를 꼼꼼히 살펴 보세요.&lt;/li>
+&lt;li>과정과 단계 별로 다를 수 있습니다. 모집 공고를 꼼꼼히 살펴 보세요.&lt;/li>
 &lt;/ul>
 &lt;/p>
 &lt;/details>
 &lt;details class="spoiler " id="spoiler-4">
 &lt;summary>노트북이 필요한가요?&lt;/summary>
 &lt;p>&lt;ul>
-&lt;li>네. 연수에 쓸 장비는 꼭 챙겨 오세요.&lt;/li>
+&lt;li>개인 장비를 챙겨 오세요.&lt;/li>
 &lt;li>장비 성능은 연수 내용을 살펴보고 스스로 판단하시면 됩니다.&lt;/li>
 &lt;li>과정에 따라서는 장비를 빌려 드리기도 합니다.&lt;/li>
 &lt;/ul>
