@@ -15,255 +15,213 @@ NHN Track이란 이름으로 정리한 교육 과정입니다.&lt;/p>
 NHN Track 가운데 5개 과정을 이수한 학생에게
 NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt;/li>
 &lt;li>&lt;strong>프로그래밍 개론&lt;/strong>과 &lt;strong>고급 프로그래밍&lt;/strong>은
-&lt;a href="https://nhnacademy.github.io/courses/java#%ec%84%a0%eb%b0%9c">선발 과정&lt;/a>에 참여하는 것으로 대체할 수 있습니다.&lt;/li>
-&lt;li>대학 전산학 기초 과정과 크게 다르지 않기때문에 세부 교안은 생략합니다.&lt;/li>
-&lt;/ul></description></item><item><title>Java 백엔드 개발</title><link>https://nhnacademy.github.io/courses/java/</link><pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java/</guid><description>&lt;ul>
+&lt;a href="https://nhnacademy.github.io/courses/java#%ec%b2%b4%ed%97%98-%ea%b3%bc%ec%a0%95">체험 과정&lt;/a>에 참여하는 것으로 대체할 수 있습니다.&lt;/li>
+&lt;li>대학 전산학 기초 과정과 별다르지 않아서 상세한 내용은 생략합니다.&lt;/li>
+&lt;/ul></description></item><item><title>Java Back-End 개발</title><link>https://nhnacademy.github.io/courses/java/</link><pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java/</guid><description>&lt;ul>
 &lt;li>NHN의 기술과 경험을 전수하여 직무에 필요한 기량을 갖출 수 있도록 개발된 프로그램입니다.&lt;/li>
-&lt;li>연수 과정에 지원하려면 &lt;strong>선발 교육 과정&lt;/strong>을 거치거나 시험을 치러야 합니다.&lt;/li>
+&lt;li>연수 과정에 지원하려면 &lt;strong>체험 과정&lt;/strong>을 거치거나 시험을 치러야 합니다.
+&lt;ul>
 &lt;li>연수에 필요한 기초와 개발자에 적합한 성향을 갖추었는지 확인하는 절차입니다.&lt;/li>
-&lt;li>연수 프로그램은 크게 &lt;strong>도구와 기술&lt;/strong>, &lt;strong>프로젝트&lt;/strong> 두 단계로 이루어집니다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>연수 프로그램은 크게 &lt;strong>기본&lt;/strong>, &lt;strong>도구와 기술&lt;/strong>, &lt;strong>프로젝트&lt;/strong> 세 단계로 이루어집니다.
+&lt;ul>
+&lt;li>&lt;strong>기본&lt;/strong> 단계에서는 Java로 프로그램 짜는 방법을 익힙니다.&lt;/li>
 &lt;li>&lt;strong>도구와 기술&lt;/strong> 단계에서는 직무에 필요한 솜씨(skill, 기술)를 기르고, 솜씨를 부리는 데 도움이 되는 도구(tools)를 익힙니다.&lt;/li>
 &lt;li>&lt;strong>프로젝트&lt;/strong> 단계에서는 팀으로 일하는 방법을 배웁니다.
 &lt;ul>
-&lt;li>팀 단위로 일감을 나누고, 조각난 결과를 엮어서 한 몸으로 움직이도록 조립하고 배치하고 운영하는 과정에서 실무를 경험합니다.&lt;/li>
+&lt;li>여럿이 만든 부품을 조립하고 배치하고 운영하는 과정에서 직무를 체험합니다.&lt;/li>
 &lt;li>함께 어울려 일하는 데 알맞은 태도를 배웁니다.&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
 &lt;div class="alert alert-note">
 &lt;div>
-주차/강의/교수/시수는 실제와 차이가 있습니다. 과정에 대한 이해를 돕고자 정리한 예시입니다.
+강의/교수/시수는 실제와 차이가 있습니다. 과정에 대한 이해를 돕고자 정리한 예시입니다.
 &lt;/div>
 &lt;/div>
-&lt;h2 id="선발-교육-과정">선발 교육 과정&lt;/h2>
+&lt;h2 id="체험-과정">체험 과정&lt;/h2>
+&lt;hr>
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align:center">주차&lt;/th>
-&lt;th style="text-align:center">강의&lt;/th>
-&lt;th style="text-align:left">교수&lt;/th>
-&lt;th style="text-align:center">시수&lt;/th>
-&lt;th>&lt;/th>
+&lt;th style="text-align:left">강의&lt;/th>
+&lt;th style="text-align:center">교수&lt;/th>
+&lt;th style="text-align:right">시수&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:center">-&lt;/td>
-&lt;td style="text-align:center">Java 언어&lt;/td>
-&lt;td style="text-align:left">NHN Academy&lt;/td>
-&lt;td style="text-align:center">80 (4주)&lt;/td>
-&lt;td>&lt;/td>
+&lt;td style="text-align:left">언어&lt;/td>
+&lt;td style="text-align:center">NHN Academy&lt;/td>
+&lt;td style="text-align:right">~80 (~4주)&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="도구기술">도구+기술&lt;/h2>
-&lt;h3 id="단계-1-java-연습">단계 1: Java 연습&lt;/h3>
+&lt;h2 id="본-과정">본 과정&lt;/h2>
+&lt;hr>
+&lt;h3 id="단계-1-기본">단계 1: 기본&lt;/h3>
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align:center">주차&lt;/th>
-&lt;th style="text-align:center">강의&lt;/th>
-&lt;th style="text-align:left">교수&lt;/th>
-&lt;th style="text-align:center">시수&lt;/th>
-&lt;th>&lt;/th>
+&lt;th style="text-align:left">강의&lt;/th>
+&lt;th style="text-align:center">교수&lt;/th>
+&lt;th style="text-align:right">시수&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
+&lt;td style="text-align:left">Java Programming&lt;/td>
+&lt;td style="text-align:center">NHN Academy&lt;/td>
+&lt;td style="text-align:right">~80 (~4주)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">TDD/Refactoring&lt;/td>
 &lt;td style="text-align:center">-&lt;/td>
-&lt;td style="text-align:center">Java 연습&lt;/td>
-&lt;td style="text-align:left">NHN Academy&lt;/td>
-&lt;td style="text-align:center">80 (4주)&lt;/td>
-&lt;td>&lt;/td>
+&lt;td style="text-align:right">40 (1주)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Database 기초&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;td style="text-align:right">40 (1주)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Web Front-End 기초&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;td style="text-align:right">40 (1주)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Servlet/JSP&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;td style="text-align:right">40 (1주)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">REST API&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;td style="text-align:right">40 (1주)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Maven&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;td style="text-align:right">40 (1주)&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h3 id="단계-2-java-백엔드-개발-도구와-기술">단계 2: Java 백엔드 개발 도구와 기술&lt;/h3>
+&lt;h3 id="단계-2-도구와-기술">단계 2: 도구와 기술&lt;/h3>
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align:center">주차&lt;/th>
-&lt;th style="text-align:center">강의&lt;/th>
-&lt;th style="text-align:left">교수&lt;/th>
+&lt;th style="text-align:left">강의&lt;/th>
+&lt;th style="text-align:center">교수&lt;/th>
 &lt;th style="text-align:center">시수&lt;/th>
-&lt;th>&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:center">1&lt;/td>
-&lt;td style="text-align:center">HTML/CSS/JavaScript&lt;/td>
-&lt;td style="text-align:left">NHN Academy&lt;/td>
+&lt;td style="text-align:left">Spring Core&lt;/td>
+&lt;td style="text-align:center">NHN Dooray&lt;/td>
 &lt;td style="text-align:center">40 (1주)&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">2&lt;/td>
-&lt;td style="text-align:center">개발 환경 설정&lt;/td>
-&lt;td style="text-align:left">NHN Academy&lt;/td>
+&lt;td style="text-align:left">Spring MVC&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
 &lt;td style="text-align:center">40 (1주)&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">3&lt;/td>
-&lt;td style="text-align:center">TDD/클린코드&lt;/td>
-&lt;td style="text-align:left">NHN Academy&lt;/td>
-&lt;td style="text-align:center">40 (1주)&lt;/td>
-&lt;td>&lt;/td>
+&lt;td style="text-align:left">Spring+JPA&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;td style="text-align:center">40 (2주)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">4&lt;/td>
-&lt;td style="text-align:center">네트워크 기초와 Java App 개발&lt;/td>
-&lt;td style="text-align:left">NHN Academy&lt;/td>
-&lt;td style="text-align:center">40 (1주)&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">5&lt;/td>
-&lt;td style="text-align:center">웹 개발 기초와 Spring MVC&lt;/td>
-&lt;td style="text-align:left">NHN Dooray&lt;/td>
-&lt;td style="text-align:center">40 (1주)&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">6&lt;/td>
-&lt;td style="text-align:center">데이터베이스 설계 및 SQL&lt;/td>
-&lt;td style="text-align:left">NHN Academy&lt;/td>
-&lt;td style="text-align:center">40 (1주)&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">7&lt;/td>
-&lt;td style="text-align:center">데이터베이스 응용 프로그램 개발 1&lt;/td>
-&lt;td style="text-align:left">NHN Dooray&lt;/td>
-&lt;td style="text-align:center">40 (1주)&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">8&lt;/td>
-&lt;td style="text-align:center">데이터베이스 응용 프로그램 개발 2&lt;/td>
-&lt;td style="text-align:left">NHN Dooray&lt;/td>
-&lt;td style="text-align:center">40 (1주)&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">9&lt;/td>
-&lt;td style="text-align:center">인증 개발&lt;/td>
-&lt;td style="text-align:left">NHN Dooray&lt;/td>
+&lt;td style="text-align:left">Spring Security&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
 &lt;td style="text-align:center">32 (1주)&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">10&lt;/td>
-&lt;td style="text-align:center">Spring Boot를 이용한 마이크로서비스 개발&lt;/td>
-&lt;td style="text-align:left">NHN Dooray&lt;/td>
+&lt;td style="text-align:left">Spring Boot&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
 &lt;td style="text-align:center">40 (1주)&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">11&lt;/td>
-&lt;td style="text-align:center">REST / Test&lt;/td>
-&lt;td style="text-align:left">NHN Academy&lt;/td>
-&lt;td style="text-align:center">40 (1주)&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="프로젝트">프로젝트&lt;/h2>
+&lt;h3 id="단계-3-프로젝트">단계 3: 프로젝트&lt;/h3>
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align:center">주차&lt;/th>
-&lt;th style="text-align:center">마일스톤&lt;/th>
-&lt;th style="text-align:left">시수&lt;/th>
-&lt;th style="text-align:center">비고&lt;/th>
-&lt;th>&lt;/th>
+&lt;th style="text-align:left">마일스톤&lt;/th>
+&lt;th style="text-align:center">시수&lt;/th>
+&lt;th style="text-align:center">멘토&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:center">1&lt;/td>
-&lt;td style="text-align:center">Team Building&lt;/td>
-&lt;td style="text-align:left">32 (1주)&lt;/td>
+&lt;td style="text-align:left">Team 짜기&lt;/td>
+&lt;td style="text-align:center">32 (1주)&lt;/td>
+&lt;td style="text-align:center">NHN Academy&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">요구 분석&lt;/td>
+&lt;td style="text-align:center">32 (1주)&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Database&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Coding&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">TDD&lt;/td>
+&lt;td style="text-align:center">32 (1주)&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Refactoring&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Architecture&lt;/td>
+&lt;td style="text-align:center">32 (1주)&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">REST API&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">마무리, 발표&lt;/td>
+&lt;td style="text-align:center">40 (1주)&lt;/td>
 &lt;td style="text-align:center">&lt;/td>
-&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">특강&lt;/th>
+&lt;th style="text-align:center">교수&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">Web Server Scale-out&lt;/td>
+&lt;td style="text-align:center">NHN Dooray&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">2&lt;/td>
-&lt;td style="text-align:center">프로젝트 요구사항 분석&lt;/td>
-&lt;td style="text-align:left">32 (1주)&lt;/td>
-&lt;td style="text-align:center">특강: NHN Academy&lt;/td>
-&lt;td>&lt;/td>
+&lt;td style="text-align:left">DB Server Scale-out&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">3&lt;/td>
-&lt;td style="text-align:center">데이터베이스 배포&lt;/td>
-&lt;td style="text-align:left">40 (1주)&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">4&lt;/td>
-&lt;td style="text-align:center">프로젝트에서의 코드 작성&lt;/td>
-&lt;td style="text-align:left">40 (1주)&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">5&lt;/td>
-&lt;td style="text-align:center">TDD 적용&lt;/td>
-&lt;td style="text-align:left">32 (1주)&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">6&lt;/td>
-&lt;td style="text-align:center">응용 프로그램 아키텍처 설계&lt;/td>
-&lt;td style="text-align:left">32 (1주)&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">7&lt;/td>
-&lt;td style="text-align:center">REST API&lt;/td>
-&lt;td style="text-align:left">40 (1주)&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">8&lt;/td>
-&lt;td style="text-align:center">객체지향 리팩토링&lt;/td>
-&lt;td style="text-align:left">40 (1주)&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">9&lt;/td>
-&lt;td style="text-align:center">웹 서버 스케일 아웃&lt;/td>
-&lt;td style="text-align:left">40 (1주)&lt;/td>
-&lt;td style="text-align:center">특강: NHN Dooray&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">10&lt;/td>
-&lt;td style="text-align:center">DB 서버 스케일 아웃&lt;/td>
-&lt;td style="text-align:left">40 (1주)&lt;/td>
-&lt;td style="text-align:center">특강: NHN Dooray&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">11&lt;/td>
-&lt;td style="text-align:center">안정적인 서비스 운영&lt;/td>
-&lt;td style="text-align:left">40 (1주)&lt;/td>
-&lt;td style="text-align:center">특강: NHN Dooray&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">12&lt;/td>
-&lt;td style="text-align:center">최종 프로젝트 점검&lt;/td>
-&lt;td style="text-align:left">40 (1주)&lt;/td>
-&lt;td style="text-align:center">&lt;/td>
-&lt;td>&lt;/td>
+&lt;td style="text-align:left">안정적인 Service 운영&lt;/td>
+&lt;td style="text-align:center">-&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>모집</title><link>https://nhnacademy.github.io/apply/</link><pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/apply/</guid><description>&lt;!-- ---- -->
