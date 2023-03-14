@@ -17,31 +17,9 @@ NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt
 &lt;li>&lt;strong>프로그래밍 개론&lt;/strong>과 &lt;strong>고급 프로그래밍&lt;/strong>은
 &lt;a href="https://nhnacademy.github.io/courses/java#%ec%b2%b4%ed%97%98-%ea%b3%bc%ec%a0%95">체험 과정&lt;/a>에 참여하는 것으로 대체할 수 있습니다.&lt;/li>
 &lt;li>대학 전산학 기초 과정과 별다르지 않아서 상세한 내용은 생략합니다.&lt;/li>
-&lt;/ul></description></item><item><title>Java Back-End 개발</title><link>https://nhnacademy.github.io/courses/java/</link><pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java/</guid><description>&lt;ul>
-&lt;li>NHN의 기술과 경험을 전수하여 직무에 필요한 기량을 갖출 수 있도록 개발된 프로그램입니다.&lt;/li>
-&lt;li>연수 과정에 지원하려면 &lt;strong>체험 과정&lt;/strong>을 거치거나 시험을 치러야 합니다.
-&lt;ul>
-&lt;li>연수에 필요한 기초와 개발자에 적합한 성향을 갖추었는지 확인하는 절차입니다.&lt;/li>
+&lt;/ul></description></item><item><title>Java Backend 개발</title><link>https://nhnacademy.github.io/courses/java/</link><pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java/</guid><description>&lt;ul>
+&lt;li>실제 과정과 조금씩 다릅니다. 연수 과정에 대한 이해를 돕고자 정리한 예시입니다.&lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;li>연수 프로그램은 크게 &lt;strong>기본&lt;/strong>, &lt;strong>도구와 기술&lt;/strong>, &lt;strong>프로젝트&lt;/strong> 세 단계로 이루어집니다.
-&lt;ul>
-&lt;li>&lt;strong>기본&lt;/strong> 단계에서는 Java로 프로그램 짜는 방법을 익힙니다.&lt;/li>
-&lt;li>&lt;strong>도구와 기술&lt;/strong> 단계에서는 직무에 필요한 솜씨(skill, 기술)를 기르고, 솜씨를 부리는 데 도움이 되는 도구(tools)를 익힙니다.&lt;/li>
-&lt;li>&lt;strong>프로젝트&lt;/strong> 단계에서는 팀으로 일하는 방법을 배웁니다.
-&lt;ul>
-&lt;li>여럿이 만든 부품을 조립하고 배치하고 운영하는 과정에서 직무를 체험합니다.&lt;/li>
-&lt;li>함께 어울려 일하는 데 알맞은 태도를 배웁니다.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;div class="alert alert-note">
-&lt;div>
-강의/교수/시수는 실제와 차이가 있습니다. 과정에 대한 이해를 돕고자 정리한 예시입니다.
-&lt;/div>
-&lt;/div>
 &lt;h2 id="체험-과정">체험 과정&lt;/h2>
 &lt;hr>
 &lt;table>
