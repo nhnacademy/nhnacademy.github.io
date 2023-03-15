@@ -219,7 +219,7 @@ NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt
 - 수강료 결제: 5.27-6.1 -->
 &lt;h3 id="연수-과정">연수 과정&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java">Java 백엔드 개발자 과정&lt;/a>
+&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java">Java Backend 개발자 과정&lt;/a>
 &lt;ul>
 &lt;li>지역 구분 없이 조선대학교에 자리한 &lt;a href="https://chosunnhn.kr/" target="_blank" rel="noopener">광주 캠퍼스&lt;/a>에 모여서 연수 받습니다.&lt;/li>
 &lt;/ul>
@@ -257,9 +257,9 @@ NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt
 &lt;details class="spoiler " id="spoiler-1">
 &lt;summary>연수생은 어떻게 선발하나요?&lt;/summary>
 &lt;p>&lt;ul>
-&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java#%ec%84%a0%eb%b0%9c">선발 교육 과정&lt;/a>을 거쳐 선발합니다.&lt;/li>
-&lt;li>&lt;a href="https://nhnacademy.github.io/courses/nhn_track">전산학 기초&lt;/a>와 선발 교육 과정에서 가르치는 내용에 대하여
-시험을 치르는 것으로 선발 교육 과정을 건너뛸 수도 있습니다.&lt;/li>
+&lt;li>코딩 테스트를 거쳐 선발합니다.&lt;/li>
+&lt;li>[체험 과정](/courses/java#체험 과정)에서 코딩 테스트를 준비할 수 있습니다.&lt;/li>
+&lt;li>코딩 테스트는 과정에 따라 다릅니다.&lt;/li>
 &lt;/ul>
 &lt;/p>
 &lt;/details>
