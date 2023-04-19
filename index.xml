@@ -1,23 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NHN 아카데미 | NHN Academy</title><link>https://nhnacademy.github.io/</link><atom:link href="https://nhnacademy.github.io/index.xml" rel="self" type="application/rss+xml"/><description>NHN 아카데미</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2023 NHN Academy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>NHN 아카데미</title><link>https://nhnacademy.github.io/</link></image><item><title>전산학 기초</title><link>https://nhnacademy.github.io/courses/nhn_track/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/nhn_track/</guid><description>&lt;p>&lt;a href="https://nhn.com" target="_blank" rel="noopener">NHN&lt;/a>의 소프트웨어 기술 전문가들이
-소프트웨어 개발 직무 기술을 익히는데 필요한 전산학의 기초를
-NHN Track이란 이름으로 정리한 교육 과정입니다.&lt;/p>
-&lt;ol>
-&lt;li>프로그래밍 개론(Introduction to Programming)&lt;/li>
-&lt;li>자료 구조와 알고리즘(Data Structure &amp;amp; Algorithm)&lt;/li>
-&lt;li>운영체제(Understanding of Operating System)&lt;/li>
-&lt;li>데이터베이스(Data Processing System)&lt;/li>
-&lt;li>컴퓨터 통신과 통신망(Computer Communications &amp;amp; Networking)&lt;/li>
-&lt;li>고급 프로그래밍(Advanced Programming)&lt;/li>
-&lt;li>시스템 프로그래밍(System Programming)&lt;/li>
-&lt;/ol>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NHN 아카데미 | NHN Academy</title><link>https://nhnacademy.github.io/</link><atom:link href="https://nhnacademy.github.io/index.xml" rel="self" type="application/rss+xml"/><description>NHN 아카데미</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2023 NHN Academy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>NHN 아카데미</title><link>https://nhnacademy.github.io/</link></image><item><title>Java 기초</title><link>https://nhnacademy.github.io/courses/java_basic/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java_basic/</guid><description>&lt;h2 id="언어">언어&lt;/h2>
 &lt;ul>
-&lt;li>경상남도 &lt;a href="http://usg.ac.kr/" target="_blank" rel="noopener">USG 공유대학&lt;/a>에서는
-NHN Track 가운데 5개 과정을 이수한 학생에게
-NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt;/li>
-&lt;li>&lt;strong>프로그래밍 개론&lt;/strong>과 &lt;strong>고급 프로그래밍&lt;/strong>은
-&lt;a href="https://nhnacademy.github.io/courses/java#%ec%b2%b4%ed%97%98-%ea%b3%bc%ec%a0%95">체험 과정&lt;/a>에 참여하는 것으로 대체할 수 있습니다.&lt;/li>
-&lt;li>대학 전산학 기초 과정과 별다르지 않아서 상세한 내용은 생략합니다.&lt;/li>
-&lt;/ul></description></item><item><title>Java Backend 개발</title><link>https://nhnacademy.github.io/courses/java/</link><pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java/</guid><description>&lt;ul>
+&lt;li>Syntax/Semantics/Coding Convention&lt;/li>
+&lt;li>Procedural/Data Abstraction&lt;/li>
+&lt;li>Subtype/Parametric Polymorphism&lt;/li>
+&lt;li>Collections/Algorithms&lt;/li>
+&lt;li>Thread Safety/Concurrency&lt;/li>
+&lt;/ul>
+&lt;h2 id="연습">연습&lt;/h2>
+&lt;ul>
+&lt;li>Network/Game Programming&lt;/li>
+&lt;li>Paradigms &amp;amp; Styles
+&lt;ul>
+&lt;li>Event-driven&lt;/li>
+&lt;li>Dataflow (Flow-based ..)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Design Patterns&lt;/li>
+&lt;/ul></description></item><item><title>Java/Spring Backend</title><link>https://nhnacademy.github.io/courses/java_spring_backend/</link><pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java_spring_backend/</guid><description>&lt;ul>
 &lt;li>실제 과정과 조금씩 다릅니다. 연수 과정에 대한 이해를 돕고자 정리한 예시입니다.&lt;/li>
 &lt;/ul>
 &lt;h2 id="체험-과정">체험 과정&lt;/h2>
@@ -32,9 +31,9 @@ NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:left">언어&lt;/td>
+&lt;td style="text-align:left">&lt;a href="https://nhnacademy.github.io/courses/java_basic#%ec%96%b8%ec%96%b4">언어&lt;/a>&lt;/td>
 &lt;td style="text-align:center">NHN Academy&lt;/td>
-&lt;td style="text-align:right">~80 (~4주)&lt;/td>
+&lt;td style="text-align:right">~80 (2주~4주)&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -51,7 +50,7 @@ NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:left">Java Programming&lt;/td>
+&lt;td style="text-align:left">&lt;a href="https://nhnacademy.github.io/courses/java_basic#%ec%97%b0%ec%8a%b5">연습&lt;/a>&lt;/td>
 &lt;td style="text-align:center">NHN Academy&lt;/td>
 &lt;td style="text-align:right">~80 (~4주)&lt;/td>
 &lt;/tr>
@@ -61,9 +60,9 @@ NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt
 &lt;td style="text-align:right">40 (1주)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">Database 기초&lt;/td>
+&lt;td style="text-align:left">Database&lt;/td>
 &lt;td style="text-align:center">-&lt;/td>
-&lt;td style="text-align:right">40 (1주)&lt;/td>
+&lt;td style="text-align:right">40 (2주)&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">Web Front-End 기초&lt;/td>
@@ -81,7 +80,7 @@ NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt
 &lt;td style="text-align:right">40 (1주)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">Maven&lt;/td>
+&lt;td style="text-align:left">Programming Enviroment (Git, Maven, IntelliJ, VS Code, &amp;hellip;)&lt;/td>
 &lt;td style="text-align:center">-&lt;/td>
 &lt;td style="text-align:right">40 (1주)&lt;/td>
 &lt;/tr>
@@ -205,7 +204,7 @@ NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt
 &lt;/table></description></item><item><title>모집</title><link>https://nhnacademy.github.io/apply/</link><pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/apply/</guid><description>&lt;!-- ---- -->
 &lt;h3 id="지원-자격">지원 자격&lt;/h3>
 &lt;ul>
-&lt;li>만 19~34세 청년&lt;/li>
+&lt;li>만 19~29세 청년&lt;/li>
 &lt;li>종일 연수 받을 수 있는 사람&lt;/li>
 &lt;li>모든 과정을 마친 뒤 6개월 내에 입사할 수 있는 사람&lt;/li>
 &lt;/ul>
@@ -218,18 +217,19 @@ NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt
 3. 발표: 5.26
 - 수강료 결제: 5.27-6.1 -->
 &lt;h3 id="연수-과정">연수 과정&lt;/h3>
+&lt;h4 id="광주">광주&lt;/h4>
 &lt;ul>
-&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java">Java Backend 개발자 과정&lt;/a>
-&lt;ul>
-&lt;li>지역 구분 없이 조선대학교에 자리한 &lt;a href="https://chosunnhn.kr/" target="_blank" rel="noopener">광주 캠퍼스&lt;/a>에 모여서 연수 받습니다.&lt;/li>
+&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java_spring_backend">Java/Spring Backend&lt;/a> 개발자 과정 (약 26 주)&lt;/li>
 &lt;/ul>
-&lt;/li>
+&lt;h4 id="경남-김해">경남 김해&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java_basic">Java 기초&lt;/a> (6주)&lt;/li>
+&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java_spring_backend#%eb%b3%b8-%ea%b3%bc%ec%a0%95">Java/Spring Backend&lt;/a> + IoT 과정 (약 39 주)&lt;/li>
 &lt;/ul>
 &lt;h3 id="특전">특전&lt;/h3>
 &lt;ul>
 &lt;li>NHN 아카데미 인증을 받은 연수생에게는 채용 협력 기업에 응시할 기회를 드립니다.&lt;/li>
 &lt;li>채용 협력 기업에는 NHN 지역 계열사도 포함됩니다.&lt;/li>
-&lt;li>기업마다 채용 절차가 서로 다르므로 채용 특전에도 차이가 있고 채용 인원수도 시기에 따라 다릅니다.&lt;/li>
 &lt;/ul>
 &lt;!-- ### [지원하기 >>](https://forms.gle/VfRp38BcwNySPY3D7) -->
 &lt;!-- - [FAQ](/post/faq) -->
@@ -249,17 +249,17 @@ NHN 아카데미 연수 과정에 지원 자격을 주기로 하였습니다.&lt
 --></description></item><item><title>FAQ</title><link>https://nhnacademy.github.io/faq/</link><pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/faq/</guid><description>&lt;details class="spoiler " id="spoiler-0">
 &lt;summary>지원하려면 어떤 공부를 미리 해두어야 하나요?&lt;/summary>
 &lt;p>&lt;ul>
-&lt;li>과정을 따라잡으려면 적어도 &lt;a href="https://nhnacademy.github.io/courses/nhn_track">전산학 기초&lt;/a>는 갖추고 있어야 합니다.&lt;/li>
-&lt;li>&lt;a href="https://nhnacademy.github.io/courses/">단계&lt;/a>에 따라 지원 자격 요건도 다릅니다.&lt;/li>
+&lt;li>전산학 곧 이산 수학, 자료 구조, 알고리즘, 컴퓨터 통신, 운영체제, 컴퓨터 그래픽스, 컴파일러 따위에 기초를 갖추고 있으면 연수와 취업에 훨씬 유리합니다.&lt;/li>
+&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java_basic">자바 기초&lt;/a>는 체험 과정(2주/광주)과 기초 과정(6주/경남 김해)으로 다질 수 있습니다.&lt;/li>
 &lt;/ul>
 &lt;/p>
 &lt;/details>
 &lt;details class="spoiler " id="spoiler-1">
 &lt;summary>연수생은 어떻게 선발하나요?&lt;/summary>
 &lt;p>&lt;ul>
-&lt;li>코딩 테스트를 거쳐 선발합니다.&lt;/li>
-&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java#%ec%b2%b4%ed%97%98-%ea%b3%bc%ec%a0%95">체험 과정&lt;/a>에서 코딩 테스트를 준비할 수 있습니다.&lt;/li>
-&lt;li>코딩 테스트는 과정에 따라 다릅니다.&lt;/li>
+&lt;li>코딩 테스트를 거쳐 선발합니다만 사람이 많아서&lt;/li>
+&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java_basic">Java 기초 과정&lt;/a>으로 코딩 테스트를 준비할 수 있습니다.&lt;/li>
+&lt;li>코딩 테스트는 방식은 과정이나 단계에 따라 다릅니다.&lt;/li>
 &lt;/ul>
 &lt;/p>
 &lt;/details>
