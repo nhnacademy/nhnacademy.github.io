@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NHN 아카데미 | NHN Academy</title><link>https://nhnacademy.github.io/</link><atom:link href="https://nhnacademy.github.io/index.xml" rel="self" type="application/rss+xml"/><description>NHN 아카데미</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2023 NHN Academy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>NHN 아카데미</title><link>https://nhnacademy.github.io/</link></image><item><title>Java 기초</title><link>https://nhnacademy.github.io/courses/java_basic/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java_basic/</guid><description>&lt;h2 id="언어">언어&lt;/h2>
 &lt;ul>
 &lt;li>Syntax/Semantics/Coding Convention&lt;/li>
-&lt;li>Procedural/Data Abstraction&lt;/li>
-&lt;li>Subtype/Parametric Polymorphism&lt;/li>
-&lt;li>Collections/Algorithms&lt;/li>
-&lt;li>Thread Safety/Concurrency&lt;/li>
+&lt;li>Abstraction: Procedural &amp;amp; Data&lt;/li>
+&lt;li>Polymorphism: Subtype &amp;amp; Parametric&lt;/li>
+&lt;li>Collections: Data Structure and Algorithms&lt;/li>
+&lt;li>Concurrent Programming and Thread Safety&lt;/li>
 &lt;/ul>
 &lt;h2 id="연습">연습&lt;/h2>
 &lt;ul>
-&lt;li>Network/Game Programming&lt;/li>
+&lt;li>Programming Enviroment (Linux/MacOS, bash/zsh, Git/Github, Maven, Vi(M)/IntelliJ/VS Code, &amp;hellip;)&lt;/li>
+&lt;li>Network Programming&lt;/li>
 &lt;li>Paradigms &amp;amp; Styles
 &lt;ul>
 &lt;li>Event-driven&lt;/li>
@@ -16,6 +17,7 @@
 &lt;/ul>
 &lt;/li>
 &lt;li>Design Patterns&lt;/li>
+&lt;li>Test-Driven Design/Refactoring&lt;/li>
 &lt;/ul></description></item><item><title>Java/Spring Backend</title><link>https://nhnacademy.github.io/courses/java_spring_backend/</link><pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java_spring_backend/</guid><description>&lt;ul>
 &lt;li>실제 과정과 조금씩 다릅니다. 연수 과정에 대한 이해를 돕고자 정리한 예시입니다.&lt;/li>
 &lt;/ul>
@@ -33,7 +35,7 @@
 &lt;tr>
 &lt;td style="text-align:left">&lt;a href="https://nhnacademy.github.io/courses/java_basic#%ec%96%b8%ec%96%b4">언어&lt;/a>&lt;/td>
 &lt;td style="text-align:center">NHN Academy&lt;/td>
-&lt;td style="text-align:right">~80 (2주~4주)&lt;/td>
+&lt;td style="text-align:right">2주~4주&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -52,17 +54,12 @@
 &lt;tr>
 &lt;td style="text-align:left">&lt;a href="https://nhnacademy.github.io/courses/java_basic#%ec%97%b0%ec%8a%b5">연습&lt;/a>&lt;/td>
 &lt;td style="text-align:center">NHN Academy&lt;/td>
-&lt;td style="text-align:right">~80 (~4주)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">TDD/Refactoring&lt;/td>
-&lt;td style="text-align:center">-&lt;/td>
-&lt;td style="text-align:right">40 (1주)&lt;/td>
+&lt;td style="text-align:right">4~6주&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">Database&lt;/td>
 &lt;td style="text-align:center">-&lt;/td>
-&lt;td style="text-align:right">40 (2주)&lt;/td>
+&lt;td style="text-align:right">~2주&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">Web Front-End 기초&lt;/td>
@@ -70,19 +67,9 @@
 &lt;td style="text-align:right">40 (1주)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">Servlet/JSP&lt;/td>
+&lt;td style="text-align:left">Servlet/JSP/JDBC&lt;/td>
 &lt;td style="text-align:center">-&lt;/td>
-&lt;td style="text-align:right">40 (1주)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">REST API&lt;/td>
-&lt;td style="text-align:center">-&lt;/td>
-&lt;td style="text-align:right">40 (1주)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Programming Enviroment (Git, Maven, IntelliJ, VS Code, &amp;hellip;)&lt;/td>
-&lt;td style="text-align:center">-&lt;/td>
-&lt;td style="text-align:right">40 (1주)&lt;/td>
+&lt;td style="text-align:right">40 (~2주)&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
