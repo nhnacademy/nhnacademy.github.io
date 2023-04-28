@@ -8,7 +8,15 @@
 &lt;/ul>
 &lt;h2 id="연습">연습&lt;/h2>
 &lt;ul>
-&lt;li>Programming Enviroment (Linux/MacOS, bash/zsh, Git/Github, Maven, Vi(M)/IntelliJ/VS Code, &amp;hellip;)&lt;/li>
+&lt;li>Programming Enviroment
+&lt;ul>
+&lt;li>Linux, MacOS&lt;/li>
+&lt;li>bash, zsh&lt;/li>
+&lt;li>Git/Github&lt;/li>
+&lt;li>Maven, Gradle*&lt;/li>
+&lt;li>Vi(M)*, IntelliJ, VS Code,&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;li>Network Programming&lt;/li>
 &lt;li>Paradigms &amp;amp; Styles
 &lt;ul>
@@ -18,7 +26,9 @@
 &lt;/li>
 &lt;li>Design Patterns&lt;/li>
 &lt;li>Test-Driven Design/Refactoring&lt;/li>
-&lt;/ul></description></item><item><title>Java/Spring Backend</title><link>https://nhnacademy.github.io/courses/java_spring_backend/</link><pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java_spring_backend/</guid><description>&lt;ul>
+&lt;/ul>
+&lt;hr>
+&lt;p>*: optional&lt;/p></description></item><item><title>Java/Spring Backend</title><link>https://nhnacademy.github.io/courses/java_spring_backend/</link><pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java_spring_backend/</guid><description>&lt;ul>
 &lt;li>실제 과정과 조금씩 다릅니다. 연수 과정에 대한 이해를 돕고자 정리한 예시입니다.&lt;/li>
 &lt;/ul>
 &lt;h2 id="체험-과정">체험 과정&lt;/h2>
