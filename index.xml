@@ -201,7 +201,6 @@
 &lt;/table></description></item><item><title>모집</title><link>https://nhnacademy.github.io/apply/</link><pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/apply/</guid><description>&lt;!-- ---- -->
 &lt;h2 id="지원-자격">지원 자격&lt;/h2>
 &lt;ul>
-&lt;li>만 19~29세 청년&lt;/li>
 &lt;li>종일 연수 받을 수 있는 사람&lt;/li>
 &lt;li>모든 과정을 마친 뒤 6개월 내에 입사할 수 있는 사람&lt;/li>
 &lt;/ul>
@@ -218,14 +217,17 @@
 &lt;ul>
 &lt;li>&lt;a href="https://nhnacademy.github.io/courses/java_spring_backend">Java/Spring Backend&lt;/a> 개발자 과정 (약 26 주)&lt;/li>
 &lt;li>&lt;a href="https://www.iitp.kr/" target="_blank" rel="noopener">정보통신기획평가원&lt;/a> 지원을 받아 NHN/NHN 아카데미와 조선대학교가 연수비 전액을 후원합니다.&lt;/li>
-&lt;li>3기 연수가 진행 중입니다. 조만간 4기 연수생을 모집합니다.&lt;/li>
 &lt;/ul>
 &lt;h3 id="경남-김해">경남 김해&lt;/h3>
 &lt;ul>
+&lt;li>&lt;a href="https://www.moel.go.kr/policy/policyinfo/reclamarion/list2.do" target="_blank" rel="noopener">국민내일배움카드&lt;/a> 지원 대상자&lt;/li>
 &lt;li>&lt;a href="https://nhnacademy.github.io/courses/java_spring_backend#%eb%b3%b8-%ea%b3%bc%ec%a0%95">Java/Spring Backend&lt;/a> + IoT 과정 (약 39 주)&lt;/li>
-&lt;li>&lt;a href="https://www.iitp.kr/" target="_blank" rel="noopener">고용노동부&lt;/a> 지원을 받아 NHN/NHN 아카데미가 연수비 전액을 후원합니다.&lt;/li>
-&lt;li>2023년 5월 15일부터 8월 17일까지 1기 연수생을 모집합니다.&lt;/li>
+&lt;li>고용노동부 지원을 받아 NHN/NHN 아카데미가 연수비 전액을 후원합니다.&lt;/li>
+&lt;li>2023년 5월 15일부터 8월 17일까지 1기 연수생을 모집합니다.
+&lt;ul>
 &lt;li>연수 과정은 9월에 시작합니다.&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;h3 id="특전">특전&lt;/h3>
 &lt;ul>
