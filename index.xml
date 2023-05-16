@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NHN 아카데미 | NHN Academy</title><link>https://nhnacademy.github.io/</link><atom:link href="https://nhnacademy.github.io/index.xml" rel="self" type="application/rss+xml"/><description>NHN 아카데미</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2023 NHN Academy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>NHN 아카데미</title><link>https://nhnacademy.github.io/</link></image><item><title>Java 기초</title><link>https://nhnacademy.github.io/courses/java_basic/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java_basic/</guid><description>&lt;h2 id="언어">언어&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NHN 아카데미 | NHN Academy</title><link>https://nhnacademy.github.io/</link><atom:link href="https://nhnacademy.github.io/index.xml" rel="self" type="application/rss+xml"/><description>NHN 아카데미</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2023 NHN Academy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>NHN 아카데미</title><link>https://nhnacademy.github.io/</link></image><item><title>Java 기초</title><link>https://nhnacademy.github.io/courses/java_basic/</link><pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/java_basic/</guid><description>&lt;p>연수 과정에서 다루는 내용을 한데 모아 간추렸습니다. 실제로 익히는 내용은 연수 대상/목표/기간에 따라 다릅니다.&lt;/p>
+&lt;h2 id="언어">언어&lt;/h2>
 &lt;ul>
 &lt;li>Syntax/Semantics/Coding Convention&lt;/li>
 &lt;li>Abstraction: Procedural &amp;amp; Data&lt;/li>
@@ -218,14 +219,23 @@
 &lt;li>&lt;a href="https://nhnacademy.github.io/courses/java_spring_backend">Java/Spring Backend&lt;/a> 개발자 과정 (약 26 주)&lt;/li>
 &lt;li>&lt;a href="https://www.iitp.kr/" target="_blank" rel="noopener">정보통신기획평가원&lt;/a> 지원을 받아 NHN/NHN 아카데미와 조선대학교가 연수비 전액을 후원합니다.&lt;/li>
 &lt;/ul>
-&lt;h3 id="경남-김해">경남 김해&lt;/h3>
+&lt;h3 id="경남">경남&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java_basic/">Java 기초 과정&lt;/a> (약 6 주) ~ 6월 16일 금요일 18:00까지 &lt;a href="https://platform.kyungnam.ac.kr/kr/?pCode=Notice&amp;amp;mode=view&amp;amp;idx=1951" target="_blank" rel="noopener">과정 신청&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/d7r_48eS9PM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;ul>
+&lt;li>IoT/인공지능 기반 &lt;a href="https://nhnacademy.github.io/courses/java_spring_backend#%eb%b3%b8-%ea%b3%bc%ec%a0%95">Java Backend 개발자 과정&lt;/a>(약 39 주)
 &lt;ul>
 &lt;li>&lt;a href="https://www.moel.go.kr/policy/policyinfo/reclamarion/list2.do" target="_blank" rel="noopener">국민내일배움카드&lt;/a> 지원 대상자&lt;/li>
-&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java_spring_backend#%eb%b3%b8-%ea%b3%bc%ec%a0%95">Java/Spring Backend&lt;/a> + IoT 과정 (약 39 주)&lt;/li>
 &lt;li>고용노동부 지원을 받아 NHN/NHN 아카데미가 연수비 전액을 후원합니다.&lt;/li>
-&lt;li>2023년 5월 15일부터 8월 17일까지 1기 연수생을 모집합니다.
+&lt;li>2023년 5월 22일부터 8월 17일까지 1기 연수생을 모집합니다.
 &lt;ul>
 &lt;li>연수 과정은 9월에 시작합니다.&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
