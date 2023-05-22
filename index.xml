@@ -200,11 +200,11 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>모집</title><link>https://nhnacademy.github.io/apply/</link><pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/apply/</guid><description>&lt;!-- ---- -->
-&lt;h2 id="지원-자격">지원 자격&lt;/h2>
-&lt;ul>
-&lt;li>종일 연수 받을 수 있는 사람&lt;/li>
-&lt;li>모든 과정을 마친 뒤 6개월 내에 입사할 수 있는 사람&lt;/li>
-&lt;/ul>
+&lt;!-- ## 지원 자격 -->
+&lt;!-- -->
+&lt;!-- - 종일 연수 받을 수 있는 사람 -->
+&lt;!-- - 모든 과정을 마친 뒤 6개월 내에 입사할 수 있는 사람 -->
+&lt;!-- -->
 &lt;!-- ### 모집 절차
 - 접수 기간: 4.18-5.15
 - 과정 설명회: 4.23
@@ -213,37 +213,32 @@
 2. 코딩 테스트: 5.20-5.22
 3. 발표: 5.26
 - 수강료 결제: 5.27-6.1 -->
-&lt;h2 id="연수-과정">연수 과정&lt;/h2>
-&lt;h3 id="광주">광주&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java_spring_backend">Java/Spring Backend&lt;/a> 개발자 과정 (약 26 주)&lt;/li>
-&lt;li>&lt;a href="https://www.iitp.kr/" target="_blank" rel="noopener">정보통신기획평가원&lt;/a> 지원을 받아 NHN/NHN 아카데미와 조선대학교가 연수비 전액을 후원합니다.&lt;/li>
-&lt;/ul>
-&lt;h3 id="경남">경남&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java_basic/">Java 기초 과정&lt;/a> (약 6 주) ~ 6월 16일 금요일 18:00까지 &lt;a href="https://platform.kyungnam.ac.kr/kr/?pCode=Notice&amp;amp;mode=view&amp;amp;idx=1951" target="_blank" rel="noopener">과정 신청&lt;/a>&lt;/li>
-&lt;/ul>
+&lt;!-- ## 연수 과정 -->
+&lt;!-- -->
+&lt;!-- ### 광주 -->
+&lt;!-- - [Java/Spring Backend](/courses/java_spring_backend) 개발자 과정 (약 26 주) -->
+&lt;!-- - [정보통신기획평가원](https://www.iitp.kr/) 지원을 받아 NHN/NHN 아카데미와 조선대학교가 연수비 전액을 후원합니다. -->
+&lt;!-- -->
+&lt;!-- ### 경남 -->
+&lt;!-- -->
+&lt;!-- - [Java 기초 과정](/courses/java_basic/) (약 6 주) ~ 6월 16일 금요일 18:00까지 [과정 신청](https://platform.kyungnam.ac.kr/kr/?pCode=Notice&amp;mode=view&amp;idx=1951) -->
+&lt;!-- -->
+&lt;!--
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/d7r_48eS9PM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
-&lt;ul>
-&lt;li>IoT/인공지능 기반 &lt;a href="https://nhnacademy.github.io/courses/java_spring_backend#%eb%b3%b8-%ea%b3%bc%ec%a0%95">Java Backend 개발자 과정&lt;/a>(약 39 주)
-&lt;ul>
-&lt;li>&lt;a href="https://www.moel.go.kr/policy/policyinfo/reclamarion/list2.do" target="_blank" rel="noopener">국민내일배움카드&lt;/a> 지원 대상자&lt;/li>
-&lt;li>고용노동부 지원을 받아 NHN/NHN 아카데미가 연수비 전액을 후원합니다.&lt;/li>
-&lt;li>2023년 5월 22일부터 8월 17일까지 1기 연수생을 모집합니다.
-&lt;ul>
-&lt;li>연수 과정은 9월에 시작합니다.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="특전">특전&lt;/h3>
-&lt;ul>
-&lt;li>NHN 아카데미 인증을 받은 연수생에게는 채용 협력 기업에 응시할 기회를 드립니다.&lt;/li>
-&lt;li>채용 협력 기업에는 NHN 지역 계열사도 포함됩니다.&lt;/li>
-&lt;/ul>
+-->
+&lt;!-- -->
+&lt;!-- - IoT/인공지능 기반 [Java Backend 개발자 과정](/courses/java_spring_backend#본-과정)(약 39 주) -->
+&lt;!-- - [국민내일배움카드](https://www.moel.go.kr/policy/policyinfo/reclamarion/list2.do) 지원 대상자 -->
+&lt;!-- - 고용노동부 지원을 받아 NHN/NHN 아카데미가 연수비 전액을 후원합니다. -->
+&lt;!-- - 2023년 5월 22일부터 8월 17일까지 1기 연수생을 모집합니다. -->
+&lt;!-- - 연수 과정은 9월에 시작합니다. -->
+&lt;!-- -->
+&lt;!-- ### 특전 -->
+&lt;!-- - NHN 아카데미 인증을 받은 연수생에게는 채용 협력 기업에 응시할 기회를 드립니다. -->
+&lt;!-- - 채용 협력 기업에는 NHN 지역 계열사도 포함됩니다. -->
+&lt;!-- -->
 &lt;!-- ### [지원하기 >>](https://forms.gle/VfRp38BcwNySPY3D7) -->
 &lt;!-- - [FAQ](/post/faq) -->
 &lt;!-- -->
@@ -259,60 +254,7 @@
 &lt;!--
 &lt;/div>
 &lt;/div>
---></description></item><item><title>FAQ</title><link>https://nhnacademy.github.io/faq/</link><pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/faq/</guid><description>&lt;details class="spoiler " id="spoiler-0">
-&lt;summary>지원하려면 어떤 공부를 미리 해두어야 하나요?&lt;/summary>
-&lt;p>&lt;ul>
-&lt;li>전산학 곧 이산 수학, 자료 구조, 알고리즘, 컴퓨터 통신, 운영체제, 컴퓨터 그래픽스, 컴파일러 따위에 기초를 갖추고 있으면 연수와 취업에 훨씬 유리합니다.&lt;/li>
-&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java_basic">자바 기초&lt;/a>는 체험 과정(2주/광주)과 기초 과정(6주/경남 김해)으로 다질 수 있습니다.&lt;/li>
-&lt;/ul>
-&lt;/p>
-&lt;/details>
-&lt;details class="spoiler " id="spoiler-1">
-&lt;summary>연수생은 어떻게 선발하나요?&lt;/summary>
-&lt;p>&lt;ul>
-&lt;li>코딩 테스트를 거쳐 선발합니다.&lt;/li>
-&lt;li>&lt;a href="https://nhnacademy.github.io/courses/java_basic">Java 기초 과정&lt;/a>으로 코딩 테스트를 준비할 수 있습니다.&lt;/li>
-&lt;li>코딩 테스트는 방식은 과정이나 단계에 따라 다릅니다.&lt;/li>
-&lt;/ul>
-&lt;/p>
-&lt;/details>
-&lt;details class="spoiler " id="spoiler-2">
-&lt;summary>교육 과정은 어떻게 진행하나요?&lt;/summary>
-&lt;p>&lt;ul>
-&lt;li>강의실에서 아침 9시에서 저녁 6시까지 수업을 받습니다.&lt;/li>
-&lt;/ul>
-&lt;/p>
-&lt;/details>
-&lt;details class="spoiler " id="spoiler-3">
-&lt;summary>수강료는 얼마고 결제는 어떻게 하나요?&lt;/summary>
-&lt;p>&lt;ul>
-&lt;li>과정과 단계 별로 다를 수 있습니다. 모집 공고를 꼼꼼히 살펴 보세요.&lt;/li>
-&lt;/ul>
-&lt;/p>
-&lt;/details>
-&lt;details class="spoiler " id="spoiler-4">
-&lt;summary>노트북이 필요한가요?&lt;/summary>
-&lt;p>&lt;ul>
-&lt;li>개인 장비를 챙겨 오세요.&lt;/li>
-&lt;li>장비 성능은 연수 내용을 살펴보고 스스로 판단하시면 됩니다.&lt;/li>
-&lt;li>과정에 따라서는 장비를 빌려 드리기도 합니다.&lt;/li>
-&lt;/ul>
-&lt;/p>
-&lt;/details>
-&lt;details class="spoiler " id="spoiler-5">
-&lt;summary>기숙사를 지원하나요?&lt;/summary>
-&lt;p>&lt;ul>
-&lt;li>주거 시설이나 비용을 지원하지 않습니다.&lt;/li>
-&lt;/ul>
-&lt;/p>
-&lt;/details>
-&lt;!-- &lt;details class="spoiler " id="spoiler-6">
-&lt;summary>Covid-19에 감염되면 교육에 어떻게 참여하나요?&lt;/summary>
-&lt;p>&amp;ndash;&amp;gt;&lt;/p>
-&lt;!-- - 확진된 연수생은 온라인 수업에 참여할 수 있습니다. -->
-&lt;!--&lt;/p>
-&lt;/details> -->
-&lt;p>※ 모집 설명회에서 교육 과정, 평가, 채용 연계에 대하여 상세하게 안내해 드립니다.&lt;/p></description></item><item><title>개인정보처리방침</title><link>https://nhnacademy.github.io/privacy/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate><guid>https://nhnacademy.github.io/privacy/</guid><description>&lt;p>엔에이치엔아카데미 주식회사(이사 &amp;ldquo;회사&amp;quot;라 함)은 정보통신서비스제공자가
+--></description></item><item><title>개인정보처리방침</title><link>https://nhnacademy.github.io/privacy/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate><guid>https://nhnacademy.github.io/privacy/</guid><description>&lt;p>엔에이치엔아카데미 주식회사(이사 &amp;ldquo;회사&amp;quot;라 함)은 정보통신서비스제공자가
 준수하여야 하는 대한민국의 관계 법령 및 개인정보보호 규정을 준수하며,
 관련 법령에 의거한 개인정보 처리방침을 정하여 이용자 권익 보호에 최선을
 다하고 있습니다.&lt;/p>
