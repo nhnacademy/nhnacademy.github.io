@@ -1,14 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NHN 아카데미 | NHN Academy</title><link>https://nhnacademy.github.io/</link><atom:link href="https://nhnacademy.github.io/index.xml" rel="self" type="application/rss+xml"/><description>NHN 아카데미</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2023 NHN Academy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>NHN 아카데미</title><link>https://nhnacademy.github.io/</link></image><item><title>Java Basic</title><link>https://nhnacademy.github.io/courses/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/basic/</guid><description>&lt;h3 id="language-basic">Language Basic&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NHN 아카데미 | NHN Academy</title><link>https://nhnacademy.github.io/</link><atom:link href="https://nhnacademy.github.io/index.xml" rel="self" type="application/rss+xml"/><description>NHN 아카데미</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2023 NHN Academy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>NHN 아카데미</title><link>https://nhnacademy.github.io/</link></image><item><title>Java Basic</title><link>https://nhnacademy.github.io/courses/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/basic/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+Java classic에서 Java/Spring backend + IoT/AI로 이어지는 과정에 Java Basic 마이크로 자격 인증 프로그램이 포함되어 있습니다.
+&lt;/div>
+&lt;/div>
+&lt;h3 id="language-basic">Language Basic&lt;/h3>
+&lt;h4 id="문법을-익히는-데-도움이-되는-자료">문법을 익히는 데 도움이 되는 자료&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html" target="_blank" rel="noopener">Language Basic&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.baeldung.com/get-started-with-java-series" target="_blank" rel="noopener">Get Started with Java&lt;/a>
-&lt;ul>
+&lt;ol>
 &lt;li>Java Language Basics&lt;/li>
 &lt;li>Java Arrays&lt;/li>
-&lt;/ul>
+&lt;/ol>
 &lt;/li>
 &lt;/ul>
-&lt;h4 id="같은-주제를-다루지만-프로그래밍-기초를-다지는-데-더-알맞은-자료">같은 주제를 다루지만 프로그래밍 기초를 다지는 데 더 알맞은 자료&lt;/h4>
+&lt;h4 id="프로그래밍-기초를-다지는-데-도움이-되는-자료">프로그래밍 기초를 다지는 데 도움이 되는 자료&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://ocw.mit.edu/ans7870/6/6.005/s16/getting-started/java.html" target="_blank" rel="noopener">Learning Java&lt;/a>
 &lt;ul>
@@ -48,26 +54,29 @@
 &lt;/ul>
 &lt;/li>
 &lt;li>&lt;a href="https://www.baeldung.com/get-started-with-java-series" target="_blank" rel="noopener">Get Started with Java&lt;/a> - Java Strings&lt;/li>
-&lt;/ul>
-&lt;h4 id="디지털-기기에서-실수를-정확히-표현할-수-없기-때문에-생기는-문제와-해법">디지털 기기에서 실수를 정확히 표현할 수 없기 때문에 생기는 문제와 해법&lt;/h4>
+&lt;li>디지털 기기에서 수를 정확히 표현할 수 없기 때문에 생기는 문제와 해법
 &lt;ul>
 &lt;li>&lt;a href="https://introcs.cs.princeton.edu/java/91float/" target="_blank" rel="noopener">Floating Point&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.baeldung.com/java-overflow-underflow" target="_blank" rel="noopener">Overflow and Underflow in Java&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.baeldung.com/java-comparing-doubles" target="_blank" rel="noopener">Comparing Doubles in Java&lt;/a>&lt;/li>
 &lt;/ul>
+&lt;/li>
+&lt;/ul>
 &lt;h3 id="classes--objects">Classes &amp;amp; Objects&lt;/h3>
+&lt;h4 id="문법을-익히는-데-도움이-되는-자료-1">문법을 익히는 데 도움이 되는 자료&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://docs.oracle.com/javase/tutorial/java/javaOO/index.html" target="_blank" rel="noopener">Classes &amp;amp; Objects&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.baeldung.com/get-started-with-java-series" target="_blank" rel="noopener">Get Started with Java&lt;/a> - Java OOP&lt;/li>
 &lt;li>&lt;a href="https://www.baeldung.com/java-equals-method-operator-difference" target="_blank" rel="noopener">Difference Between == and equals() in Java&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.baeldung.com/java-comparing-objects#equals-instance" target="_blank" rel="noopener">Comparing Objects in Java&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h4 id="프로그래밍-기초를-다지는-데-더-알맞은-자료">프로그래밍 기초를 다지는 데 더 알맞은 자료&lt;/h4>
+&lt;h4 id="프로그래밍-기초를-다지는-데-도움이-되는-자료-1">프로그래밍 기초를 다지는 데 도움이 되는 자료&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://ocw.mit.edu/ans7870/6/6.005/s16/getting-started/java.html" target="_blank" rel="noopener">Learning Java&lt;/a>의 Lecture 4 - Classes and Objects&lt;/li>
 &lt;li>&lt;a href="https://math.hws.edu/javanotes/" target="_blank" rel="noopener">Java Notes&lt;/a>의 Chapter 5: Programming in the Large II: Objects and Classes&lt;/li>
 &lt;li>&lt;a href="https://introcs.cs.princeton.edu/java/home/" target="_blank" rel="noopener">Introduction to Programming in Java&lt;/a>의 Chapter 3: Object-Oriented Programming&lt;/li>
-&lt;li>보충 자료
+&lt;/ul>
+&lt;h4 id="보충-자료">보충 자료&lt;/h4>
 &lt;ul>
 &lt;li>equals() &amp;amp; hashCode()
 &lt;ul>
@@ -77,14 +86,17 @@
 &lt;/li>
 &lt;li>&lt;a href="https://ocw.mit.edu/ans7870/6/6.005/s16/" target="_blank" rel="noopener">Software Construnction&lt;/a> - 15: Equality&lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;/ul>
 &lt;h3 id="essential-java-classes">Essential Java Classes&lt;/h3>
+&lt;h4 id="문법을-익히는-데-도움이-되는-자료-2">문법을 익히는 데 도움이 되는 자료&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://docs.oracle.com/javase/tutorial/essential/index.html" target="_blank" rel="noopener">Essential Java Classes&lt;/a> - Exceptions, Basic I/O, Regular Expressions&lt;/li>
-&lt;li>&lt;a href="https://www.baeldung.com/get-started-with-java-series" target="_blank" rel="noopener">Get Started with Java&lt;/a> - Java Exceptions, Java I/O&lt;/li>
+&lt;li>&lt;a href="https://www.baeldung.com/get-started-with-java-series" target="_blank" rel="noopener">Get Started with Java&lt;/a> - Java Exceptions, Java I/O
+&lt;ul>
 &lt;li>&lt;a href="https://www.baeldung.com/regular-expressions-java" target="_blank" rel="noopener">A Guide To Java Regular Expressions API&lt;/a>&lt;/li>
-&lt;li>프로그래밍 기초를 다지는 데 더 알맞은 자료
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="프로그래밍-기초를-다지는-데-도움이-되는-자료-2">프로그래밍 기초를 다지는 데 도움이 되는 자료&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://math.hws.edu/javanotes/" target="_blank" rel="noopener">Java Notes&lt;/a>
 &lt;ul>
@@ -105,13 +117,18 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;/ul>
 &lt;h3 id="collections">Collections&lt;/h3>
+&lt;h4 id="기능과-용도를-익히는-데-도움이-되는-자료">기능과 용도를 익히는 데 도움이 되는 자료&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://docs.oracle.com/javase/tutorial/collections/index.html" target="_blank" rel="noopener">Collections&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.baeldung.com/get-started-with-java-series" target="_blank" rel="noopener">Get Started with Java&lt;/a> - Java Collections&lt;/li>
-&lt;li>프로그래밍 기초를 다지는 데 더 알맞은 자료
+&lt;/ul>
+&lt;h4 id="보충-자료-1">보충 자료&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://www.baeldung.com/java-generics" target="_blank" rel="noopener">The Basics of Java Generics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.baeldung.com/java-generics-vs-extends-object" target="_blank" rel="noopener">Java Generics – &lt;?> vs &amp;lt;? extends Object&amp;gt;&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="프로그래밍-기초를-다지는-데-도움이-되는-자료-3">프로그래밍 기초를 다지는 데 도움이 되는 자료&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://math.hws.edu/javanotes/" target="_blank" rel="noopener">Java Notes&lt;/a>
 &lt;ul>
@@ -120,15 +137,8 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;li>보충 자료
-&lt;ul>
-&lt;li>&lt;a href="https://www.baeldung.com/java-generics" target="_blank" rel="noopener">The Basics of Java Generics&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.baeldung.com/java-generics-vs-extends-object" target="_blank" rel="noopener">Java Generics – &lt;?> vs &amp;lt;? extends Object&amp;gt;&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
 &lt;h3 id="concurrency--networking">Concurrency &amp;amp; Networking&lt;/h3>
+&lt;h4 id="기능과-용도를-익히는-데-도움이-되는-자료-1">기능과 용도를 익히는 데 도움이 되는 자료&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://docs.oracle.com/javase/tutorial/essential/index.html" target="_blank" rel="noopener">Essential Java Classes&lt;/a> - Concurrency&lt;/li>
 &lt;li>&lt;a href="https://docs.oracle.com/javase/tutorial/networking/TOC.html" target="_blank" rel="noopener">Networking&lt;/a>
@@ -140,7 +150,8 @@
 &lt;/ul>
 &lt;/li>
 &lt;li>&lt;a href="https://www.baeldung.com/java-concurrency" target="_blank" rel="noopener">Java Concurrency&lt;/a> - Java Concurrency Basics&lt;/li>
-&lt;li>프로그래밍 기초를 다지는 데 더 알맞은 자료
+&lt;/ul>
+&lt;h4 id="프로그래밍-기초를-다지는-데-도움이-되는-자료-4">프로그래밍 기초를 다지는 데 도움이 되는 자료&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://math.hws.edu/javanotes/" target="_blank" rel="noopener">Java Notes&lt;/a>
 &lt;ul>
@@ -158,8 +169,6 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;/ul>
 &lt;!-- Links -->
 &lt;!-- Oracle Java Tutorials -->
 &lt;!-- Alternatives --></description></item><item><title>Java Backend</title><link>https://nhnacademy.github.io/courses/backend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/backend/</guid><description>&lt;div class="alert alert-warning">
@@ -167,10 +176,15 @@
 2024년 개편을 앞두고 세부 내용을 정리하고 있습니다.
 &lt;/div>
 &lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+&lt;p>아래 과정에 Java Backend 자격 인증 프로그램이 포함되어 있습니다.&lt;/p>
 &lt;ul>
-&lt;li>약 4개월 연수 과정을 정리합니다.&lt;/li>
-&lt;li>먼저 Java &lt;a href="https://nhnacademy.github.io/courses/basic">기초를&lt;/a> 다집니다.&lt;/li>
+&lt;li>경남/김해에 개설된 Java/Spring backend + IoT/AI&lt;/li>
+&lt;li>광주/조선대, 대전/충남대에 개설된 Java/Spring backend&lt;/li>
 &lt;/ul>
+&lt;/div>
+&lt;/div>
 &lt;h3 id="backend-basic">Backend Basic&lt;/h3>
 &lt;table>
 &lt;thead>
