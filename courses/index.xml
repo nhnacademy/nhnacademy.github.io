@@ -1,6 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>자격 인증 | NHN Academy</title><link>https://nhnacademy.github.io/courses/</link><atom:link href="https://nhnacademy.github.io/courses/index.xml" rel="self" type="application/rss+xml"/><description>자격 인증</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2024 NHN Academy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>자격 인증</title><link>https://nhnacademy.github.io/courses/</link></image><item><title>Java Basic</title><link>https://nhnacademy.github.io/courses/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/basic/</guid><description>&lt;div class="alert alert-note">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>과정 | NHN Academy</title><link>https://nhnacademy.github.io/courses/</link><atom:link href="https://nhnacademy.github.io/courses/index.xml" rel="self" type="application/rss+xml"/><description>과정</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2024 NHN Academy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>과정</title><link>https://nhnacademy.github.io/courses/</link></image><item><title>Java Basic</title><link>https://nhnacademy.github.io/courses/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/basic/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
-Java classic에서 Java/Spring backend + IoT/AI로 이어지는 과정에 Java Basic 마이크로 자격 인증 프로그램이 포함되어 있습니다.
+&lt;a href="https://nhnacademy.github.io/apply">Java classic에서 Java + IoT/AI Backend&lt;/a>로 이어지는 과정에 Java Basic이 포함되어 있습니다.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-warning">
+&lt;div>
+&lt;ul>
+&lt;li>강사/멘토마다 자료와 교수법이 다릅니다.&lt;/li>
+&lt;li>Java 기초를 스스로 다지는 데 도움이 되는 공부 거리를 정리하였습니다.&lt;/li>
+&lt;/ul>
 &lt;/div>
 &lt;/div>
 &lt;h3 id="language-basic">Language Basic&lt;/h3>
@@ -176,7 +184,7 @@ Java classic에서 Java/Spring backend + IoT/AI로 이어지는 과정에 Java B
 2024년 개편을 앞두고 세부 내용을 정리하고 있습니다.
 &lt;/div>
 &lt;/div>
-&lt;div class="alert alert-note">
+&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 &lt;p>아래 과정에 Java Backend 자격 인증 프로그램이 포함되어 있습니다.&lt;/p>
 &lt;ul>
@@ -185,6 +193,7 @@ Java classic에서 Java/Spring backend + IoT/AI로 이어지는 과정에 Java B
 &lt;/ul>
 &lt;/div>
 &lt;/div>
+-->
 &lt;h3 id="backend-basic">Backend Basic&lt;/h3>
 &lt;table>
 &lt;thead>
