@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NHN 아카데미 | NHN Academy</title><link>https://nhnacademy.github.io/</link><atom:link href="https://nhnacademy.github.io/index.xml" rel="self" type="application/rss+xml"/><description>NHN 아카데미</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2024 NHN Academy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>NHN 아카데미</title><link>https://nhnacademy.github.io/</link></image><item><title>Java Basic</title><link>https://nhnacademy.github.io/courses/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/basic/</guid><description>&lt;div class="alert alert-note">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NHN 아카데미 | NHN Academy</title><link>https://nhnacademy.github.io/</link><atom:link href="https://nhnacademy.github.io/index.xml" rel="self" type="application/rss+xml"/><description>NHN 아카데미</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021-2024 NHN Academy Corp. All Rights Reserved.</copyright><image><url>https://nhnacademy.github.io/media/icon_hu4e12ec6aab5870d438fb169d7a9ab63c_8541_512x512_fill_lanczos_center_3.png</url><title>NHN 아카데미</title><link>https://nhnacademy.github.io/</link></image><item><title>Java Basic</title><link>https://nhnacademy.github.io/courses/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/basic/</guid><description>&lt;ul>
+&lt;li>Java 기초를 다지는 과정입니다.&lt;/li>
+&lt;li>스스로 기초를 다지는 데 도움이 되는 공부 거리를 목차로 정리합니다.&lt;/li>
+&lt;li>큰 목차는 &lt;a href="https://ocw.mit.edu/ans7870/6/6.005/s16/classes/02-basic-java/" target="_blank" rel="noopener">MIT 6.005의 2: Basic Java&lt;/a>와 거의 같습니다.&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-note">
 &lt;div>
-&lt;a href="https://nhnacademy.github.io/apply">Java classic에서 Java + IoT/AI Backend&lt;/a>로 이어지는 과정에 Java Basic이 포함되어 있습니다.
+&lt;a href="https://nhnacademy.github.io/apply">Java classic에서 Java + IoT/AI Backend&lt;/a>로 이어지는 과정이 Java Basic과 비슷합니다.
 &lt;/div>
 &lt;/div>
 &lt;div class="alert alert-warning">
 &lt;div>
-&lt;ul>
-&lt;li>강사/멘토마다 자료와 교수법이 다릅니다.&lt;/li>
-&lt;li>Java 기초를 스스로 다지는 데 도움이 되는 공부 거리를 정리하였습니다.&lt;/li>
-&lt;/ul>
+강사/멘토마다 자료와 교수법이 다릅니다.
 &lt;/div>
 &lt;/div>
 &lt;h3 id="language-basic">Language Basic&lt;/h3>
@@ -179,21 +181,15 @@
 &lt;/ul>
 &lt;!-- Links -->
 &lt;!-- Oracle Java Tutorials -->
-&lt;!-- Alternatives --></description></item><item><title>Java Backend</title><link>https://nhnacademy.github.io/courses/backend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/backend/</guid><description>&lt;div class="alert alert-warning">
+&lt;!-- Alternatives --></description></item><item><title>Java Backend</title><link>https://nhnacademy.github.io/courses/backend/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/courses/backend/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
-2024년 개편을 앞두고 세부 내용을 정리하고 있습니다.
-&lt;/div>
-&lt;/div>
-&lt;!-- &lt;div class="alert alert-note">
-&lt;div>
-&lt;p>아래 과정에 Java Backend 자격 인증 프로그램이 포함되어 있습니다.&lt;/p>
 &lt;ul>
-&lt;li>경남/김해에 개설된 Java/Spring backend + IoT/AI&lt;/li>
-&lt;li>광주/조선대, 대전/충남대에 개설된 Java/Spring backend&lt;/li>
+&lt;li>경남 &lt;a href="https://aiot.nhnacademy.com/" target="_blank" rel="noopener">Java + IoT/AI Backend&lt;/a>에 포함&lt;/li>
+&lt;li>&lt;a href="https://nhn.chosun.ac.kr/" target="_blank" rel="noopener">광주 Java Backend&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://sites.google.com/g.cnu.ac.kr/nhn/" target="_blank" rel="noopener">대전 Java Backend&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/div>
 &lt;/div>
--->
 &lt;h3 id="backend-basic">Backend Basic&lt;/h3>
 &lt;table>
 &lt;thead>
