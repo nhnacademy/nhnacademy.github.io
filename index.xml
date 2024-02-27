@@ -233,62 +233,42 @@
 &lt;td style="text-align:center">~ 4주&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>모집</title><link>https://nhnacademy.github.io/apply/</link><pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/apply/</guid><description>&lt;!-- ---- -->
-&lt;!-- ## 지원 자격 -->
-&lt;!-- -->
-&lt;!-- - 종일 연수 받을 수 있는 사람 -->
-&lt;!-- - 모든 과정을 마친 뒤 6개월 내에 입사할 수 있는 사람 -->
-&lt;!-- -->
-&lt;!-- ### 모집 절차
-- 접수 기간: 4.18-5.15
-- 과정 설명회: 4.23
-- 선발: 5.16-5.26
-1. 기술 면접: 5.18-5.19
-2. 코딩 테스트: 5.20-5.22
-3. 발표: 5.26
-- 수강료 결제: 5.27-6.1 -->
-&lt;!-- ## 연수 과정 -->
-&lt;!-- -->
-&lt;!-- ### 광주 -->
-&lt;!-- - [Java/Spring Backend](/courses/java_spring_backend) 개발자 과정 (약 26 주) -->
-&lt;!-- - [정보통신기획평가원](https://www.iitp.kr/) 지원을 받아 NHN/NHN 아카데미와 조선대학교가 연수비 전액을 후원합니다. -->
-&lt;!-- -->
-&lt;!-- ### 경남 -->
-&lt;!-- -->
-&lt;!-- - [Java 기초 과정](/courses/java_basic/) (약 6 주) ~ 6월 16일 금요일 18:00까지 [과정 신청](https://platform.kyungnam.ac.kr/kr/?pCode=Notice&amp;mode=view&amp;idx=1951) -->
-&lt;!-- -->
-&lt;!--
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/d7r_48eS9PM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div>
--->
-&lt;!-- -->
-&lt;!-- - IoT/인공지능 기반 [Java Backend 개발자 과정](/courses/java_spring_backend#본-과정)(약 39 주) -->
-&lt;!-- - [국민내일배움카드](https://www.moel.go.kr/policy/policyinfo/reclamarion/list2.do) 지원 대상자 -->
-&lt;!-- - 고용노동부 지원을 받아 NHN/NHN 아카데미가 연수비 전액을 후원합니다. -->
-&lt;!-- - 2023년 5월 22일부터 8월 17일까지 1기 연수생을 모집합니다. -->
-&lt;!-- - 연수 과정은 9월에 시작합니다. -->
-&lt;!-- -->
-&lt;!-- ### 특전 -->
-&lt;!-- - NHN 아카데미 인증을 받은 연수생에게는 채용 협력 기업에 응시할 기회를 드립니다. -->
-&lt;!-- - 채용 협력 기업에는 NHN 지역 계열사도 포함됩니다. -->
-&lt;!-- -->
-&lt;!-- ### [지원하기 >>](https://forms.gle/VfRp38BcwNySPY3D7) -->
-&lt;!-- - [FAQ](/post/faq) -->
-&lt;!-- -->
-&lt;!-- &lt;div class="alert alert-note">
-&lt;div>
-&amp;ndash;&amp;gt;&lt;/p>
-&lt;!-- 2기 선발 과정부터는 면접 전형료를 받습니다. 기술 면접과 코딩 테스트는 준비에서 실행까지 많은 시간과 노력이 들기 때문에 짧은 기간 한정된 응시자만 받을 수 있습니다. 지역에서 일할 인재를 길러내는 것이 이 프로그램의 목표이므로 연수 과정에 참여하고자 하는 의지가 확고한 분들에게 선발될 기회를 먼저 드리는 게 바람직합니다. 스스로가 갖춘 실력을 검증받을 기회가 필요하신 분들은 선발 과정에 참여하는 대신에 [퀴즈](https://nhnacademy.github.io/quiz/)에 도전해 보셨으면 합니다. -->
-&lt;!-- -->
-&lt;!-- - 면접 전형료: 45,000원 -->
-&lt;!-- - 면접 전형료 납부 -->
-&lt;!-- - 신한은행 / 100-035-667402 / 엔에이치엔 아카데미 주식회사(주) -->
-&lt;!-- - 입금자 확인을 위해 성명+전화번호 뒤 4자리 입력 (예: 홍길동1012) -->
-&lt;!--
-&lt;/div>
-&lt;/div>
---></description></item><item><title>개인정보처리방침</title><link>https://nhnacademy.github.io/privacy/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate><guid>https://nhnacademy.github.io/privacy/</guid><description>&lt;p>엔에이치엔아카데미 주식회사(이사 &amp;ldquo;회사&amp;quot;라 함)은 정보통신서비스제공자가
+&lt;/table></description></item><item><title>모집</title><link>https://nhnacademy.github.io/apply/</link><pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate><guid>https://nhnacademy.github.io/apply/</guid><description>&lt;div class="mermaid">%%{init:
+{
+'theme': 'neutral',
+'themeVariables': {
+'primaryColor': '#fff',
+'fontFamily': "\"Mona Sans\", \'GmarketSansMedium\'"
+}
+,
+"gantt": {
+"displayMode": "compact",
+"tickInterval": "1month",
+"titleTopMargin": 50,
+"barHeight": 30,
+"barGap": 10,
+"topPadding": 50,
+"sidePadding": 0,
+"gridLineStartPadding": 40
+}
+}
+}%%
+gantt
+dateFormat YYYY-MM-DD
+todayMarker on
+section 마산
+Java Classic 2기: done, classic2, 2024-01-08, 2024-02-16
+Java Classic 3기: classic3, 2024-06-15, 6week
+section 김해
+Java Backend for IoT 1기: active, iot1, 2023-09-01, 2024-06-07
+Java Backend for IoT 2기: iot2, 2024-08-26, 2025-05-30
+section 광주
+Java Backend 4기: done, backend4, 2023-08-28, 2024-03-29
+Java Backend 6기: active, backend6, 2024-02-19, 2024-07-05
+section 대전
+Java Backend 5기: active, backend5, 2024-01-02, 2024-05-17
+Java Backend 7기: backend7, 2024-06-01, 2024-09-27
+&lt;/div></description></item><item><title>개인정보처리방침</title><link>https://nhnacademy.github.io/privacy/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate><guid>https://nhnacademy.github.io/privacy/</guid><description>&lt;p>엔에이치엔아카데미 주식회사(이사 &amp;ldquo;회사&amp;quot;라 함)은 정보통신서비스제공자가
 준수하여야 하는 대한민국의 관계 법령 및 개인정보보호 규정을 준수하며,
 관련 법령에 의거한 개인정보 처리방침을 정하여 이용자 권익 보호에 최선을
 다하고 있습니다.&lt;/p>
