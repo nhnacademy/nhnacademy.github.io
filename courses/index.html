@@ -47,10 +47,10 @@ classDef topic stroke: lightgrey, fill: none;
 subgraph basic_sub [ ]
 direction LR
 language([Language Basic])
--.-> ds(["Algorithm"])
--.-> thread(["Concurrency"])
+-.-> ds([Algorithm])
+-.-> thread([Concurrency])
 -.-> network([Network])
--.-> project_java([Project])
+-.-> project_java([Hands-on Project])
 end
 class language topic
 class ds topic
@@ -66,7 +66,7 @@ HTML, CSS, JavaScript
 ____
 JDBC/Servlet/JSP
 REST API"])
--.-> project_web([Project])
+-.-> project_web([Hands-on Project])
 end
 class frontend topic
 class backend topic
@@ -99,7 +99,7 @@ Async REST Services with Messaging/RabbitMQ
 CI/CD - Jenkins, Docker, Github Actions, etc.
 Deployment Strategy/Rolling, Blue-Green, Canary
 Traffic Handling/Spring Cache with Redis
-Load Test/Ngrider, loader.io
+Load Test/nGrinder, loader.io
 ...
 "])
 end
@@ -110,7 +110,7 @@ direction LR
 python(["Python Basic"])
 -.-> ai_data(["Data Science"])
 -.-> ai_basic(["Machine/Deep Learning"])
--.-> project_ai(["Hands-on Lab"])
+-.-> project_ai(["Hands-on Project"])
 end
 class python topic
 class ai_data topic
@@ -120,38 +120,37 @@ direction LR
 iot_device(["Sensors/Devices"])
 -.-> iot_connectivity(["Gateway/Protocols"])
 -.-> iot_platform(["Tools & Platforms"])
-    -.-> project_iot(["Hands-on Lab"])
+    -.-> project_iot(["Hands-on Project"])
 end
 class iot_device topic
 class iot_connectivity topic
 class iot_platform topic
 subgraph project_aiot_sub [ ]
-direction TB
+direction LR
 project_aiot_start(["예시"])
--.- project_aiot_ex1 & project_aiot_ex2 & project_aiot_ex3 & project_aiot_ex4
+-.- project_aiot_ex1_topic & project_aiot_ex2_topic & project_aiot_ex3_topic & project_aiot_ex4_topic
 
-    project_aiot_ex1(["안전 관제
-____
-위험 요인 예측
+    project_aiot_ex1_topic(["
+위험 요인 예측,
 실시간 감지"])
-project_aiot_ex2(["에너지 관제
-____
+--> project_aiot_ex1([안전 관제])
+project_aiot_ex2_topic(["
 다양한 환경 설비 관제
 전기 사용량 예측과 감지"])
-project_aiot_ex3(["모터 관제
-____
+--> project_aiot_ex2([에너지 관제])
+project_aiot_ex3_topic(["
 가혹 환경을 고려한 데이터 수집
 모터 상태 분석과 예측
 "])
-project_aiot_ex4(["독거 노인 관리
-____
+--> project_aiot_ex3([모터 관제])
+project_aiot_ex4_topic(["
 원거리/광역 데이터 수집
 위치 기반 실시간 데이터 분석
 건강 상태 분석과 통보
 "])
+--> project_aiot_ex4([독거 노인 관리])
 end
-class project_aiot_start topic
-class project_aiot_ex1 topic
-class project_aiot_ex2 topic
-class project_aiot_ex3 topic
-class project_aiot_ex4 topic</div></div></div></div><div class=page-footer></div><script src=/js/vendor-bundle.min.938a3a7554cd9f6602290411f64d2617.js></script><script src=https://cdn.jsdelivr.net/npm/mermaid@9.1.3/dist/mermaid.min.js integrity="sha256-TIYL00Rhw/8WaoUhYTLX9SKIEFdXxg+yMWSLVUbhiLg=" crossorigin=anonymous title=mermaid></script><script src=https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js integrity="sha256-aQmOEF2ZD4NM/xt4hthzREIo/2PFkOX/g01WjxEV7Ys=" crossorigin=anonymous></script><script>anchors.add()</script><script id=page-data type=application/json>{"use_headroom":true}</script><script src=/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js type=module></script><script src=/en/js/wowchemy.min.5616e80f0ec4160e9c219853cff86398.js></script><script async defer src=https://buttons.github.io/buttons.js></script></body></html>
+class project_aiot_ex1_topic topic
+class project_aiot_ex2_topic topic
+class project_aiot_ex3_topic topic
+class project_aiot_ex4_topic topic</div></div></div></div><div class=page-footer></div><script src=/js/vendor-bundle.min.938a3a7554cd9f6602290411f64d2617.js></script><script src=https://cdn.jsdelivr.net/npm/mermaid@9.1.3/dist/mermaid.min.js integrity="sha256-TIYL00Rhw/8WaoUhYTLX9SKIEFdXxg+yMWSLVUbhiLg=" crossorigin=anonymous title=mermaid></script><script src=https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js integrity="sha256-aQmOEF2ZD4NM/xt4hthzREIo/2PFkOX/g01WjxEV7Ys=" crossorigin=anonymous></script><script>anchors.add()</script><script id=page-data type=application/json>{"use_headroom":true}</script><script src=/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js type=module></script><script src=/en/js/wowchemy.min.5616e80f0ec4160e9c219853cff86398.js></script><script async defer src=https://buttons.github.io/buttons.js></script></body></html>
