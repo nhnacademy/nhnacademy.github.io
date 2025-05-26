@@ -13,7 +13,7 @@
 flowchart TB
 %% 교육 과정 이름
 basic(["Java Basic / 6 주"])
---> web(["Web Backend Basic / 4 주"])
+--> web(["Web App Basic / 4 주"])
 --> spring(["Spring / 4 주"])
 --> project_backend(["Web Backend Project / 3 주"])
 -.- ai(["AI Developer / 8 주"])
@@ -58,14 +58,8 @@ class thread topic
 class network topic
 subgraph web_sub [ ]
 direction LR
-frontend(["Web Frontend Basic
-____
-HTML, CSS, JavaScript
-"])
--.-> backend(["Web Backend Classic
-____
-JDBC/Servlet/JSP
-REST API"])
+frontend(["Web Frontend Basic"])
+--> backend(["Web Backend Basic"])
 -.-> project_web([Hands-on Project])
 end
 class frontend topic
@@ -87,7 +81,7 @@ subgraph project_backend_sub [ ]
 project_backend_1st(["...
 Agile Scrum/GitHub
 API Design/Spring REST docs, Swagger
-Testing/JUnit, Slice Test
+Testing/Unit, Slice Test
 UI/Bootstrap, Layout/Template Engine
 ORM/Spring Data JPA
 Query Optimization
