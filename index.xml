@@ -25,7 +25,7 @@ dateFormat YYYY-MM-DD
 todayMarker on
 section AIoT Backend
 김해: done, iot2, 2024-09-02, 2025-06-09
-(미정): iot3, 2025-12-15, 2026-10-15
+광주: active, iot3, 2025-12-23, 2026-09-10
 section Java Backend
 대전: done, backend9, 2025-01-06, 2025-06-18
 광주: done, backend10, 2025-02-01, 2025-07-25
