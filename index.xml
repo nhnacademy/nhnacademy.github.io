@@ -25,12 +25,14 @@ dateFormat YYYY-MM-DD
 todayMarker on
 section AIoT Backend
 김해: done, iot2, 2024-09-02, 2025-06-09
-광주: active, iot3, 2025-12-23, 2026-09-10
+AIoT 모집: active, iot3-apply, 2025-11-04, 2025-12-14
+AIoT@광주: active, iot3, 2025-12-23, 2026-09-10
 section Java Backend
 대전: done, backend9, 2025-01-06, 2025-06-18
 광주: done, backend10, 2025-02-01, 2025-07-25
-대전: active, backend11, 2025-07-01, 2025-12-05
-광주: active, backend12, 2025-07-28, 2025-12-31
+대전: done, backend11, 2025-07-01, 2025-12-05
+광주: done, backend12, 2025-07-28, 2025-12-31
 click backend11 href "https://sites.google.com/g.cnu.ac.kr/nhn/"
 click backend12 href "https://nhn.chosun.ac.kr/"
+click iot3-apply href "https://docs.google.com/forms/d/1qUrWS1YJsLCpSwZ_KCDXBAAy8DtnXNnpNk-IdhRES80/edit"
 &lt;/div></description></item></channel></rss>
